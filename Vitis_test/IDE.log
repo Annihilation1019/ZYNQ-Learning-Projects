@@ -1,0 +1,286 @@
+20:06:25 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/IDE.log'.
+20:06:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\temp_xsdb_launch_script.tcl
+20:06:32 INFO  : Registering command handlers for Vitis TCF services
+20:06:33 INFO  : Platform repository initialization has completed.
+20:06:34 INFO  : XSCT server has started successfully.
+20:06:34 INFO  : Successfully done setting XSCT server connection channel  
+20:06:34 INFO  : plnx-install-location is set to ''
+20:06:34 INFO  : Successfully done query RDI_DATADIR 
+20:06:34 INFO  : Successfully done setting workspace for the tool. 
+20:13:56 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+20:13:56 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:13:57 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:13:58 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+20:14:07 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+20:22:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:36 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:22:36 INFO  : 'jtag frequency' command is executed.
+20:22:36 INFO  : Context for 'APU' is selected.
+20:22:36 INFO  : System reset is completed.
+20:22:39 INFO  : 'after 3000' command is executed.
+20:22:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:22:42 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:22:42 INFO  : Context for 'APU' is selected.
+20:22:43 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:22:43 INFO  : 'configparams force-mem-access 1' command is executed.
+20:22:43 INFO  : Context for 'APU' is selected.
+20:22:43 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:22:43 INFO  : 'ps7_init' command is executed.
+20:22:43 INFO  : 'ps7_post_config' command is executed.
+20:22:43 INFO  : 'configparams force-mem-access 0' command is executed.
+20:22:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:22:43 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:24:22 INFO  : Disconnected from the channel tcfchan#1.
+20:26:06 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+20:26:06 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:26:07 INFO  : Checking for BSP changes to sync application flags for project 'LED_TEST'...
+20:27:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:05 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:27:05 INFO  : 'jtag frequency' command is executed.
+20:27:05 INFO  : Context for 'APU' is selected.
+20:27:06 INFO  : System reset is completed.
+20:27:09 INFO  : 'after 3000' command is executed.
+20:27:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:27:12 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:27:12 INFO  : Context for 'APU' is selected.
+20:27:12 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:27:12 INFO  : 'configparams force-mem-access 1' command is executed.
+20:27:12 INFO  : Context for 'APU' is selected.
+20:27:12 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:27:12 INFO  : 'ps7_init' command is executed.
+20:27:12 INFO  : 'ps7_post_config' command is executed.
+20:27:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:13 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:27:13 INFO  : 'configparams force-mem-access 0' command is executed.
+20:27:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:27:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:13 INFO  : 'con' command is executed.
+20:27:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:27:13 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:29:35 INFO  : Checking for BSP changes to sync application flags for project 'LED_TEST'...
+20:31:45 INFO  : Disconnected from the channel tcfchan#4.
+20:31:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:31:45 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:31:45 INFO  : 'jtag frequency' command is executed.
+20:31:45 INFO  : Context for 'APU' is selected.
+20:31:45 INFO  : System reset is completed.
+20:31:48 INFO  : 'after 3000' command is executed.
+20:31:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:31:50 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:31:50 INFO  : Context for 'APU' is selected.
+20:31:50 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:31:50 INFO  : 'configparams force-mem-access 1' command is executed.
+20:31:50 INFO  : Context for 'APU' is selected.
+20:31:50 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:31:51 INFO  : 'ps7_init' command is executed.
+20:31:51 INFO  : 'ps7_post_config' command is executed.
+20:31:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:31:51 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:31:51 INFO  : 'configparams force-mem-access 0' command is executed.
+20:31:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:31:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:31:51 INFO  : 'con' command is executed.
+20:31:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:31:51 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:32:24 INFO  : Checking for BSP changes to sync application flags for project 'LED_TEST'...
+20:32:27 INFO  : Disconnected from the channel tcfchan#5.
+20:32:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:32:27 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:32:27 INFO  : 'jtag frequency' command is executed.
+20:32:27 INFO  : Context for 'APU' is selected.
+20:32:27 INFO  : System reset is completed.
+20:32:30 INFO  : 'after 3000' command is executed.
+20:32:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:32:33 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:32:33 INFO  : Context for 'APU' is selected.
+20:32:33 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:32:33 INFO  : 'configparams force-mem-access 1' command is executed.
+20:32:33 INFO  : Context for 'APU' is selected.
+20:32:33 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:32:33 INFO  : 'ps7_init' command is executed.
+20:32:33 INFO  : 'ps7_post_config' command is executed.
+20:32:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:32:33 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:32:33 INFO  : 'configparams force-mem-access 0' command is executed.
+20:32:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:32:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:32:33 INFO  : 'con' command is executed.
+20:32:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:32:33 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:33:18 INFO  : Checking for BSP changes to sync application flags for project 'LED_TEST'...
+20:33:27 INFO  : Disconnected from the channel tcfchan#6.
+20:33:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:33:27 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:33:27 INFO  : 'jtag frequency' command is executed.
+20:33:27 INFO  : Context for 'APU' is selected.
+20:33:27 INFO  : System reset is completed.
+20:33:30 INFO  : 'after 3000' command is executed.
+20:33:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:33:32 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:33:32 INFO  : Context for 'APU' is selected.
+20:33:32 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:33:32 INFO  : 'configparams force-mem-access 1' command is executed.
+20:33:32 INFO  : Context for 'APU' is selected.
+20:33:32 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:33:33 INFO  : 'ps7_init' command is executed.
+20:33:33 INFO  : 'ps7_post_config' command is executed.
+20:33:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:33:33 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:33:33 INFO  : 'configparams force-mem-access 0' command is executed.
+20:33:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:33:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:33:33 INFO  : 'con' command is executed.
+20:33:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:33:33 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:33:50 INFO  : Checking for BSP changes to sync application flags for project 'LED_TEST'...
+20:33:59 INFO  : Disconnected from the channel tcfchan#7.
+20:33:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:33:59 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:33:59 INFO  : 'jtag frequency' command is executed.
+20:33:59 INFO  : Context for 'APU' is selected.
+20:33:59 INFO  : System reset is completed.
+20:34:02 INFO  : 'after 3000' command is executed.
+20:34:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:34:05 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:34:05 INFO  : Context for 'APU' is selected.
+20:34:05 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:34:05 INFO  : 'configparams force-mem-access 1' command is executed.
+20:34:05 INFO  : Context for 'APU' is selected.
+20:34:05 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+20:34:05 INFO  : 'ps7_init' command is executed.
+20:34:05 INFO  : 'ps7_post_config' command is executed.
+20:34:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:05 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:34:05 INFO  : 'configparams force-mem-access 0' command is executed.
+20:34:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/Vitis_test/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:34:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:34:05 INFO  : 'con' command is executed.
+20:34:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:34:05 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\Vitis_test\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+20:35:19 INFO  : Disconnected from the channel tcfchan#8.
