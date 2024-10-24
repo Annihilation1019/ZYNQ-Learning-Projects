@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/VIO_TEST/VIO_TEST.srcs/constrs_1/new/VIO_XDC.xdc rfile:../../../VIO_TEST.srcs/constrs_1/new/VIO_XDC.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P20 [get_ports LED0]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P21 [get_ports LED1]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M19 [get_ports CLK]
