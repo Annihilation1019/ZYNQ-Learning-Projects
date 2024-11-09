@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1730469974">
+  <File Type="ROUTE-PWR" Name="CLOCK_TEST_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CLOCK_TEST.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="CLOCK_TEST_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CLOCK_TEST_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="CLOCK_TEST_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="CLOCK_TEST.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CLOCK_TEST_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CLOCK_TEST_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="CLOCK_TEST_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CLOCK_TEST_opt.dcp"/>
+  <File Type="OPT-DRC" Name="CLOCK_TEST_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CLOCK_TEST.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CLOCK_TEST_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CLOCK_TEST_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CLOCK_TEST_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CLOCK_TEST_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CLOCK_TEST_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CLOCK_TEST_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CLOCK_TEST_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CLOCK_TEST_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CLOCK_TEST_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CLOCK_TEST_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CLOCK_TEST_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="CLOCK_TEST.bin"/>
+  <File Type="PLACE-TIMING" Name="CLOCK_TEST_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CLOCK_TEST_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="CLOCK_TEST_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CLOCK_TEST_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="CLOCK_TEST.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CLOCK_TEST_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CLOCK_TEST_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CLOCK_TEST_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="CLOCK_TEST.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="CLOCK_TEST_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CLOCK_TEST_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CLOCK_TEST_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CLOCK_TEST_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CLOCK_TEST_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CLOCK_TEST_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="CLOCK_TEST_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CLOCK_TEST_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CLOCK_TEST_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CLOCK_TEST_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="CLOCK_TEST_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="CLOCK_TEST_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CLOCK_TEST_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CLOCK_TEST_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CLOCK_TEST_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CLOCK_TEST_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CLOCK_TEST_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CLOCK_TEST_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CLOCK_TEST_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CLOCK_TEST_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CLOCK_TEST_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CLOCK_TEST_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CLOCK_TEST_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CLOCK_TEST_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CLOCK_TEST_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CLOCK_TEST_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CLOCK_TEST_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="CLOCK_TEST.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CLOCK_TEST_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CLOCK_TEST_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="CLOCK_TEST.nky"/>
+  <File Type="BITSTR-BMM" Name="CLOCK_TEST_bd.bmm"/>
+  <File Type="PDI-FILE" Name="CLOCK_TEST.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="CLOCK_TEST_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="CLOCK_TEST_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="CLOCK_TEST.rcfi"/>
+  <File Type="CFI_FILE" Name="CLOCK_TEST.cfi"/>
+  <File Type="RNPI_FILE" Name="CLOCK_TEST.rnpi"/>
+  <File Type="NPI_FILE" Name="CLOCK_TEST.npi"/>
+  <File Type="RBD_FILE" Name="CLOCK_TEST.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CLOCK_TEST.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="CLOCK_TEST.sysdef"/>
+  <File Type="BG-BGN" Name="CLOCK_TEST.bgn"/>
+  <File Type="BG-DRC" Name="CLOCK_TEST.drc"/>
+  <File Type="RDI-RDI" Name="CLOCK_TEST.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="CLOCK_TEST_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="CLOCK_TEST_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../PL_LED_TEST/PL_LED_TEST.srcs/sources_1/new/LED.v"/>
+        <Attr Name="ImportTime" Val="1729256597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CLOCK_TEST.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CLOCK_TEST"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/MMCM_XDC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/CLOCK_TEST.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

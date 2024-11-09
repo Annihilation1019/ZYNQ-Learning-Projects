@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1731153705">
+  <File Type="ROUTE-PWR" Name="XADC_TEST_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="XADC_TEST.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="XADC_TEST_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="XADC_TEST_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="XADC_TEST_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="XADC_TEST.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="XADC_TEST_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="XADC_TEST_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="XADC_TEST_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="XADC_TEST_opt.dcp"/>
+  <File Type="OPT-DRC" Name="XADC_TEST_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="XADC_TEST.hwdef"/>
+  <File Type="PWROPT-DCP" Name="XADC_TEST_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="XADC_TEST_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="XADC_TEST_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="XADC_TEST_placed.dcp"/>
+  <File Type="PLACE-IO" Name="XADC_TEST_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="XADC_TEST_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="XADC_TEST_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="XADC_TEST_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="XADC_TEST_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="XADC_TEST_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="XADC_TEST_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="XADC_TEST.bin"/>
+  <File Type="PLACE-TIMING" Name="XADC_TEST_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="XADC_TEST_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="XADC_TEST_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="XADC_TEST_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="XADC_TEST.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="XADC_TEST_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="XADC_TEST_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="XADC_TEST_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="XADC_TEST.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="XADC_TEST_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="XADC_TEST_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="XADC_TEST_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="XADC_TEST_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="XADC_TEST_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="XADC_TEST_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="XADC_TEST_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="XADC_TEST_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="XADC_TEST_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="XADC_TEST_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="XADC_TEST_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="XADC_TEST_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="XADC_TEST_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="XADC_TEST_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="XADC_TEST_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="XADC_TEST_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="XADC_TEST_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="XADC_TEST_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="XADC_TEST_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="XADC_TEST_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="XADC_TEST_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="XADC_TEST_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="XADC_TEST_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="XADC_TEST_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="XADC_TEST_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="XADC_TEST_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="XADC_TEST_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="XADC_TEST.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="XADC_TEST_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="XADC_TEST_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="XADC_TEST.nky"/>
+  <File Type="BITSTR-BMM" Name="XADC_TEST_bd.bmm"/>
+  <File Type="PDI-FILE" Name="XADC_TEST.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="XADC_TEST_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="XADC_TEST_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="XADC_TEST.rcfi"/>
+  <File Type="CFI_FILE" Name="XADC_TEST.cfi"/>
+  <File Type="RNPI_FILE" Name="XADC_TEST.rnpi"/>
+  <File Type="NPI_FILE" Name="XADC_TEST.npi"/>
+  <File Type="RBD_FILE" Name="XADC_TEST.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="XADC_TEST.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="XADC_TEST.sysdef"/>
+  <File Type="BG-BGN" Name="XADC_TEST.bgn"/>
+  <File Type="BG-DRC" Name="XADC_TEST.drc"/>
+  <File Type="RDI-RDI" Name="XADC_TEST.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="XADC_TEST_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="XADC_TEST_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/XADC_TEST.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="XADC_TEST"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/XADC_TEST_XDC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/XADC_TEST_XDC.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/XADC_TEST.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

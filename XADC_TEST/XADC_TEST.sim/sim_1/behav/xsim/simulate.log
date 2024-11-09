@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+WARNING: file design.txt could not be opened
+ *** Warning: The analog data file design.txt for XADC instance XADC_TEST_tb.u_XADC_TEST.u_xadc.inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+
+$finish called at time : 0 fs : File "D:/Programs/Workspace/SmartZYNQ_SP2/XADC_TEST/XADC_TEST.srcs/sim_1/new/XADC_tb.v" Line 70
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance XADC_TEST_tb.u_XADC_TEST.u_clk.inst.mmcm_adv_inst 
+INFO: xsimkernel Simulation Memory Usage: 17352 KB (Peak: 17352 KB), Simulation CPU Usage: 31514 ms
