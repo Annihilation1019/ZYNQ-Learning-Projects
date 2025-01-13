@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sun Dec  8 21:38:39 2024
-# Process ID: 28304
+# Start of session at: Tue Jan 14 03:05:16 2025
+# Process ID: 13632
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28596 D:\Programs\Workspace\SmartZYNQ_SP2\PL_PWM_TEST\PL_PWM_TEST.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6316 D:\Programs\Workspace\SmartZYNQ_SP2\PL_PWM_TEST\PL_PWM_TEST.xpr
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/vivado.log
 # Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST\vivado.jou
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
@@ -14,4 +14,14 @@
 start_gui
 open_project D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.xpr
 update_compile_order -fileset sources_1
-open_run synth_1 -name synth_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.runs/impl_1/PWM_TEST.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.runs/impl_1/PWM_TEST.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

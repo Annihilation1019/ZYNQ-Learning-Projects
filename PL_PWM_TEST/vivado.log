@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sun Dec  8 21:38:39 2024
-# Process ID: 28304
+# Start of session at: Tue Jan 14 03:05:16 2025
+# Process ID: 13632
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28596 D:\Programs\Workspace\SmartZYNQ_SP2\PL_PWM_TEST\PL_PWM_TEST.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6316 D:\Programs\Workspace\SmartZYNQ_SP2\PL_PWM_TEST\PL_PWM_TEST.xpr
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/vivado.log
 # Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST\vivado.jou
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
@@ -35,24 +35,36 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2962.230 ; gain = 408.453
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2963.895 ; gain = 412.703
 update_compile_order -fileset sources_1
-open_run synth_1 -name synth_1
-Design is defaulting to impl run constrset: constrs_1
-Design is defaulting to synth run part: xc7z020clg484-1
-INFO: [Device 21-403] Loading part xc7z020clg484-1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3384.055 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2023.1
-INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.srcs/constrs_1/new/PWM_XDC.xdc]
-Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.srcs/constrs_1/new/PWM_XDC.xdc]
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3474.117 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
 
-open_run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3635.953 ; gain = 585.672
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/03SD35A
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.runs/impl_1/PWM_TEST.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.runs/impl_1/PWM_TEST.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
 exit
-INFO: [Common 17-206] Exiting Vivado at Sun Dec  8 21:43:21 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 14 03:07:34 2025...

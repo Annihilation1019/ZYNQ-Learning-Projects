@@ -70,3 +70,6 @@ timestamp=[2025-01-13 21:00:46], mode=BUILD, duration=0:00:00.619, duration_ms=6
 timestamp=[2025-01-13 21:00:50], mode=BUILD, duration=0:00:04.513, duration_ms=4513, data={name=LED_TEST_system, configuration=Debug, clean_build=false}
 timestamp=[2025-01-13 21:01:27], mode=BUILD, duration=0:00:00.599, duration_ms=599, data={name=LED_TEST, configuration=Debug, clean_build=false}
 timestamp=[2025-01-13 21:01:31], mode=BUILD, duration=0:00:04.440, duration_ms=4440, data={name=LED_TEST_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 03:08:37], mode=WORKBENCH_START, duration=0:00:04.526, duration_ms=4526, data={}
+timestamp=[2025-01-14 03:08:38], mode=WORKBENCH_UI_INIT, duration=0:00:01.012, duration_ms=1012, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LED_TEST,LED_TEST_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper}
+timestamp=[2025-01-14 03:08:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.780, duration_ms=780, data={}

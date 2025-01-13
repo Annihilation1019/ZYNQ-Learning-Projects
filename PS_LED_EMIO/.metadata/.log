@@ -13896,3 +13896,2250 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-01-13 21:04:22.513
 !MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-492
+!SESSION 2025-01-14 03:08:29.309 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-01-14 03:08:35.491
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:38.987
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:38.989
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.003
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.004
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.004
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.018
+!MESSAGE XSCT Command: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.290
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.291
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.291
+!MESSAGE XSCT command with result: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO], Result: [null, ]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:08:39.302
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/SharedData/2023.1/data;D:/Xilinx/Vitis/2023.1/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-14 03:09:08.169
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-14 03:09:08.170
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-01-14 03:09:08.170
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:10.638
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.509
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.511
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sat Nov 30 18:42:55 2024",
+"vivado_version": "2023.1",
+"part": "xc7z020clg484-1",
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.606
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.611
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Result: [null, {"PWM_TEST_0": {"hier_name": "PWM_TEST_0",
+"type": "PWM_TEST",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.615
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.618
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.618
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.622
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.622
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.628
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.629
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.631
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.631
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.648
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.649
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.650
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.651
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.663
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.664
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.665
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.666
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.667
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.667
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.680
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.680
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.684
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.684
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.695
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.695
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.697
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.697
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.710
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.711
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.712
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.712
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.715
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.715
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.726
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.727
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.728
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.730
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.731
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_xadc_0]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.732
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa bit], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.742
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa bit], Result: [null, ZYNQ_CORE_wrapper.bit]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.744
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.749
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.750
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.792
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.793
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.794
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.794
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.806
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.810
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.813
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.813
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.822
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.824
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.827
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.828
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.836
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.841
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.841
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.849
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.852
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.856
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.856
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.865
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.865
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.869
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.869
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.886
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.887
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.891
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.891
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.902
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.903
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.911
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.912
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.913
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.914
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.921
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.922
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.984
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:11.985
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:14.988
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.013
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.017
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.017
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.026
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.039
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.055
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:15.056
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.380
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.397
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.405
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.406
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.424
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.425
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.426
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.427
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.431
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.432
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.445
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.445
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.613
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.613
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.618
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.619
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.623
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.624
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.743
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.744
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.764
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.827
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.838
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.839
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:17.858
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:09:17.861
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:09:17.861
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.155
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-111
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.159
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-111
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.172
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.198
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.200
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.211
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.212
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.219
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.220
+!MESSAGE XSCT Command: [version], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.220
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.221
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.226
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.226
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.235
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.236
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.239
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.240
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.249
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.249
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.253
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.253
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.262
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.263
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.267
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.268
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.278
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.279
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.282
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.283
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.292
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.292
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.296
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.296
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.305
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.306
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.314
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.315
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.315
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.316
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.322
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.322
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.409
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:52.410
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.424
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.435
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.439
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.439
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.448
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.449
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.474
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:55.475
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:57.799
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:57.820
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:57.828
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:57.829
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.751
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_0]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.751
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.752
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.753
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.757
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.758
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.759
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.760
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.965
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.965
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.981
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.982
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.987
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:58.988
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.133
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.134
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.175
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.245
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.258
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.259
+!MESSAGE XSCT Command: [con], Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:09:59.275
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:09:59.276
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:09:59.277
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.455
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-167
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.457
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-167
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.504
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.508
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.509
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.515
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.516
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.517
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.517
+!MESSAGE XSCT Command: [version], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.518
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.518
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.522
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.522
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.531
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.532
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.536
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.536
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.546
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.546
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.550
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.551
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.560
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.561
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.565
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.565
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.574
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.574
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.578
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.578
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.587
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.588
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.591
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.591
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.600
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.601
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.610
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.610
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.611
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.612
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.619
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.620
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.708
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:56.710
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.713
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.732
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.736
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.736
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.745
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.746
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.763
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:10:59.764
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:02.093
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:02.116
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:02.127
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:02.128
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.146
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_1]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.146
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.147
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.148
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.153
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.153
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.155
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.155
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.337
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.338
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.342
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.342
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.352
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.352
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.496
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.497
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.523
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.584
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.704
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.705
+!MESSAGE XSCT Command: [con], Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:03.723
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:11:03.724
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:11:03.724
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.026
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-216
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.029
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-216
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.030
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.058
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.059
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.067
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.067
+!MESSAGE XSCT Command: [version -server], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.069
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.069
+!MESSAGE XSCT Command: [version], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.070
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.070
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.074
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.074
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.085
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.085
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.089
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.090
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.099
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.100
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.103
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.103
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.113
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.113
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.117
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.118
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.128
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.128
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.132
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.133
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.142
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.143
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.146
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.147
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.156
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.156
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.166
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.166
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.167
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.168
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.586
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.587
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.676
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:24.678
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.688
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.706
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.710
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.711
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.719
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.720
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.737
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:27.738
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:30.061
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:30.079
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:30.089
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:30.089
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.005
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_2]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.006
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.007
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.007
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.012
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.013
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.014
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.014
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.203
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.204
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.214
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.214
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.219
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.220
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.380
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.381
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.412
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.499
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.512
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.512
+!MESSAGE XSCT Command: [con], Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:11:31.526
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-2: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:11:31.527
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:11:31.527
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.530
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-265
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.533
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-265
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.549
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.553
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.554
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.563
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.563
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.565
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.566
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.566
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.567
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.571
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.571
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.580
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.581
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.585
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.585
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.595
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.596
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.599
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.600
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.610
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.610
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.615
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.615
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.625
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.625
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.629
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.630
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.640
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.640
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.644
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.645
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.653
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.654
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.663
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.664
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.665
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.665
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.685
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.685
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.771
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:03.772
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.780
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.797
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.800
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.800
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.810
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.810
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.827
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:06.828
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:09.164
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:09.181
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:09.188
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:09.189
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.172
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_3]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.173
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.175
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.176
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.181
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.182
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.183
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.185
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.387
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.388
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.392
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.392
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.397
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.398
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.548
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.549
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.578
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.648
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.659
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.660
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:10.674
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_LED_TEST_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:12:10.676
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-01-14 03:12:10.676
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:20.594
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-314
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-01-14 03:12:20.598
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-314

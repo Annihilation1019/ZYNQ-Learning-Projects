@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="PS_TIMER_system-imgFile" value="D:/Programs/Workspace/SmartZYNQ_SP2/PS_TIMER/PS_TIMER_system/_ide/bootimage/BOOT.bin"/>
+	<item key="PS_TIMER_system-offSet" value=""/>
+	<item key="PS_TIMER_system-initFile" value="D:\Programs\Workspace\SmartZYNQ_SP2\PS_TIMER\FSBL\Debug\FSBL.elf"/>
+	<item key="PS_TIMER_system-flashType" value="qspi-x4-single"/>
+	<item key="PS_TIMER_system-verifyFlash" value="false"/>
+	<item key="PS_TIMER_system-blankCheck" value="false"/>
+	<item key="PS_TIMER_system-device" value="Auto Detect"/>
+	<item key="PS_TIMER_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="PS_TIMER_system"/>
+</section>

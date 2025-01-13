@@ -856,3 +856,242 @@ con
 
 21:01:43 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
 21:04:22 INFO  : Disconnected from the channel tcfchan#12.
+03:08:36 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/IDE.log'.
+03:08:36 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\temp_xsdb_launch_script.tcl
+03:08:38 INFO  : Registering command handlers for Vitis TCF services
+03:08:38 INFO  : XSCT server has started successfully.
+03:08:39 INFO  : plnx-install-location is set to ''
+03:08:39 INFO  : Successfully done setting XSCT server connection channel  
+03:08:39 INFO  : Successfully done setting workspace for the tool. 
+03:08:39 INFO  : Successfully done query RDI_DATADIR 
+03:08:39 INFO  : Platform repository initialization has completed.
+03:09:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:09:11 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+03:09:11 INFO  : 'jtag frequency' command is executed.
+03:09:11 INFO  : Context for 'APU' is selected.
+03:09:11 INFO  : System reset is completed.
+03:09:14 INFO  : 'after 3000' command is executed.
+03:09:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+03:09:17 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+03:09:17 INFO  : Context for 'APU' is selected.
+03:09:17 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+03:09:17 INFO  : 'configparams force-mem-access 1' command is executed.
+03:09:17 INFO  : Context for 'APU' is selected.
+03:09:17 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+03:09:17 INFO  : 'ps7_init' command is executed.
+03:09:17 INFO  : 'ps7_post_config' command is executed.
+03:09:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:17 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:09:17 INFO  : 'configparams force-mem-access 0' command is executed.
+03:09:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:09:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:17 INFO  : 'con' command is executed.
+03:09:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:09:17 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+03:09:52 INFO  : Disconnected from the channel tcfchan#1.
+03:09:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:09:52 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+03:09:52 INFO  : 'jtag frequency' command is executed.
+03:09:52 INFO  : Context for 'APU' is selected.
+03:09:52 INFO  : System reset is completed.
+03:09:55 INFO  : 'after 3000' command is executed.
+03:09:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+03:09:57 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+03:09:57 INFO  : Context for 'APU' is selected.
+03:09:58 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+03:09:58 INFO  : 'configparams force-mem-access 1' command is executed.
+03:09:58 INFO  : Context for 'APU' is selected.
+03:09:58 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+03:09:58 INFO  : 'ps7_init' command is executed.
+03:09:58 INFO  : 'ps7_post_config' command is executed.
+03:09:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:59 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:09:59 INFO  : 'configparams force-mem-access 0' command is executed.
+03:09:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:09:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:09:59 INFO  : 'con' command is executed.
+03:09:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:09:59 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+03:10:56 INFO  : Disconnected from the channel tcfchan#2.
+03:10:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:10:56 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+03:10:56 INFO  : 'jtag frequency' command is executed.
+03:10:56 INFO  : Context for 'APU' is selected.
+03:10:56 INFO  : System reset is completed.
+03:10:59 INFO  : 'after 3000' command is executed.
+03:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+03:11:02 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+03:11:02 INFO  : Context for 'APU' is selected.
+03:11:03 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+03:11:03 INFO  : 'configparams force-mem-access 1' command is executed.
+03:11:03 INFO  : Context for 'APU' is selected.
+03:11:03 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+03:11:03 INFO  : 'ps7_init' command is executed.
+03:11:03 INFO  : 'ps7_post_config' command is executed.
+03:11:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:11:03 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:11:03 INFO  : 'configparams force-mem-access 0' command is executed.
+03:11:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:11:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:11:03 INFO  : 'con' command is executed.
+03:11:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:11:03 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+03:11:24 INFO  : Disconnected from the channel tcfchan#3.
+03:11:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:11:24 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+03:11:24 INFO  : 'jtag frequency' command is executed.
+03:11:24 INFO  : Context for 'APU' is selected.
+03:11:24 INFO  : System reset is completed.
+03:11:27 INFO  : 'after 3000' command is executed.
+03:11:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+03:11:30 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+03:11:30 INFO  : Context for 'APU' is selected.
+03:11:31 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+03:11:31 INFO  : 'configparams force-mem-access 1' command is executed.
+03:11:31 INFO  : Context for 'APU' is selected.
+03:11:31 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+03:11:31 INFO  : 'ps7_init' command is executed.
+03:11:31 INFO  : 'ps7_post_config' command is executed.
+03:11:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:11:31 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:11:31 INFO  : 'configparams force-mem-access 0' command is executed.
+03:11:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:11:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:11:31 INFO  : 'con' command is executed.
+03:11:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:11:31 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+03:12:03 INFO  : Disconnected from the channel tcfchan#4.
+03:12:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:12:03 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+03:12:03 INFO  : 'jtag frequency' command is executed.
+03:12:03 INFO  : Context for 'APU' is selected.
+03:12:03 INFO  : System reset is completed.
+03:12:06 INFO  : 'after 3000' command is executed.
+03:12:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+03:12:09 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+03:12:09 INFO  : Context for 'APU' is selected.
+03:12:10 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+03:12:10 INFO  : 'configparams force-mem-access 1' command is executed.
+03:12:10 INFO  : Context for 'APU' is selected.
+03:12:10 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl' is done.
+03:12:10 INFO  : 'ps7_init' command is executed.
+03:12:10 INFO  : 'ps7_post_config' command is executed.
+03:12:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:12:10 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+03:12:10 INFO  : 'configparams force-mem-access 0' command is executed.
+03:12:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/LED_TEST/Debug/LED_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+03:12:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+03:12:10 INFO  : 'con' command is executed.
+03:12:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+03:12:10 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\LED_TEST_system\_ide\scripts\systemdebugger_led_test_system_standalone.tcl'
+03:12:20 INFO  : Disconnected from the channel tcfchan#5.

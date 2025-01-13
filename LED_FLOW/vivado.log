@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sun Jan 12 12:57:14 2025
-# Process ID: 18520
+# Start of session at: Tue Jan 14 02:19:52 2025
+# Process ID: 3228
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16980 D:\Programs\Workspace\SmartZYNQ_SP2\LED_FLOW\LED_FLOW.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16180 D:\Programs\Workspace\SmartZYNQ_SP2\LED_FLOW\LED_FLOW.xpr
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/vivado.log
 # Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW\vivado.jou
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
@@ -35,7 +35,36 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2956.723 ; gain = 391.602
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2951.918 ; gain = 397.246
 update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/03SD35A
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.runs/impl_1/LED_FLOW.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.runs/impl_1/LED_FLOW.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
 exit
-INFO: [Common 17-206] Exiting Vivado at Sun Jan 12 12:57:42 2025...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 14 02:21:00 2025...

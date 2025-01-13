@@ -1,0 +1,12 @@
+{
+	"toolChain": "xilinx",
+	"prjName": {
+		"PL": "PS_TIMER",
+		"PS": "PS_TIMER"
+	},
+	"soc": {
+		"core": "ps7_cortexa9_0",
+		"bd": "zynq_default"
+	},
+	"device": "xc7z020clg484-1"
+}

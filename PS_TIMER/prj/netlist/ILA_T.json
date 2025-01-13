@@ -1,0 +1,65 @@
+{
+  "creator": "Yosys 0.48 (git sha1 aaa5347494801e9e3870b31387da59da24233f76, clang++ 18.1.2-wasi-sdk -Oz)",
+  "modules": {
+    "ILA_T": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "{workspace}/prj/xilinx/PS_TIMER.srcs/sources_1/new/ILA_T.v:23.1-36.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "P20": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "P21": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "UUT": {
+          "hide_name": 0,
+          "type": "ila_0",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "{workspace}/prj/xilinx/PS_TIMER.srcs/sources_1/new/ILA_T.v:29.11-35.12"
+          },
+          "connections": {
+            "clk": [ 2 ],
+            "probe0": [ 3 ],
+            "probe1": [ 4 ]
+          }
+        }
+      },
+      "netnames": {
+        "P20": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "{workspace}/prj/xilinx/PS_TIMER.srcs/sources_1/new/ILA_T.v:25.21-25.24"
+          }
+        },
+        "P21": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "{workspace}/prj/xilinx/PS_TIMER.srcs/sources_1/new/ILA_T.v:26.21-26.24"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "{workspace}/prj/xilinx/PS_TIMER.srcs/sources_1/new/ILA_T.v:24.20-24.23"
+          }
+        }
+      }
+    }
+  }
+}
