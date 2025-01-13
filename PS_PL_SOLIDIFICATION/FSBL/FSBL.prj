@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="FSBL" location="D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/FSBL" platform="D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper_1/export/ZYNQ_CORE_wrapper_1/ZYNQ_CORE_wrapper_1.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="FSBL_system" sysConfig="ZYNQ_CORE_wrapper_1" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="50ccdf0fd4eb6bc1d26c045cdfb4ba52">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2015718023">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.625336195" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynq_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,756 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov 30 16:54:01 2024
+# Process ID: 18952
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15212 D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2964.426 ; gain = 402.523
+update_compile_order -fileset sources_1
+import_files -norecurse D:/Programs/Workspace/SmartZYNQ_SP2/PL_PWM_TEST/PL_PWM_TEST.srcs/sources_1/new/PWM_TEST.v
+update_compile_order -fileset sources_1
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+Reading block design file <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Successfully read diagram <ZYNQ_CORE> from block design file <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd>
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property CONFIG.PCW_GPIO_EMIO_GPIO_IO {3} [get_bd_cells processing_system7_0]
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+endgroup
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property CONFIG.PCW_GPIO_EMIO_GPIO_IO {1} [get_bd_cells processing_system7_0]
+endgroup
+create_bd_cell -type module -reference PWM_TEST PWM_TEST_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+set_property location {2.5 653 -3} [get_bd_cells PWM_TEST_0]
+set_property location {2 711 68} [get_bd_cells PWM_TEST_0]
+delete_bd_objs [get_bd_intf_nets processing_system7_0_GPIO_0]
+delete_bd_objs [get_bd_intf_ports GPIO_0_0]
+connect_bd_net [get_bd_pins processing_system7_0/GPIO_O] [get_bd_pins processing_system7_0/GPIO_I]
+WARNING: [BD 41-1306] The connection to interface pin </processing_system7_0/GPIO_O> is being overridden by the user with net <processing_system7_0_GPIO_O>. This pin will not be connected as a part of interface connection <GPIO_0>.
+WARNING: [BD 41-1306] The connection to interface pin </processing_system7_0/GPIO_I> is being overridden by the user with net <processing_system7_0_GPIO_O>. This pin will not be connected as a part of interface connection <GPIO_0>.
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins processing_system7_0/GPIO_O] [get_bd_pins processing_system7_0/GPIO_I]'
+connect_bd_net [get_bd_pins PWM_TEST_0/enable] [get_bd_pins processing_system7_0/GPIO_O]
+WARNING: [BD 41-1306] The connection to interface pin </processing_system7_0/GPIO_O> is being overridden by the user with net <processing_system7_0_GPIO_O>. This pin will not be connected as a part of interface connection <GPIO_0>.
+set_property location {2 586 -209} [get_bd_cells PWM_TEST_0]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (50 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins PWM_TEST_0/clk]
+reset_run ZYNQ_CORE_processing_system7_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_processing_system7_0_0_synth_1
+
+save_bd_design
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/ZYNQ_CORE_wrapper.dcp to D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1
+
+launch_runs synth_1 -jobs 20
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_TEST_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_PWM_TEST_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_rst_ps7_0_50M_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_PWM_TEST_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_rst_ps7_0_50M_0
+[Sat Nov 30 17:23:15 2024] Launched ZYNQ_CORE_processing_system7_0_0_synth_1, ZYNQ_CORE_PWM_TEST_0_0_synth_1, ZYNQ_CORE_rst_ps7_0_50M_0_synth_1...
+Run output will be captured here:
+ZYNQ_CORE_processing_system7_0_0_synth_1: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_processing_system7_0_0_synth_1/runme.log
+ZYNQ_CORE_PWM_TEST_0_0_synth_1: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_PWM_TEST_0_0_synth_1/runme.log
+ZYNQ_CORE_rst_ps7_0_50M_0_synth_1: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_rst_ps7_0_50M_0_synth_1/runme.log
+[Sat Nov 30 17:23:15 2024] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 3412.793 ; gain = 235.633
+launch_runs impl_1 -jobs 20
+[Sat Nov 30 17:24:47 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3537.715 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 4159.684 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 4159.684 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4159.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 4299.590 ; gain = 862.117
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/ZYNQ_CORE_PWM_TEST_0_0.dcp' for cell 'ZYNQ_CORE_i/PWM_TEST_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_50M'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 4322.105 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4371.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+current_design impl_1
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'ZYNQ_CORE' - hence not re-generating.
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'ZYNQ_CORE' - hence not re-generating.
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sat Nov 30 17:30:09 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+set_property location {2 669 54} [get_bd_cells rst_ps7_0_50M]
+set_property location {2 658 74} [get_bd_cells rst_ps7_0_50M]
+set_property location {2 658 50} [get_bd_cells rst_ps7_0_50M]
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/03SD35A
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/ZYNQ_CORE_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/ZYNQ_CORE_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+current_design synth_1
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'ZYNQ_CORE' - hence not re-generating.
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+synth_design -top ZYNQ_CORE_wrapper -part xc7z020clg484-1 -lint 
+Command: synth_design -top ZYNQ_CORE_wrapper -part xc7z020clg484-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 4926.707 ; gain = 278.629
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_wrapper' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:84]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_PWM_TEST_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_PWM_TEST_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_PWM_TEST_0_0' (1#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_PWM_TEST_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'led1' of module 'ZYNQ_CORE_PWM_TEST_0_0' is unconnected for instance 'PWM_TEST_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:84]
+WARNING: [Synth 8-7071] port 'led2' of module 'ZYNQ_CORE_PWM_TEST_0_0' is unconnected for instance 'PWM_TEST_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:84]
+WARNING: [Synth 8-7023] instance 'PWM_TEST_0' of module 'ZYNQ_CORE_PWM_TEST_0_0' has 5 connections declared, but only 3 given [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:84]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (2#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'GPIO_T' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARVALID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWVALID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_BREADY' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_RREADY' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WLAST' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WVALID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WID' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARBURST' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLOCK' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARSIZE' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWBURST' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLOCK' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWSIZE' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARPROT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWPROT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARADDR' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWADDR' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WDATA' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARCACHE' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARLEN' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARQOS' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWCACHE' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWLEN' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_AWQOS' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_WSTRB' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'ZYNQ_CORE_processing_system7_0_0' has 65 connections declared, but only 37 given [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:88]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_0' (3#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/.Xil/Vivado-18952-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:126]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:126]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:126]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:126]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'ZYNQ_CORE_rst_ps7_0_50M_0' has 10 connections declared, but only 6 given [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE' (4#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_wrapper' (5#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 5015.887 ; gain = 367.809
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Sat Nov 30 17:49:03 2024
+| Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+--------------+----------+
+| Rule ID  | # Violations | # Waived |
++----------+--------------+----------+
+| ASSIGN-5 | 21           | 0        |
++----------+--------------+----------+
+
+
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_ADDR' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_ADDR', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 58.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_BA' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_BA', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 59.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CAS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CAS_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 60.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CKE' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CKE', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 61.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CK_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CK_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 62.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CK_P' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CK_P', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 63.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_CS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_CS_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 64.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_DM' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DM', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 65.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_DQ' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQ', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 66.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_DQS_N' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQS_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 67.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_DDR_DQS_P' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_DDR_DQS_P', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 68.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_ODT' declared and are not set.
+RTL Name 'processing_system7_0_DDR_ODT', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 69.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_RAS_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_RAS_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 70.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_RESET_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_RESET_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 71.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_DDR_WE_N' declared and are not set.
+RTL Name 'processing_system7_0_DDR_WE_N', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 72.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_DDR_VRN' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_DDR_VRN', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 75.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_DDR_VRP' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_DDR_VRP', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 76.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'processing_system7_0_FIXED_IO_MIO' are not set. First unset bit index is 0. 
+RTL Name 'processing_system7_0_FIXED_IO_MIO', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 77.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_CLK' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_CLK', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 78.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_PORB' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_PORB', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 79.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'processing_system7_0_FIXED_IO_PS_SRSTB' declared and are not set.
+RTL Name 'processing_system7_0_FIXED_IO_PS_SRSTB', Hierarchy 'ZYNQ_CORE', File 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v', Line 80.
+INFO: [Synth 37-85] Total of 21 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/ZYNQ_CORE_PWM_TEST_0_0.dcp' for cell 'ZYNQ_CORE_i/PWM_TEST_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_50M'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 5033.812 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_0/ZYNQ_CORE_rst_ps7_0_50M_0.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:8]
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 68 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 5080.879 ; gain = 432.801
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+startgroup
+make_bd_pins_external  [get_bd_pins PWM_TEST_0/led1]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins PWM_TEST_0/led2]
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins PWM_TEST_0/led2]'
+INFO: [Common 17-17] undo 'startgroup'
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins PWM_TEST_0/led1]'
+INFO: [Common 17-17] undo 'startgroup'
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_50M_peripheral_aresetn] [get_bd_cells rst_ps7_0_50M]
+startgroup
+make_bd_pins_external  [get_bd_pins PWM_TEST_0/rstn]
+endgroup
+set_property location {-39 -279} [get_bd_ports rstn_0]
+startgroup
+make_bd_pins_external  [get_bd_pins PWM_TEST_0/led1] [get_bd_pins PWM_TEST_0/led2]
+endgroup
+save_bd_design
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+CRITICAL WARNING: [BD 41-1348] Reset pin /PWM_TEST_0/rstn (associated clock /PWM_TEST_0/clk) is connected to asynchronous reset source /rstn_0.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+delete_bd_objs [get_bd_nets rstn_0_1] [get_bd_ports rstn_0]
+connect_bd_net [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins PWM_TEST_0/rstn]
+save_bd_design
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+CRITICAL WARNING: [BD 41-1348] Reset pin /PWM_TEST_0/rstn (associated clock /PWM_TEST_0/clk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_bd_cell -type module -reference PWM_TEST PWM_TEST_1
+delete_bd_objs [get_bd_cells PWM_TEST_1]
+save_bd_design
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+CRITICAL WARNING: [BD 41-1348] Reset pin /PWM_TEST_0/rstn (associated clock /PWM_TEST_0/clk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1
+
+launch_runs synth_1 -jobs 20
+[Sat Nov 30 18:06:55 2024] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/ZYNQ_CORE_PWM_TEST_0_0.dcp' for cell 'ZYNQ_CORE_i/PWM_TEST_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1
+
+launch_runs synth_1 -jobs 20
+[Sat Nov 30 18:08:45 2024] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 20
+[Sat Nov 30 18:14:51 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/ZYNQ_CORE_PWM_TEST_0_0.dcp' for cell 'ZYNQ_CORE_i/PWM_TEST_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+set_property package_pin "" [get_ports [list  led1_0]]
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc
+place_ports led1_0 P20
+place_ports led2_0 P21
+set_property IOSTANDARD LVCMOS33 [get_ports [list led2_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list led1_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list led1_0]]
+set_property DRIVE 12 [get_ports [list led1_0]]
+set_property SLEW {} [get_ports [list led1_0]]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+place_ports led1_0 P20
+place_ports led2_0 P21
+set_property IOSTANDARD LVCMOS33 [get_ports [list led1_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list led2_0]]
+close [ open D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc w ]
+add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc
+set_property target_constrs_file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1
+
+launch_runs synth_1 -jobs 20
+[Sat Nov 30 18:27:05 2024] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 20
+[Sat Nov 30 18:28:24 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sat Nov 30 18:32:00 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.137 . Memory (MB): peak = 5080.879 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 5080.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:67]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:67]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'always' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'endmodule' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:102]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/imports/new/PWM_TEST.v:72]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1
+
+update_module_reference ZYNQ_CORE_PWM_TEST_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_PWM_TEST_0_0_synth_1
+
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_PWM_TEST_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+launch_runs synth_1 -jobs 20
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+CRITICAL WARNING: [BD 41-1348] Reset pin /PWM_TEST_0/rstn (associated clock /PWM_TEST_0/clk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_EMIO\PS_LED_EMIO.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_TEST_0 .
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_PWM_TEST_0_0
+[Sat Nov 30 18:42:58 2024] Launched ZYNQ_CORE_PWM_TEST_0_0_synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/ZYNQ_CORE_PWM_TEST_0_0_synth_1/runme.log
+[Sat Nov 30 18:42:58 2024] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 20
+[Sat Nov 30 18:44:47 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sat Nov 30 18:46:22 2024] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.runs/impl_1/runme.log
+set_property location {875 -201} [get_bd_ports led2_0]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/ZYNQ_CORE_PWM_TEST_0_0.dcp' for cell 'ZYNQ_CORE_i/PWM_TEST_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/PS_LED_EMIO.srcs/constrs_1/new/LED_TEST.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 5080.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_EMIO/ZYNQ_CORE_wrapper.xsa
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 30 18:53:20 2024...

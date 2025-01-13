@@ -1,0 +1,22 @@
+set_property SRC_FILE_INFO {cfile:d:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/prj/xilinx/template.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc rfile:../template.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:ZYNQ_CORE_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/prj/xilinx/template.srcs/constrs_1/new/PL_PS_SOLI.xdc rfile:../template.srcs/constrs_1/new/PL_PS_SOLI.xdc id:2} [current_design]
+current_instance ZYNQ_CORE_i/processing_system7_0/inst
+set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter clk_fpga_0 0.6
+current_instance
+set_property src_info {type:XDC file:2 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J20 [get_ports {GPIO_0_0_tri_i[3]}]
+set_property src_info {type:XDC file:2 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K21 [get_ports {GPIO_0_0_tri_i[2]}]
+set_property src_info {type:XDC file:2 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_0_0_tri_i[3]}]
+set_property src_info {type:XDC file:2 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_0_0_tri_i[2]}]
+set_property src_info {type:XDC file:2 line:17 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J20 [get_ports {KEY[1]}]
+set_property src_info {type:XDC file:2 line:18 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports {KEY[1]}]
+set_property src_info {type:XDC file:2 line:19 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K21 [get_ports {KEY[0]}]
+set_property src_info {type:XDC file:2 line:20 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports {KEY[0]}]

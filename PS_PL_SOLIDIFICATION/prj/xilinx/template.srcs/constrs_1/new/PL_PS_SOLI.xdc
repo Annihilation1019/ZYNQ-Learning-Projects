@@ -1,0 +1,23 @@
+set_property PACKAGE_PIN P20 [get_ports {led_0[1]}]
+set_property PACKAGE_PIN P21 [get_ports {led_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led_0[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led_0[0]}]
+set_property PACKAGE_PIN J20 [get_ports {GPIO_0_0_tri_i[3]}]
+set_property PACKAGE_PIN K21 [get_ports {GPIO_0_0_tri_i[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_0_0_tri_i[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_0_0_tri_i[2]}]
+
+set_property PACKAGE_PIN J20 [get_ports {GPIO_I_0[3]}]
+set_property PACKAGE_PIN K21 [get_ports {GPIO_I_0[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_I_0[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_I_0[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_I_0[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_I_0[0]}]
+
+set_property PACKAGE_PIN J20 [get_ports {KEY[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {KEY[1]}]
+set_property PACKAGE_PIN K21 [get_ports {KEY[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {KEY[0]}]
+
+set_property PACKAGE_PIN A16 [get_ports {GPIO_I_0[1]}]
+set_property PACKAGE_PIN A17 [get_ports {GPIO_I_0[0]}]

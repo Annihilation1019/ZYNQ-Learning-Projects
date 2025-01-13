@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"EMIO_KEY": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Mon Jan 13 23:01:57 2025
+| Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ZYNQ_CORE_wrapper_control_sets_placed.rpt
+| Design       : ZYNQ_CORE_wrapper
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     8 |
+|    Minimum number of control sets                        |     8 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    32 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     8 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |            9 |
+| No           | No                    | Yes                    |               3 |            1 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              52 |           16 |
+| Yes          | Yes                   | No                     |               6 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------+---------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+|                   Clock Signal                   |                Enable Signal                |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------------------+---------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 |                                             | ZYNQ_CORE_i/LED_0/inst/led_state[1]_i_2_n_0        |                1 |              3 |         3.00 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 |                                             | ZYNQ_CORE_i/rst_ps7_0_50M/U0/EXT_LPF/lpf_int       |                1 |              4 |         4.00 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 | ZYNQ_CORE_i/rst_ps7_0_50M/U0/SEQ/seq_cnt_en | ZYNQ_CORE_i/rst_ps7_0_50M/U0/SEQ/SEQ_COUNTER/clear |                1 |              6 |         6.00 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 | ZYNQ_CORE_i/LED_0/inst/cnt_us[5]_i_1_n_0    | ZYNQ_CORE_i/LED_0/inst/led_state[1]_i_2_n_0        |                2 |              6 |         3.00 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 | ZYNQ_CORE_i/LED_0/inst/cnt_s[9]_i_1_n_0     | ZYNQ_CORE_i/LED_0/inst/led_state[1]_i_2_n_0        |                3 |             10 |         3.33 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 | ZYNQ_CORE_i/LED_0/inst/cnt_ms[9]_i_1_n_0    | ZYNQ_CORE_i/LED_0/inst/led_state[1]_i_2_n_0        |                4 |             10 |         2.50 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 |                                             |                                                    |               10 |             24 |         2.40 |
+|  ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0 | ZYNQ_CORE_i/LED_0/inst/time_count0          | ZYNQ_CORE_i/LED_0/inst/led_state[1]_i_2_n_0        |                7 |             26 |         3.71 |
++--------------------------------------------------+---------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+
+

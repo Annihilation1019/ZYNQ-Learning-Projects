@@ -1,0 +1,175 @@
+00:10:16 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/IDE.log'.
+00:10:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_AXI_GPIO\temp_xsdb_launch_script.tcl
+00:10:24 INFO  : XSCT server has started successfully.
+00:10:24 INFO  : plnx-install-location is set to ''
+00:10:24 INFO  : Successfully done setting XSCT server connection channel  
+00:10:24 INFO  : Successfully done setting workspace for the tool. 
+00:10:29 INFO  : Registering command handlers for Vitis TCF services
+00:10:29 INFO  : Successfully done query RDI_DATADIR 
+00:10:30 INFO  : Platform repository initialization has completed.
+00:18:18 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+00:18:18 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:18:19 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:18:20 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+00:18:30 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+00:45:11 INFO  : Example project xgpio_example_1 has been created successfully.
+01:13:39 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+01:13:39 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+01:15:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:15:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:15:21 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:15:34 INFO  : Checking for BSP changes to sync application flags for project 'LED_CORE'...
+01:17:47 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/IDE.log'.
+01:17:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_AXI_GPIO\temp_xsdb_launch_script.tcl
+01:17:50 INFO  : XSCT server has started successfully.
+01:17:50 INFO  : plnx-install-location is set to ''
+01:17:50 INFO  : Registering command handlers for Vitis TCF services
+01:17:50 INFO  : Successfully done setting XSCT server connection channel  
+01:17:50 INFO  : Successfully done query RDI_DATADIR 
+01:17:50 INFO  : Successfully done setting workspace for the tool. 
+01:17:51 INFO  : Platform repository initialization has completed.
+01:18:25 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+01:18:25 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+01:18:26 INFO  : Checking for BSP changes to sync application flags for project 'LED_CORE'...
+01:20:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:20:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:20:15 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/LED_CORE/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:20:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:20:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:20:40 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:22:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:22:48 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+01:22:48 INFO  : 'jtag frequency' command is executed.
+01:22:48 INFO  : Context for 'APU' is selected.
+01:22:48 INFO  : System reset is completed.
+01:22:51 INFO  : 'after 3000' command is executed.
+01:22:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:22:53 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:22:53 INFO  : Context for 'APU' is selected.
+01:22:53 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+01:22:53 INFO  : 'configparams force-mem-access 1' command is executed.
+01:22:53 INFO  : Context for 'APU' is selected.
+01:22:53 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl' is done.
+01:22:54 INFO  : 'ps7_init' command is executed.
+01:22:54 INFO  : 'ps7_post_config' command is executed.
+01:22:54 INFO  : 'configparams force-mem-access 0' command is executed.
+01:22:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:22:54 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_AXI_GPIO\xgpio_example_1_system\_ide\scripts\systemdebugger_xgpio_example_1_system_standalone.tcl'
+01:23:02 INFO  : Disconnected from the channel tcfchan#3.
+01:23:47 INFO  : Checking for BSP changes to sync application flags for project 'LED_CORE'...
+01:24:29 INFO  : Checking for BSP changes to sync application flags for project 'xgpio_example_1'...
+01:28:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:28:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:28:42 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:28:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:28:48 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+01:28:48 INFO  : 'jtag frequency' command is executed.
+01:28:48 INFO  : Context for 'APU' is selected.
+01:28:48 INFO  : System reset is completed.
+01:28:51 INFO  : 'after 3000' command is executed.
+01:28:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:28:54 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:28:54 INFO  : Context for 'APU' is selected.
+01:28:54 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+01:28:54 INFO  : 'configparams force-mem-access 1' command is executed.
+01:28:54 INFO  : Context for 'APU' is selected.
+01:28:54 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl' is done.
+01:28:54 INFO  : 'ps7_init' command is executed.
+01:28:54 INFO  : 'ps7_post_config' command is executed.
+01:28:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:28:54 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/Debug/xgpio_example_1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:28:54 INFO  : 'configparams force-mem-access 0' command is executed.
+01:28:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/Debug/xgpio_example_1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:28:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:28:54 INFO  : 'con' command is executed.
+01:28:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:28:54 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_AXI_GPIO\xgpio_example_1_system\_ide\scripts\systemdebugger_xgpio_example_1_system_standalone.tcl'
+01:54:41 INFO  : Checking for BSP changes to sync application flags for project 'xgpio_example_1'...
+01:54:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:54:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:54:59 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:55:07 INFO  : Disconnected from the channel tcfchan#6.
+01:55:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:55:07 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+01:55:08 INFO  : 'jtag frequency' command is executed.
+01:55:08 INFO  : Context for 'APU' is selected.
+01:55:08 INFO  : System reset is completed.
+01:55:11 INFO  : 'after 3000' command is executed.
+01:55:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+01:55:13 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+01:55:13 INFO  : Context for 'APU' is selected.
+01:55:13 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+01:55:13 INFO  : 'configparams force-mem-access 1' command is executed.
+01:55:13 INFO  : Context for 'APU' is selected.
+01:55:13 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl' is done.
+01:55:13 INFO  : 'ps7_init' command is executed.
+01:55:13 INFO  : 'ps7_post_config' command is executed.
+01:55:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:55:13 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/Debug/xgpio_example_1.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:55:13 INFO  : 'configparams force-mem-access 0' command is executed.
+01:55:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1/Debug/xgpio_example_1.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:55:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:55:14 INFO  : 'con' command is executed.
+01:55:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:55:14 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_LED_AXI_GPIO\xgpio_example_1_system\_ide\scripts\systemdebugger_xgpio_example_1_system_standalone.tcl'
+01:59:49 INFO  : Disconnected from the channel tcfchan#8.

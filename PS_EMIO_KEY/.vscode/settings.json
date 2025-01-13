@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "xscugic.h": "c",
+    "xplatform_info.h": "c",
+    "xstatus.h": "c",
+    "xgpiops.h": "c"
+  }
+}

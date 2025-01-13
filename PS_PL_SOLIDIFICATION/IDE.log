@@ -1,0 +1,586 @@
+22:17:11 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_TIMER/IDE.log'.
+22:17:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_TIMER\temp_xsdb_launch_script.tcl
+22:17:17 INFO  : XSCT server has started successfully.
+22:17:17 INFO  : Successfully done setting XSCT server connection channel  
+22:17:17 INFO  : plnx-install-location is set to ''
+22:17:17 INFO  : Successfully done setting workspace for the tool. 
+22:17:23 INFO  : Successfully done query RDI_DATADIR 
+22:17:23 INFO  : Registering command handlers for Vitis TCF services
+22:17:24 INFO  : Platform repository initialization has completed.
+22:18:04 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:18:04 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:18:05 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:18:06 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+22:18:11 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+22:25:58 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/IDE.log'.
+22:25:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\temp_xsdb_launch_script.tcl
+22:26:01 INFO  : XSCT server has started successfully.
+22:26:01 INFO  : plnx-install-location is set to ''
+22:26:01 INFO  : Successfully done setting XSCT server connection channel  
+22:26:01 INFO  : Successfully done setting workspace for the tool. 
+22:26:02 INFO  : Platform repository initialization has completed.
+22:26:11 INFO  : Successfully done query RDI_DATADIR 
+22:26:11 INFO  : Registering command handlers for Vitis TCF services
+22:26:32 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:26:32 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:26:33 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:28:27 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:28:40 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:28:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:28:57 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:28:57 INFO  : 'jtag frequency' command is executed.
+22:28:57 INFO  : Context for 'APU' is selected.
+22:28:57 INFO  : System reset is completed.
+22:29:00 INFO  : 'after 3000' command is executed.
+22:29:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:29:03 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:29:04 INFO  : Context for 'APU' is selected.
+22:29:04 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:29:04 INFO  : 'configparams force-mem-access 1' command is executed.
+22:29:04 INFO  : Context for 'APU' is selected.
+22:29:04 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:29:04 INFO  : 'ps7_init' command is executed.
+22:29:04 INFO  : 'ps7_post_config' command is executed.
+22:29:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:29:04 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:29:04 INFO  : 'configparams force-mem-access 0' command is executed.
+22:29:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:29:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:29:05 INFO  : 'con' command is executed.
+22:29:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:29:05 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:30:44 INFO  : Disconnected from the channel tcfchan#4.
+22:30:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:30:44 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:30:44 INFO  : 'jtag frequency' command is executed.
+22:30:44 INFO  : Context for 'APU' is selected.
+22:30:45 INFO  : System reset is completed.
+22:30:48 INFO  : 'after 3000' command is executed.
+22:30:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:30:50 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:30:50 INFO  : Context for 'APU' is selected.
+22:30:50 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:30:50 INFO  : 'configparams force-mem-access 1' command is executed.
+22:30:50 INFO  : Context for 'APU' is selected.
+22:30:50 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:30:50 INFO  : 'ps7_init' command is executed.
+22:30:50 INFO  : 'ps7_post_config' command is executed.
+22:30:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:30:50 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:30:50 INFO  : 'configparams force-mem-access 0' command is executed.
+22:30:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:30:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:30:51 INFO  : 'con' command is executed.
+22:30:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:30:51 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:36:32 INFO  : Disconnected from the channel tcfchan#5.
+22:36:33 ERROR : (XRT Server)D:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+22:37:32 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+22:37:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:36 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:37:36 INFO  : 'jtag frequency' command is executed.
+22:37:36 INFO  : Context for 'APU' is selected.
+22:37:36 INFO  : System reset is completed.
+22:37:39 INFO  : 'after 3000' command is executed.
+22:37:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:37:42 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:37:42 INFO  : Context for 'APU' is selected.
+22:37:42 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:37:42 INFO  : 'configparams force-mem-access 1' command is executed.
+22:37:42 INFO  : Context for 'APU' is selected.
+22:37:42 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:37:42 INFO  : 'ps7_init' command is executed.
+22:37:42 INFO  : 'ps7_post_config' command is executed.
+22:37:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:37:42 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:37:43 INFO  : 'configparams force-mem-access 0' command is executed.
+22:37:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:37:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:37:43 INFO  : 'con' command is executed.
+22:37:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:37:43 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:41:08 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:41:21 INFO  : Disconnected from the channel tcfchan#6.
+22:41:40 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:41:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:54 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:41:54 INFO  : 'jtag frequency' command is executed.
+22:41:54 INFO  : Context for 'APU' is selected.
+22:41:54 INFO  : System reset is completed.
+22:41:57 INFO  : 'after 3000' command is executed.
+22:41:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:42:00 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:42:00 INFO  : Context for 'APU' is selected.
+22:42:00 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:42:00 INFO  : 'configparams force-mem-access 1' command is executed.
+22:42:00 INFO  : Context for 'APU' is selected.
+22:42:00 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:42:00 INFO  : 'ps7_init' command is executed.
+22:42:00 INFO  : 'ps7_post_config' command is executed.
+22:42:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:42:01 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:42:01 INFO  : 'configparams force-mem-access 0' command is executed.
+22:42:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:42:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:42:01 INFO  : 'con' command is executed.
+22:42:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:42:01 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:44:33 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:44:37 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:44:55 INFO  : Disconnected from the channel tcfchan#8.
+22:44:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:44:56 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:44:56 INFO  : 'jtag frequency' command is executed.
+22:44:56 INFO  : Context for 'APU' is selected.
+22:44:56 INFO  : System reset is completed.
+22:44:59 INFO  : 'after 3000' command is executed.
+22:44:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:45:01 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:45:01 INFO  : Context for 'APU' is selected.
+22:45:01 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:45:01 INFO  : 'configparams force-mem-access 1' command is executed.
+22:45:01 INFO  : Context for 'APU' is selected.
+22:45:01 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:45:01 INFO  : 'ps7_init' command is executed.
+22:45:01 INFO  : 'ps7_post_config' command is executed.
+22:45:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:45:01 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:45:01 INFO  : 'configparams force-mem-access 0' command is executed.
+22:45:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:45:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:45:02 INFO  : 'con' command is executed.
+22:45:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:45:02 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:45:40 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:45:52 INFO  : Disconnected from the channel tcfchan#10.
+22:45:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:45:52 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:45:52 INFO  : 'jtag frequency' command is executed.
+22:45:52 INFO  : Context for 'APU' is selected.
+22:45:52 INFO  : System reset is completed.
+22:45:55 INFO  : 'after 3000' command is executed.
+22:45:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:45:57 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:45:57 INFO  : Context for 'APU' is selected.
+22:45:58 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:45:58 INFO  : 'configparams force-mem-access 1' command is executed.
+22:45:58 INFO  : Context for 'APU' is selected.
+22:45:58 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:45:58 INFO  : 'ps7_init' command is executed.
+22:45:58 INFO  : 'ps7_post_config' command is executed.
+22:45:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:45:58 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:45:58 INFO  : 'configparams force-mem-access 0' command is executed.
+22:45:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:45:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:45:58 INFO  : 'con' command is executed.
+22:45:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:45:58 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+22:47:38 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+22:47:50 INFO  : Disconnected from the channel tcfchan#12.
+22:47:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:47:50 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:47:50 INFO  : 'jtag frequency' command is executed.
+22:47:50 INFO  : Context for 'APU' is selected.
+22:47:50 INFO  : System reset is completed.
+22:47:53 INFO  : 'after 3000' command is executed.
+22:47:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:47:56 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:47:56 INFO  : Context for 'APU' is selected.
+22:47:56 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:47:56 INFO  : 'configparams force-mem-access 1' command is executed.
+22:47:56 INFO  : Context for 'APU' is selected.
+22:47:56 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+22:47:56 INFO  : 'ps7_init' command is executed.
+22:47:56 INFO  : 'ps7_post_config' command is executed.
+22:47:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:47:56 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:47:56 INFO  : 'configparams force-mem-access 0' command is executed.
+22:47:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:47:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:47:56 INFO  : 'con' command is executed.
+22:47:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:47:56 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+23:05:02 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+23:05:18 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+23:05:18 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:05:19 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+23:05:21 INFO  : The hardware specification used by project 'PS_PL_SOLI' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+23:05:21 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+23:05:21 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI\_ide\bitstream' in project 'PS_PL_SOLI'.
+23:05:21 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI\_ide\psinit\ps7_init.tcl' stored in project is removed.
+23:05:24 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI\_ide\psinit' in project 'PS_PL_SOLI'.
+23:05:33 INFO  : Disconnected from the channel tcfchan#14.
+23:05:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:05:33 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+23:05:33 INFO  : 'jtag frequency' command is executed.
+23:05:33 INFO  : Context for 'APU' is selected.
+23:05:33 INFO  : System reset is completed.
+23:05:36 INFO  : 'after 3000' command is executed.
+23:05:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+23:05:39 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+23:05:39 INFO  : Context for 'APU' is selected.
+23:05:39 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+23:05:39 INFO  : 'configparams force-mem-access 1' command is executed.
+23:05:39 INFO  : Context for 'APU' is selected.
+23:05:39 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+23:05:39 INFO  : 'ps7_init' command is executed.
+23:05:39 INFO  : 'ps7_post_config' command is executed.
+23:05:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:05:39 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:05:39 INFO  : 'configparams force-mem-access 0' command is executed.
+23:05:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:05:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:05:39 INFO  : 'con' command is executed.
+23:05:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:05:39 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+23:06:16 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+23:06:28 INFO  : Disconnected from the channel tcfchan#17.
+23:06:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:06:28 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+23:06:28 INFO  : 'jtag frequency' command is executed.
+23:06:28 INFO  : Context for 'APU' is selected.
+23:06:28 INFO  : System reset is completed.
+23:06:31 INFO  : 'after 3000' command is executed.
+23:06:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+23:06:34 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+23:06:34 INFO  : Context for 'APU' is selected.
+23:06:34 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+23:06:34 INFO  : 'configparams force-mem-access 1' command is executed.
+23:06:34 INFO  : Context for 'APU' is selected.
+23:06:34 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+23:06:34 INFO  : 'ps7_init' command is executed.
+23:06:34 INFO  : 'ps7_post_config' command is executed.
+23:06:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:34 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:06:34 INFO  : 'configparams force-mem-access 0' command is executed.
+23:06:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:06:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:34 INFO  : 'con' command is executed.
+23:06:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:06:34 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+23:16:46 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper;ZYNQ_CORE_wrapper_1
+23:16:46 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:16:48 INFO  : Platform 'ZYNQ_CORE_wrapper_1' is added to custom repositories.
+23:17:14 INFO  : Platform 'ZYNQ_CORE_wrapper_1' is added to custom repositories.
+23:18:52 ERROR : Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+23:18:52 ERROR : Failed to read bootgen model for 'PS_PL_SOLI_system'.
+java.lang.RuntimeException: Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:389) ~[?:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:327) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.generateBifFile(SDXBootGenModelInitailizer.java:130) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.lambda$0(SDXBootGenModelInitailizer.java:84) ~[?:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+23:19:47 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper;ZYNQ_CORE_wrapper_1
+23:19:47 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:19:48 INFO  : Checking for BSP changes to sync application flags for project 'FSBL'...
+23:20:07 INFO  : Checking for BSP changes to sync application flags for project 'PS_PL_SOLI'...
+23:20:44 ERROR : Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+23:20:44 ERROR : Failed to read bootgen model for 'PS_PL_SOLI_system'.
+java.lang.RuntimeException: Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:389) ~[?:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:327) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.generateBifFile(SDXBootGenModelInitailizer.java:130) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.lambda$0(SDXBootGenModelInitailizer.java:84) ~[?:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+23:23:50 INFO  : Generated template bif file for FSBL_system
+23:24:26 INFO  : Invoking Bootgen: bootgen -image FSBL_system.bif -arch zynq -o D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/FSBL_system/_ide/bootimage/BOOT.bin
+23:24:27 INFO  : Bootgen command execution is done.
+23:29:34 INFO  : Disconnected from the channel tcfchan#19.
+23:32:25 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/IDE.log'.
+23:32:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\temp_xsdb_launch_script.tcl
+23:32:28 INFO  : Platform repository initialization has completed.
+23:32:28 INFO  : XSCT server has started successfully.
+23:32:28 INFO  : plnx-install-location is set to ''
+23:32:28 INFO  : Successfully done setting XSCT server connection channel  
+23:32:28 INFO  : Successfully done setting workspace for the tool. 
+23:32:29 INFO  : Registering command handlers for Vitis TCF services
+23:32:29 INFO  : Successfully done query RDI_DATADIR 
+23:33:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:33:14 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+23:33:14 INFO  : 'jtag frequency' command is executed.
+23:33:14 INFO  : Context for 'APU' is selected.
+23:33:15 INFO  : System reset is completed.
+23:33:18 INFO  : 'after 3000' command is executed.
+23:33:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+23:33:21 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+23:33:21 INFO  : Context for 'APU' is selected.
+23:33:21 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+23:33:21 INFO  : 'configparams force-mem-access 1' command is executed.
+23:33:21 INFO  : Context for 'APU' is selected.
+23:33:21 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl' is done.
+23:33:21 INFO  : 'ps7_init' command is executed.
+23:33:21 INFO  : 'ps7_post_config' command is executed.
+23:33:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:33:21 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:33:21 INFO  : 'configparams force-mem-access 0' command is executed.
+23:33:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/PS_PL_SOLI/Debug/PS_PL_SOLI.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:33:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:33:22 INFO  : 'con' command is executed.
+23:33:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:33:22 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_SOLIDIFICATION\PS_PL_SOLI_system\_ide\scripts\systemdebugger_ps_pl_soli_system_standalone.tcl'
+23:33:56 ERROR : Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+23:33:56 ERROR : Failed to read bootgen model for 'PS_PL_SOLI_system'.
+java.lang.RuntimeException: Failed to generate template bif file for PS_PL_SOLI_system
+Reason: xpfm path is not valid
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:389) ~[?:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:327) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.generateBifFile(SDXBootGenModelInitailizer.java:130) ~[?:?]
+	at com.xilinx.sdx.system.debug.tools.SDXBootGenModelInitailizer.lambda$0(SDXBootGenModelInitailizer.java:84) ~[?:?]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:?]
+23:37:44 INFO  : Invoking Bootgen: bootgen -image FSBL_system.bif -arch zynq -o D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/FSBL_system/_ide/bootimage/BOOT.bin -w on
+23:37:44 INFO  : Overwriting existing bif file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/FSBL_system/_ide/bootimage/FSBL_system.bif
+23:37:46 INFO  : Bootgen command execution is done.
+23:49:36 INFO  : Disconnected from the channel tcfchan#1.

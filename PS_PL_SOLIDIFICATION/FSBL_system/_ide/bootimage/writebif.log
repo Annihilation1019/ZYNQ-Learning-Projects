@@ -1,0 +1,9 @@
+TRACE::2025-01-13.23:23:49::SCWBifWriter::Found the complete platform D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/ZYNQ_CORE_wrapper_1/export/ZYNQ_CORE_wrapper_1/ZYNQ_CORE_wrapper_1.xpfm
+TRACE::2025-01-13.23:23:50::SCWBifWriter::hardware databse : ZYNQ_CORE_wrapper_7
+TRACE::2025-01-13.23:23:50::SCWBifWriter::bitstream found in the design
+TRACE::2025-01-13.23:23:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2025-01-13.23:23:50::SCWBifWriter::proc type : 
+TRACE::2025-01-13.23:23:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2025-01-13.23:23:50::SCWBifWriter::Device type is : zynq
+TRACE::2025-01-13.23:23:50::SCWBifWriter::Writing BIF to file : D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_SOLIDIFICATION/FSBL_system/_ide/bootimage/template_FSBL_system.bif
+TRACE::2025-01-13.23:23:50::SCWBifWriter::Writing the Zynq Baremetal bif 

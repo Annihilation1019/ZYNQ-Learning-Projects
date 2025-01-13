@@ -1,0 +1,28 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-23,-345",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 860 -y -140 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 860 -y -120 -defaultsOSRD
+preplace port port-id_led1_0 -pg 1 -lvl 4 -x 860 -y -220 -defaultsOSRD
+preplace port port-id_led2_0 -pg 1 -lvl 4 -x 860 -y -200 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 210 -y -80 -defaultsOSRD
+preplace inst PWM_TEST_0 -pg 1 -lvl 3 -x 730 -y -210 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 -220 410 -210 N
+preplace netloc processing_system7_0_GPIO_O 1 1 2 420 -230 N
+preplace netloc PWM_TEST_0_led1 1 3 1 NJ -220
+preplace netloc PWM_TEST_0_led2 1 3 1 NJ -200
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 430 -190 N
+preplace netloc processing_system7_0_DDR 1 1 3 NJ -80 N -80 830
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ -60 N -60 840
+levelinfo -pg 1 -20 210 530 730 860
+pagesize -pg 1 -db -bbox -sgen -110 -300 980 300
+"
+}
+{
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"2"
+}

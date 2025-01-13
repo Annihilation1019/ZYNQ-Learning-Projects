@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "D:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl" --include "../../../../PS_LED_EMIO.gen/sources_1/bd/ZYNQ_CORE/ipshared/aed8/hdl" \
+"../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/sim/ZYNQ_CORE_processing_system7_0_0.v" \
+"../../../bd/ZYNQ_CORE/sim/ZYNQ_CORE.v" \
+"../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_PWM_TEST_0_0/sim/ZYNQ_CORE_PWM_TEST_0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

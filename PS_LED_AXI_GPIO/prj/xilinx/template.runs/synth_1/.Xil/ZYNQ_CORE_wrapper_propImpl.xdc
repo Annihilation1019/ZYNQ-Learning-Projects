@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:d:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/prj/xilinx/template.srcs/constrs_1/new/LED.xdc rfile:../../../template.srcs/constrs_1/new/LED.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P20 [get_ports {LED_tri_o[0]}]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P21 [get_ports {LED_tri_o[1]}]

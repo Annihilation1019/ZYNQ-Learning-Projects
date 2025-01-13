@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="xgpio_example_1_system-bitFile" value="${project_loc:xgpio_example_1}/_ide/bitstream/ZYNQ_CORE_wrapper.bit"/>
+	<item key="xgpio_example_1_system-bmmFile" value=""/>
+	<item key="xgpio_example_1_system-target" value="Local"/>
+	<item key="xgpio_example_1_system-device" value="Auto Detect"/>
+	<item key="xgpio_example_1_system-partial_bit" value="false"/>
+	<item key="xgpio_example_1_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="xgpio_example_1_system"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;HelloFpga JTAG-SP2 03SD35A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-JTAG-SP2-03SD35A-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-JTAG-SP2-03SD35A-23727093-0&quot;}}]}"/>
+	<item key="LED_CORE_system-bitFile" value="${project_loc:LED_CORE}/_ide/bitstream/ZYNQ_CORE_wrapper.bit"/>
+	<item key="LED_CORE_system-bmmFile" value=""/>
+	<item key="LED_CORE_system-target" value="Local"/>
+	<item key="LED_CORE_system-device" value="Auto Detect"/>
+	<item key="LED_CORE_system-partial_bit" value="false"/>
+	<item key="LED_CORE_system-skip_rev_check" value="false"/>
+</section>

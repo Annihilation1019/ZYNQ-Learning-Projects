@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Oct 18 22:09:27 2024
-# Process ID: 9412
+# Start of session at: Sun Jan 12 12:57:14 2025
+# Process ID: 18520
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent54172 D:\Programs\Workspace\SmartZYNQ_SP2\LED_FLOW\LED_FLOW.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16980 D:\Programs\Workspace\SmartZYNQ_SP2\LED_FLOW\LED_FLOW.xpr
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/vivado.log
 # Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW\vivado.jou
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
@@ -14,27 +14,3 @@
 start_gui
 open_project D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.xpr
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-file mkdir D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.srcs/constrs_1
-file mkdir D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.srcs/constrs_1/new
-close [ open D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.srcs/constrs_1/new/LED_FLOW.xdc w ]
-add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.srcs/constrs_1/new/LED_FLOW.xdc
-launch_runs synth_1 -jobs 20
-wait_on_run synth_1
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-launch_runs impl_1 -jobs 20
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 20
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.runs/impl_1/LED_FLOW.bit} [get_hw_devices xc7z020_1]
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/LED_FLOW/LED_FLOW.runs/impl_1/LED_FLOW.bit} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

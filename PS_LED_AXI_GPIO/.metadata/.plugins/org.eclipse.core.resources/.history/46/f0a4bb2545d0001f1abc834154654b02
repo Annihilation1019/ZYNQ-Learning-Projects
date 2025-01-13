@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="xgpio_example_1" location="D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/xgpio_example_1" platform="D:/Programs/Workspace/SmartZYNQ_SP2/PS_LED_AXI_GPIO/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="xgpio_example_1_system" sysConfig="ZYNQ_CORE_wrapper" runtime="C/C++" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="f461d07655d67b2bb73d1e7a5565641c">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.610906446">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2061005695" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

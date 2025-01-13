@@ -3,10 +3,10 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Mon Nov  4 21:57:15 2024
-# Process ID: 5420
+# Start of session at: Sun Dec  8 18:14:10 2024
+# Process ID: 22920
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PLL_TEST
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6464 D:\Programs\Workspace\SmartZYNQ_SP2\PLL_TEST\PLL_TEST.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18504 D:\Programs\Workspace\SmartZYNQ_SP2\PLL_TEST\PLL_TEST.xpr
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PLL_TEST/vivado.log
 # Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PLL_TEST\vivado.jou
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
@@ -34,8 +34,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 2982.230 ; gain = 435.074
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2984.145 ; gain = 421.980
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Nov  4 21:59:16 2024...
-
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  8 18:18:55 2024...
