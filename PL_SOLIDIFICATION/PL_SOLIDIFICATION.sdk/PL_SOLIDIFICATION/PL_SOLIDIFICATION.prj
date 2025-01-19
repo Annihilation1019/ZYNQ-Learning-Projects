@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="PL_SOLIDIFICATION" location="D:/Programs/Workspace/SmartZYNQ_SP2/PL_SOLIDIFICATION/PL_SOLIDIFICATION.sdk/PL_SOLIDIFICATION" platform="D:/Programs/Workspace/SmartZYNQ_SP2/PL_SOLIDIFICATION/PL_SOLIDIFICATION.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="PL_SOLIDIFICATION_system" sysConfig="ZYNQ_CORE_wrapper" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="f86f0474730a9a7d8593eefebab565a1">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.650096480">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.745411804" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynq_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

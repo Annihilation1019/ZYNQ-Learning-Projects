@@ -11,3 +11,7 @@ set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ
 set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
 connect_debug_port dbg_hub/clk [get_nets clk_100m]
+set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F18 [get_ports vauxp9]
+set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E18 [get_ports vauxn9]

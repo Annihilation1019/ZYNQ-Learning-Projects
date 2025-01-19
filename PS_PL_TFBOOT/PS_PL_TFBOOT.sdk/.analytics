@@ -1,0 +1,13 @@
+timestamp=[2025-01-14 21:19:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.006, duration_ms=6, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-01-14 21:19:08], mode=WORKBENCH_START, duration=0:00:05.517, duration_ms=5517, data={}
+timestamp=[2025-01-14 21:19:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.689, duration_ms=689, data={}
+timestamp=[2025-01-14 21:20:23], mode=APP_CREATION, duration=0:00:20.860, duration_ms=20860, data={name=LED_CODE, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-01-14 21:21:53], mode=PLATFORM_GENERATION, duration=0:00:08.442, duration_ms=8442, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-14 21:21:54], mode=BUILD, duration=0:00:00.988, duration_ms=988, data={name=LED_CODE, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 21:21:59], mode=BUILD, duration=0:00:04.513, duration_ms=4513, data={name=LED_CODE_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 21:23:56], mode=PLATFORM_GENERATION, duration=0:00:04.322, duration_ms=4322, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-14 21:23:57], mode=BUILD, duration=0:00:00.605, duration_ms=605, data={name=LED_CODE, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 21:25:15], mode=APP_CREATION, duration=0:00:06.849, duration_ms=6849, data={name=FSBL, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-01-14 21:26:40], mode=BUILD, duration=0:00:02.567, duration_ms=2567, data={name=FSBL, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 21:26:45], mode=BUILD, duration=0:00:04.382, duration_ms=4382, data={name=FSBL_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 21:27:06], mode=MISC, duration=0:00:03.242, duration_ms=3242, data={name=LED_CODE_system, type=bif_creation}

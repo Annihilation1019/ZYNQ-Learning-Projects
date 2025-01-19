@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.srcs/constrs_1/new/PIN.XDC rfile:../../../PS_UART.srcs/constrs_1/new/PIN.XDC id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M17 [get_ports UART_0_0_rxd]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L17 [get_ports UART_0_0_txd]

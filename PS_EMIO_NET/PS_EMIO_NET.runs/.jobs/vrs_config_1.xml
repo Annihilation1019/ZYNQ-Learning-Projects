@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1" LaunchDir="D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_util_vector_logic_0_0_synth_1" LaunchDir="D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_processing_system7_0_0_synth_1" LaunchDir="D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_util_vector_logic_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_processing_system7_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

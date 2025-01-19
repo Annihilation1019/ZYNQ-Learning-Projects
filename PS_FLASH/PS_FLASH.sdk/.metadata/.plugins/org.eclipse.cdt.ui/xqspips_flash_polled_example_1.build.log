@@ -1,0 +1,25 @@
+15:59:35 **** Build of configuration Debug for project xqspips_flash_polled_example_1 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/xqspips_flash_polled_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xqspips_flash_polled_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/xqspips_flash_polled_example.d" -MT"src/xqspips_flash_polled_example.o" -o "src/xqspips_flash_polled_example.o" "../src/xqspips_flash_polled_example.c"
+'Finished building: ../src/xqspips_flash_polled_example.c'
+' '
+'Building target: xqspips_flash_polled_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "xqspips_flash_polled_example_1.elf"  ./src/xqspips_flash_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: xqspips_flash_polled_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size xqspips_flash_polled_example_1.elf  |tee "xqspips_flash_polled_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33083	   1248	  27000	  61331	   ef93	xqspips_flash_polled_example_1.elf
+'Finished building: xqspips_flash_polled_example_1.elf.size'
+' '
+
+15:59:36 Build Finished (took 721ms)
+

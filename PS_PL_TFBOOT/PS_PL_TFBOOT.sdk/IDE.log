@@ -1,0 +1,73 @@
+21:19:05 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/IDE.log'.
+21:19:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_TFBOOT\PS_PL_TFBOOT.sdk\temp_xsdb_launch_script.tcl
+21:19:09 INFO  : Registering command handlers for Vitis TCF services
+21:19:10 INFO  : Platform repository initialization has completed.
+21:19:11 INFO  : XSCT server has started successfully.
+21:19:11 INFO  : plnx-install-location is set to ''
+21:19:11 INFO  : Successfully done setting XSCT server connection channel  
+21:19:11 INFO  : Successfully done query RDI_DATADIR 
+21:19:11 INFO  : Successfully done setting workspace for the tool. 
+21:20:07 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+21:20:07 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+21:20:08 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:20:10 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+21:20:24 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+21:21:52 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+21:21:52 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+21:21:53 INFO  : Checking for BSP changes to sync application flags for project 'LED_CODE'...
+21:22:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:22:10 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+21:22:10 INFO  : 'jtag frequency' command is executed.
+21:22:11 INFO  : Context for 'APU' is selected.
+21:22:11 INFO  : System reset is completed.
+21:22:14 INFO  : 'after 3000' command is executed.
+21:22:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+21:22:17 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+21:22:17 INFO  : Context for 'APU' is selected.
+21:22:17 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+21:22:17 INFO  : 'configparams force-mem-access 1' command is executed.
+21:22:17 INFO  : Context for 'APU' is selected.
+21:22:17 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/_ide/psinit/ps7_init.tcl' is done.
+21:22:17 INFO  : 'ps7_init' command is executed.
+21:22:17 INFO  : 'ps7_post_config' command is executed.
+21:22:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:18 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/Debug/LED_CODE.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:22:18 INFO  : 'configparams force-mem-access 0' command is executed.
+21:22:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/Debug/LED_CODE.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:22:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:18 INFO  : 'con' command is executed.
+21:22:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:22:18 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_TFBOOT\PS_PL_TFBOOT.sdk\LED_CODE_system\_ide\scripts\systemdebugger_led_code_system_standalone.tcl'
+21:23:33 INFO  : No changes in MSS file content so sources will not be generated.
+21:23:55 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+21:23:55 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+21:23:56 INFO  : Checking for BSP changes to sync application flags for project 'LED_CODE'...
+21:23:56 INFO  : Updating application flags with new BSP settings...
+21:23:56 INFO  : Successfully updated application flags for project LED_CODE.
+21:26:38 INFO  : Checking for BSP changes to sync application flags for project 'FSBL'...
+21:27:03 INFO  : Generated template bif file for LED_CODE_system
+21:28:41 INFO  : Invoking Bootgen: bootgen -image LED_CODE_system.bif -arch zynq -o D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE_system/_ide/bootimage/BOOT.bin
+21:28:43 INFO  : Bootgen command execution is done.
+21:33:47 INFO  : Disconnected from the channel tcfchan#3.

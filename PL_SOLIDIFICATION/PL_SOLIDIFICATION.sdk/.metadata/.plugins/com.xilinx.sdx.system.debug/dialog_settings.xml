@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="PL_SOLIDIFICATION_system-imgFile" value="D:/Programs/Workspace/SmartZYNQ_SP2/PL_SOLIDIFICATION/PL_SOLIDIFICATION.sdk/PL_SOLIDIFICATION_system/_ide/bootimage/BOOT.bin"/>
+	<item key="PL_SOLIDIFICATION_system-offSet" value=""/>
+	<item key="PL_SOLIDIFICATION_system-initFile" value="D:/Programs/Workspace/SmartZYNQ_SP2/PL_SOLIDIFICATION/PL_SOLIDIFICATION.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/boot/fsbl.elf"/>
+	<item key="PL_SOLIDIFICATION_system-flashType" value="qspi-x4-single"/>
+	<item key="PL_SOLIDIFICATION_system-verifyFlash" value="false"/>
+	<item key="PL_SOLIDIFICATION_system-blankCheck" value="false"/>
+	<item key="PL_SOLIDIFICATION_system-device" value="Auto Detect"/>
+	<item key="PL_SOLIDIFICATION_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="PL_SOLIDIFICATION_system"/>
+</section>

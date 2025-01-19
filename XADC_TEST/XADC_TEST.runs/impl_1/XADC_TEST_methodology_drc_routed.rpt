@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Sat Nov  9 20:03:46 2024
+| Date         : Tue Jan 14 18:33:22 2025
 | Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file XADC_TEST_methodology_drc_routed.rpt -pb XADC_TEST_methodology_drc_routed.pb -rpx XADC_TEST_methodology_drc_routed.rpx
 | Design       : XADC_TEST

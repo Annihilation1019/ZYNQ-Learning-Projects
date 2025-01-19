@@ -1,0 +1,453 @@
+
+*** Running vivado
+    with args -log ZYNQ_CORE_gmii_to_rgmii_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_CORE_gmii_to_rgmii_0_0.tcl
+
+
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ZYNQ_CORE_gmii_to_rgmii_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1909.613 ; gain = 161.086
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_gmii_to_rgmii_0_0
+Command: synth_design -top ZYNQ_CORE_gmii_to_rgmii_0_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3896
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2762.973 ; gain = 409.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.vhd:128]
+INFO: [Synth 8-3491] module 'ZYNQ_CORE_gmii_to_rgmii_0_0_support' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:65' bound to instance 'U0' of component 'ZYNQ_CORE_gmii_to_rgmii_0_0_support' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_support' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:115]
+INFO: [Synth 8-3491] module 'ZYNQ_CORE_gmii_to_rgmii_0_0_clocking' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:62' bound to instance 'i_ZYNQ_CORE_gmii_to_rgmii_0_0_clocking' of component 'ZYNQ_CORE_gmii_to_rgmii_0_0_clocking' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_clocking' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:75]
+INFO: [Synth 8-113] binding component instance 'i_bufg_clk_in' to cell 'BUFG' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:92]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 5.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 40 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 100 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:96]
+	Parameter BUFR_DIVIDE bound to: 4 - type: string 
+INFO: [Synth 8-113] binding component instance 'clk10_div_buf' to cell 'BUFR' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_clocking' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocking.vhd:75]
+INFO: [Synth 8-3491] module 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_resets.vhd:61' bound to instance 'i_ZYNQ_CORE_gmii_to_rgmii_0_0_resets' of component 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_resets.vhd:69]
+INFO: [Synth 8-3491] module 'ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:66' bound to instance 'idelayctrl_reset_gen' of component 'ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_resets.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:82]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync1' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:111]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync2' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:122]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync3' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:133]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync4' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:144]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync5' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:155]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_sync6' to cell 'FDP' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:166]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_reset_sync.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_resets.vhd:69]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'i_ZYNQ_CORE_gmii_to_rgmii_0_0_idelayctrl' to cell 'IDELAYCTRL' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:233]
+INFO: [Synth 8-3491] module 'ZYNQ_CORE_gmii_to_rgmii_0_0_block' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:87' bound to instance 'i_gmii_to_rgmii_block' of component 'ZYNQ_CORE_gmii_to_rgmii_0_0_block' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_block' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:136]
+INFO: [Synth 8-113] binding component instance 'i_bufgmux_gmii_clk_25m_2_5m' to cell 'BUFGMUX' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:211]
+INFO: [Synth 8-113] binding component instance 'i_bufgmux_gmii_clk' to cell 'BUFGMUX' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:219]
+INFO: [Synth 8-113] binding component instance 'rgmii_txc_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:229]
+INFO: [Synth 8-113] binding component instance 'rgmii_tx_ctl_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:235]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:242]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:242]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:242]
+INFO: [Synth 8-113] binding component instance 'rgmii_txd_obuf_i' to cell 'OBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:242]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxc_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:249]
+INFO: [Synth 8-113] binding component instance 'rgmii_rx_ctl_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:255]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:262]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:262]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:262]
+INFO: [Synth 8-113] binding component instance 'rgmii_rxd_ibuf_i' to cell 'IBUF' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:262]
+WARNING: [Synth 8-5640] Port 'idelay_load_in' is missing in component declaration [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:138]
+WARNING: [Synth 8-5640] Port 'idelay_cntvalue_in' is missing in component declaration [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:138]
+WARNING: [Synth 8-5640] Port 'odelay_load_in' is missing in component declaration [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:138]
+WARNING: [Synth 8-5640] Port 'odelay_cntvalue_in' is missing in component declaration [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:138]
+	Parameter C_RGMII_TXC_SKEW_EN bound to: 0 - type: integer 
+	Parameter C_RGMII_TXC_ODELAY_VAL bound to: 0 - type: integer 
+	Parameter C_IDELAY_DELAY_VAL bound to: 5'b00000 
+	Parameter C_ODELAY_DELAY_VAL bound to: 5'b11111 
+	Parameter C_VERSAL_SIM_DEVICE bound to: UNKNOWN_DEVICE - type: string 
+	Parameter C_DEVICE_TYPE bound to: 0 - type: integer 
+	Parameter C_PHYADDR bound to: 5'b01000 
+INFO: [Synth 8-3491] module 'gmii_to_rgmii_v4_1_8' declared at 'd:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ipshared/01f1/hdl/gmii_to_rgmii_v4_1_vhsyn_rfs.vhd:3364' bound to instance 'ZYNQ_CORE_gmii_to_rgmii_0_0_core' of component 'gmii_to_rgmii_v4_1_8' [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:270]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_block' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_block.vhd:136]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0_support' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_support.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_CORE_gmii_to_rgmii_0_0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.vhd:128]
+WARNING: [Synth 8-7129] Port enable in module reset_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port speed_selection[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port iodelay_clk in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[4] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[3] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[2] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[1] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvaluein[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[4] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[3] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[2] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[1] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvaluein[0] in module gmii_to_rgmii_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load_in in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[4] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[3] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[2] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[1] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[0] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load_in in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[4] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[3] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[2] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[1] in module gmii_to_rgmii_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[0] in module gmii_to_rgmii_gen is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2860.547 ; gain = 507.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2878.453 ; gain = 525.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2878.453 ; gain = 525.309
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2890.527 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_gmii_to_rgmii_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_gmii_to_rgmii_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc] for cell 'U0'
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:7]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:20]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:21]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:24]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:32]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc:33]
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_gmii_to_rgmii_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_gmii_to_rgmii_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2991.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 85 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 2 instances
+  FD => FDRE: 30 instances
+  FDP => FDPE: 48 instances
+  IODELAYE1 => IDELAYE2: 5 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2991.195 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'idelay_reset_cnt_reg' in module 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets'
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'MDIO_INTERFACE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                  000000000000001 |                             0000
+                 iSTATE6 |                  000000000000010 |                             0001
+                 iSTATE2 |                  000000000000100 |                             0010
+                  iSTATE |                  000000000001000 |                             0011
+                 iSTATE0 |                  000000000010000 |                             0100
+                iSTATE13 |                  000000000100000 |                             0101
+                iSTATE11 |                  000000001000000 |                             0110
+                 iSTATE9 |                  000000010000000 |                             0111
+                iSTATE10 |                  000000100000000 |                             1000
+                 iSTATE8 |                  000001000000000 |                             1001
+                 iSTATE5 |                  000010000000000 |                             1010
+                 iSTATE3 |                  000100000000000 |                             1011
+                 iSTATE4 |                  001000000000000 |                             1100
+                 iSTATE1 |                  010000000000000 |                             1101
+                iSTATE12 |                  100000000000000 |                             1110
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'idelay_reset_cnt_reg' using encoding 'one-hot' in module 'ZYNQ_CORE_gmii_to_rgmii_0_0_resets'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        idle_or_preamble |                      00000010000 |                             0000
+          wait_for_start |                      00001000000 |                             0001
+                opcode_1 |                      00000001000 |                             0010
+                opcode_2 |                      00000000001 |                             0011
+                ld_phyad |                      00000000010 |                             0100
+                ld_regad |                      00000000100 |                             0101
+                    ta_1 |                      10000000000 |                             0110
+                    ta_2 |                      00010000000 |                             0111
+                  data_1 |                      00100000000 |                             1000
+                  data_2 |                      01000000000 |                             1001
+                  data_3 |                      00000100000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'MDIO_INTERFACE'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               16 Bit    Registers := 4     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 38    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 3     
+	  15 Input   15 Bit        Muxes := 1     
+	  11 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	  15 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 10    
+	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port enable in module reset_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_load_in in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[4] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[3] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[2] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[1] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idelay_cntvalue_in[0] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_load_in in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[4] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[3] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[2] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[1] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port odelay_cntvalue_in[0] in module gmii_to_rgmii_v4_1_8 is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (i_ZYNQ_CORE_gmii_to_rgmii_0_0_resets/FSM_onehot_idelay_reset_cnt_reg[14]) is unused and will be removed from module ZYNQ_CORE_gmii_to_rgmii_0_0_support.
+WARNING: [Synth 8-3332] Sequential element (reset_sync1) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync2) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync3) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync4) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync5) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync6) is unused and will be removed from module reset_sync__4.
+WARNING: [Synth 8-3332] Sequential element (reset_sync1) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync2) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync3) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync4) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync5) is unused and will be removed from module reset_sync__6.
+WARNING: [Synth 8-3332] Sequential element (reset_sync6) is unused and will be removed from module reset_sync__6.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |BUFGMUX    |     2|
+|3     |BUFIO      |     1|
+|4     |BUFR       |     1|
+|5     |IDDR       |     5|
+|6     |IDELAYCTRL |     1|
+|7     |IODELAYE1  |     5|
+|8     |LUT2       |    19|
+|9     |LUT3       |    47|
+|10    |LUT4       |    13|
+|11    |LUT5       |    30|
+|12    |LUT6       |    58|
+|13    |MMCME2_ADV |     1|
+|14    |MUXF7      |     8|
+|15    |MUXF8      |     4|
+|16    |ODDR       |     6|
+|17    |FD         |    30|
+|18    |FDP        |    36|
+|19    |FDRE       |   154|
+|20    |FDSE       |    26|
+|21    |IBUF       |     6|
+|22    |OBUF       |     6|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 2991.195 ; gain = 525.309
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2991.195 ; gain = 638.051
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2991.195 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2991.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 73 instances were transformed.
+  BUFGMUX => BUFGCTRL (inverted pins: CE0): 2 instances
+  FD => FDRE: 30 instances
+  FDP => FDPE: 36 instances
+  IODELAYE1 => IDELAYE2: 5 instances
+
+Synth Design complete | Checksum: d5a6cd08
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2991.195 ; gain = 1043.352
+INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1/ZYNQ_CORE_gmii_to_rgmii_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ZYNQ_CORE_gmii_to_rgmii_0_0, cache-ID = fd3bbfe1bea8970f
+INFO: [Coretcl 2-1174] Renamed 16 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.runs/ZYNQ_CORE_gmii_to_rgmii_0_0_synth_1/ZYNQ_CORE_gmii_to_rgmii_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ZYNQ_CORE_gmii_to_rgmii_0_0_utilization_synth.rpt -pb ZYNQ_CORE_gmii_to_rgmii_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 17 20:15:17 2025...

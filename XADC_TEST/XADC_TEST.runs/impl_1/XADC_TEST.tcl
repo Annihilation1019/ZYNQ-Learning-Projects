@@ -123,7 +123,9 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param tcl.collectionResultDisplayLimit 0
   set_param chipscope.maxJobs 5
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 20  }
   open_checkpoint XADC_TEST_routed.dcp
   set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/XADC_TEST/XADC_TEST.cache/wt [current_project]

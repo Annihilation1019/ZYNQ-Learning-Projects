@@ -1,0 +1,25 @@
+21:23:56 **** Incremental Build of configuration Debug for project LED_CODE ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: LED_CODE.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "LED_CODE.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: LED_CODE.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LED_CODE.elf  |tee "LED_CODE.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22914	   1152	  22616	  46682	   b65a	LED_CODE.elf
+'Finished building: LED_CODE.elf.size'
+' '
+
+21:23:57 Build Finished (took 593ms)
+

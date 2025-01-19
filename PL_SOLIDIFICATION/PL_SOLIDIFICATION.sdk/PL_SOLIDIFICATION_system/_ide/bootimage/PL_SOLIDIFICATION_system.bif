@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\Programs\Workspace\SmartZYNQ_SP2\PL_SOLIDIFICATION\PL_SOLIDIFICATION.sdk\ZYNQ_CORE_wrapper\export\ZYNQ_CORE_wrapper\sw\ZYNQ_CORE_wrapper\boot\fsbl.elf
+	D:/Programs/Workspace/SmartZYNQ_SP2/PL_SOLIDIFICATION/PL_SOLIDIFICATION.sdk/PL_SOLIDIFICATION/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+}

@@ -1,0 +1,41 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Thu Jan 16 21:45:20 2025
+| Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
+| Command      : report_methodology -file HDMI_wrapper_methodology_drc_routed.rpt -pb HDMI_wrapper_methodology_drc_routed.pb -rpx HDMI_wrapper_methodology_drc_routed.rpx
+| Design       : HDMI_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1
++--------+----------+---------------------------------------------+------------+
+| Rule   | Severity | Description                                 | Violations |
++--------+----------+---------------------------------------------+------------+
+| XDCB-5 | Warning  | Runtime inefficient way to find pin objects | 1          |
++--------+----------+---------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-through : [get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[0]/D} -hier]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '4' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_rgb2dvi_0_1/src/rgb2dvi.xdc (Line: 5)
+Related violations: <none>
+
+

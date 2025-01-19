@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1731153507" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/XADC_TEST.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1736850614" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/XADC_TEST.dcp">
   <File Type="PA-TCL" Name="XADC_TEST.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="XADC_TEST_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="XADC_TEST_reports.tcl"/>

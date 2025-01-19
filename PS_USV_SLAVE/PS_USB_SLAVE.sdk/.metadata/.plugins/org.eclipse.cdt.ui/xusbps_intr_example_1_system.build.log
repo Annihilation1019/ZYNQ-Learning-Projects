@@ -1,0 +1,10 @@
+14:51:58 **** Build of configuration Debug for project xusbps_intr_example_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 63401 D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm standalone_ps7_cortexa9_0 D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1_system/Debug/system.bif
+sdcard_gen --xpfm D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm --sys_config ZYNQ_CORE_wrapper --bif D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1_system/Debug/system.bif --bitstream D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit --elf D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1/Debug/xusbps_intr_example_1.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+Running D:/Xilinx/Vitis/2023.1/bin/bootgen  -image D:/Programs/Workspace/SmartZYNQ_SP2/PS_USV_SLAVE/PS_USB_SLAVE.sdk/xusbps_intr_example_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:52:03 Build Finished (took 4s.565ms)
+

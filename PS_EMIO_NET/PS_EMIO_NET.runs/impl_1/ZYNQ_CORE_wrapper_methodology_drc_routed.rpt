@@ -1,0 +1,199 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Fri Jan 17 20:17:36 2025
+| Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ZYNQ_CORE_wrapper_methodology_drc_routed.rpt -pb ZYNQ_CORE_wrapper_methodology_drc_routed.pb -rpx ZYNQ_CORE_wrapper_methodology_drc_routed.rpx
+| Design       : ZYNQ_CORE_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 29
++-----------+------------------+-------------------------------------------------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                                                           | Violations |
++-----------+------------------+-------------------------------------------------------------------------------------------------------+------------+
+| TIMING-54 | Critical Warning | Scoped false path, clock group or max delay datapath only constraint between clocks                   | 4          |
+| CKBF-1    | Warning          | connects_I_driver_BUFR                                                                                | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert                                                                          | 2          |
+| PDRC-190  | Warning          | Suboptimally placed synchronized register chain                                                       | 5          |
+| TIMING-9  | Warning          | Unknown CDC Logic                                                                                     | 1          |
+| TIMING-18 | Warning          | Missing input or output delay                                                                         | 6          |
+| TIMING-47 | Warning          | False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks | 8          |
+| XDCH-1    | Warning          | Hold option missing in multicycle path constraint                                                     | 2          |
++-----------+------------------+-------------------------------------------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-54#1 Critical Warning
+Scoped false path, clock group or max delay datapath only constraint between clocks  
+A scoped False Path timing constraint is set between clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk and gmii_clk_125m_out (see constraint position 27 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+Related violations: <none>
+
+TIMING-54#2 Critical Warning
+Scoped false path, clock group or max delay datapath only constraint between clocks  
+A scoped False Path timing constraint is set between clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk and gmii_clk_125m_out (see constraint position 28 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+Related violations: <none>
+
+TIMING-54#3 Critical Warning
+Scoped false path, clock group or max delay datapath only constraint between clocks  
+A scoped False Path timing constraint is set between clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk and gmii_clk_125m_out (see constraint position 29 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+Related violations: <none>
+
+TIMING-54#4 Critical Warning
+Scoped false path, clock group or max delay datapath only constraint between clocks  
+A scoped False Path timing constraint is set between clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk and gmii_clk_125m_out (see constraint position 30 in the Timing Constraint window in Vivado IDE). It is not recommended to define such scoped constraints between clocks as the constraint impacts timing paths outside of the scope.
+Related violations: <none>
+
+CKBF-1#1 Warning
+connects_I_driver_BUFR  
+The BUFGCTRL cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/i_bufgmux_gmii_clk_25m_2_5m I0 pin is driven by a BUFR cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_ZYNQ_CORE_gmii_to_rgmii_0_0_clocking/clk10_div_buf. For 7-Series devices, this is not a recommended clock topology. Please analyze your clock network and remove the BUFR to BUFGCTRL cascade.
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_ZYNQ_CORE_gmii_to_rgmii_0_0_clocking/ZYNQ_CORE_gmii_to_rgmii_0_0_core_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync1/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync2/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync3/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync4/PRE
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync5/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync1/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync2/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync3/PRE,
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync4/PRE
+ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync5/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_ZYNQ_CORE_gmii_to_rgmii_0_0_resets/idelayctrl_reset_gen/reset_sync5 in site SLICE_X100Y114 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_ZYNQ_CORE_gmii_to_rgmii_0_0_resets/idelayctrl_reset_gen/reset_sync6 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync5 in site SLICE_X98Y117 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/gmii_to_rgmii_core_non_versal.i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync6 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync5 in site SLICE_X98Y119 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_mgmt_reset/reset_sync6 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_rx_reset/reset_sync5 in site SLICE_X98Y114 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_rx_reset/reset_sync6 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync5 in site SLICE_X99Y116 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell ZYNQ_CORE_i/gmii_to_rgmii_0/U0/i_gmii_to_rgmii_block/ZYNQ_CORE_gmii_to_rgmii_0_0_core/i_gmii_to_rgmii/i_reset_sync_tx_reset/reset_sync6 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on MDIO_PHY_0_mdio_io relative to the rising and/or falling clock edge(s) of clk_fpga_0.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on RGMII_0_td[0] relative to the rising and/or falling clock edge(s) of ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on RGMII_0_td[1] relative to the rising and/or falling clock edge(s) of ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on RGMII_0_td[2] relative to the rising and/or falling clock edge(s) of ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on RGMII_0_td[3] relative to the rising and/or falling clock edge(s) of ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on RGMII_0_tx_ctl relative to the rising and/or falling clock edge(s) of ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk.
+Related violations: <none>
+
+TIMING-47#1 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_rx_clk and RGMII_0_rxc (see constraint position 20 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#2 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_rx_clk and RGMII_0_rxc (see constraint position 21 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#3 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_rx_clk and RGMII_0_rxc (see constraint position 22 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#4 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_rx_clk and RGMII_0_rxc (see constraint position 23 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#5 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks gmii_clk_125m_out and ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk (see constraint position 27 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#6 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks gmii_clk_125m_out and ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk (see constraint position 28 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#7 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks gmii_clk_125m_out and ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk (see constraint position 29 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+TIMING-47#8 Warning
+False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
+A False Path timing constraint is set between synchronous clocks gmii_clk_125m_out and ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk (see constraint position 30 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+Related violations: <none>
+
+XDCH-1#1 Warning
+Hold option missing in multicycle path constraint  
+A multicycle constraint has been set to override the setup relationship, but no multicycle constraint has been defined to change the hold relationship. As a result, the default hold for those paths is derived from the setup and may not be evaluated as expected.
+set_multicycle_path -setup -end -fall_from [get_clocks -include_generated_clocks -of_objects [get_pins -of [get_cells -hier -filter {name =~ *i_bufgmux_gmii_clk}] -filter {name =~ *O}]] -fall_to [get_clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk] 0
+d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc (Line: 41)
+Related violations: <none>
+
+XDCH-1#2 Warning
+Hold option missing in multicycle path constraint  
+A multicycle constraint has been set to override the setup relationship, but no multicycle constraint has been defined to change the hold relationship. As a result, the default hold for those paths is derived from the setup and may not be evaluated as expected.
+set_multicycle_path -setup -end -rise_from [get_clocks -include_generated_clocks -of_objects [get_pins -of [get_cells -hier -filter {name =~ *i_bufgmux_gmii_clk}] -filter {name =~ *O}]] -rise_to [get_clocks ZYNQ_CORE_gmii_to_rgmii_0_0_rgmii_tx_clk] 0
+d:/Programs/Workspace/SmartZYNQ_SP2/PS_EMIO_NET/PS_EMIO_NET.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_gmii_to_rgmii_0_0/synth/ZYNQ_CORE_gmii_to_rgmii_0_0_clocks.xdc (Line: 40)
+Related violations: <none>
+
+

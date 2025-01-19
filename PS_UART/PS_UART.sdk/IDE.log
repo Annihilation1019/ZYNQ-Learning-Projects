@@ -1,0 +1,111 @@
+15:00:55 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/IDE.log'.
+15:00:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\temp_xsdb_launch_script.tcl
+15:00:58 INFO  : Registering command handlers for Vitis TCF services
+15:00:59 INFO  : Platform repository initialization has completed.
+15:01:00 INFO  : XSCT server has started successfully.
+15:01:01 INFO  : plnx-install-location is set to ''
+15:01:01 INFO  : Successfully done setting XSCT server connection channel  
+15:01:01 INFO  : Successfully done query RDI_DATADIR 
+15:01:01 INFO  : Successfully done setting workspace for the tool. 
+15:01:39 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:01:39 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:01:40 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:01:41 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:01:46 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:03:47 INFO  : Example project xuartps_hello_world_example_1 has been created successfully.
+15:33:23 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:33:23 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:33:24 INFO  : Checking for BSP changes to sync application flags for project 'PS_UART'...
+15:33:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:48 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:33:48 INFO  : 'jtag frequency' command is executed.
+15:33:48 INFO  : Context for 'APU' is selected.
+15:33:48 INFO  : System reset is completed.
+15:33:51 INFO  : 'after 3000' command is executed.
+15:33:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:33:55 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:33:55 INFO  : Context for 'APU' is selected.
+15:33:55 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:33:55 INFO  : 'configparams force-mem-access 1' command is executed.
+15:33:55 INFO  : Context for 'APU' is selected.
+15:33:55 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl' is done.
+15:33:55 INFO  : 'ps7_init' command is executed.
+15:33:55 INFO  : 'ps7_post_config' command is executed.
+15:33:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:33:55 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:33:55 INFO  : 'configparams force-mem-access 0' command is executed.
+15:33:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:33:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:33:56 INFO  : 'con' command is executed.
+15:33:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:33:56 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\PS_UART_system\_ide\scripts\systemdebugger_ps_uart_system_standalone.tcl'
+15:35:38 INFO  : Checking for BSP changes to sync application flags for project 'PS_UART'...
+15:36:07 INFO  : Disconnected from the channel tcfchan#3.
+15:36:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:08 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:36:08 INFO  : 'jtag frequency' command is executed.
+15:36:08 INFO  : Context for 'APU' is selected.
+15:36:08 INFO  : System reset is completed.
+15:36:11 INFO  : 'after 3000' command is executed.
+15:36:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:36:13 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:36:13 INFO  : Context for 'APU' is selected.
+15:36:13 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:36:13 INFO  : 'configparams force-mem-access 1' command is executed.
+15:36:13 INFO  : Context for 'APU' is selected.
+15:36:13 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl' is done.
+15:36:13 INFO  : 'ps7_init' command is executed.
+15:36:13 INFO  : 'ps7_post_config' command is executed.
+15:36:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:36:14 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:36:14 INFO  : 'configparams force-mem-access 0' command is executed.
+15:36:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:36:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:36:14 INFO  : 'con' command is executed.
+15:36:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:36:14 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\PS_UART_system\_ide\scripts\systemdebugger_ps_uart_system_standalone.tcl'
+15:36:26 INFO  : Disconnected from the channel tcfchan#5.

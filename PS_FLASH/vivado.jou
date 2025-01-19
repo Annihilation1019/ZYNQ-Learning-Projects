@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Jan 15 15:43:55 2025
+# Process ID: 3532
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18436 D:\Programs\Workspace\SmartZYNQ_SP2\PS_FLASH\PS_FLASH.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.xpr
+update_compile_order -fileset sources_1
+generate_target all [get_files D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+launch_runs ZYNQ_CORE_processing_system7_0_0_synth_1
+wait_on_run ZYNQ_CORE_processing_system7_0_0_synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+place_ports UART_0_0_rxd M17
+place_ports UART_0_0_txd L17
+set_property IOSTANDARD LVCMOS33 [get_ports [list UART_0_0_rxd]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list UART_0_0_txd]]
+file mkdir D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/constrs_1/new
+close [ open D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/constrs_1/new/PIN.XDC w ]
+add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/constrs_1/new/PIN.XDC
+set_property target_constrs_file D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/PS_FLASH.srcs/constrs_1/new/PIN.XDC [current_fileset -constrset]
+save_constraints -force
+set_property IOSTANDARD LVCMOS33 [get_ports [list UART_0_0_txd]]
+save_constraints
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/ZYNQ_CORE_wrapper.xsa
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_FLASH/ZYNQ_CORE_wrapper.xsa

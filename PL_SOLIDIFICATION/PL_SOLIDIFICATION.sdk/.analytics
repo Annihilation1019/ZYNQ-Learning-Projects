@@ -1,0 +1,12 @@
+timestamp=[2025-01-14 20:26:46], mode=WORKBENCH_START, duration=0:00:04.615, duration_ms=4615, data={}
+timestamp=[2025-01-14 20:26:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.018, duration_ms=18, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-01-14 20:26:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.741, duration_ms=741, data={}
+timestamp=[2025-01-14 20:27:38], mode=APP_CREATION, duration=0:00:09.582, duration_ms=9582, data={name=LED, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=D:\Programs\Workspace\SmartZYNQ_SP2\PL_SOLIDIFICATION\PL_SOLIDIFICATION.sdk\LED\export\LED\LED.xpfm, application_type=application}
+timestamp=[2025-01-14 20:35:23], mode=WORKBENCH_START, duration=0:00:04.411, duration_ms=4411, data={}
+timestamp=[2025-01-14 20:35:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.361, duration_ms=361, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2025-01-14 20:35:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.704, duration_ms=704, data={}
+timestamp=[2025-01-14 20:36:57], mode=APP_CREATION, duration=0:00:14.103, duration_ms=14103, data={name=PL_SOLIDIFICATION, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-01-14 20:44:56], mode=MISC, duration=0:00:03.293, duration_ms=3293, data={name=PL_SOLIDIFICATION_system, type=bif_creation}
+timestamp=[2025-01-14 20:46:13], mode=PLATFORM_GENERATION, duration=0:00:08.557, duration_ms=8557, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-14 20:46:16], mode=BUILD, duration=0:00:02.523, duration_ms=2523, data={name=PL_SOLIDIFICATION, configuration=Debug, clean_build=false}
+timestamp=[2025-01-14 20:46:21], mode=BUILD, duration=0:00:04.677, duration_ms=4677, data={name=PL_SOLIDIFICATION_system, configuration=Debug, clean_build=false}

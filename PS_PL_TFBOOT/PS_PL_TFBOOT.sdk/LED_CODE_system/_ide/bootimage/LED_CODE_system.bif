@@ -1,0 +1,12 @@
+/* C:/Users/LU/AppData/Local/Temp/bootgen_LED_CODE_system18373065077361785166/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*ZYNQ_CORE_wrapper*/
+the_ROM_image:
+{
+ [bootloader] D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/boot/fsbl.elf
+ D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+ D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_TFBOOT/PS_PL_TFBOOT.sdk/LED_CODE/Debug/LED_CODE.elf
+}
