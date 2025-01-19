@@ -1,0 +1,17 @@
+15:17:01 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/IDE.log'.
+15:17:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_AMP_TEST\PS_AMP_TEST.sdk\temp_xsdb_launch_script.tcl
+15:17:04 INFO  : Registering command handlers for Vitis TCF services
+15:17:05 INFO  : Platform repository initialization has completed.
+15:17:06 INFO  : XSCT server has started successfully.
+15:17:06 INFO  : plnx-install-location is set to ''
+15:17:06 INFO  : Successfully done setting XSCT server connection channel  
+15:17:06 INFO  : Successfully done query RDI_DATADIR 
+15:17:06 INFO  : Successfully done setting workspace for the tool. 
+15:17:37 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:17:37 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:17:37 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:17:38 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:17:44 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:20:39 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:20:39 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:20:40 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
