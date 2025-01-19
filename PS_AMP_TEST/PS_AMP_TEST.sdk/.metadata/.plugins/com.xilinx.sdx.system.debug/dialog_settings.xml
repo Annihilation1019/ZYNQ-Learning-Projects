@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CPU0_system-imgFile" value="D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/CPU0_system/_ide/bootimage/BOOT.bin"/>
+	<item key="CPU0_system-offSet" value=""/>
+	<item key="CPU0_system-initFile" value="D:\Programs\Workspace\SmartZYNQ_SP2\PS_AMP_TEST\PS_AMP_TEST.sdk\FSBL\Debug\FSBL.elf"/>
+	<item key="CPU0_system-flashType" value="qspi-x4-single"/>
+	<item key="CPU0_system-verifyFlash" value="false"/>
+	<item key="CPU0_system-blankCheck" value="false"/>
+	<item key="CPU0_system-device" value="Auto Detect"/>
+	<item key="CPU0_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="CPU0_system"/>
+	<item key="CPU1_system-imgFile" value=""/>
+	<item key="CPU1_system-offSet" value=""/>
+	<item key="CPU1_system-initFile" value="D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/boot/fsbl.elf"/>
+	<item key="CPU1_system-flashType" value="qspi-x4-single"/>
+	<item key="CPU1_system-verifyFlash" value="false"/>
+	<item key="CPU1_system-blankCheck" value="false"/>
+	<item key="CPU1_system-device" value="Auto Detect"/>
+	<item key="CPU1_system-target" value="Local"/>
+</section>

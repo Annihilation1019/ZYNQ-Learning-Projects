@@ -1,0 +1,8 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\Programs\Workspace\SmartZYNQ_SP2\PS_AMP_TEST\PS_AMP_TEST.sdk\FSBL\Debug\FSBL.elf
+	D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/CPU0/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+	D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/CPU0/Debug/CPU0.elf
+	D:\Programs\Workspace\SmartZYNQ_SP2\PS_AMP_TEST\PS_AMP_TEST.sdk\CPU1\Debug\CPU1.elf
+}

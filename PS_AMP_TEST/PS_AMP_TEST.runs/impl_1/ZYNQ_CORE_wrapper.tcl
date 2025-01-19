@@ -128,6 +128,7 @@ set rc [catch {
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 5
   set_param synth.incrementalSynthesisCache C:/Users/LU/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-22332-LAPTOP-DUUNQKAE/incrSyn
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 20  }
   open_checkpoint ZYNQ_CORE_wrapper_routed.dcp
   set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.cache/wt [current_project]

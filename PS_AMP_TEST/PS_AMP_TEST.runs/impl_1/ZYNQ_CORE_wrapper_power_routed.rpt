@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Sun Jan 19 15:07:42 2025
+| Date             : Sun Jan 19 16:02:48 2025
 | Host             : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command          : report_power -file ZYNQ_CORE_wrapper_power_routed.rpt -pb ZYNQ_CORE_wrapper_power_summary_routed.pb -rpx ZYNQ_CORE_wrapper_power_routed.rpx
 | Design           : ZYNQ_CORE_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.404        |
+| Total On-Chip Power (W)  | 1.413        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.271        |
-| Device Static (W)        | 0.133        |
+| Dynamic (W)              | 1.278        |
+| Device Static (W)        | 0.135        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 68.8         |
-| Junction Temperature (C) | 41.2         |
+| Max Ambient (C)          | 68.7         |
+| Junction Temperature (C) | 41.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -58,9 +58,9 @@ Table of Contents
 |   Others       |     0.000 |      132 |       --- |             --- |
 | Signals        |    <0.001 |        8 |       --- |             --- |
 | I/O            |    <0.001 |        2 |       200 |            1.00 |
-| PS7            |     1.271 |        1 |       --- |             --- |
-| Static Power   |     0.133 |          |           |                 |
-| Total          |     1.404 |          |           |                 |
+| PS7            |     1.277 |        1 |       --- |             --- |
+| Static Power   |     0.135 |          |           |                 |
+| Total          |     1.413 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -83,11 +83,11 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.692 |       0.665 |      0.027 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.693 |       0.666 |      0.027 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.036 |       0.026 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.018 |       0.015 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.356 |       0.354 |      0.002 |       NA    | Unspecified | NA         |
-| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco_mio0 |       1.800 |     0.004 |       0.003 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco_mio1 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
@@ -144,10 +144,10 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| ZYNQ_CORE_wrapper        |     1.271 |
-|   ZYNQ_CORE_i            |     1.271 |
-|     processing_system7_0 |     1.271 |
-|       inst               |     1.271 |
+| ZYNQ_CORE_wrapper        |     1.278 |
+|   ZYNQ_CORE_i            |     1.277 |
+|     processing_system7_0 |     1.277 |
+|       inst               |     1.277 |
 +--------------------------+-----------+
 
 

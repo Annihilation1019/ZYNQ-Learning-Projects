@@ -3,6 +3,7 @@
 #include "xstatus.h"
 #include "xplatform_info.h"
 #include "sleep.h"
+#include "Xil_mmu.h"
 
 #define LED1 54
 
@@ -21,8 +22,19 @@ void Gpio_Init(void)
     XGpioPs_WritePin(&Gpio, LED1, 0);
 }
 
+#define CPU1_START_MEM 0x10000000
+#define sev() __asm__("sev")
+void Start_Cpu1()
+{
+    Xil_Out32(0XFFFFFFF0, CPU1_START_MEM);
+    dmb();
+    sev();
+}
+
 int main(void)
 {
+    Xil_SetTlbAttributes(0xFFFF0000, 0x14de2);
+    Start_Cpu1();
     Gpio_Init();
     while (1)
     {
