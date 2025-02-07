@@ -147,7 +147,10 @@ module color_bar(
 
     // 从有效区域计算像素坐标
     wire [11:0]                         pix_xpos = pix_data_req ? (h_count - H_SYNC - H_BACK) : 12'd0;
-    // 彩条显示
+    // 计算垂直方向有效像素坐标
+    wire [11:0]                         pix_ypos = pix_data_req ? (v_count - V_SYNC - V_BACK) : 12'd0;
+
+    // 在屏幕上绘制一个天蓝色笑脸
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             rgb_r <= 8'h00;
@@ -155,55 +158,41 @@ module color_bar(
             rgb_b <= 8'h00;
         end
         else if (pix_data_req) begin
-            if (pix_xpos == 12'd0) begin
-                // 白色
-                rgb_r <= 8'hff;
-                rgb_g <= 8'hff;
-                rgb_b <= 8'hff;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 1) begin
-                // 红色
-                rgb_r <= 8'hff;
-                rgb_g <= 8'h00;
-                rgb_b <= 8'h00;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 2) begin
-                // 绿色
-                rgb_r <= 8'h00;
-                rgb_g <= 8'hff;
-                rgb_b <= 8'h00;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 3) begin
-                // 蓝色
-                rgb_r <= 8'h00;
-                rgb_g <= 8'h00;
-                rgb_b <= 8'hff;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 4) begin
-                // 黄色
-                rgb_r <= 8'hff;
-                rgb_g <= 8'hff;
-                rgb_b <= 8'h00;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 5) begin
-                // 紫色
-                rgb_r <= 8'hff;
-                rgb_g <= 8'h00;
-                rgb_b <= 8'hff;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 6) begin
-                // 青色
-                rgb_r <= 8'h00;
-                rgb_g <= 8'hff;
-                rgb_b <= 8'hff;
-            end
-            if (pix_xpos == (H_ACTIVE / 8) * 7) begin
-                // 黑色
-                rgb_r <= 8'h00;
-                rgb_g <= 8'h00;
-                rgb_b <= 8'h00;
-            end
+            // 简单示例：定义笑脸的矩形区域 (x: 200~400, y: 150~300)
+            if ((pix_xpos >= 12'd200 && pix_xpos < 12'd400) &&
+                    (pix_ypos >= 12'd150 && pix_ypos < 12'd300)) begin
 
+                // 眼睛区域：两个小矩形 (左眼和右眼)
+                if (((pix_xpos >= 12'd240 && pix_xpos < 12'd260) &&
+                        (pix_ypos >= 12'd180 && pix_ypos < 12'd200)) ||
+                        ((pix_xpos >= 12'd340 && pix_xpos < 12'd360) &&
+                         (pix_ypos >= 12'd180 && pix_ypos < 12'd200))) begin
+                    // 黑色眼睛
+                    rgb_r <= 8'h00;
+                    rgb_g <= 8'h00;
+                    rgb_b <= 8'h00;
+                end
+                // 嘴巴区域：一个横条 (x: 250~350, y: 250~260)
+                else if ((pix_xpos >= 12'd250 && pix_xpos < 12'd350) &&
+                         (pix_ypos >= 12'd250 && pix_ypos < 12'd260)) begin
+                    // 黑色嘴巴
+                    rgb_r <= 8'h00;
+                    rgb_g <= 8'h00;
+                    rgb_b <= 8'h00;
+                end
+                else begin
+                    // 其余位置填充天蓝色
+                    rgb_r <= 8'h87;  // 约135
+                    rgb_g <= 8'hce;  // 约206
+                    rgb_b <= 8'hfa;  // 约250
+                end
+            end
+            else begin
+                // 其余区域清空为黑色
+                rgb_r <= 8'h00;
+                rgb_g <= 8'h00;
+                rgb_b <= 8'h00;
+            end
         end
         else begin
             rgb_r <= 8'h00;
@@ -211,7 +200,5 @@ module color_bar(
             rgb_b <= 8'h00;
         end
     end
-
-
 endmodule
 

@@ -26,6 +26,7 @@ MEMORY
    ps7_ddr_0 : ORIGIN = 0x100000, LENGTH = 0xFF00000
    ps7_ram_0 : ORIGIN = 0x0, LENGTH = 0x30000
    ps7_ram_1 : ORIGIN = 0xFFFF0000, LENGTH = 0xFE00
+     : ORIGIN = , LENGTH = 
 }
 
 /* Specify the default entry point to the program */

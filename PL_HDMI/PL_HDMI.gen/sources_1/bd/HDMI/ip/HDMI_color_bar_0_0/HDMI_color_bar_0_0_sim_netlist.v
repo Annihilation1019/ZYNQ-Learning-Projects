@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Thu Jan 16 21:42:04 2025
+// Date        : Fri Feb  7 22:13:08 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim -rename_top HDMI_color_bar_0_0 -prefix
-//               HDMI_color_bar_0_0_ HDMI_color_bar_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_color_bar_0_0/HDMI_color_bar_0_0_sim_netlist.v
 // Design      : HDMI_color_bar_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -34,65 +34,61 @@ module HDMI_color_bar_0_0
   output [7:0]rgb_g;
   output [7:0]rgb_b;
 
+  wire \<const0> ;
   wire clk;
   wire de;
   wire hsync;
-  wire [6:6]\^rgb_b ;
-  wire [6:6]\^rgb_g ;
-  wire [6:6]\^rgb_r ;
+  wire [7:7]\^rgb_g ;
   wire rst_n;
   wire vsync;
 
-  assign rgb_b[7] = \^rgb_b [6];
-  assign rgb_b[6] = \^rgb_b [6];
-  assign rgb_b[5] = \^rgb_b [6];
-  assign rgb_b[4] = \^rgb_b [6];
-  assign rgb_b[3] = \^rgb_b [6];
-  assign rgb_b[2] = \^rgb_b [6];
-  assign rgb_b[1] = \^rgb_b [6];
-  assign rgb_b[0] = \^rgb_b [6];
-  assign rgb_g[7] = \^rgb_g [6];
-  assign rgb_g[6] = \^rgb_g [6];
-  assign rgb_g[5] = \^rgb_g [6];
-  assign rgb_g[4] = \^rgb_g [6];
-  assign rgb_g[3] = \^rgb_g [6];
-  assign rgb_g[2] = \^rgb_g [6];
-  assign rgb_g[1] = \^rgb_g [6];
-  assign rgb_g[0] = \^rgb_g [6];
-  assign rgb_r[7] = \^rgb_r [6];
-  assign rgb_r[6] = \^rgb_r [6];
-  assign rgb_r[5] = \^rgb_r [6];
-  assign rgb_r[4] = \^rgb_r [6];
-  assign rgb_r[3] = \^rgb_r [6];
-  assign rgb_r[2] = \^rgb_r [6];
-  assign rgb_r[1] = \^rgb_r [6];
-  assign rgb_r[0] = \^rgb_r [6];
+  assign rgb_b[7] = \^rgb_g [7];
+  assign rgb_b[6] = \^rgb_g [7];
+  assign rgb_b[5] = \^rgb_g [7];
+  assign rgb_b[4] = \^rgb_g [7];
+  assign rgb_b[3] = \^rgb_g [7];
+  assign rgb_b[2] = \<const0> ;
+  assign rgb_b[1] = \^rgb_g [7];
+  assign rgb_b[0] = \<const0> ;
+  assign rgb_g[7] = \^rgb_g [7];
+  assign rgb_g[6] = \^rgb_g [7];
+  assign rgb_g[5] = \<const0> ;
+  assign rgb_g[4] = \<const0> ;
+  assign rgb_g[3] = \^rgb_g [7];
+  assign rgb_g[2] = \^rgb_g [7];
+  assign rgb_g[1] = \^rgb_g [7];
+  assign rgb_g[0] = \<const0> ;
+  assign rgb_r[7] = \^rgb_g [7];
+  assign rgb_r[6] = \<const0> ;
+  assign rgb_r[5] = \<const0> ;
+  assign rgb_r[4] = \<const0> ;
+  assign rgb_r[3] = \<const0> ;
+  assign rgb_r[2] = \^rgb_g [7];
+  assign rgb_r[1] = \^rgb_g [7];
+  assign rgb_r[0] = \^rgb_g [7];
+  GND GND
+       (.G(\<const0> ));
   HDMI_color_bar_0_0_color_bar inst
        (.clk(clk),
         .de(de),
         .hsync(hsync),
-        .rgb_b(\^rgb_b ),
         .rgb_g(\^rgb_g ),
-        .rgb_r(\^rgb_r ),
         .rst_n(rst_n),
         .vsync(vsync));
 endmodule
 
+(* ORIG_REF_NAME = "color_bar" *) 
 module HDMI_color_bar_0_0_color_bar
    (de,
+    rgb_g,
     hsync,
     vsync,
-    rgb_b,
-    rgb_g,
-    rgb_r,
     clk,
     rst_n);
   output de;
+  output [0:0]rgb_g;
   output hsync;
   output vsync;
-  output [0:0]rgb_b;
-  output [0:0]rgb_g;
-  output [0:0]rgb_r;
   input clk;
   input rst_n;
 
@@ -106,13 +102,21 @@ module HDMI_color_bar_0_0_color_bar
   wire de_i_6_n_0;
   wire de_i_7_n_0;
   wire [10:0]h_count;
+  wire \h_count[0]_i_1_n_0 ;
+  wire \h_count[10]_i_1_n_0 ;
   wire \h_count[10]_i_2_n_0 ;
-  wire \h_count[10]_i_3_n_0 ;
-  wire \h_count[8]_i_2_n_0 ;
+  wire \h_count[1]_i_1_n_0 ;
+  wire \h_count[2]_i_1_n_0 ;
+  wire \h_count[3]_i_1_n_0 ;
+  wire \h_count[4]_i_1_n_0 ;
+  wire \h_count[5]_i_1_n_0 ;
+  wire \h_count[6]_i_1_n_0 ;
+  wire \h_count[7]_i_1_n_0 ;
+  wire \h_count[8]_i_1_n_0 ;
   wire \h_count[9]_i_1_n_0 ;
+  wire \h_count[9]_i_2_n_0 ;
   wire hsync;
   wire hsync_i_1_n_0;
-  wire [10:0]p_0_in;
   wire [9:0]p_1_in;
   wire pix_data_req;
   wire pix_data_req0;
@@ -144,33 +148,52 @@ module HDMI_color_bar_0_0_color_bar
   wire pix_xpos0_carry_n_5;
   wire pix_xpos0_carry_n_6;
   wire pix_xpos0_carry_n_7;
-  wire [0:0]rgb_b;
-  wire \rgb_b[7]_i_1_n_0 ;
-  wire \rgb_b[7]_i_2_n_0 ;
-  wire \rgb_b[7]_i_3_n_0 ;
-  wire \rgb_b[7]_i_4_n_0 ;
-  wire \rgb_b[7]_i_5_n_0 ;
-  wire \rgb_b[7]_i_6_n_0 ;
-  wire \rgb_b[7]_i_7_n_0 ;
-  wire \rgb_b[7]_i_8_n_0 ;
+  wire pix_ypos0_carry__0_i_1_n_0;
+  wire pix_ypos0_carry__0_i_2_n_0;
+  wire pix_ypos0_carry__0_i_3_n_0;
+  wire pix_ypos0_carry__0_i_4_n_0;
+  wire pix_ypos0_carry__0_n_0;
+  wire pix_ypos0_carry__0_n_1;
+  wire pix_ypos0_carry__0_n_2;
+  wire pix_ypos0_carry__0_n_3;
+  wire pix_ypos0_carry__0_n_4;
+  wire pix_ypos0_carry__0_n_5;
+  wire pix_ypos0_carry__0_n_6;
+  wire pix_ypos0_carry__0_n_7;
+  wire pix_ypos0_carry__1_i_1_n_0;
+  wire pix_ypos0_carry__1_n_2;
+  wire pix_ypos0_carry__1_n_7;
+  wire pix_ypos0_carry_i_1_n_0;
+  wire pix_ypos0_carry_n_0;
+  wire pix_ypos0_carry_n_1;
+  wire pix_ypos0_carry_n_2;
+  wire pix_ypos0_carry_n_3;
+  wire pix_ypos0_carry_n_4;
+  wire pix_ypos0_carry_n_5;
+  wire pix_ypos0_carry_n_6;
+  wire pix_ypos0_carry_n_7;
   wire [0:0]rgb_g;
-  wire \rgb_g[7]_i_1_n_0 ;
-  wire \rgb_g[7]_i_2_n_0 ;
-  wire \rgb_g[7]_i_3_n_0 ;
-  wire \rgb_g[7]_i_4_n_0 ;
-  wire \rgb_g[7]_i_5_n_0 ;
-  wire \rgb_g[7]_i_6_n_0 ;
-  wire \rgb_g[7]_i_7_n_0 ;
-  wire \rgb_g[7]_i_8_n_0 ;
-  wire \rgb_g[7]_i_9_n_0 ;
-  wire [0:0]rgb_r;
-  wire rgb_r0;
   wire \rgb_r[7]_i_10_n_0 ;
   wire \rgb_r[7]_i_11_n_0 ;
   wire \rgb_r[7]_i_12_n_0 ;
+  wire \rgb_r[7]_i_13_n_0 ;
+  wire \rgb_r[7]_i_14_n_0 ;
+  wire \rgb_r[7]_i_15_n_0 ;
+  wire \rgb_r[7]_i_16_n_0 ;
+  wire \rgb_r[7]_i_17_n_0 ;
+  wire \rgb_r[7]_i_18_n_0 ;
+  wire \rgb_r[7]_i_19_n_0 ;
   wire \rgb_r[7]_i_1_n_0 ;
+  wire \rgb_r[7]_i_20_n_0 ;
+  wire \rgb_r[7]_i_21_n_0 ;
+  wire \rgb_r[7]_i_22_n_0 ;
+  wire \rgb_r[7]_i_23_n_0 ;
+  wire \rgb_r[7]_i_24_n_0 ;
+  wire \rgb_r[7]_i_25_n_0 ;
+  wire \rgb_r[7]_i_26_n_0 ;
   wire \rgb_r[7]_i_2_n_0 ;
   wire \rgb_r[7]_i_3_n_0 ;
+  wire \rgb_r[7]_i_4_n_0 ;
   wire \rgb_r[7]_i_5_n_0 ;
   wire \rgb_r[7]_i_6_n_0 ;
   wire \rgb_r[7]_i_7_n_0 ;
@@ -178,7 +201,7 @@ module HDMI_color_bar_0_0_color_bar
   wire \rgb_r[7]_i_9_n_0 ;
   wire rst_n;
   wire [9:0]v_count;
-  wire \v_count[6]_i_2_n_0 ;
+  wire \v_count[5]_i_2_n_0 ;
   wire \v_count[8]_i_2_n_0 ;
   wire \v_count[9]_i_1_n_0 ;
   wire \v_count[9]_i_3_n_0 ;
@@ -190,15 +213,17 @@ module HDMI_color_bar_0_0_color_bar
   wire vsync_i_2_n_0;
   wire [3:0]NLW_pix_xpos0_carry__1_CO_UNCONNECTED;
   wire [3:1]NLW_pix_xpos0_carry__1_O_UNCONNECTED;
+  wire [3:0]NLW_pix_ypos0_carry__1_CO_UNCONNECTED;
+  wire [3:1]NLW_pix_ypos0_carry__1_O_UNCONNECTED;
 
   LUT6 #(
-    .INIT(64'h0202020002000200)) 
+    .INIT(64'h000000000000008A)) 
     de_i_1
        (.I0(de_i_3_n_0),
         .I1(de_i_4_n_0),
-        .I2(h_count[10]),
-        .I3(vsync_i_2_n_0),
-        .I4(de_i_5_n_0),
+        .I2(h_count[3]),
+        .I3(de_i_5_n_0),
+        .I4(h_count[10]),
         .I5(de_i_6_n_0),
         .O(de0));
   LUT1 #(
@@ -206,39 +231,44 @@ module HDMI_color_bar_0_0_color_bar
     de_i_2
        (.I0(rst_n),
         .O(de_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT2 #(
     .INIT(4'hB)) 
     de_i_3
-       (.I0(\v_count[9]_i_3_n_0 ),
+       (.I0(\v_count[9]_i_4_n_0 ),
         .I1(v_count[9]),
         .O(de_i_3_n_0));
   LUT6 #(
-    .INIT(64'h080000000000F0F7)) 
+    .INIT(64'h7FFFFFFFFFFFFFFF)) 
     de_i_4
-       (.I0(h_count[3]),
-        .I1(h_count[4]),
-        .I2(de_i_7_n_0),
-        .I3(h_count[5]),
-        .I4(h_count[9]),
-        .I5(h_count[8]),
+       (.I0(h_count[9]),
+        .I1(h_count[8]),
+        .I2(h_count[7]),
+        .I3(h_count[6]),
+        .I4(h_count[4]),
+        .I5(h_count[5]),
         .O(de_i_4_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
-  LUT3 #(
-    .INIT(8'hEA)) 
+  LUT6 #(
+    .INIT(64'h00000000777F7F7F)) 
     de_i_5
-       (.I0(v_count[2]),
-        .I1(v_count[1]),
-        .I2(v_count[0]),
-        .O(de_i_5_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    de_i_6
        (.I0(v_count[4]),
         .I1(v_count[3]),
+        .I2(v_count[2]),
+        .I3(v_count[1]),
+        .I4(v_count[0]),
+        .I5(vsync_i_2_n_0),
+        .O(de_i_5_n_0));
+  LUT6 #(
+    .INIT(64'h000000000000FF15)) 
+    de_i_6
+       (.I0(h_count[5]),
+        .I1(h_count[4]),
+        .I2(h_count[3]),
+        .I3(de_i_7_n_0),
+        .I4(h_count[8]),
+        .I5(h_count[9]),
         .O(de_i_6_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT2 #(
     .INIT(4'h7)) 
     de_i_7
@@ -251,50 +281,39 @@ module HDMI_color_bar_0_0_color_bar
         .CLR(de_i_2_n_0),
         .D(de0),
         .Q(de));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \h_count[0]_i_1 
        (.I0(h_count[0]),
         .I1(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[0]));
-  LUT5 #(
-    .INIT(32'hB8888888)) 
+        .O(\h_count[0]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
+  LUT4 #(
+    .INIT(16'h00D2)) 
     \h_count[10]_i_1 
        (.I0(\h_count[10]_i_2_n_0 ),
-        .I1(h_count[10]),
-        .I2(\h_count[10]_i_3_n_0 ),
-        .I3(h_count[9]),
-        .I4(h_count[8]),
-        .O(p_0_in[10]));
-  LUT6 #(
-    .INIT(64'h0000000000000002)) 
-    \h_count[10]_i_2 
-       (.I0(\h_count[8]_i_2_n_0 ),
-        .I1(h_count[6]),
-        .I2(h_count[8]),
-        .I3(h_count[9]),
-        .I4(h_count[7]),
-        .I5(h_count[5]),
-        .O(\h_count[10]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+        .I1(de_i_4_n_0),
+        .I2(h_count[10]),
+        .I3(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[10]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT4 #(
-    .INIT(16'h4000)) 
-    \h_count[10]_i_3 
-       (.I0(\h_count[8]_i_2_n_0 ),
-        .I1(h_count[5]),
-        .I2(h_count[7]),
-        .I3(h_count[6]),
-        .O(\h_count[10]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
+    .INIT(16'h8000)) 
+    \h_count[10]_i_2 
+       (.I0(h_count[0]),
+        .I1(h_count[1]),
+        .I2(h_count[2]),
+        .I3(h_count[3]),
+        .O(\h_count[10]_i_2_n_0 ));
   LUT3 #(
     .INIT(8'h06)) 
     \h_count[1]_i_1 
        (.I0(h_count[1]),
         .I1(h_count[0]),
         .I2(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[1]));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+        .O(\h_count[1]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT4 #(
     .INIT(16'h1540)) 
     \h_count[2]_i_1 
@@ -302,7 +321,7 @@ module HDMI_color_bar_0_0_color_bar
         .I1(h_count[0]),
         .I2(h_count[1]),
         .I3(h_count[2]),
-        .O(p_0_in[2]));
+        .O(\h_count[2]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
     .INIT(32'h00007F80)) 
@@ -312,132 +331,135 @@ module HDMI_color_bar_0_0_color_bar
         .I2(h_count[0]),
         .I3(h_count[3]),
         .I4(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[3]));
+        .O(\h_count[3]_i_1_n_0 ));
   LUT6 #(
     .INIT(64'h000000007FFF8000)) 
     \h_count[4]_i_1 
-       (.I0(h_count[3]),
-        .I1(h_count[0]),
-        .I2(h_count[1]),
-        .I3(h_count[2]),
-        .I4(h_count[4]),
-        .I5(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[4]));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
-  LUT3 #(
-    .INIT(8'h09)) 
-    \h_count[5]_i_1 
-       (.I0(\h_count[8]_i_2_n_0 ),
-        .I1(h_count[5]),
-        .I2(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[5]));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
-  LUT4 #(
-    .INIT(16'h00D2)) 
-    \h_count[6]_i_1 
-       (.I0(h_count[5]),
-        .I1(\h_count[8]_i_2_n_0 ),
-        .I2(h_count[6]),
-        .I3(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[6]));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT5 #(
-    .INIT(32'h0000BF40)) 
-    \h_count[7]_i_1 
-       (.I0(\h_count[8]_i_2_n_0 ),
-        .I1(h_count[5]),
-        .I2(h_count[6]),
-        .I3(h_count[7]),
-        .I4(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[7]));
-  LUT6 #(
-    .INIT(64'h00000000BFFF4000)) 
-    \h_count[8]_i_1 
-       (.I0(\h_count[8]_i_2_n_0 ),
-        .I1(h_count[5]),
-        .I2(h_count[7]),
-        .I3(h_count[6]),
-        .I4(h_count[8]),
-        .I5(\v_count[9]_i_1_n_0 ),
-        .O(p_0_in[8]));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT5 #(
-    .INIT(32'h7FFFFFFF)) 
-    \h_count[8]_i_2 
-       (.I0(h_count[2]),
+       (.I0(h_count[0]),
         .I1(h_count[1]),
-        .I2(h_count[0]),
+        .I2(h_count[2]),
         .I3(h_count[3]),
         .I4(h_count[4]),
-        .O(\h_count[8]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+        .I5(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[4]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT4 #(
-    .INIT(16'h1540)) 
+    .INIT(16'h0078)) 
+    \h_count[5]_i_1 
+       (.I0(h_count[4]),
+        .I1(\h_count[10]_i_2_n_0 ),
+        .I2(h_count[5]),
+        .I3(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[5]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'h00007F80)) 
+    \h_count[6]_i_1 
+       (.I0(\h_count[10]_i_2_n_0 ),
+        .I1(h_count[4]),
+        .I2(h_count[5]),
+        .I3(h_count[6]),
+        .I4(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[6]_i_1_n_0 ));
+  LUT6 #(
+    .INIT(64'h000000007FFF8000)) 
+    \h_count[7]_i_1 
+       (.I0(h_count[5]),
+        .I1(h_count[4]),
+        .I2(\h_count[10]_i_2_n_0 ),
+        .I3(h_count[6]),
+        .I4(h_count[7]),
+        .I5(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[7]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'h00007F80)) 
+    \h_count[8]_i_1 
+       (.I0(\h_count[9]_i_2_n_0 ),
+        .I1(h_count[6]),
+        .I2(h_count[7]),
+        .I3(h_count[8]),
+        .I4(\v_count[9]_i_1_n_0 ),
+        .O(\h_count[8]_i_1_n_0 ));
+  LUT6 #(
+    .INIT(64'h1555555540000000)) 
     \h_count[9]_i_1 
        (.I0(\v_count[9]_i_1_n_0 ),
-        .I1(\h_count[10]_i_3_n_0 ),
-        .I2(h_count[8]),
-        .I3(h_count[9]),
+        .I1(h_count[7]),
+        .I2(h_count[6]),
+        .I3(\h_count[9]_i_2_n_0 ),
+        .I4(h_count[8]),
+        .I5(h_count[9]),
         .O(\h_count[9]_i_1_n_0 ));
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
+    \h_count[9]_i_2 
+       (.I0(h_count[3]),
+        .I1(h_count[2]),
+        .I2(h_count[1]),
+        .I3(h_count[0]),
+        .I4(h_count[4]),
+        .I5(h_count[5]),
+        .O(\h_count[9]_i_2_n_0 ));
   FDCE \h_count_reg[0] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[0]),
+        .D(\h_count[0]_i_1_n_0 ),
         .Q(h_count[0]));
   FDCE \h_count_reg[10] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[10]),
+        .D(\h_count[10]_i_1_n_0 ),
         .Q(h_count[10]));
   FDCE \h_count_reg[1] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[1]),
+        .D(\h_count[1]_i_1_n_0 ),
         .Q(h_count[1]));
   FDCE \h_count_reg[2] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[2]),
+        .D(\h_count[2]_i_1_n_0 ),
         .Q(h_count[2]));
   FDCE \h_count_reg[3] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[3]),
+        .D(\h_count[3]_i_1_n_0 ),
         .Q(h_count[3]));
   FDCE \h_count_reg[4] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[4]),
+        .D(\h_count[4]_i_1_n_0 ),
         .Q(h_count[4]));
   FDCE \h_count_reg[5] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[5]),
+        .D(\h_count[5]_i_1_n_0 ),
         .Q(h_count[5]));
   FDCE \h_count_reg[6] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[6]),
+        .D(\h_count[6]_i_1_n_0 ),
         .Q(h_count[6]));
   FDCE \h_count_reg[7] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[7]),
+        .D(\h_count[7]_i_1_n_0 ),
         .Q(h_count[7]));
   FDCE \h_count_reg[8] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
-        .D(p_0_in[8]),
+        .D(\h_count[8]_i_1_n_0 ),
         .Q(h_count[8]));
   FDCE \h_count_reg[9] 
        (.C(clk),
@@ -449,8 +471,8 @@ module HDMI_color_bar_0_0_color_bar
     .INIT(64'hFFFEFFFFFFFE0000)) 
     hsync_i_1
        (.I0(h_count[10]),
-        .I1(h_count[8]),
-        .I2(h_count[9]),
+        .I1(h_count[9]),
+        .I2(h_count[8]),
         .I3(h_count[7]),
         .I4(rst_n),
         .I5(hsync),
@@ -462,62 +484,63 @@ module HDMI_color_bar_0_0_color_bar
         .Q(hsync),
         .R(1'b0));
   LUT6 #(
-    .INIT(64'h0000000000015555)) 
+    .INIT(64'h0202020202020222)) 
     pix_data_req_i_1
        (.I0(pix_data_req_i_2_n_0),
         .I1(pix_data_req_i_3_n_0),
-        .I2(v_count[8]),
-        .I3(v_count[7]),
-        .I4(v_count[9]),
-        .I5(pix_data_req_i_4_n_0),
+        .I2(v_count[9]),
+        .I3(pix_data_req_i_4_n_0),
+        .I4(v_count[8]),
+        .I5(v_count[7]),
         .O(pix_data_req0));
   LUT6 #(
-    .INIT(64'hAAABBBBBBBBBBBBB)) 
+    .INIT(64'hEFEEEFEFEFEEEFEE)) 
     pix_data_req_i_2
-       (.I0(h_count[10]),
-        .I1(vsync_i_2_n_0),
-        .I2(v_count[2]),
-        .I3(v_count[1]),
-        .I4(v_count[3]),
-        .I5(v_count[4]),
+       (.I0(h_count[8]),
+        .I1(h_count[9]),
+        .I2(de_i_7_n_0),
+        .I3(h_count[5]),
+        .I4(pix_data_req_i_5_n_0),
+        .I5(h_count[4]),
         .O(pix_data_req_i_2_n_0));
   LUT6 #(
-    .INIT(64'h8080808080808000)) 
+    .INIT(64'hFFFFFFFF01555555)) 
     pix_data_req_i_3
+       (.I0(vsync_i_2_n_0),
+        .I1(v_count[1]),
+        .I2(v_count[2]),
+        .I3(v_count[3]),
+        .I4(v_count[4]),
+        .I5(pix_data_req_i_6_n_0),
+        .O(pix_data_req_i_3_n_0));
+  LUT6 #(
+    .INIT(64'h8080808080808000)) 
+    pix_data_req_i_4
        (.I0(v_count[6]),
         .I1(v_count[5]),
         .I2(v_count[4]),
-        .I3(v_count[3]),
-        .I4(v_count[2]),
+        .I3(v_count[2]),
+        .I4(v_count[3]),
         .I5(v_count[1]),
-        .O(pix_data_req_i_3_n_0));
-  LUT6 #(
-    .INIT(64'h8888000000001555)) 
-    pix_data_req_i_4
-       (.I0(pix_data_req_i_5_n_0),
-        .I1(h_count[5]),
-        .I2(h_count[7]),
-        .I3(h_count[6]),
-        .I4(h_count[9]),
-        .I5(h_count[8]),
         .O(pix_data_req_i_4_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
-  LUT5 #(
-    .INIT(32'hE0000000)) 
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  LUT4 #(
+    .INIT(16'h1555)) 
     pix_data_req_i_5
-       (.I0(pix_data_req_i_6_n_0),
-        .I1(h_count[3]),
-        .I2(h_count[4]),
-        .I3(h_count[7]),
-        .I4(h_count[6]),
+       (.I0(h_count[3]),
+        .I1(h_count[0]),
+        .I2(h_count[1]),
+        .I3(h_count[2]),
         .O(pix_data_req_i_5_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT3 #(
-    .INIT(8'h80)) 
+  LUT6 #(
+    .INIT(64'hAAAAAAAAFEEEEEEE)) 
     pix_data_req_i_6
-       (.I0(h_count[2]),
-        .I1(h_count[1]),
+       (.I0(h_count[10]),
+        .I1(h_count[3]),
         .I2(h_count[0]),
+        .I3(h_count[1]),
+        .I4(h_count[2]),
+        .I5(de_i_4_n_0),
         .O(pix_data_req_i_6_n_0));
   FDCE pix_data_req_reg
        (.C(clk),
@@ -571,298 +594,317 @@ module HDMI_color_bar_0_0_color_bar
     pix_xpos0_carry_i_2
        (.I0(h_count[3]),
         .O(pix_xpos0_carry_i_2_n_0));
+  CARRY4 pix_ypos0_carry
+       (.CI(1'b0),
+        .CO({pix_ypos0_carry_n_0,pix_ypos0_carry_n_1,pix_ypos0_carry_n_2,pix_ypos0_carry_n_3}),
+        .CYINIT(v_count[0]),
+        .DI({1'b0,1'b0,v_count[2],1'b0}),
+        .O({pix_ypos0_carry_n_4,pix_ypos0_carry_n_5,pix_ypos0_carry_n_6,pix_ypos0_carry_n_7}),
+        .S({v_count[4:3],pix_ypos0_carry_i_1_n_0,v_count[1]}));
+  CARRY4 pix_ypos0_carry__0
+       (.CI(pix_ypos0_carry_n_0),
+        .CO({pix_ypos0_carry__0_n_0,pix_ypos0_carry__0_n_1,pix_ypos0_carry__0_n_2,pix_ypos0_carry__0_n_3}),
+        .CYINIT(1'b0),
+        .DI(v_count[8:5]),
+        .O({pix_ypos0_carry__0_n_4,pix_ypos0_carry__0_n_5,pix_ypos0_carry__0_n_6,pix_ypos0_carry__0_n_7}),
+        .S({pix_ypos0_carry__0_i_1_n_0,pix_ypos0_carry__0_i_2_n_0,pix_ypos0_carry__0_i_3_n_0,pix_ypos0_carry__0_i_4_n_0}));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry__0_i_1
+       (.I0(v_count[8]),
+        .O(pix_ypos0_carry__0_i_1_n_0));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry__0_i_2
+       (.I0(v_count[7]),
+        .O(pix_ypos0_carry__0_i_2_n_0));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry__0_i_3
+       (.I0(v_count[6]),
+        .O(pix_ypos0_carry__0_i_3_n_0));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry__0_i_4
+       (.I0(v_count[5]),
+        .O(pix_ypos0_carry__0_i_4_n_0));
+  CARRY4 pix_ypos0_carry__1
+       (.CI(pix_ypos0_carry__0_n_0),
+        .CO({NLW_pix_ypos0_carry__1_CO_UNCONNECTED[3:2],pix_ypos0_carry__1_n_2,NLW_pix_ypos0_carry__1_CO_UNCONNECTED[0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,v_count[9]}),
+        .O({NLW_pix_ypos0_carry__1_O_UNCONNECTED[3:1],pix_ypos0_carry__1_n_7}),
+        .S({1'b0,1'b0,1'b1,pix_ypos0_carry__1_i_1_n_0}));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry__1_i_1
+       (.I0(v_count[9]),
+        .O(pix_ypos0_carry__1_i_1_n_0));
+  LUT1 #(
+    .INIT(2'h1)) 
+    pix_ypos0_carry_i_1
+       (.I0(v_count[2]),
+        .O(pix_ypos0_carry_i_1_n_0));
   LUT6 #(
-    .INIT(64'hBAAAFFFFBAAA0000)) 
-    \rgb_b[7]_i_1 
-       (.I0(\rgb_g[7]_i_2_n_0 ),
-        .I1(\rgb_b[7]_i_2_n_0 ),
-        .I2(pix_data_req),
-        .I3(\rgb_g[7]_i_4_n_0 ),
-        .I4(rgb_r0),
-        .I5(rgb_b),
-        .O(\rgb_b[7]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'h0000000000000220)) 
-    \rgb_b[7]_i_2 
-       (.I0(\rgb_b[7]_i_3_n_0 ),
-        .I1(\rgb_b[7]_i_4_n_0 ),
-        .I2(\rgb_b[7]_i_5_n_0 ),
-        .I3(\rgb_b[7]_i_6_n_0 ),
-        .I4(\rgb_b[7]_i_7_n_0 ),
-        .I5(\rgb_b[7]_i_8_n_0 ),
-        .O(\rgb_b[7]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+    .INIT(64'h00FE00FE000000FE)) 
+    \rgb_r[7]_i_1 
+       (.I0(\rgb_r[7]_i_2_n_0 ),
+        .I1(\rgb_r[7]_i_3_n_0 ),
+        .I2(\rgb_r[7]_i_4_n_0 ),
+        .I3(\rgb_r[7]_i_5_n_0 ),
+        .I4(\rgb_r[7]_i_6_n_0 ),
+        .I5(\rgb_r[7]_i_7_n_0 ),
+        .O(\rgb_r[7]_i_1_n_0 ));
   LUT5 #(
-    .INIT(32'hD5FFC3FF)) 
-    \rgb_b[7]_i_3 
-       (.I0(pix_xpos0_carry_n_6),
-        .I1(pix_xpos0_carry_n_4),
-        .I2(pix_xpos0_carry_n_5),
-        .I3(pix_data_req),
-        .I4(pix_xpos0_carry__0_n_5),
-        .O(\rgb_b[7]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFF2FFF)) 
-    \rgb_b[7]_i_4 
-       (.I0(pix_xpos0_carry__0_n_4),
-        .I1(pix_xpos0_carry_n_4),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry__0_n_6),
-        .I4(h_count[0]),
-        .I5(h_count[1]),
-        .O(\rgb_b[7]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
-  LUT2 #(
-    .INIT(4'h7)) 
-    \rgb_b[7]_i_5 
-       (.I0(pix_data_req),
-        .I1(pix_xpos0_carry__0_n_7),
-        .O(\rgb_b[7]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
-  LUT2 #(
-    .INIT(4'h7)) 
-    \rgb_b[7]_i_6 
-       (.I0(pix_data_req),
-        .I1(pix_xpos0_carry_n_5),
-        .O(\rgb_b[7]_i_6_n_0 ));
-  LUT6 #(
-    .INIT(64'hB0B0FFFFF0FFFFFF)) 
-    \rgb_b[7]_i_7 
+    .INIT(32'h4555FFFF)) 
+    \rgb_r[7]_i_10 
        (.I0(pix_xpos0_carry__0_n_5),
-        .I1(pix_xpos0_carry__0_n_4),
-        .I2(pix_xpos0_carry_n_4),
+        .I1(\rgb_r[7]_i_23_n_0 ),
+        .I2(pix_xpos0_carry_n_6),
         .I3(pix_xpos0_carry_n_5),
         .I4(pix_data_req),
-        .I5(pix_xpos0_carry_n_6),
-        .O(\rgb_b[7]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
-  LUT4 #(
-    .INIT(16'h7800)) 
-    \rgb_b[7]_i_8 
-       (.I0(pix_xpos0_carry_n_5),
-        .I1(pix_xpos0_carry_n_6),
-        .I2(pix_xpos0_carry_n_7),
-        .I3(pix_data_req),
-        .O(\rgb_b[7]_i_8_n_0 ));
-  FDCE \rgb_b_reg[7] 
-       (.C(clk),
-        .CE(1'b1),
-        .CLR(de_i_2_n_0),
-        .D(\rgb_b[7]_i_1_n_0 ),
-        .Q(rgb_b));
-  LUT5 #(
-    .INIT(32'hBAFFBA00)) 
-    \rgb_g[7]_i_1 
-       (.I0(\rgb_g[7]_i_2_n_0 ),
-        .I1(\rgb_g[7]_i_3_n_0 ),
-        .I2(\rgb_g[7]_i_4_n_0 ),
-        .I3(rgb_r0),
-        .I4(rgb_g),
-        .O(\rgb_g[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT3 #(
-    .INIT(8'hD0)) 
-    \rgb_g[7]_i_2 
-       (.I0(pix_xpos0_carry__1_n_2),
-        .I1(pix_xpos0_carry__1_n_7),
-        .I2(pix_data_req),
-        .O(\rgb_g[7]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h002C0000FFFFFFFF)) 
-    \rgb_g[7]_i_3 
-       (.I0(pix_xpos0_carry__0_n_6),
-        .I1(pix_xpos0_carry__0_n_5),
-        .I2(pix_xpos0_carry__0_n_4),
-        .I3(\rgb_g[7]_i_5_n_0 ),
-        .I4(\rgb_g[7]_i_6_n_0 ),
-        .I5(pix_data_req),
-        .O(\rgb_g[7]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'hFBFFFFFFFFFFFFFF)) 
-    \rgb_g[7]_i_4 
-       (.I0(\rgb_g[7]_i_7_n_0 ),
-        .I1(pix_xpos0_carry__1_n_2),
-        .I2(pix_xpos0_carry__1_n_7),
-        .I3(\rgb_g[7]_i_8_n_0 ),
-        .I4(pix_xpos0_carry_n_7),
-        .I5(\rgb_g[7]_i_9_n_0 ),
-        .O(\rgb_g[7]_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFF6FFFFFFF)) 
-    \rgb_g[7]_i_5 
-       (.I0(pix_xpos0_carry_n_5),
-        .I1(pix_xpos0_carry__0_n_6),
-        .I2(pix_xpos0_carry_n_7),
-        .I3(pix_xpos0_carry_n_4),
-        .I4(pix_data_req),
-        .I5(\rgb_r[7]_i_12_n_0 ),
-        .O(\rgb_g[7]_i_5_n_0 ));
-  LUT5 #(
-    .INIT(32'h15008000)) 
-    \rgb_g[7]_i_6 
-       (.I0(pix_xpos0_carry__0_n_7),
-        .I1(pix_xpos0_carry_n_5),
-        .I2(pix_xpos0_carry__0_n_5),
-        .I3(pix_data_req),
-        .I4(pix_xpos0_carry_n_6),
-        .O(\rgb_g[7]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
-  LUT5 #(
-    .INIT(32'hFFFFEFFF)) 
-    \rgb_g[7]_i_7 
-       (.I0(pix_xpos0_carry__0_n_6),
-        .I1(pix_xpos0_carry__0_n_5),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry__0_n_7),
-        .I4(pix_xpos0_carry_n_5),
-        .O(\rgb_g[7]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
-  LUT2 #(
-    .INIT(4'h8)) 
-    \rgb_g[7]_i_8 
-       (.I0(pix_data_req),
-        .I1(pix_xpos0_carry_n_4),
-        .O(\rgb_g[7]_i_8_n_0 ));
-  LUT6 #(
-    .INIT(64'h45FF00FF45FF45FF)) 
-    \rgb_g[7]_i_9 
-       (.I0(\rgb_r[7]_i_12_n_0 ),
-        .I1(pix_xpos0_carry__1_n_7),
-        .I2(pix_xpos0_carry__0_n_4),
-        .I3(pix_data_req),
-        .I4(pix_xpos0_carry_n_5),
-        .I5(pix_xpos0_carry_n_6),
-        .O(\rgb_g[7]_i_9_n_0 ));
-  FDCE \rgb_g_reg[7] 
-       (.C(clk),
-        .CE(1'b1),
-        .CLR(de_i_2_n_0),
-        .D(\rgb_g[7]_i_1_n_0 ),
-        .Q(rgb_g));
-  LUT5 #(
-    .INIT(32'h8AFF8A00)) 
-    \rgb_r[7]_i_1 
-       (.I0(pix_data_req),
-        .I1(\rgb_r[7]_i_2_n_0 ),
-        .I2(\rgb_r[7]_i_3_n_0 ),
-        .I3(rgb_r0),
-        .I4(rgb_r),
-        .O(\rgb_r[7]_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'hFE3F0000F7FC0000)) 
-    \rgb_r[7]_i_10 
-       (.I0(pix_xpos0_carry__0_n_7),
-        .I1(pix_xpos0_carry__0_n_6),
-        .I2(pix_xpos0_carry_n_5),
-        .I3(pix_xpos0_carry_n_6),
-        .I4(pix_data_req),
-        .I5(pix_xpos0_carry__0_n_5),
         .O(\rgb_r[7]_i_10_n_0 ));
-  LUT6 #(
-    .INIT(64'hE0F0B0F0F0B0F0E0)) 
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  LUT3 #(
+    .INIT(8'h7F)) 
     \rgb_r[7]_i_11 
-       (.I0(\rgb_r[7]_i_12_n_0 ),
-        .I1(pix_xpos0_carry_n_6),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry_n_4),
-        .I4(pix_xpos0_carry__0_n_7),
-        .I5(pix_xpos0_carry_n_7),
-        .O(\rgb_r[7]_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
-  LUT2 #(
-    .INIT(4'hE)) 
-    \rgb_r[7]_i_12 
-       (.I0(h_count[0]),
-        .I1(h_count[1]),
-        .O(\rgb_r[7]_i_12_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFE07070E0)) 
-    \rgb_r[7]_i_2 
-       (.I0(pix_xpos0_carry__0_n_4),
-        .I1(pix_xpos0_carry_n_5),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry__0_n_7),
-        .I4(pix_xpos0_carry__0_n_6),
-        .I5(\rgb_r[7]_i_5_n_0 ),
-        .O(\rgb_r[7]_i_2_n_0 ));
-  LUT6 #(
-    .INIT(64'h1000104010401000)) 
-    \rgb_r[7]_i_3 
-       (.I0(\rgb_r[7]_i_6_n_0 ),
-        .I1(pix_xpos0_carry_n_4),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry__0_n_7),
-        .I4(pix_xpos0_carry__0_n_6),
-        .I5(pix_xpos0_carry__0_n_5),
-        .O(\rgb_r[7]_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'h00000000000022F2)) 
-    \rgb_r[7]_i_4 
-       (.I0(\rgb_r[7]_i_7_n_0 ),
-        .I1(\rgb_r[7]_i_8_n_0 ),
-        .I2(\rgb_r[7]_i_9_n_0 ),
-        .I3(\rgb_r[7]_i_10_n_0 ),
-        .I4(\rgb_r[7]_i_11_n_0 ),
-        .I5(\rgb_g[7]_i_2_n_0 ),
-        .O(rgb_r0));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT5 #(
-    .INIT(32'hB0F0F0B0)) 
-    \rgb_r[7]_i_5 
-       (.I0(pix_xpos0_carry__1_n_7),
-        .I1(pix_xpos0_carry__1_n_2),
-        .I2(pix_data_req),
-        .I3(pix_xpos0_carry_n_7),
-        .I4(pix_xpos0_carry_n_4),
-        .O(\rgb_r[7]_i_5_n_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFF8FFF)) 
-    \rgb_r[7]_i_6 
-       (.I0(pix_xpos0_carry__0_n_5),
+       (.I0(pix_xpos0_carry_n_4),
         .I1(pix_xpos0_carry__0_n_7),
         .I2(pix_data_req),
-        .I3(pix_xpos0_carry_n_6),
-        .I4(h_count[0]),
-        .I5(h_count[1]),
-        .O(\rgb_r[7]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+        .O(\rgb_r[7]_i_11_n_0 ));
+  LUT6 #(
+    .INIT(64'h7FFFFFFFFFFFFFFF)) 
+    \rgb_r[7]_i_12 
+       (.I0(pix_xpos0_carry_n_5),
+        .I1(pix_xpos0_carry_n_6),
+        .I2(h_count[1]),
+        .I3(pix_xpos0_carry_n_7),
+        .I4(pix_data_req),
+        .I5(pix_xpos0_carry__0_n_7),
+        .O(\rgb_r[7]_i_12_n_0 ));
+  LUT5 #(
+    .INIT(32'hFFFDFFFF)) 
+    \rgb_r[7]_i_13 
+       (.I0(pix_xpos0_carry__1_n_2),
+        .I1(pix_xpos0_carry__0_n_4),
+        .I2(pix_ypos0_carry__1_n_7),
+        .I3(pix_xpos0_carry__1_n_7),
+        .I4(pix_ypos0_carry__1_n_2),
+        .O(\rgb_r[7]_i_13_n_0 ));
+  LUT6 #(
+    .INIT(64'h0F0F0F4F5F5F5F5F)) 
+    \rgb_r[7]_i_14 
+       (.I0(pix_ypos0_carry__0_n_4),
+        .I1(\rgb_r[7]_i_24_n_0 ),
+        .I2(pix_data_req),
+        .I3(pix_ypos0_carry__0_n_6),
+        .I4(pix_ypos0_carry__0_n_7),
+        .I5(pix_ypos0_carry__0_n_5),
+        .O(\rgb_r[7]_i_14_n_0 ));
+  LUT6 #(
+    .INIT(64'h0F1F5F5F5F5F5F5F)) 
+    \rgb_r[7]_i_15 
+       (.I0(pix_xpos0_carry__0_n_5),
+        .I1(pix_xpos0_carry_n_6),
+        .I2(pix_data_req),
+        .I3(\rgb_r[7]_i_25_n_0 ),
+        .I4(pix_xpos0_carry__0_n_7),
+        .I5(pix_xpos0_carry__0_n_6),
+        .O(\rgb_r[7]_i_15_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFF8880FFFF)) 
+    \rgb_r[7]_i_16 
+       (.I0(pix_xpos0_carry__0_n_6),
+        .I1(pix_xpos0_carry__0_n_5),
+        .I2(pix_xpos0_carry__0_n_7),
+        .I3(\rgb_r[7]_i_25_n_0 ),
+        .I4(pix_data_req),
+        .I5(\rgb_r[7]_i_13_n_0 ),
+        .O(\rgb_r[7]_i_16_n_0 ));
+  LUT6 #(
+    .INIT(64'h0000000007FFFFFF)) 
+    \rgb_r[7]_i_17 
+       (.I0(pix_ypos0_carry_n_6),
+        .I1(pix_ypos0_carry_n_5),
+        .I2(pix_ypos0_carry_n_4),
+        .I3(pix_ypos0_carry__0_n_7),
+        .I4(pix_data_req),
+        .I5(\rgb_r[7]_i_26_n_0 ),
+        .O(\rgb_r[7]_i_17_n_0 ));
+  LUT6 #(
+    .INIT(64'h4444444444444440)) 
+    \rgb_r[7]_i_18 
+       (.I0(pix_xpos0_carry__0_n_7),
+        .I1(pix_data_req),
+        .I2(pix_xpos0_carry_n_6),
+        .I3(pix_xpos0_carry_n_7),
+        .I4(pix_xpos0_carry_n_4),
+        .I5(pix_xpos0_carry_n_5),
+        .O(\rgb_r[7]_i_18_n_0 ));
+  LUT6 #(
+    .INIT(64'h5242FFFFFFFFFFFF)) 
+    \rgb_r[7]_i_19 
+       (.I0(pix_xpos0_carry_n_4),
+        .I1(pix_xpos0_carry_n_6),
+        .I2(pix_xpos0_carry_n_5),
+        .I3(pix_xpos0_carry_n_7),
+        .I4(pix_xpos0_carry__0_n_7),
+        .I5(pix_data_req),
+        .O(\rgb_r[7]_i_19_n_0 ));
+  LUT6 #(
+    .INIT(64'hA0A0A080A0A0A0A0)) 
+    \rgb_r[7]_i_2 
+       (.I0(pix_ypos0_carry__0_n_4),
+        .I1(pix_ypos0_carry_n_6),
+        .I2(pix_data_req),
+        .I3(pix_ypos0_carry__0_n_6),
+        .I4(pix_ypos0_carry__0_n_5),
+        .I5(\rgb_r[7]_i_8_n_0 ),
+        .O(\rgb_r[7]_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h0800000000000000)) 
+    \rgb_r[7]_i_20 
+       (.I0(pix_xpos0_carry__0_n_6),
+        .I1(pix_xpos0_carry__0_n_7),
+        .I2(pix_xpos0_carry__0_n_5),
+        .I3(pix_xpos0_carry_n_4),
+        .I4(pix_data_req),
+        .I5(pix_xpos0_carry_n_5),
+        .O(\rgb_r[7]_i_20_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  LUT2 #(
+    .INIT(4'h8)) 
+    \rgb_r[7]_i_21 
+       (.I0(pix_data_req),
+        .I1(pix_ypos0_carry__0_n_5),
+        .O(\rgb_r[7]_i_21_n_0 ));
+  LUT6 #(
+    .INIT(64'h01FF55FF55FF55FF)) 
+    \rgb_r[7]_i_22 
+       (.I0(pix_ypos0_carry__0_n_6),
+        .I1(pix_ypos0_carry_n_5),
+        .I2(pix_ypos0_carry_n_6),
+        .I3(pix_data_req),
+        .I4(pix_ypos0_carry_n_4),
+        .I5(pix_ypos0_carry__0_n_7),
+        .O(\rgb_r[7]_i_22_n_0 ));
+  LUT6 #(
+    .INIT(64'h777FFFFFFFFFFFFF)) 
+    \rgb_r[7]_i_23 
+       (.I0(pix_xpos0_carry__0_n_7),
+        .I1(pix_xpos0_carry_n_4),
+        .I2(h_count[1]),
+        .I3(pix_xpos0_carry_n_7),
+        .I4(pix_data_req),
+        .I5(pix_xpos0_carry__0_n_6),
+        .O(\rgb_r[7]_i_23_n_0 ));
+  LUT5 #(
+    .INIT(32'h07FFFFFF)) 
+    \rgb_r[7]_i_24 
+       (.I0(pix_ypos0_carry_n_6),
+        .I1(pix_ypos0_carry_n_7),
+        .I2(pix_ypos0_carry_n_5),
+        .I3(pix_data_req),
+        .I4(pix_ypos0_carry_n_4),
+        .O(\rgb_r[7]_i_24_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
-    .INIT(8'h80)) 
-    \rgb_r[7]_i_7 
-       (.I0(pix_xpos0_carry_n_6),
+    .INIT(8'hE0)) 
+    \rgb_r[7]_i_25 
+       (.I0(pix_xpos0_carry_n_4),
         .I1(pix_xpos0_carry_n_5),
         .I2(pix_data_req),
-        .O(\rgb_r[7]_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
-  LUT5 #(
-    .INIT(32'hFFFF9FFF)) 
-    \rgb_r[7]_i_8 
-       (.I0(pix_xpos0_carry__0_n_7),
+        .O(\rgb_r[7]_i_25_n_0 ));
+  LUT3 #(
+    .INIT(8'hE0)) 
+    \rgb_r[7]_i_26 
+       (.I0(pix_ypos0_carry__0_n_5),
+        .I1(pix_ypos0_carry__0_n_6),
+        .I2(pix_data_req),
+        .O(\rgb_r[7]_i_26_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFF5555FF7F)) 
+    \rgb_r[7]_i_3 
+       (.I0(pix_data_req),
+        .I1(pix_ypos0_carry__0_n_7),
+        .I2(pix_ypos0_carry_n_4),
+        .I3(\rgb_r[7]_i_9_n_0 ),
+        .I4(pix_ypos0_carry__0_n_4),
+        .I5(\rgb_r[7]_i_10_n_0 ),
+        .O(\rgb_r[7]_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'hF0F0F0F080A0A0A0)) 
+    \rgb_r[7]_i_4 
+       (.I0(pix_xpos0_carry__0_n_5),
         .I1(pix_xpos0_carry__0_n_6),
         .I2(pix_data_req),
-        .I3(pix_xpos0_carry__0_n_4),
-        .I4(pix_xpos0_carry__0_n_5),
+        .I3(\rgb_r[7]_i_11_n_0 ),
+        .I4(\rgb_r[7]_i_12_n_0 ),
+        .I5(\rgb_r[7]_i_13_n_0 ),
+        .O(\rgb_r[7]_i_4_n_0 ));
+  LUT6 #(
+    .INIT(64'hFEFEFEFEFFFEFEFE)) 
+    \rgb_r[7]_i_5 
+       (.I0(\rgb_r[7]_i_14_n_0 ),
+        .I1(\rgb_r[7]_i_15_n_0 ),
+        .I2(\rgb_r[7]_i_16_n_0 ),
+        .I3(pix_ypos0_carry__0_n_4),
+        .I4(pix_data_req),
+        .I5(\rgb_r[7]_i_17_n_0 ),
+        .O(\rgb_r[7]_i_5_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFF00400000)) 
+    \rgb_r[7]_i_6 
+       (.I0(\rgb_r[7]_i_18_n_0 ),
+        .I1(pix_data_req),
+        .I2(pix_xpos0_carry__0_n_5),
+        .I3(pix_xpos0_carry__0_n_6),
+        .I4(\rgb_r[7]_i_19_n_0 ),
+        .I5(\rgb_r[7]_i_20_n_0 ),
+        .O(\rgb_r[7]_i_6_n_0 ));
+  LUT6 #(
+    .INIT(64'hFFFFFFFFFFFFF4FF)) 
+    \rgb_r[7]_i_7 
+       (.I0(\rgb_r[7]_i_8_n_0 ),
+        .I1(pix_ypos0_carry__0_n_6),
+        .I2(\rgb_r[7]_i_13_n_0 ),
+        .I3(\rgb_r[7]_i_21_n_0 ),
+        .I4(pix_ypos0_carry__0_n_4),
+        .I5(\rgb_r[7]_i_22_n_0 ),
+        .O(\rgb_r[7]_i_7_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  LUT4 #(
+    .INIT(16'h3337)) 
+    \rgb_r[7]_i_8 
+       (.I0(pix_ypos0_carry_n_5),
+        .I1(pix_data_req),
+        .I2(pix_ypos0_carry__0_n_7),
+        .I3(pix_ypos0_carry_n_4),
         .O(\rgb_r[7]_i_8_n_0 ));
-  LUT2 #(
-    .INIT(4'h7)) 
+  LUT6 #(
+    .INIT(64'h1FFFFFFFFFFFFFFF)) 
     \rgb_r[7]_i_9 
-       (.I0(pix_data_req),
-        .I1(pix_xpos0_carry__0_n_4),
+       (.I0(pix_ypos0_carry_n_6),
+        .I1(pix_ypos0_carry_n_7),
+        .I2(pix_ypos0_carry_n_5),
+        .I3(pix_ypos0_carry__0_n_5),
+        .I4(pix_data_req),
+        .I5(pix_ypos0_carry__0_n_6),
         .O(\rgb_r[7]_i_9_n_0 ));
   FDCE \rgb_r_reg[7] 
        (.C(clk),
         .CE(1'b1),
         .CLR(de_i_2_n_0),
         .D(\rgb_r[7]_i_1_n_0 ),
-        .Q(rgb_r));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+        .Q(rgb_g));
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \v_count[0]_i_1 
        (.I0(de_i_3_n_0),
         .I1(v_count[0]),
         .O(p_1_in[0]));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'h28)) 
     \v_count[1]_i_1 
@@ -872,12 +914,12 @@ module HDMI_color_bar_0_0_color_bar
         .O(p_1_in[1]));
   (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT4 #(
-    .INIT(16'h2888)) 
+    .INIT(16'h2A80)) 
     \v_count[2]_i_1 
        (.I0(de_i_3_n_0),
-        .I1(v_count[2]),
+        .I1(v_count[0]),
         .I2(v_count[1]),
-        .I3(v_count[0]),
+        .I3(v_count[2]),
         .O(p_1_in[2]));
   (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT5 #(
@@ -899,34 +941,33 @@ module HDMI_color_bar_0_0_color_bar
         .I4(v_count[3]),
         .I5(v_count[4]),
         .O(p_1_in[4]));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
-  LUT5 #(
-    .INIT(32'h8AAA2000)) 
+  LUT6 #(
+    .INIT(64'h2AAAAAAA80000000)) 
     \v_count[5]_i_1 
        (.I0(de_i_3_n_0),
-        .I1(\v_count[6]_i_2_n_0 ),
-        .I2(v_count[3]),
-        .I3(v_count[4]),
-        .I4(v_count[5]),
+        .I1(\v_count[5]_i_2_n_0 ),
+        .I2(v_count[2]),
+        .I3(v_count[3]),
+        .I4(v_count[4]),
+        .I5(v_count[5]),
         .O(p_1_in[5]));
-  LUT6 #(
-    .INIT(64'hAA2AAAAA00800000)) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  LUT2 #(
+    .INIT(4'h8)) 
+    \v_count[5]_i_2 
+       (.I0(v_count[0]),
+        .I1(v_count[1]),
+        .O(\v_count[5]_i_2_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  LUT4 #(
+    .INIT(16'hA208)) 
     \v_count[6]_i_1 
        (.I0(de_i_3_n_0),
-        .I1(v_count[4]),
-        .I2(v_count[3]),
-        .I3(\v_count[6]_i_2_n_0 ),
-        .I4(v_count[5]),
-        .I5(v_count[6]),
+        .I1(v_count[5]),
+        .I2(\v_count[8]_i_2_n_0 ),
+        .I3(v_count[6]),
         .O(p_1_in[6]));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
-  LUT3 #(
-    .INIT(8'h7F)) 
-    \v_count[6]_i_2 
-       (.I0(v_count[2]),
-        .I1(v_count[1]),
-        .I2(v_count[0]),
-        .O(\v_count[6]_i_2_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT5 #(
     .INIT(32'hAA2A0080)) 
     \v_count[7]_i_1 
@@ -956,47 +997,52 @@ module HDMI_color_bar_0_0_color_bar
         .I3(v_count[3]),
         .I4(v_count[4]),
         .O(\v_count[8]_i_2_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
+  LUT6 #(
+    .INIT(64'hAAAAAAA8AAA8AAA8)) 
     \v_count[9]_i_1 
        (.I0(h_count[10]),
-        .I1(\h_count[10]_i_2_n_0 ),
+        .I1(h_count[5]),
+        .I2(\v_count[9]_i_3_n_0 ),
+        .I3(h_count[6]),
+        .I4(h_count[4]),
+        .I5(\h_count[10]_i_2_n_0 ),
         .O(\v_count[9]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
-  LUT4 #(
-    .INIT(16'hB888)) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  LUT5 #(
+    .INIT(32'h8B888888)) 
     \v_count[9]_i_2 
-       (.I0(\v_count[9]_i_3_n_0 ),
+       (.I0(\v_count[9]_i_4_n_0 ),
         .I1(v_count[9]),
-        .I2(\v_count[9]_i_4_n_0 ),
-        .I3(v_count[8]),
+        .I2(\v_count[9]_i_5_n_0 ),
+        .I3(v_count[7]),
+        .I4(v_count[8]),
         .O(p_1_in[9]));
-  LUT6 #(
-    .INIT(64'h0000011111111111)) 
+  LUT3 #(
+    .INIT(8'hFE)) 
     \v_count[9]_i_3 
-       (.I0(v_count[7]),
-        .I1(v_count[8]),
-        .I2(v_count[1]),
-        .I3(v_count[0]),
-        .I4(\v_count[9]_i_5_n_0 ),
-        .I5(\v_count[9]_i_6_n_0 ),
+       (.I0(h_count[7]),
+        .I1(h_count[8]),
+        .I2(h_count[9]),
         .O(\v_count[9]_i_3_n_0 ));
   LUT6 #(
-    .INIT(64'h2000000000000000)) 
+    .INIT(64'h0000000111111111)) 
     \v_count[9]_i_4 
        (.I0(v_count[7]),
-        .I1(\v_count[6]_i_2_n_0 ),
-        .I2(v_count[3]),
-        .I3(v_count[4]),
-        .I4(v_count[6]),
-        .I5(v_count[5]),
+        .I1(v_count[8]),
+        .I2(\v_count[5]_i_2_n_0 ),
+        .I3(v_count[3]),
+        .I4(v_count[2]),
+        .I5(\v_count[9]_i_6_n_0 ),
         .O(\v_count[9]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
-  LUT2 #(
-    .INIT(4'hE)) 
+  LUT6 #(
+    .INIT(64'h7FFFFFFFFFFFFFFF)) 
     \v_count[9]_i_5 
-       (.I0(v_count[3]),
-        .I1(v_count[2]),
+       (.I0(v_count[5]),
+        .I1(v_count[6]),
+        .I2(v_count[4]),
+        .I3(v_count[3]),
+        .I4(v_count[2]),
+        .I5(\v_count[5]_i_2_n_0 ),
         .O(\v_count[9]_i_5_n_0 ));
   LUT3 #(
     .INIT(8'h80)) 
@@ -1069,8 +1115,8 @@ module HDMI_color_bar_0_0_color_bar
     .INIT(64'hFFFEFFFFFFFE0000)) 
     vsync_i_1
        (.I0(vsync_i_2_n_0),
-        .I1(v_count[3]),
-        .I2(v_count[2]),
+        .I1(v_count[2]),
+        .I2(v_count[3]),
         .I3(v_count[4]),
         .I4(rst_n),
         .I5(vsync),
@@ -1078,11 +1124,11 @@ module HDMI_color_bar_0_0_color_bar
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     vsync_i_2
-       (.I0(v_count[6]),
-        .I1(v_count[5]),
+       (.I0(v_count[8]),
+        .I1(v_count[7]),
         .I2(v_count[9]),
-        .I3(v_count[7]),
-        .I4(v_count[8]),
+        .I3(v_count[5]),
+        .I4(v_count[6]),
         .O(vsync_i_2_n_0));
   FDRE vsync_reg
        (.C(clk),

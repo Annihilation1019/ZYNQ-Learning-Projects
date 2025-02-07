@@ -70,14 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 5
-set_param synth.incrementalSynthesisCache C:/Users/LU/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-1608-LAPTOP-DUUNQKAE/incrSyn
 set_param xicom.use_bs_reader 1
-set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL-1065} -limit 10000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
 
@@ -96,7 +90,7 @@ set_property ip_output_repo d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v
+read_verilog -library xil_defaultlib D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v
 add_files D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.srcs/sources_1/bd/HDMI/HDMI.bd
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_clk_wiz_0_0/HDMI_clk_wiz_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_clk_wiz_0_0/HDMI_clk_wiz_0_0.xdc]

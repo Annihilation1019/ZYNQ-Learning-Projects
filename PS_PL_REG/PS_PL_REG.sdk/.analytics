@@ -1,0 +1,29 @@
+timestamp=[2025-01-20 21:49:46], mode=WORKBENCH_START, duration=0:00:05.007, duration_ms=5007, data={}
+timestamp=[2025-01-20 21:49:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.011, duration_ms=11, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-01-20 21:49:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.786, duration_ms=786, data={}
+timestamp=[2025-01-20 21:50:31], mode=APP_CREATION, duration=0:00:12.854, duration_ms=12854, data={name=PS_PL_REG, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-01-20 21:51:29], mode=PLATFORM_GENERATION, duration=0:00:03.198, duration_ms=3198, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 21:51:30], mode=BUILD, duration=0:00:00.492, duration_ms=492, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 21:57:36], mode=PLATFORM_GENERATION, duration=0:00:05.454, duration_ms=5454, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 21:57:37], mode=BUILD, duration=0:00:01.114, duration_ms=1114, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 21:57:39], mode=BUILD, duration=0:00:01.566, duration_ms=1566, data={name=PS_PL_REG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 21:58:21], mode=PLATFORM_GENERATION, duration=0:00:09.972, duration_ms=9972, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 21:59:25], mode=BUILD, duration=0:00:01.113, duration_ms=1113, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 21:59:29], mode=BUILD, duration=0:00:03.818, duration_ms=3818, data={name=PS_PL_REG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:05:24], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=PS_PL_REG, configuration=Release, clean_build=false}
+timestamp=[2025-01-20 22:05:28], mode=BUILD, duration=0:00:03.827, duration_ms=3827, data={name=PS_PL_REG_system, configuration=Release, clean_build=false}
+timestamp=[2025-01-20 22:05:37], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:05:41], mode=BUILD, duration=0:00:03.823, duration_ms=3823, data={name=PS_PL_REG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:05:46], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:05:52], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:05:59], mode=BUILD, duration=0:00:00.301, duration_ms=301, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:09:17], mode=PLATFORM_GENERATION, duration=0:00:10.929, duration_ms=10929, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 22:09:18], mode=BUILD, duration=0:00:00.879, duration_ms=879, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:09:24], mode=BUILD, duration=0:00:05.451, duration_ms=5451, data={name=PS_PL_REG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:12:38], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=PS_PL_REG, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:12:44], mode=BUILD, duration=0:00:05.436, duration_ms=5436, data={name=PS_PL_REG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 22:23:03], mode=WORKBENCH_START, duration=0:00:05.697, duration_ms=5697, data={}
+timestamp=[2025-01-20 22:23:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.229, duration_ms=229, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=PS_PL_REG,PS_PL_REG_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 22:23:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.764, duration_ms=764, data={}
+timestamp=[2025-01-20 22:30:36], mode=PLATFORM_GENERATION, duration=0:00:02.525, duration_ms=2525, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-01-20 22:30:37], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=PS_PL_REG, configuration=Debug, clean_build=false}

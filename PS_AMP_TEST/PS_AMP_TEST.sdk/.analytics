@@ -1,40 +1,4 @@
-timestamp=[2025-01-19 15:17:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.002, duration_ms=2, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
-timestamp=[2025-01-19 15:17:03], mode=WORKBENCH_START, duration=0:00:04.510, duration_ms=4510, data={}
-timestamp=[2025-01-19 15:17:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.761, duration_ms=761, data={}
-timestamp=[2025-01-19 15:17:43], mode=APP_CREATION, duration=0:00:11.757, duration_ms=11757, data={name=CPU0, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
-timestamp=[2025-01-19 15:20:43], mode=APP_CREATION, duration=0:00:05.694, duration_ms=5694, data={name=CPU1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
-timestamp=[2025-01-19 15:36:32], mode=PLATFORM_GENERATION, duration=0:00:10.003, duration_ms=10003, data={name=ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 15:36:33], mode=BUILD, duration=0:00:00.628, duration_ms=628, data={name=CPU0, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:36:38], mode=BUILD, duration=0:00:04.702, duration_ms=4702, data={name=CPU0_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:36:47], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=CPU1, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:36:52], mode=BUILD, duration=0:00:04.608, duration_ms=4608, data={name=CPU1_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:52:08], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=CPU0, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:52:13], mode=BUILD, duration=0:00:04.506, duration_ms=4506, data={name=CPU0_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:52:18], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=CPU1, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:52:23], mode=BUILD, duration=0:00:04.628, duration_ms=4628, data={name=CPU1_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 15:53:49], mode=MISC, duration=0:00:03.637, duration_ms=3637, data={name=CPU0_system, type=bif_creation}
-timestamp=[2025-01-19 16:07:01], mode=PLATFORM_GENERATION, duration=0:00:07.358, duration_ms=7358, data={name=ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 16:07:03], mode=BUILD, duration=0:00:00.662, duration_ms=662, data={name=CPU0, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:07:12], mode=BUILD, duration=0:00:04.942, duration_ms=4942, data={name=CPU0_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:07:13], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=CPU1, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:07:21], mode=BUILD, duration=0:00:04.480, duration_ms=4480, data={name=CPU1_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:08:12], mode=WORKBENCH_START, duration=0:00:04.886, duration_ms=4886, data={}
-timestamp=[2025-01-19 16:08:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.261, duration_ms=261, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=CPU0,CPU0_system,CPU1,CPU1_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 16:08:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.731, duration_ms=731, data={}
-timestamp=[2025-01-19 16:26:11], mode=MISC, duration=0:00:03.318, duration_ms=3318, data={name=CPU1_system, type=bif_creation}
-timestamp=[2025-01-19 16:27:05], mode=PLATFORM_GENERATION, duration=0:00:06.221, duration_ms=6221, data={name=ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 16:27:06], mode=BUILD, duration=0:00:00.648, duration_ms=648, data={name=CPU1, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:27:11], mode=BUILD, duration=0:00:04.504, duration_ms=4504, data={name=CPU1_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:27:11], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=CPU0, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:27:16], mode=BUILD, duration=0:00:04.517, duration_ms=4517, data={name=CPU0_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:27:57], mode=WORKBENCH_START, duration=0:00:05.797, duration_ms=5797, data={}
-timestamp=[2025-01-19 16:27:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.250, duration_ms=250, data={editors_count=4, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=CPU0,CPU0_system,CPU1,CPU1_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 16:27:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.731, duration_ms=731, data={}
-timestamp=[2025-01-19 16:30:01], mode=APP_CREATION, duration=0:00:06.460, duration_ms=6460, data={name=FSBL, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
-timestamp=[2025-01-19 16:30:08], mode=PLATFORM_GENERATION, duration=0:00:02.851, duration_ms=2851, data={name=ZYNQ_CORE_wrapper}
-timestamp=[2025-01-19 16:30:08], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=CPU1, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:30:13], mode=BUILD, duration=0:00:04.396, duration_ms=4396, data={name=CPU1_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:30:13], mode=BUILD, duration=0:00:00.294, duration_ms=294, data={name=CPU0, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:30:18], mode=BUILD, duration=0:00:04.386, duration_ms=4386, data={name=CPU0_system, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:30:20], mode=BUILD, duration=0:00:02.247, duration_ms=2247, data={name=FSBL, configuration=Debug, clean_build=false}
-timestamp=[2025-01-19 16:30:25], mode=BUILD, duration=0:00:04.483, duration_ms=4483, data={name=FSBL_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-19 15:11:07], mode=WORKBENCH_START, duration=0:00:07.367, duration_ms=7367, data={}
+timestamp=[2025-01-19 15:11:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.003, duration_ms=3, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-01-19 15:11:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.733, duration_ms=733, data={}
+timestamp=[2025-01-19 15:12:46], mode=APP_CREATION, duration=0:00:11.856, duration_ms=11856, data={name=CPU0, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}

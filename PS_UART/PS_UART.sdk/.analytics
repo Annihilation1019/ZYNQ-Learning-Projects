@@ -8,3 +8,10 @@ timestamp=[2025-01-15 15:33:25], mode=BUILD, duration=0:00:00.677, duration_ms=6
 timestamp=[2025-01-15 15:33:30], mode=BUILD, duration=0:00:04.804, duration_ms=4804, data={name=PS_UART_system, configuration=Debug, clean_build=false}
 timestamp=[2025-01-15 15:35:39], mode=BUILD, duration=0:00:00.684, duration_ms=684, data={name=PS_UART, configuration=Debug, clean_build=false}
 timestamp=[2025-01-15 15:35:45], mode=BUILD, duration=0:00:05.447, duration_ms=5447, data={name=PS_UART_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 20:01:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.744, duration_ms=744, data={}
+timestamp=[2025-01-20 20:01:38], mode=WORKBENCH_START, duration=0:00:06.611, duration_ms=6611, data={}
+timestamp=[2025-01-20 20:01:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.163, duration_ms=163, data={editors_count=2, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=PS_UART,PS_UART_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper,xuartps_hello_world_example_1,xuartps_hello_world_example_1_system}
+timestamp=[2025-01-20 20:01:46], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=PS_UART, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 20:01:50], mode=BUILD, duration=0:00:04.246, duration_ms=4246, data={name=PS_UART_system, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 20:02:23], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=PS_UART, configuration=Debug, clean_build=false}
+timestamp=[2025-01-20 20:02:27], mode=BUILD, duration=0:00:04.004, duration_ms=4004, data={name=PS_UART_system, configuration=Debug, clean_build=false}

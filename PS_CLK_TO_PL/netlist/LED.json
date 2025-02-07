@@ -1,0 +1,287 @@
+{
+  "creator": "Yosys 0.48 (git sha1 aaa5347494801e9e3870b31387da59da24233f76, clang++ 18.1.2-wasi-sdk -Oz)",
+  "modules": {
+    "LED": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:22.1-37.10"
+      },
+      "parameter_default_values": {
+        "T1MS": "10111110101111000010000000"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "led": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$add${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:35$4": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000011010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000011010"
+          },
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:35.25-35.40"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+            "B": [ "1" ],
+            "Y": [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55 ]
+          }
+        },
+        "$ge${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30$2": {
+          "hide_name": 1,
+          "type": "$ge",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000011010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000011010",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.12-30.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+            "B": [ "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "1", "1", "1", "1", "0", "1", "0", "1", "1", "1", "1", "1", "0", "1" ],
+            "Y": [ 56 ]
+          }
+        },
+        "$not${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:32$3": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:32.20-32.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 57 ]
+          }
+        },
+        "$procdff$13": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000011010"
+          },
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:29.5-35.41"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83 ],
+            "Q": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ]
+          }
+        },
+        "$procdff$14": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:29.5-35.41"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 84 ],
+            "Q": [ 3 ]
+          }
+        },
+        "$procmux$11": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.12-30.28|{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.9-35.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 57 ],
+            "S": [ 56 ],
+            "Y": [ 84 ]
+          }
+        },
+        "$procmux$8": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000011010"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.12-30.28|{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.9-35.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55 ],
+            "B": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 56 ],
+            "Y": [ 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\led_r[0:0]": {
+          "hide_name": 1,
+          "bits": [ 84 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:29.5-35.41"
+          }
+        },
+        "$0\\time_count[25:0]": {
+          "hide_name": 1,
+          "bits": [ 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:29.5-35.41"
+          }
+        },
+        "$1\\led_r[0:0]": {
+          "hide_name": 1,
+          "bits": [ "0" ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:28.9-28.19"
+          }
+        },
+        "$1\\time_count[25:0]": {
+          "hide_name": 1,
+          "bits": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:27.15-27.31"
+          }
+        },
+        "$add${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:35$4_Y": {
+          "hide_name": 1,
+          "bits": [ 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:35.25-35.40"
+          }
+        },
+        "$ge${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30$2_Y": {
+          "hide_name": 1,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:30.12-30.28"
+          }
+        },
+        "$not${workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:32$3_Y": {
+          "hide_name": 1,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:32.20-32.26"
+          }
+        },
+        "$procmux$11_Y": {
+          "hide_name": 1,
+          "bits": [ 84 ],
+          "attributes": {
+          }
+        },
+        "$procmux$12_CMP": {
+          "hide_name": 1,
+          "bits": [ 56 ],
+          "attributes": {
+          }
+        },
+        "$procmux$8_Y": {
+          "hide_name": 1,
+          "bits": [ 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83 ],
+          "attributes": {
+          }
+        },
+        "$procmux$9_CMP": {
+          "hide_name": 1,
+          "bits": [ 56 ],
+          "attributes": {
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:23.15-23.18"
+          }
+        },
+        "led": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:24.16-24.19"
+          }
+        },
+        "led_r": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "init": "0",
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:28.9-28.14"
+          }
+        },
+        "time_count": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ],
+          "attributes": {
+            "init": "00000000000000000000000000",
+            "src": "{workspace}/PS_CLK_TO_PL.srcs/sources_1/new/LED.v:27.15-27.25"
+          }
+        }
+      }
+    }
+  }
+}

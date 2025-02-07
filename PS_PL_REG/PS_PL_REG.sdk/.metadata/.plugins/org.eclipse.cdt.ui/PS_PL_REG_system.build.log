@@ -1,0 +1,11 @@
+22:05:25 **** Incremental Build of configuration Release for project PS_PL_REG_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 64169 D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm standalone_ps7_cortexa9_0 D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/PS_PL_REG_system/Release/system.bif
+sdcard_gen --xpfm D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm --sys_config ZYNQ_CORE_wrapper --bif D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/PS_PL_REG_system/Release/system.bif --bitstream D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/PS_PL_REG/_ide/bitstream/ZYNQ_CORE_wrapper.bit --elf D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/PS_PL_REG/Release/PS_PL_REG.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/PS_PL_REG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+Error intializing SD boot data : Software platform XML error, sdx:qemuArguments value "ZYNQ_CORE_wrapper/qemu/qemu_args.txt" path does not exist D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/qemu/qemu_args.txt, platform path D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper, sdx:configuration ZYNQ_CORE_wrapper, sdx:image standard
+make: *** [makefile:37: package] Error 1
+
+22:05:28 Build Finished (took 3s.818ms)
+

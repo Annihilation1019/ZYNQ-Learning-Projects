@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Jan 16 21:43:34 2025
-# Process ID: 7528
+# Start of session at: Fri Feb  7 22:13:11 2025
+# Process ID: 16024
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1
 # Command line: vivado.exe -log HDMI_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HDMI_wrapper.tcl
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/HDMI_wrapper.vds

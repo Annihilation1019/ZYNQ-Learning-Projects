@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Thu Jan 16 21:44:59 2025
+| Date         : Fri Feb  7 22:16:37 2025
 | Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command      : report_drc -file HDMI_wrapper_drc_opted.rpt -pb HDMI_wrapper_drc_opted.pb -rpx HDMI_wrapper_drc_opted.rpx
 | Design       : HDMI_wrapper

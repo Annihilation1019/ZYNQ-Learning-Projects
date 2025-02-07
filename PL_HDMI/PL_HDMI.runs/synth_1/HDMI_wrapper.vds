@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Jan 16 21:43:34 2025
-# Process ID: 7528
+# Start of session at: Fri Feb  7 22:13:11 2025
+# Process ID: 16024
 # Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1
 # Command line: vivado.exe -log HDMI_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HDMI_wrapper.tcl
 # Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/HDMI_wrapper.vds
@@ -12,7 +12,7 @@
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
 #-----------------------------------------------------------
 source HDMI_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1908.512 ; gain = 160.102
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1909.816 ; gain = 162.934
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/rgb2dvi'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
@@ -28,18 +28,18 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22796
+INFO: [Synth 8-7075] Helper process launched with PID 4108
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 2767.562 ; gain = 411.184
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2767.367 ; gain = 410.590
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'HDMI_wrapper' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_wrapper' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'HDMI' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/synth/HDMI.v:13]
-INFO: [Synth 8-6157] synthesizing module 'HDMI_clk_wiz_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HDMI_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'HDMI_color_bar_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_color_bar_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HDMI_color_bar_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_color_bar_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'HDMI_rgb2dvi_0_1' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_rgb2dvi_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'HDMI_rgb2dvi_0_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-7528-LAPTOP-DUUNQKAE/realtime/HDMI_rgb2dvi_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_clk_wiz_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_color_bar_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_color_bar_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_color_bar_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_color_bar_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_rgb2dvi_0_1' [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_rgb2dvi_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_rgb2dvi_0_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/.Xil/Vivado-16024-LAPTOP-DUUNQKAE/realtime/HDMI_rgb2dvi_0_1_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'HDMI_xlconcat_0_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_xlconcat_0_0/synth/HDMI_xlconcat_0_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
@@ -49,7 +49,7 @@ INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [d:/Prog
 INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'HDMI_xlconstant_0_0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_xlconstant_0_0/synth/HDMI_xlconstant_0_0.v:53]
 INFO: [Synth 8-6155] done synthesizing module 'HDMI' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/synth/HDMI.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'HDMI_wrapper' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_wrapper' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v:13]
 WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -152,18 +152,18 @@ WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In102[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2859.820 ; gain = 503.441
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2859.184 ; gain = 502.406
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2877.750 ; gain = 521.371
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2877.090 ; gain = 520.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2877.750 ; gain = 521.371
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2877.090 ; gain = 520.312
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2877.750 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2877.090 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -182,22 +182,22 @@ Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth
 Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2905.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2904.984 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2905.605 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2904.984 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -227,10 +227,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for HDMI_i/xlconstant_0. (constraint 
 Applied set_property KEEP_HIERARCHY = SOFT for HDMI_i/xlconcat_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for HDMI_i/color_bar_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -253,25 +253,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:16 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -289,37 +289,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -343,16 +343,16 @@ Report Cell Usage:
 |3     |HDMI_rgb2dvi_0   |     1|
 +------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.984 ; gain = 548.207
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 2905.605 ; gain = 521.371
-Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 2905.605 ; gain = 549.227
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 2904.984 ; gain = 520.312
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 2904.984 ; gain = 548.207
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2905.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2904.984 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2905.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2904.984 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -360,7 +360,7 @@ Synth Design complete | Checksum: b4cd4fc4
 INFO: [Common 17-83] Releasing license: Synthesis
 41 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 2909.352 ; gain = 960.629
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:57 . Memory (MB): peak = 2908.660 ; gain = 958.914
 INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.runs/synth_1/HDMI_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file HDMI_wrapper_utilization_synth.rpt -pb HDMI_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 16 21:44:16 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  7 22:14:25 2025...

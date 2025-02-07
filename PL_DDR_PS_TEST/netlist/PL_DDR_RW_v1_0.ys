@@ -1,0 +1,4 @@
+read_verilog -sv -formal -overwrite {workspace}/ip_repo/PL_DDR_RW_1_0/hdl/PL_DDR_RW_v1_0_M00_AXI.v
+read_verilog -sv -formal -overwrite {workspace}/ip_repo/PL_DDR_RW_1_0/hdl/PL_DDR_RW_v1_0.v
+design -reset-vlog; proc;
+write_json {workspace}/netlist/PL_DDR_RW_v1_0.json

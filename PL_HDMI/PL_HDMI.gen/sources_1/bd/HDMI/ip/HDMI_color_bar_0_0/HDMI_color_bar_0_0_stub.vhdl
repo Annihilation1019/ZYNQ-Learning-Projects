@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Thu Jan 16 21:42:04 2025
+-- Date        : Fri Feb  7 22:13:08 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub -rename_top HDMI_color_bar_0_0 -prefix
---               HDMI_color_bar_0_0_ HDMI_color_bar_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               d:/Programs/Workspace/SmartZYNQ_SP2/PL_HDMI/PL_HDMI.gen/sources_1/bd/HDMI/ip/HDMI_color_bar_0_0/HDMI_color_bar_0_0_stub.vhdl
 -- Design      : HDMI_color_bar_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg484-1

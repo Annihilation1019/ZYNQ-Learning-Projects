@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/PS_CLK_TO_PL/PS_CLK_TO_PL.srcs/constrs_1/new/PIN.xdc rfile:../../../PS_CLK_TO_PL.srcs/constrs_1/new/PIN.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P20 [get_ports led_0]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W17 [get_ports FCLK_CLK0_0]

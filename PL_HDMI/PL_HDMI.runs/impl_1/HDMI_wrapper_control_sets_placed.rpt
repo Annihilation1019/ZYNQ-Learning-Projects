@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Thu Jan 16 21:45:01 2025
+| Date         : Fri Feb  7 22:16:44 2025
 | Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file HDMI_wrapper_control_sets_placed.rpt
 | Design       : HDMI_wrapper
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |     4 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    15 |
+| Unused register locations in slices containing registers |    14 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -58,10 +58,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             101 |           33 |
+| No           | No                    | No                     |              86 |           28 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              42 |           16 |
-| Yes          | No                    | No                     |              10 |            5 |
+| No           | Yes                   | No                     |              42 |           18 |
+| Yes          | No                    | No                     |              10 |            3 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -74,9 +74,9 @@ Table of Contents
 |           Clock Signal          |                Enable Signal               |                              Set/Reset Signal                             | Slice Load Count | Bel Load Count | Bels / Slice |
 +---------------------------------+--------------------------------------------+---------------------------------------------------------------------------+------------------+----------------+--------------+
 |  HDMI_i/clk_wiz_0/inst/clk_out1 |                                            | HDMI_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/pDataOutRaw[9]_i_1__1_n_0 |                3 |             10 |         3.33 |
-|  HDMI_i/clk_wiz_0/inst/clk_out1 | HDMI_i/color_bar_0/inst/v_count[9]_i_1_n_0 |                                                                           |                5 |             10 |         2.00 |
-|  HDMI_i/clk_wiz_0/inst/clk_out1 |                                            | HDMI_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/SR[0]                     |               13 |             32 |         2.46 |
-|  HDMI_i/clk_wiz_0/inst/clk_out1 |                                            |                                                                           |               33 |            101 |         3.06 |
+|  HDMI_i/clk_wiz_0/inst/clk_out1 | HDMI_i/color_bar_0/inst/v_count[9]_i_1_n_0 |                                                                           |                3 |             10 |         3.33 |
+|  HDMI_i/clk_wiz_0/inst/clk_out1 |                                            | HDMI_i/rgb2dvi_0/U0/DataEncoders[0].DataEncoder/SR[0]                     |               15 |             32 |         2.13 |
+|  HDMI_i/clk_wiz_0/inst/clk_out1 |                                            |                                                                           |               28 |             86 |         3.07 |
 +---------------------------------+--------------------------------------------+---------------------------------------------------------------------------+------------------+----------------+--------------+
 
 

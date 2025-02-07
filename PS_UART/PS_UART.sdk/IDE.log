@@ -109,3 +109,64 @@ con
 
 15:36:14 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\PS_UART_system\_ide\scripts\systemdebugger_ps_uart_system_standalone.tcl'
 15:36:26 INFO  : Disconnected from the channel tcfchan#5.
+20:01:34 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/IDE.log'.
+20:01:35 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\temp_xsdb_launch_script.tcl
+20:01:37 INFO  : XSCT server has started successfully.
+20:01:37 INFO  : plnx-install-location is set to ''
+20:01:37 INFO  : Successfully done setting XSCT server connection channel  
+20:01:37 INFO  : Successfully done setting workspace for the tool. 
+20:01:38 INFO  : Platform repository initialization has completed.
+20:01:38 INFO  : Successfully done query RDI_DATADIR 
+20:01:38 INFO  : Registering command handlers for Vitis TCF services
+20:01:42 INFO  : Checking for BSP changes to sync application flags for project 'PS_UART'...
+20:01:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa is already opened
+
+20:02:22 INFO  : Checking for BSP changes to sync application flags for project 'PS_UART'...
+20:02:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa is already opened
+
+20:02:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:38 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:02:38 INFO  : 'jtag frequency' command is executed.
+20:02:38 INFO  : Context for 'APU' is selected.
+20:02:38 INFO  : System reset is completed.
+20:02:41 INFO  : 'after 3000' command is executed.
+20:02:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:02:44 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:02:44 INFO  : Context for 'APU' is selected.
+20:02:44 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:02:44 INFO  : 'configparams force-mem-access 1' command is executed.
+20:02:44 INFO  : Context for 'APU' is selected.
+20:02:44 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl' is done.
+20:02:44 INFO  : 'ps7_init' command is executed.
+20:02:44 INFO  : 'ps7_post_config' command is executed.
+20:02:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:02:45 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:02:45 INFO  : 'configparams force-mem-access 0' command is executed.
+20:02:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/PS_UART/PS_UART.sdk/PS_UART/Debug/PS_UART.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:02:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:02:45 INFO  : 'con' command is executed.
+20:02:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:02:45 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_UART\PS_UART.sdk\PS_UART_system\_ide\scripts\systemdebugger_ps_uart_system_standalone.tcl'
+20:02:53 INFO  : Disconnected from the channel tcfchan#3.

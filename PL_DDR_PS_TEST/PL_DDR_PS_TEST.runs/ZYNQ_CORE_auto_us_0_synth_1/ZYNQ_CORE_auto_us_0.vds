@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 21 13:03:40 2025
+# Process ID: 15492
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1
+# Command line: vivado.exe -log ZYNQ_CORE_auto_us_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_CORE_auto_us_0.tcl
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/ZYNQ_CORE_auto_us_0.vds
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+source ZYNQ_CORE_auto_us_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/ip_repo/PL_DDR_RW_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_us_0
+Command: synth_design -top ZYNQ_CORE_auto_us_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18776
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2766.039 ; gain = 408.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_us_0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_us_0/synth/ZYNQ_CORE_auto_us_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_top' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14461]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_axi_upsizer' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_w_upsizer' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_w_upsizer' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5562]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_a_upsizer' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:654]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_a_upsizer' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_r_upsizer' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_r_upsizer' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4652]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized1' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized1' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized2' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized2' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_28_axi_register_slice' is unconnected for instance 'mi_register_slice_inst' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:8475]
+WARNING: [Synth 8-7023] instance 'mi_register_slice_inst' of module 'axi_register_slice_v2_1_28_axi_register_slice' has 93 connections declared, but only 92 given [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:8475]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_28_a_upsizer__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_a_upsizer__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3602]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized3' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized3' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized4' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized4' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized5' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axic_register_slice__parameterized5' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_28_axi_register_slice__parameterized0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:3725]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_28_axi_register_slice' is unconnected for instance 'si_register_slice_inst' [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+WARNING: [Synth 8-7023] instance 'si_register_slice_inst' of module 'axi_register_slice_v2_1_28_axi_register_slice' has 93 connections declared, but only 92 given [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_axi_upsizer' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7037]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_28_top' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/08ae/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14461]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_us_0' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_us_0/synth/ZYNQ_CORE_auto_us_0.v:53]
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[3] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_28_axi_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_28_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[7] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[6] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[5] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[4] in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aresetn in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aclk in module axi_dwidth_converter_v2_1_28_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[3] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[0] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 3004.910 ; gain = 647.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 3004.910 ; gain = 647.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 3004.910 ; gain = 647.379
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 3004.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_us_0/ZYNQ_CORE_auto_us_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_us_0/ZYNQ_CORE_auto_us_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3090.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 3091.355 ; gain = 1.203
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 4     
++---Registers : 
+	               73 Bit    Registers := 2     
+	               68 Bit    Registers := 2     
+	               64 Bit    Registers := 1     
+	               62 Bit    Registers := 2     
+	               55 Bit    Registers := 2     
+	               38 Bit    Registers := 2     
+	               36 Bit    Registers := 2     
+	               30 Bit    Registers := 2     
+	                8 Bit    Registers := 18    
+	                5 Bit    Registers := 4     
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 11    
+	                1 Bit    Registers := 61    
++---Muxes : 
+	   2 Input   73 Bit        Muxes := 2     
+	   2 Input   68 Bit        Muxes := 2     
+	   2 Input   38 Bit        Muxes := 2     
+	   2 Input   36 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 9     
+	   2 Input    8 Bit        Muxes := 22    
+	   8 Input    8 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 11    
+	   8 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 61    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3936] Found unconnected internal register 'gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r.r_pipe/m_payload_i_reg' and it is trimmed from '68' to '67' bits. [d:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.gen/sources_1/bd/ZYNQ_CORE/ipshared/87d1/hdl/axi_register_slice_v2_1_vl_rfs.v:1731]
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[3] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[0] in module axi_dwidth_converter_v2_1_28_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name                      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | USE_RTL_FIFO.data_srl_reg[31] | 1      | 1          | 0      | 1       | 0      | 0      | 0      | 
+|dsrl__1     | USE_RTL_FIFO.data_srl_reg[31] | 30     | 30         | 0      | 30      | 0      | 0      | 0      | 
+|dsrl__4     | USE_RTL_FIFO.data_srl_reg[31] | 30     | 30         | 0      | 30      | 0      | 0      | 0      | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     7|
+|2     |LUT2    |    26|
+|3     |LUT3    |   115|
+|4     |LUT4    |    42|
+|5     |LUT5    |   144|
+|6     |LUT6    |   157|
+|7     |SRLC32E |    51|
+|8     |FDRE    |   580|
+|9     |FDSE    |     4|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.355 ; gain = 733.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:23 . Memory (MB): peak = 3091.355 ; gain = 647.379
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 3091.355 ; gain = 733.824
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3091.355 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3091.355 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f2faf4d8
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 52 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 3091.355 ; gain = 1142.910
+INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/ZYNQ_CORE_auto_us_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ZYNQ_CORE_auto_us_0, cache-ID = 94a4a81ecafb2da1
+INFO: [Coretcl 2-1174] Renamed 15 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/PL_DDR_PS_TEST/PL_DDR_PS_TEST.runs/ZYNQ_CORE_auto_us_0_synth_1/ZYNQ_CORE_auto_us_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ZYNQ_CORE_auto_us_0_utilization_synth.rpt -pb ZYNQ_CORE_auto_us_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 13:04:18 2025...

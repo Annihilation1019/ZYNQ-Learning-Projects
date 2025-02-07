@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Thu Jan 16 21:45:20 2025
+| Date             : Fri Feb  7 22:17:08 2025
 | Host             : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command          : report_power -file HDMI_wrapper_power_routed.rpt -pb HDMI_wrapper_power_summary_routed.pb -rpx HDMI_wrapper_power_routed.rpx
 | Design           : HDMI_wrapper
@@ -53,12 +53,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |        6 |       --- |             --- |
-| Slice Logic    |    <0.001 |      431 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      190 |     53200 |            0.36 |
-|   Register     |    <0.001 |      153 |    106400 |            0.14 |
-|   CARRY4       |    <0.001 |        3 |     13300 |            0.02 |
+| Slice Logic    |    <0.001 |      415 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      189 |     53200 |            0.36 |
+|   Register     |    <0.001 |      138 |    106400 |            0.13 |
+|   CARRY4       |    <0.001 |        6 |     13300 |            0.05 |
 |   Others       |     0.000 |       30 |       --- |             --- |
-| Signals        |    <0.001 |      326 |       --- |             --- |
+| Signals        |    <0.001 |      323 |       --- |             --- |
 | MMCM           |     0.106 |        1 |         4 |           25.00 |
 | I/O            |     0.138 |        9 |       200 |            4.50 |
 | Static Power   |     0.110 |          |           |                 |
@@ -72,7 +72,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.013 |       0.005 |      0.008 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.012 |       0.004 |      0.008 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.070 |       0.059 |      0.011 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.042 |       0.041 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
