@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1739277605">
+  <File Type="ROUTE-PWR" Name="hdmi_colorbar_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="hdmi_colorbar.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="hdmi_colorbar_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="hdmi_colorbar_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="hdmi_colorbar_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="hdmi_colorbar.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="hdmi_colorbar_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="hdmi_colorbar_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="hdmi_colorbar_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="hdmi_colorbar_opt.dcp"/>
+  <File Type="OPT-DRC" Name="hdmi_colorbar_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="hdmi_colorbar.hwdef"/>
+  <File Type="PWROPT-DCP" Name="hdmi_colorbar_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="hdmi_colorbar_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="hdmi_colorbar_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="hdmi_colorbar_placed.dcp"/>
+  <File Type="PLACE-IO" Name="hdmi_colorbar_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="hdmi_colorbar_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="hdmi_colorbar_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="hdmi_colorbar_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="hdmi_colorbar_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="hdmi_colorbar_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="hdmi_colorbar_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="hdmi_colorbar.bin"/>
+  <File Type="PLACE-TIMING" Name="hdmi_colorbar_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="hdmi_colorbar_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="hdmi_colorbar_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="hdmi_colorbar_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="hdmi_colorbar.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="hdmi_colorbar_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="hdmi_colorbar_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="hdmi_colorbar_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="hdmi_colorbar.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="hdmi_colorbar_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="hdmi_colorbar_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="hdmi_colorbar_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="hdmi_colorbar_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="hdmi_colorbar_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="hdmi_colorbar_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="hdmi_colorbar_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="hdmi_colorbar_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="hdmi_colorbar_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="hdmi_colorbar_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="hdmi_colorbar_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="hdmi_colorbar_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="hdmi_colorbar_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="hdmi_colorbar_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="hdmi_colorbar_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="hdmi_colorbar_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="hdmi_colorbar_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="hdmi_colorbar_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="hdmi_colorbar_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="hdmi_colorbar_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="hdmi_colorbar_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="hdmi_colorbar_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="hdmi_colorbar_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="hdmi_colorbar_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="hdmi_colorbar_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="hdmi_colorbar_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="hdmi_colorbar_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="hdmi_colorbar.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="hdmi_colorbar_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="hdmi_colorbar_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="hdmi_colorbar.nky"/>
+  <File Type="BITSTR-BMM" Name="hdmi_colorbar_bd.bmm"/>
+  <File Type="PDI-FILE" Name="hdmi_colorbar.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="hdmi_colorbar_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="hdmi_colorbar_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="hdmi_colorbar.rcfi"/>
+  <File Type="CFI_FILE" Name="hdmi_colorbar.cfi"/>
+  <File Type="RNPI_FILE" Name="hdmi_colorbar.rnpi"/>
+  <File Type="NPI_FILE" Name="hdmi_colorbar.npi"/>
+  <File Type="RBD_FILE" Name="hdmi_colorbar.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="hdmi_colorbar.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="hdmi_colorbar.sysdef"/>
+  <File Type="BG-BGN" Name="hdmi_colorbar.bgn"/>
+  <File Type="BG-DRC" Name="hdmi_colorbar.drc"/>
+  <File Type="RDI-RDI" Name="hdmi_colorbar.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="hdmi_colorbar_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="hdmi_colorbar_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/encoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hdmi_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/par_to_ser.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_pic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hdmi_colorbar.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="hdmi_colorbar"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/HDMI.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/HDMI.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/hdmi_colorbar.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_gen"/>
+</GenRun>

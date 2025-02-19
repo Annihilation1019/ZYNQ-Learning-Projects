@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Feb 19 16:19:19 2025
+# Process ID: 9616
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1488 D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_HDMI_COLORBAR\VDMA_HDMI_COLORBAR.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/ip_repo/DVI_TX'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 3128.137 ; gain = 276.723
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_DVI_Transmitter_0_0/ZYNQ_CORE_DVI_Transmitter_0_0.dcp' for cell 'ZYNQ_CORE_i/DVI_Transmitter_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.dcp' for cell 'ZYNQ_CORE_i/axi_vdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.dcp' for cell 'ZYNQ_CORE_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_150M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_50M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_util_vector_logic_0_0/ZYNQ_CORE_util_vector_logic_0_0.dcp' for cell 'ZYNQ_CORE_i/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0.dcp' for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0.dcp' for cell 'ZYNQ_CORE_i/v_tc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_0/ZYNQ_CORE_xbar_0.dcp' for cell 'ZYNQ_CORE_i/axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp' for cell 'ZYNQ_CORE_i/axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.211 . Memory (MB): peak = 3486.277 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 261 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. ZYNQ_CORE_i/clk_wiz_0/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'ZYNQ_CORE_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.199980 which will be rounded to 0.200 to ensure it is an integer multiple of 1 picosecond [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:68]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:72]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:80]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:84]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:92]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:96]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:108]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:192]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:196]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:200]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:204]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:208]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:212]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:216]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc:220]
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_tc_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_tc_0/U0'
+INFO: [Project 1-1714] 18 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 4196.191 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 4238.090 ; gain = 1109.953
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset_rtl_0]]
+set_property package_pin "" [get_ports [list  reset_rtl_0]]
+place_ports reset_rtl_0 J20
+set_property IOSTANDARD TMDS_33 [get_ports [list {TMDS_0_tmds_data_p[2]} {TMDS_0_tmds_data_p[1]} {TMDS_0_tmds_data_p[0]}]]
+place_ports {TMDS_0_tmds_data_p[0]} M21
+place_ports {TMDS_0_tmds_data_p[1]} L21
+place_ports {TMDS_0_tmds_data_p[2]} J21
+place_ports TMDS_0_tmds_clk_p N19
+file mkdir D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new
+close [ open D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc w ]
+add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc
+set_property target_constrs_file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.runs/synth_1/ZYNQ_CORE_wrapper.dcp to D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 20
+[Wed Feb 19 16:23:22 2025] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.runs/synth_1/runme.log

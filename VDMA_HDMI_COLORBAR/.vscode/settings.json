@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "xaxivdma_i.h": "c",
+        "xaxivdma.h": "c",
+        "xparameters.h": "c",
+        "xil_cache.h": "c",
+        "xil_types.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "unistd.h": "c"
+    }
+}

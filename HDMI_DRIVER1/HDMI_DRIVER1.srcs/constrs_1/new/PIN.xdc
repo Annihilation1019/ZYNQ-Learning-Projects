@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN M19 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
+set_property PACKAGE_PIN J20 [get_ports sys_rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]
+set_property PACKAGE_PIN N19 [get_ports tmds_clk_p]
+set_property PACKAGE_PIN M21 [get_ports {tmds_data_p[0]}]
+set_property PACKAGE_PIN L21 [get_ports {tmds_data_p[1]}]
+set_property PACKAGE_PIN J21 [get_ports {tmds_data_p[2]}]

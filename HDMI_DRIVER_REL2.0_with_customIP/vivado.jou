@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Feb 17 21:47:00 2025
+# Process ID: 14832
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3576 D:\Programs\Workspace\SmartZYNQ_SP2\HDMI_DRIVER_REL2.0_with_customIP\HDMI_DRIVER_REL2.0.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/hdmi_ctrl.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/hdmi_top.v] -no_script -reset -force -quiet
+remove_files  {D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/hdmi_ctrl.v D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/hdmi_top.v}
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_pic.v] -no_script -reset -force -quiet
+remove_files  D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_pic.v
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/encoder.v] -no_script -reset -force -quiet
+remove_files  D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/encoder.v
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/par_to_ser.v] -no_script -reset -force -quiet
+remove_files  D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/par_to_ser.v
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_ctrl.v] -no_script -reset -force -quiet
+remove_files  D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_ctrl.v
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset clk_wiz_0 D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+add_files -norecurse {D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_ctrl.v D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/new/vga_pic.v}
+update_compile_order -fileset sources_1
+create_bd_design "HDMI"
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  D:/Programs/Workspace/SmartZYNQ_SP2/DVI_TX [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:DVI_Transmitter:1.0 DVI_Transmitter_0
+endgroup
+set_property location {1 -101 -722} [get_bd_cells DVI_Transmitter_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0
+endgroup
+set_property location {0.5 -322 -708} [get_bd_cells clk_wiz_0]
+set_property -dict [list CONFIG.PRIM_IN_FREQ.VALUE_SRC USER] [get_bd_cells clk_wiz_0]
+set_property -dict [list \
+  CONFIG.CLKIN1_JITTER_PS {200.0} \
+  CONFIG.CLKOUT1_DRIVES {BUFG} \
+  CONFIG.CLKOUT1_JITTER {204.383} \
+  CONFIG.CLKOUT1_PHASE_ERROR {164.985} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {40} \
+  CONFIG.CLKOUT2_DRIVES {BUFG} \
+  CONFIG.CLKOUT2_JITTER {142.107} \
+  CONFIG.CLKOUT2_PHASE_ERROR {164.985} \
+  CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {200} \
+  CONFIG.CLKOUT2_USED {true} \
+  CONFIG.CLKOUT3_DRIVES {BUFG} \
+  CONFIG.CLKOUT4_DRIVES {BUFG} \
+  CONFIG.CLKOUT5_DRIVES {BUFG} \
+  CONFIG.CLKOUT6_DRIVES {BUFG} \
+  CONFIG.CLKOUT7_DRIVES {BUFG} \
+  CONFIG.CLK_OUT1_PORT {clk_1x} \
+  CONFIG.CLK_OUT2_PORT {clk_5x} \
+  CONFIG.MMCM_BANDWIDTH {OPTIMIZED} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {20} \
+  CONFIG.MMCM_CLKIN1_PERIOD {20.000} \
+  CONFIG.MMCM_CLKIN2_PERIOD {10.0} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {25} \
+  CONFIG.MMCM_CLKOUT1_DIVIDE {5} \
+  CONFIG.MMCM_COMPENSATION {ZHOLD} \
+  CONFIG.NUM_OUT_CLKS {2} \
+  CONFIG.PLL_CLKIN_PERIOD {20.000} \
+  CONFIG.PRIMITIVE {PLL} \
+  CONFIG.PRIM_IN_FREQ {50} \
+] [get_bd_cells clk_wiz_0]
+create_bd_cell -type module -reference vga_ctrl vga_ctrl_0
+create_bd_cell -type module -reference vga_pic vga_pic_0
+regenerate_bd_layout
+startgroup
+make_bd_pins_external  [get_bd_pins clk_wiz_0/reset]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins clk_wiz_0/clk_in1]
+endgroup
+set_property location {0.5 -224 260} [get_bd_cells clk_wiz_0]
+set_property location {2 122 269} [get_bd_cells vga_ctrl_0]
+set_property location {2.5 474 247} [get_bd_cells DVI_Transmitter_0]
+set_property location {2 140 144} [get_bd_cells vga_ctrl_0]
+set_property location {2 111 368} [get_bd_cells vga_pic_0]
+delete_bd_objs [get_bd_nets reset_0_1]
+delete_bd_objs [get_bd_ports reset_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0
+endgroup
+set_property location {1 -182 118} [get_bd_cells util_vector_logic_0]
+set_property -dict [list \
+  CONFIG.C_OPERATION {not} \
+  CONFIG.C_SIZE {1} \
+] [get_bd_cells util_vector_logic_0]
+startgroup
+make_bd_pins_external  [get_bd_pins util_vector_logic_0/Op1]
+endgroup
+startgroup
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins clk_wiz_0/reset]
+endgroup
+set_property name rstn [get_bd_ports Op1_0]
+set_property location {3 365 50} [get_bd_cells vga_ctrl_0]
+set_property location {4.5 653 147} [get_bd_cells DVI_Transmitter_0]
+connect_bd_net [get_bd_pins clk_wiz_0/locked] [get_bd_pins DVI_Transmitter_0/clk_1x]
+undo
+connect_bd_net [get_bd_pins clk_wiz_0/clk_1x] [get_bd_pins DVI_Transmitter_0/clk_1x]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_5x] [get_bd_pins DVI_Transmitter_0/clk_5x]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+set_property CONFIG.C_OPERATION {and} [get_bd_cells util_vector_logic_1]
+set_property location {3 315 400} [get_bd_cells util_vector_logic_1]
+connect_bd_net [get_bd_pins clk_wiz_0/locked] [get_bd_pins util_vector_logic_1/Op1]
+connect_bd_net [get_bd_ports rstn] [get_bd_pins util_vector_logic_1/Op2]
+save_bd_design
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins vga_pic_0/rst_n]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins vga_ctrl_0/rst_n]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins DVI_Transmitter_0/sys_rst_n]
+connect_bd_net [get_bd_pins vga_pic_0/clk] [get_bd_pins clk_wiz_0/clk_1x]
+connect_bd_net [get_bd_pins vga_ctrl_0/clk] [get_bd_pins clk_wiz_0/clk_1x]
+regenerate_bd_layout
+startgroup
+make_bd_pins_external  [get_bd_pins DVI_Transmitter_0/tmds_clk_n]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins DVI_Transmitter_0/tmds_data_n]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins DVI_Transmitter_0/tmds_clk_p]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins DVI_Transmitter_0/tmds_data_p]
+endgroup
+connect_bd_net [get_bd_pins vga_ctrl_0/pix_data] [get_bd_pins DVI_Transmitter_0/rgb_data]
+connect_bd_net [get_bd_pins vga_ctrl_0/de] [get_bd_pins DVI_Transmitter_0/de]
+delete_bd_objs [get_bd_nets vga_ctrl_0_pix_data]
+connect_bd_net [get_bd_pins vga_ctrl_0/hsync] [get_bd_pins DVI_Transmitter_0/hsync]
+connect_bd_net [get_bd_pins vga_ctrl_0/vsync] [get_bd_pins DVI_Transmitter_0/vsync]
+connect_bd_net [get_bd_pins vga_pic_0/rgb_data] [get_bd_pins vga_ctrl_0/rgb_data]
+connect_bd_net [get_bd_pins vga_ctrl_0/pix_data] [get_bd_pins DVI_Transmitter_0/rgb_data]
+connect_bd_net [get_bd_pins vga_ctrl_0/pix_y] [get_bd_pins vga_pic_0/pix_y]
+connect_bd_net [get_bd_pins vga_ctrl_0/pix_x] [get_bd_pins vga_pic_0/pix_x]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+validate_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/bd/HDMI/HDMI.bd] -top
+add_files -norecurse d:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.gen/sources_1/bd/HDMI/hdl/HDMI_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top HDMI_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+generate_target all [get_files D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/bd/HDMI/HDMI.bd]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.srcs/sources_1/bd/HDMI/HDMI.bd]
+launch_runs HDMI_DVI_Transmitter_0_0_synth_1
+wait_on_run HDMI_DVI_Transmitter_0_0_synth_1
+launch_runs HDMI_clk_wiz_0_0_synth_1
+wait_on_run HDMI_clk_wiz_0_0_synth_1
+launch_runs HDMI_util_vector_logic_0_0_synth_1
+wait_on_run HDMI_util_vector_logic_0_0_synth_1
+launch_runs HDMI_util_vector_logic_0_1_synth_1
+wait_on_run HDMI_util_vector_logic_0_1_synth_1
+launch_runs HDMI_vga_ctrl_0_0_synth_1
+wait_on_run HDMI_vga_ctrl_0_0_synth_1
+launch_runs HDMI_vga_pic_0_0_synth_1
+wait_on_run HDMI_vga_pic_0_0_synth_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_in1_0]]
+place_ports clk_in1_0 M19
+place_ports {rstn[0]} J20
+set_property IOSTANDARD LVCMOS33 [get_ports [list {rstn[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_in1_0]]
+set_property IOSTANDARD TMDS_33 [get_ports [list tmds_clk_p_0]]
+set_property package_pin "" [get_ports [list  tmds_clk_p_0]]
+place_ports tmds_clk_p_0 N19
+place_ports {tmds_data_p_0[0]} M21
+place_ports {tmds_data_p_0[1]} L21
+place_ports {tmds_data_p_0[2]} J21
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.runs/impl_1/HDMI_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/HDMI_DRIVER_REL2.0_with_customIP/HDMI_DRIVER_REL2.0.runs/impl_1/HDMI_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
