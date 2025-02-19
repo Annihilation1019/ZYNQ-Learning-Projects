@@ -132,3 +132,17 @@ INFO: [Project 1-1160] Copying file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDM
 launch_runs synth_1 -jobs 20
 [Wed Feb 19 16:23:22 2025] Launched synth_1...
 Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 20
+[Wed Feb 19 16:24:56 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Wed Feb 19 16:27:14 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/ZYNQ_CORE_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
