@@ -1,0 +1,293 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Feb 20 15:28:53 2025
+# Process ID: 6372
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9308 D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_HDMI_COLORBAR\VDMA_HDMI_COLORBAR.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+save_project_as VDMA_OV5640_HDMI D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI -exclude_run_results -force
+delete_bd_objs [get_bd_intf_nets v_axi4s_vid_out_0_vid_io_out] [get_bd_intf_nets DVI_Transmitter_0_TMDS] [get_bd_nets clk_wiz_0_clk_out2] [get_bd_cells DVI_Transmitter_0]
+delete_bd_objs [get_bd_intf_ports TMDS_0]
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv digilentinc.com:ip:rgb2dvi:1.4 rgb2dvi_0
+endgroup
+set_property location {5 1509 910} [get_bd_cells rgb2dvi_0]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Clk_p]
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Clk_n]
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Data_p]
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins rgb2dvi_0/TMDS_Data_n]
+make_bd_intf_pins_external  [get_bd_intf_pins rgb2dvi_0/TMDS]
+endgroup
+connect_bd_intf_net [get_bd_intf_pins v_axi4s_vid_out_0/vid_io_out] [get_bd_intf_pins rgb2dvi_0/RGB]
+connect_bd_net [get_bd_pins rgb2dvi_0/aRst] [get_bd_pins clk_wiz_0/locked]
+connect_bd_net [get_bd_pins rgb2dvi_0/PixelClk] [get_bd_pins clk_wiz_0/clk_out1]
+startgroup
+set_property -dict [list \
+  CONFIG.kGenerateSerialClk {false} \
+  CONFIG.kRstActiveHigh {false} \
+] [get_bd_cells rgb2dvi_0]
+endgroup
+connect_bd_net [get_bd_pins rgb2dvi_0/aRst_n] [get_bd_pins clk_wiz_0/locked]
+connect_bd_net [get_bd_pins rgb2dvi_0/SerialClk] [get_bd_pins clk_wiz_0/clk_out2]
+ipx::edit_ip_in_project -upgrade true -name rgb2dvi_v1_4_project -directory D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.tmp/rgb2dvi_v1_4_project d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi/rgb2dvi/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 9 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  ZYNQ_CORE_rgb2dvi_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips ZYNQ_CORE_rgb2dvi_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+catch { config_ip_cache -export [get_ips -all ZYNQ_CORE_rgb2dvi_0_0] }
+catch { config_ip_cache -export [get_ips -all ZYNQ_CORE_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all ZYNQ_CORE_auto_pc_1] }
+export_ip_user_files -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+launch_runs ZYNQ_CORE_auto_pc_0_synth_1 ZYNQ_CORE_auto_pc_1_synth_1 ZYNQ_CORE_axi_vdma_0_0_synth_1 ZYNQ_CORE_clk_wiz_0_0_synth_1 ZYNQ_CORE_processing_system7_0_0_synth_1 ZYNQ_CORE_rgb2dvi_0_0_synth_1 ZYNQ_CORE_rst_ps7_0_150M_1_synth_1 ZYNQ_CORE_rst_ps7_0_50M_1_synth_1 ZYNQ_CORE_util_vector_logic_0_0_synth_1 ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1 ZYNQ_CORE_v_tc_0_0_synth_1 ZYNQ_CORE_xbar_0_synth_1 -jobs 20
+wait_on_run ZYNQ_CORE_auto_pc_0_synth_1
+wait_on_run ZYNQ_CORE_auto_pc_1_synth_1
+wait_on_run ZYNQ_CORE_axi_vdma_0_0_synth_1
+wait_on_run ZYNQ_CORE_clk_wiz_0_0_synth_1
+wait_on_run ZYNQ_CORE_processing_system7_0_0_synth_1
+wait_on_run ZYNQ_CORE_rgb2dvi_0_0_synth_1
+wait_on_run ZYNQ_CORE_rst_ps7_0_150M_1_synth_1
+wait_on_run ZYNQ_CORE_rst_ps7_0_50M_1_synth_1
+wait_on_run ZYNQ_CORE_util_vector_logic_0_0_synth_1
+wait_on_run ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1
+wait_on_run ZYNQ_CORE_v_tc_0_0_synth_1
+wait_on_run ZYNQ_CORE_xbar_0_synth_1
+export_simulation -of_objects [get_files D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -directory D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.ip_user_files/sim_scripts -ip_user_files_dir D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.ip_user_files -ipstatic_source_dir D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.cache/compile_simlib/modelsim} {questa=D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.cache/compile_simlib/questa} {riviera=D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.cache/compile_simlib/riviera} {activehdl=D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+regenerate_bd_layout
+reset_run ZYNQ_CORE_axi_vdma_0_0_synth_1
+ipx::edit_ip_in_project -upgrade true -name rgb2dvi_v1_4_project -directory D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.tmp/rgb2dvi_v1_4_project d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi/rgb2dvi/component.xml
+update_compile_order -fileset sources_1
+close_project
+startgroup
+set_property -dict [list \
+  CONFIG.PCW_GPIO_EMIO_GPIO_ENABLE {1} \
+  CONFIG.PCW_GPIO_EMIO_GPIO_IO {2} \
+] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins processing_system7_0/GPIO_0]
+endgroup
+regenerate_bd_layout
+set_property name emio_sccb [get_bd_intf_ports GPIO_0_0]
+startgroup
+set_property -dict [list \
+  CONFIG.c_mm2s_linebuffer_depth {2048} \
+  CONFIG.c_s2mm_linebuffer_depth {2048} \
+] [get_bd_cells axi_vdma_0]
+endgroup
+save_bd_design
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:v_vid_in_axi4s:5.0 v_vid_in_axi4s_0
+endgroup
+set_property CONFIG.C_HAS_ASYNC_CLK {1} [get_bd_cells v_vid_in_axi4s_0]
+set_property  ip_repo_paths  {d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data} [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv alientek.com:user:ov5640_capture_data:1.0 ov5640_capture_data_0
+endgroup
+ipx::edit_ip_in_project -upgrade true -name ov5640_capture_data_v1_0_project -directory D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.tmp/ov5640_capture_data_v1_0_project d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data/component.xml
+update_compile_order -fileset sources_1
+close_project
+set_property location {1 44 -45} [get_bd_cells ov5640_capture_data_0]
+connect_bd_intf_net [get_bd_intf_pins ov5640_capture_data_0/cmos_rgb] [get_bd_intf_pins v_vid_in_axi4s_0/vid_io_in]
+connect_bd_net [get_bd_pins ov5640_capture_data_0/cmos_frame_clk] [get_bd_pins v_vid_in_axi4s_0/vid_io_in_clk]
+connect_bd_net [get_bd_pins ov5640_capture_data_0/cmos_frame_ce] [get_bd_pins v_vid_in_axi4s_0/vid_io_in_ce]
+connect_bd_net [get_bd_pins clk_wiz_0/locked] [get_bd_pins ov5640_capture_data_0/rst_n]
+connect_bd_intf_net [get_bd_intf_pins v_vid_in_axi4s_0/video_out] [get_bd_intf_pins axi_vdma_0/S_AXIS_S2MM]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK1 (150 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins v_vid_in_axi4s_0/aclk]
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_data]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_href]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_vsync]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_pclk]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_rst_n]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins ov5640_capture_data_0/cam_pwdn]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+regenerate_bd_layout
+reset_run ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1
+reset_run ZYNQ_CORE_v_tc_0_0_synth_1
+reset_run ZYNQ_CORE_rst_ps7_0_150M_1_synth_1
+reset_run ZYNQ_CORE_rst_ps7_0_50M_1_synth_1
+reset_run ZYNQ_CORE_xbar_0_synth_1
+reset_run ZYNQ_CORE_clk_wiz_0_0_synth_1
+reset_run ZYNQ_CORE_processing_system7_0_0_synth_1
+reset_run ZYNQ_CORE_util_vector_logic_0_0_synth_1
+reset_run ZYNQ_CORE_rgb2dvi_0_0_synth_1
+reset_run ZYNQ_CORE_auto_pc_0_synth_1
+reset_run ZYNQ_CORE_auto_pc_1_synth_1
+launch_runs synth_1 -jobs 7
+wait_on_run synth_1
+reset_run ZYNQ_CORE_processing_system7_0_0_synth_1
+reset_run ZYNQ_CORE_util_vector_logic_0_0_synth_1
+reset_run ZYNQ_CORE_rgb2dvi_0_0_synth_1
+reset_run ZYNQ_CORE_v_vid_in_axi4s_0_0_synth_1
+reset_run ZYNQ_CORE_ov5640_capture_data_0_0_synth_1
+reset_run ZYNQ_CORE_auto_pc_1_synth_1
+reset_run ZYNQ_CORE_auto_pc_0_synth_1
+reset_run ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1
+reset_run ZYNQ_CORE_axi_vdma_0_0_synth_1
+reset_run ZYNQ_CORE_v_tc_0_0_synth_1
+reset_run ZYNQ_CORE_rst_ps7_0_150M_1_synth_1
+reset_run ZYNQ_CORE_rst_ps7_0_50M_1_synth_1
+reset_run ZYNQ_CORE_xbar_0_synth_1
+reset_run ZYNQ_CORE_clk_wiz_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 7
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/HDMI.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/HDMI.xdc
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list {emio_sccb_tri_io[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {emio_sccb_tri_io[0]}]]
+set_property package_pin "" [get_ports [list  {emio_sccb_tri_io[1]}]]
+place_ports {emio_sccb_tri_io[0]} AB16
+place_ports {emio_sccb_tri_io[1]} AA19
+place_ports TMDS_Clk_p_0 N19
+place_ports cam_rst_n_0 J20
+set_property IOSTANDARD LVCMOS33 [get_ports [list cam_rst_n_0]]
+place_ports reset_rtl_0 K21
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset_rtl_0]]
+place_ports {TMDS_Data_p_0[0]} M21
+place_ports {TMDS_Data_p_0[1]} L21
+place_ports {TMDS_Data_p_0[2]} J21
+place_ports {cam_data_0[0]} AB19
+set_property IOSTANDARD LVCMOS33 [get_ports [list {cam_data_0[0]}]]
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+place_ports cam_rst_n_0 AB20
+place_ports {cam_data_0[2]} AB21
+place_ports {cam_data_0[4]} AB22
+place_ports {cam_data_0[6]} Y21
+place_ports {cam_data_0[7]} V22
+place_ports {cam_data_0[5]} Y20
+place_ports {cam_data_0[3]} AA22
+place_ports {cam_data_0[1]} AA21
+set_property IOSTANDARD LVCMOS33 [get_ports [list {cam_data_0[7]} {cam_data_0[6]} {cam_data_0[5]} {cam_data_0[4]} {cam_data_0[3]} {cam_data_0[2]} {cam_data_0[1]} {cam_data_0[0]}]]
+place_ports cam_vsync_0 AA16
+place_ports cam_href_0 Y19
+place_ports cam_pwdn_0 U22
+place_ports cam_pclk_0 W22
+set_property IOSTANDARD LVCMOS33 [get_ports [list cam_href_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list cam_pclk_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list cam_pwdn_0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list cam_vsync_0]]
+set_property PULLTYPE PULLUP [get_ports [list {emio_sccb_tri_io[1]}]]
+close [ open D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc w ]
+add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc
+set_property target_constrs_file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc [current_fileset -constrset]
+save_constraints -force
+set_property SLEW {} [get_ports [list {emio_sccb_tri_io[1]}]]
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+refresh_design
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+validate_bd_design -force
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+regenerate_bd_layout
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ZYNQ_CORE_wrapper.xsa
