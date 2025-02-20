@@ -1160,3 +1160,5 @@ INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Vivado/2023.1/data/em
 INFO: [Vivado 12-8231] Launching Vitis
 INFO: [Vivado 12-417] Running vitis
 INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 17:48:56 2025...
