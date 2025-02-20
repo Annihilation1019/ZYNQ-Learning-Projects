@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "display_ctrl_hdmi.h": "c",
+        "xaxivdma.h": "c"
+    }
+}

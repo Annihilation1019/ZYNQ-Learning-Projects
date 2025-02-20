@@ -1575,3 +1575,279 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-19 15:12:51.564
 !MESSAGE Indexed 'CPU0_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-02-20 02:47:47.424 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:47:51.508
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.637
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.638
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.652
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:54.686
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.886
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.886
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.887
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.887
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.887
+!MESSAGE XSCT Command: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.888
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/SharedData/2023.1/data;D:/Xilinx/Vitis/2023.1/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:54.905
+!MESSAGE XSCT command with result: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk], Result: [null, ]. Thread: Thread-20
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-20 02:47:54.997
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-20 02:47:54.997
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-20 02:47:54.998
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:55.818
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:55.988
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:56.037
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:56.073
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-20 02:47:58.670
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@40a8ea7f]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more

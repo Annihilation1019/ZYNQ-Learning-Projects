@@ -389,3 +389,8 @@ con
 
 17:25:55 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_HDMI_COLORBAR\VDMA_HDMI_COLORBAR.sdk\VDMA_HDMI_TEST_system\_ide\scripts\debugger_vdma_hdmi_test-default.tcl'
 17:26:10 INFO  : Disconnected from the channel tcfchan#13.
+02:45:28 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.sdk/IDE.log'.
+02:46:20 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.sdk/IDE.log'.
+02:48:37 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.sdk/IDE.log'.
+02:53:27 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.sdk/IDE.log'.
+02:56:07 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.sdk/IDE.log'.

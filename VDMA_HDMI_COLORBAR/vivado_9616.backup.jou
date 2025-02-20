@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Feb 19 16:19:19 2025
+# Process ID: 9616
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1488 D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_HDMI_COLORBAR\VDMA_HDMI_COLORBAR.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset_rtl_0]]
+set_property package_pin "" [get_ports [list  reset_rtl_0]]
+place_ports reset_rtl_0 J20
+set_property IOSTANDARD TMDS_33 [get_ports [list {TMDS_0_tmds_data_p[2]} {TMDS_0_tmds_data_p[1]} {TMDS_0_tmds_data_p[0]}]]
+place_ports {TMDS_0_tmds_data_p[0]} M21
+place_ports {TMDS_0_tmds_data_p[1]} L21
+place_ports {TMDS_0_tmds_data_p[2]} J21
+place_ports TMDS_0_tmds_clk_p N19
+file mkdir D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new
+close [ open D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc w ]
+add_files -fileset constrs_1 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc
+set_property target_constrs_file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/constrs_1/new/HDMI.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/ZYNQ_CORE_wrapper.xsa

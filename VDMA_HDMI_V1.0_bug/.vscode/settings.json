@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "vdma_api.h": "c",
-        "stdio.h": "c",
-        "stdlib.h": "c"
-    }
-}

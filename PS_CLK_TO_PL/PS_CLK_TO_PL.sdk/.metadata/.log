@@ -2612,3 +2612,59 @@ error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thr
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-02-02 19:13:47.346
 !MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-168
+!SESSION 2025-02-20 02:47:17.082 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:47:34.957
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.358
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.358
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.374
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.375
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.375
+!MESSAGE XSCT Command: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_CLK_TO_PL/PS_CLK_TO_PL.sdk], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-20 02:47:38.377
+!MESSAGE XSCT command with result: [setws D:/Programs/Workspace/SmartZYNQ_SP2/PS_CLK_TO_PL/PS_CLK_TO_PL.sdk], Result: [null, ]. Thread: Thread-21
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-02-20 02:47:46.653
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.xilinx.ide.tools.startup.PerspectiveInit.tweakRegisteredWizardList(PerspectiveInit.java:61)
+	at com.xilinx.ide.tools.startup.PerspectiveInit.execute(PerspectiveInit.java:47)
+	at com.xilinx.ide.tools.startup.InitSDK.earlyStartup(InitSDK.java:33)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2719)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-20 02:47:46.656
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.xilinx.ide.tools' plug-in.
+!STACK 0
+java.lang.NullPointerException
+	at com.xilinx.ide.tools.startup.PerspectiveInit.tweakRegisteredWizardList(PerspectiveInit.java:61)
+	at com.xilinx.ide.tools.startup.PerspectiveInit.execute(PerspectiveInit.java:47)
+	at com.xilinx.ide.tools.startup.InitSDK.earlyStartup(InitSDK.java:33)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2719)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-02-20 02:47:48.470
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.core.runtime.jobs.Job$1

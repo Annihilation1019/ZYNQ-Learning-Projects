@@ -1,0 +1,573 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Thu Feb 20 16:55:56 2025
+| Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file ZYNQ_CORE_wrapper_bus_skew_routed.rpt -pb ZYNQ_CORE_wrapper_bus_skew_routed.pb -rpx ZYNQ_CORE_wrapper_bus_skew_routed.rpx
+| Design       : ZYNQ_CORE_wrapper
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+Table of Contents
+-----------------
+1. Bus Skew Report Summary
+2. Bus Skew Report Per Constraint
+
+1. Bus Skew Report Summary
+--------------------------
+
+Id  Position  From                            To                              Corner  Requirement(ns)  Actual(ns)  Slack(ns)
+--  --------  ------------------------------  ------------------------------  ------  ---------------  ----------  ---------
+1   18        [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]}]]
+                                              [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]]
+                                                                              Slow              6.666       0.856      5.810
+2   20        [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]}]]
+                                              [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]]
+                                                                              Slow              6.666       0.937      5.729
+3   22        [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[0]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[10]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[1]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[2]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[3]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[4]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[5]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[6]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[7]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[8]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[9]}]]
+                                              [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][1]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][2]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][3]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][4]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][5]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][6]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][7]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][8]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][9]}]]
+                                                                              Slow              6.666       1.075      5.591
+4   26        [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]}]]
+                                              [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]]
+                                                                              Slow              6.666       0.926      5.740
+5   28        [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]}]]
+                                              [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]]
+                                                                              Slow              6.666       1.059      5.607
+
+
+2. Bus Skew Report Per Constraint
+---------------------------------
+
+Id: 1
+set_bus_skew -from [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]}]] -to [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]] 6.666
+Requirement: 6.666ns
+Endpoints: 10
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_out1_ZYNQ_CORE_clk_wiz_0_0
+                      clk_fpga_1            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                                                                            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]/D
+                                                                                                            Slow         0.856      5.810
+
+
+Slack (MET) :             5.810ns  (requirement - actual skew)
+  Endpoint Source:        ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Endpoint Destination:   ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Reference Source:       ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Reference Destination:  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            6.666ns
+  Endpoint Relative Delay:    0.334ns
+  Reference Relative Delay:  -0.866ns
+  Relative CRPR:              0.344ns
+  Actual Bus Skew:            0.856ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.806     1.806    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -1.987 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889    -0.098    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.729     1.732    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X60Y47         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X60Y47         FDRE (Prop_fdre_C_Q)         0.419     2.151 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/Q
+                         net (fo=1, routed)           0.654     2.805    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[3]
+    SLICE_X60Y43         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.088     1.088    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.556     2.735    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X60Y43         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/C
+                         clock pessimism              0.000     2.735    
+    SLICE_X60Y43         FDRE (Setup_fdre_C_D)       -0.265     2.470    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]
+  -------------------------------------------------------------------
+                         data arrival                           2.805    
+                         clock arrival                          2.470    
+  -------------------------------------------------------------------
+                         relative delay                         0.334    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.612     1.612    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -1.813 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725    -0.088    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.551     1.554    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X58Y46         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X58Y46         FDRE (Prop_fdre_C_Q)         0.418     1.972 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]/Q
+                         net (fo=1, routed)           0.414     2.387    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[8]
+    SLICE_X58Y45         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.193     1.193    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.729     3.023    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X58Y45         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]/C
+                         clock pessimism              0.000     3.023    
+    SLICE_X58Y45         FDRE (Hold_fdre_C_D)         0.230     3.253    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]
+  -------------------------------------------------------------------
+                         data arrival                           2.387    
+                         clock arrival                          3.253    
+  -------------------------------------------------------------------
+                         relative delay                        -0.866    
+
+
+
+Id: 2
+set_bus_skew -from [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]}]] -to [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]] 6.666
+Requirement: 6.666ns
+Endpoints: 10
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_fpga_1            clk_out1_ZYNQ_CORE_clk_wiz_0_0
+                                            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+                                                                            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]/D
+                                                                                                            Slow         0.937      5.729
+
+
+Slack (MET) :             5.729ns  (requirement - actual skew)
+  Endpoint Source:        ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Endpoint Destination:   ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Reference Source:       ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Reference Destination:  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            6.666ns
+  Endpoint Relative Delay:    2.763ns
+  Reference Relative Delay:   1.558ns
+  Relative CRPR:              0.267ns
+  Actual Bus Skew:            0.937ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.193     1.193    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.715     3.009    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X61Y50         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X61Y50         FDRE (Prop_fdre_C_Q)         0.419     3.428 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/Q
+                         net (fo=1, routed)           0.625     4.053    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[5]
+    SLICE_X67Y49         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.612     1.612    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -1.813 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725    -0.088    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.555     1.558    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X67Y49         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/C
+                         clock pessimism              0.000     1.558    
+    SLICE_X67Y49         FDRE (Setup_fdre_C_D)       -0.268     1.290    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]
+  -------------------------------------------------------------------
+                         data arrival                           4.053    
+                         clock arrival                          1.290    
+  -------------------------------------------------------------------
+                         relative delay                         2.763    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.088     1.088    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.557     2.736    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X61Y49         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X61Y49         FDRE (Prop_fdre_C_Q)         0.367     3.103 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]/Q
+                         net (fo=1, routed)           0.418     3.521    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[2]
+    SLICE_X66Y49         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.806     1.806    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -1.987 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889    -0.098    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.730     1.733    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X66Y49         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]/C
+                         clock pessimism              0.000     1.733    
+    SLICE_X66Y49         FDRE (Hold_fdre_C_D)         0.230     1.963    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]
+  -------------------------------------------------------------------
+                         data arrival                           3.521    
+                         clock arrival                          1.963    
+  -------------------------------------------------------------------
+                         relative delay                         1.558    
+
+
+
+Id: 3
+set_bus_skew -from [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[0]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[10]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[1]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[2]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[3]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[4]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[5]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[6]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[7]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[8]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[9]}]] -to [get_cells [list {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][1]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][2]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][3]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][4]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][5]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][6]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][7]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][8]} \
+          {ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][9]}]] 6.666
+Requirement: 6.666ns
+Endpoints: 11
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_fpga_1            clk_out1_ZYNQ_CORE_clk_wiz_0_0
+                                            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]/D
+                                                                            ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]/D
+                                                                                                            Slow         1.075      5.591
+
+
+Slack (MET) :             5.591ns  (requirement - actual skew)
+  Endpoint Source:        ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Endpoint Destination:   ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Reference Source:       ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Reference Destination:  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_ZYNQ_CORE_clk_wiz_0_0)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            6.666ns
+  Endpoint Relative Delay:    2.764ns
+  Reference Relative Delay:   1.574ns
+  Relative CRPR:              0.115ns
+  Actual Bus Skew:            1.075ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.193     1.193    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.730     3.024    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_clk
+    SLICE_X59Y48         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X59Y48         FDRE (Prop_fdre_C_Q)         0.456     3.480 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[0]/Q
+                         net (fo=1, routed)           0.744     4.224    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/async_path[0]
+    SLICE_X59Y46         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.612     1.612    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.425    -1.813 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.725    -0.088    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.551     1.554    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_clk
+    SLICE_X59Y46         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]/C
+                         clock pessimism              0.000     1.554    
+    SLICE_X59Y46         FDRE (Setup_fdre_C_D)       -0.095     1.459    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][0]
+  -------------------------------------------------------------------
+                         data arrival                           4.224    
+                         clock arrival                          1.459    
+  -------------------------------------------------------------------
+                         relative delay                         2.764    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.088     1.088    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.538     2.717    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_clk
+    SLICE_X59Y50         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[10]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X59Y50         FDRE (Prop_fdre_C_Q)         0.367     3.084 r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[10]/Q
+                         net (fo=1, routed)           0.380     3.464    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/async_path[10]
+    SLICE_X60Y51         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_ZYNQ_CORE_clk_wiz_0_0 rise edge)
+                                                      0.000     0.000 r  
+    BUFGCTRL_X0Y17       BUFG                         0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O
+                         net (fo=782, routed)         1.806     1.806    ZYNQ_CORE_i/clk_wiz_0/inst/clk_in1
+    MMCME2_ADV_X1Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.793    -1.987 r  ZYNQ_CORE_i/clk_wiz_0/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.889    -0.098    ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101     0.003 r  ZYNQ_CORE_i/clk_wiz_0/inst/clkout1_buf/O
+                         net (fo=534, routed)         1.718     1.721    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_clk
+    SLICE_X60Y51         FDRE                                         r  ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]/C
+                         clock pessimism              0.000     1.721    
+    SLICE_X60Y51         FDRE (Hold_fdre_C_D)         0.169     1.890    ZYNQ_CORE_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][10]
+  -------------------------------------------------------------------
+                         data arrival                           3.464    
+                         clock arrival                          1.890    
+  -------------------------------------------------------------------
+                         relative delay                         1.574    
+
+
+
+Id: 4
+set_bus_skew -from [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]}]] -to [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]] 6.666
+Requirement: 6.666ns
+Endpoints: 10
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+clk_fpga_1            cam_pclk_0            ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+                                                                            ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+                                                                                                            Slow         0.926      5.740
+
+
+Slack (MET) :             5.740ns  (requirement - actual skew)
+  Endpoint Source:        ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Endpoint Destination:   ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+                            (rising edge-triggered cell FDRE clocked by cam_pclk_0)
+  Reference Source:       ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]/C
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Reference Destination:  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+                            (rising edge-triggered cell FDRE clocked by cam_pclk_0)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            6.666ns
+  Endpoint Relative Delay:   -0.993ns
+  Reference Relative Delay:  -2.726ns
+  Relative CRPR:              0.808ns
+  Actual Bus Skew:            0.926ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.193     1.193    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.667     2.961    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X32Y10         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y10         FDRE (Prop_fdre_C_Q)         0.518     3.479 r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[0]/Q
+                         net (fo=1, routed)           0.722     4.201    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[0]
+    SLICE_X35Y10         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock cam_pclk_0 rise edge)
+                                                      0.000     0.000 r  
+    W22                                               0.000     0.000 r  cam_pclk_0 (IN)
+                         net (fo=0)                   0.000     0.000    cam_pclk_0
+    W22                  IBUF (Prop_ibuf_I_O)         1.406     1.406 r  cam_pclk_0_IBUF_inst/O
+                         net (fo=1, routed)           2.300     3.706    cam_pclk_0_IBUF
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.091     3.797 r  cam_pclk_0_IBUF_BUFG_inst/O
+                         net (fo=204, routed)         1.491     5.289    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X35Y10         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]/C
+                         clock pessimism              0.000     5.289    
+    SLICE_X35Y10         FDRE (Setup_fdre_C_D)       -0.095     5.194    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][0]
+  -------------------------------------------------------------------
+                         data arrival                           4.201    
+                         clock arrival                          5.194    
+  -------------------------------------------------------------------
+                         relative delay                        -0.993    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.088     1.088    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.493     2.673    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_clk
+    SLICE_X35Y11         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y11         FDRE (Prop_fdre_C_Q)         0.367     3.040 r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[9]/Q
+                         net (fo=1, routed)           0.388     3.428    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[9]
+    SLICE_X36Y11         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock cam_pclk_0 rise edge)
+                                                      0.000     0.000 r  
+    W22                                               0.000     0.000 r  cam_pclk_0 (IN)
+                         net (fo=0)                   0.000     0.000    cam_pclk_0
+    W22                  IBUF (Prop_ibuf_I_O)         1.476     1.476 r  cam_pclk_0_IBUF_inst/O
+                         net (fo=1, routed)           2.683     4.160    cam_pclk_0_IBUF
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.101     4.261 r  cam_pclk_0_IBUF_BUFG_inst/O
+                         net (fo=204, routed)         1.663     5.924    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_clk
+    SLICE_X36Y11         FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/C
+                         clock pessimism              0.000     5.924    
+    SLICE_X36Y11         FDRE (Hold_fdre_C_D)         0.230     6.154    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][9]
+  -------------------------------------------------------------------
+                         data arrival                           3.428    
+                         clock arrival                          6.154    
+  -------------------------------------------------------------------
+                         relative delay                        -2.726    
+
+
+
+Id: 5
+set_bus_skew -from [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]}]] -to [get_cells [list {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][0]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][1]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][2]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][4]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][6]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][7]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][8]} {ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]}]] 6.666
+Requirement: 6.666ns
+Endpoints: 10
+
+From Clock            To Clock              Endpoint Pin                    Reference Pin                   Corner  Actual(ns)  Slack(ns)
+--------------------  --------------------  ------------------------------  ------------------------------  ------  ----------  ---------
+cam_pclk_0            clk_fpga_1            ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+                                                                            ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+                                                                                                            Slow         1.059      5.607
+
+
+Slack (MET) :             5.607ns  (requirement - actual skew)
+  Endpoint Source:        ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by cam_pclk_0)
+  Endpoint Destination:   ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Reference Source:       ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]/C
+                            (rising edge-triggered cell FDRE clocked by cam_pclk_0)
+  Reference Destination:  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+                            (rising edge-triggered cell FDRE clocked by clk_fpga_1)
+  Path Type:              Bus Skew (Max at Slow Process Corner)
+  Requirement:            6.666ns
+  Endpoint Relative Delay:    4.832ns
+  Reference Relative Delay:   2.965ns
+  Relative CRPR:              0.808ns
+  Actual Bus Skew:            1.059ns  (Endpoint Relative Delay - Reference Relative Delay - Relative CRPR)
+
+Endpoint path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock cam_pclk_0 rise edge)
+                                                      0.000     0.000 r  
+    W22                                               0.000     0.000 r  cam_pclk_0 (IN)
+                         net (fo=0)                   0.000     0.000    cam_pclk_0
+    W22                  IBUF (Prop_ibuf_I_O)         1.476     1.476 r  cam_pclk_0_IBUF_inst/O
+                         net (fo=1, routed)           2.683     4.160    cam_pclk_0_IBUF
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.101     4.261 r  cam_pclk_0_IBUF_BUFG_inst/O
+                         net (fo=204, routed)         1.743     6.004    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X30Y8          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X30Y8          FDRE (Prop_fdre_C_Q)         0.478     6.482 r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[5]/Q
+                         net (fo=1, routed)           0.833     7.315    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[5]
+    SLICE_X28Y8          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.088     1.088    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091     1.179 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.570     2.749    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X28Y8          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]/C
+                         clock pessimism              0.000     2.749    
+    SLICE_X28Y8          FDRE (Setup_fdre_C_D)       -0.267     2.482    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][5]
+  -------------------------------------------------------------------
+                         data arrival                           7.315    
+                         clock arrival                          2.483    
+  -------------------------------------------------------------------
+                         relative delay                         4.832    
+
+Reference path:
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock cam_pclk_0 rise edge)
+                                                      0.000     0.000 r  
+    W22                                               0.000     0.000 r  cam_pclk_0 (IN)
+                         net (fo=0)                   0.000     0.000    cam_pclk_0
+    W22                  IBUF (Prop_ibuf_I_O)         1.406     1.406 r  cam_pclk_0_IBUF_inst/O
+                         net (fo=1, routed)           2.300     3.706    cam_pclk_0_IBUF
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.091     3.797 r  cam_pclk_0_IBUF_BUFG_inst/O
+                         net (fo=204, routed)         1.567     5.365    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_clk
+    SLICE_X26Y9          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X26Y9          FDRE (Prop_fdre_C_Q)         0.418     5.783 r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[9]/Q
+                         net (fo=1, routed)           0.455     6.237    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[9]
+    SLICE_X26Y8          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_fpga_1 rise edge)
+                                                      0.000     0.000 r  
+    PS7_X0Y0             PS7                          0.000     0.000 r  ZYNQ_CORE_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]
+                         net (fo=1, routed)           1.193     1.193    ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.101     1.294 r  ZYNQ_CORE_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG/O
+                         net (fo=5202, routed)        1.748     3.042    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_clk
+    SLICE_X26Y8          FDRE                                         r  ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]/C
+                         clock pessimism              0.000     3.042    
+    SLICE_X26Y8          FDRE (Hold_fdre_C_D)         0.230     3.272    ZYNQ_CORE_i/v_vid_in_axi4s_0/inst/COUPLER_INST/generate_async_fifo.FIFO_INST/XPM_FIFO_ASYNC_INST/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][9]
+  -------------------------------------------------------------------
+                         data arrival                           6.237    
+                         clock arrival                          3.272    
+  -------------------------------------------------------------------
+                         relative delay                         2.965    
+
+
+

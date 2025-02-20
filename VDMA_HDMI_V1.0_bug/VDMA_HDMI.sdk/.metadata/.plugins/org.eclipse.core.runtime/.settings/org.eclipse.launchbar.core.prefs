@@ -1,8 +1,0 @@
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:vdma_hdmi_system Debug,org.eclipse.launchbar.core.descriptorType.default\:Debugger_vdma_1-GDB,org.eclipse.launchbar.core.descriptorType.default\:Debugger_vdma_1-Default,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_vdma_hdmi_system
-eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_vdma_hdmi_system/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_vdma_hdmi_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:vdma_hdmi_system\ Debug/activeLaunchMode=run

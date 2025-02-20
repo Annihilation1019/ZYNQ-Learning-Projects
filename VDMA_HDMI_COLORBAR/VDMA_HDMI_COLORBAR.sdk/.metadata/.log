@@ -10037,3 +10037,48 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-02-19 17:26:10.619
 !MESSAGE XSCT command with result: [disconnect tcfchan#13], Result: [null, ]. Thread: Thread-644
+!SESSION 2025-02-20 02:44:59.463 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:45:28.107
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+!SESSION 2025-02-20 02:46:04.633 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:46:18.046
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+!SESSION 2025-02-20 02:48:34.202 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_HDMI_COLORBAR\VDMA_HDMI_COLORBAR.sdk
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:48:36.868
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+!SESSION 2025-02-20 02:52:45.203 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:53:26.591
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+!SESSION 2025-02-20 02:56:01.520 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-20 02:56:06.665
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition

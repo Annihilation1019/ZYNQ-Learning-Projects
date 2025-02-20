@@ -12,3 +12,12 @@
 15:12:40 WARN  : An unexpected exception occurred in the module 'platform project logging'
 15:12:41 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
 15:12:47 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+02:47:52 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_AMP_TEST/PS_AMP_TEST.sdk/IDE.log'.
+02:47:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_AMP_TEST\PS_AMP_TEST.sdk\temp_xsdb_launch_script.tcl
+02:47:54 INFO  : Registering command handlers for Vitis TCF services
+02:47:54 INFO  : XSCT server has started successfully.
+02:47:54 INFO  : plnx-install-location is set to ''
+02:47:54 INFO  : Successfully done setting XSCT server connection channel  
+02:47:54 INFO  : Successfully done query RDI_DATADIR 
+02:47:54 INFO  : Successfully done setting workspace for the tool. 
+02:47:55 INFO  : Platform repository initialization has completed.

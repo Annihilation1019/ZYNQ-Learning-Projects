@@ -62,3 +62,9 @@ con
 
 19:13:32 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\PS_CLK_TO_PL\PS_CLK_TO_PL.sdk\PS_CLK_PL_system\_ide\scripts\debugger_ps_clk_pl-default.tcl'
 19:13:47 INFO  : Disconnected from the channel tcfchan#2.
+02:47:35 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_CLK_TO_PL/PS_CLK_TO_PL.sdk/IDE.log'.
+02:47:36 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_CLK_TO_PL\PS_CLK_TO_PL.sdk\temp_xsdb_launch_script.tcl
+02:47:38 INFO  : XSCT server has started successfully.
+02:47:38 INFO  : Successfully done setting XSCT server connection channel  
+02:47:38 INFO  : plnx-install-location is set to ''
+02:47:38 INFO  : Successfully done setting workspace for the tool. 
