@@ -1,0 +1,217 @@
+15:05:37 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/IDE.log'.
+15:05:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\temp_xsdb_launch_script.tcl
+15:05:43 INFO  : Registering command handlers for Vitis TCF services
+15:05:43 INFO  : Platform repository initialization has completed.
+15:05:44 INFO  : XSCT server has started successfully.
+15:05:44 INFO  : plnx-install-location is set to ''
+15:05:44 INFO  : Successfully done setting XSCT server connection channel  
+15:05:44 INFO  : Successfully done query RDI_DATADIR 
+15:05:44 INFO  : Successfully done setting workspace for the tool. 
+15:06:15 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:06:15 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:06:16 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:06:17 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:06:23 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+15:07:19 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:07:19 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:07:20 INFO  : Checking for BSP changes to sync application flags for project 'OV5640_HDMI_BOX'...
+15:08:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:49 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:08:49 INFO  : 'jtag frequency' command is executed.
+15:08:49 INFO  : Context for 'APU' is selected.
+15:08:49 INFO  : System reset is completed.
+15:08:52 INFO  : 'after 3000' command is executed.
+15:08:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:08:56 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:08:56 INFO  : Context for 'APU' is selected.
+15:08:56 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:08:56 INFO  : 'configparams force-mem-access 1' command is executed.
+15:08:56 INFO  : Context for 'APU' is selected.
+15:08:56 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl' is done.
+15:08:57 INFO  : 'ps7_init' command is executed.
+15:08:57 INFO  : 'ps7_post_config' command is executed.
+15:08:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:57 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:08:57 INFO  : 'configparams force-mem-access 0' command is executed.
+15:08:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:08:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:57 INFO  : 'con' command is executed.
+15:08:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:08:57 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX_system\_ide\scripts\systemdebugger_ov5640_hdmi_box_system_standalone.tcl'
+15:43:53 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+15:44:01 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:44:01 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:44:26 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202305040745.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:44:26 INFO  : Disconnected from the channel tcfchan#3.
+15:44:27 INFO  : The hardware specification used by project 'OV5640_HDMI_BOX' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:44:27 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+15:44:27 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\bitstream' in project 'OV5640_HDMI_BOX'.
+15:44:27 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:44:30 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\psinit' in project 'OV5640_HDMI_BOX'.
+15:44:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:31 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:44:31 INFO  : 'jtag frequency' command is executed.
+15:44:31 INFO  : Context for 'APU' is selected.
+15:44:31 INFO  : System reset is completed.
+15:44:34 INFO  : 'after 3000' command is executed.
+15:44:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:44:37 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:44:37 INFO  : Context for 'APU' is selected.
+15:44:37 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:44:37 INFO  : 'configparams force-mem-access 1' command is executed.
+15:44:37 INFO  : Context for 'APU' is selected.
+15:44:37 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl' is done.
+15:44:37 INFO  : 'ps7_init' command is executed.
+15:44:37 INFO  : 'ps7_post_config' command is executed.
+15:44:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:44:37 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:44:37 INFO  : 'configparams force-mem-access 0' command is executed.
+15:44:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:44:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:44:37 INFO  : 'con' command is executed.
+15:44:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:44:37 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX_system\_ide\scripts\systemdebugger_ov5640_hdmi_box_system_standalone.tcl'
+15:51:47 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+15:51:58 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:51:58 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:52:04 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202305040745.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+15:52:04 INFO  : Disconnected from the channel tcfchan#5.
+15:52:05 INFO  : The hardware specification used by project 'OV5640_HDMI_BOX' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:52:05 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+15:52:05 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\bitstream' in project 'OV5640_HDMI_BOX'.
+15:52:05 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:52:08 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX\_ide\psinit' in project 'OV5640_HDMI_BOX'.
+15:52:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:52:09 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:52:09 INFO  : 'jtag frequency' command is executed.
+15:52:09 INFO  : Context for 'APU' is selected.
+15:52:09 INFO  : System reset is completed.
+15:52:12 INFO  : 'after 3000' command is executed.
+15:52:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:52:15 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:52:15 INFO  : Context for 'APU' is selected.
+15:52:15 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:52:15 INFO  : 'configparams force-mem-access 1' command is executed.
+15:52:15 INFO  : Context for 'APU' is selected.
+15:52:15 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl' is done.
+15:52:15 INFO  : 'ps7_init' command is executed.
+15:52:15 INFO  : 'ps7_post_config' command is executed.
+15:52:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:52:15 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:52:15 INFO  : 'configparams force-mem-access 0' command is executed.
+15:52:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_BOX_sdk/OV5640_HDMI_BOX/Debug/OV5640_HDMI_BOX.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:52:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:52:15 INFO  : 'con' command is executed.
+15:52:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:52:15 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_with_IdentiBox\OV5640_HDMI_BOX_sdk\OV5640_HDMI_BOX_system\_ide\scripts\systemdebugger_ov5640_hdmi_box_system_standalone.tcl'
+16:35:43 INFO  : Disconnected from the channel tcfchan#7.

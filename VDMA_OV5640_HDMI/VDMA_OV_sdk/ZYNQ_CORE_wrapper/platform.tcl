@@ -26,3 +26,19 @@ platform clean
 platform generate
 platform active {ZYNQ_CORE_wrapper}
 platform generate -domains 
+platform active {ZYNQ_CORE_wrapper}
+platform active {ZYNQ_CORE_wrapper}
+platform active {ZYNQ_CORE_wrapper}
+bsp reload
+platform active {ZYNQ_CORE_wrapper}
+platform active {ZYNQ_CORE_wrapper}
+platform active {ZYNQ_CORE_wrapper}
+platform generate
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 

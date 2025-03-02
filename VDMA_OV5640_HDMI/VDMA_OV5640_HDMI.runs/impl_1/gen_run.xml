@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1740041654">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1740886564">
   <File Type="ROUTE-PWR" Name="ZYNQ_CORE_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="ZYNQ_CORE_wrapper.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="ZYNQ_CORE_wrapper_power_summary_routed.pb"/>
@@ -140,9 +140,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -156,6 +154,7 @@
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_axi4s_vid_out_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_150M_1"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_vdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_ila_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_tc_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_50M_1"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_0"/>

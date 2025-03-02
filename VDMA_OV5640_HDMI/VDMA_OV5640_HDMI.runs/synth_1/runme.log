@@ -12,7 +12,7 @@
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source ZYNQ_CORE_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1907.301 ; gain = 161.328
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1908.992 ; gain = 162.461
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data'.
@@ -29,111 +29,115 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16300
+INFO: [Synth 8-7075] Helper process launched with PID 21176
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2786.668 ; gain = 411.316
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2808.676 ; gain = 410.938
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_wrapper' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:704]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1UFV9PU' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1596]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1UFV9PU' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1596]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_X4EE9A' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2291]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_X4EE9A' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2291]
-INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_18LL33Q' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2395]
-INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_18LL33Q' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2395]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
-WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1267]
-WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1284]
-WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1285]
-WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1287]
-WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1288]
-WARNING: [Synth 8-7071] port 's_axi_bid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1217]
-WARNING: [Synth 8-7071] port 's_axi_rid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1217]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'ZYNQ_CORE_xbar_0' has 78 connections declared, but only 76 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1217]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:704]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-WARNING: [Synth 8-7071] port 's2mm_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-WARNING: [Synth 8-7071] port 's2mm_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'ZYNQ_CORE_axi_vdma_0_0' has 67 connections declared, but only 62 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:367]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:449]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:449]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:449]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:449]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'ZYNQ_CORE_processing_system7_0_0' has 111 connections declared, but only 107 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:449]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1296]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1C2Y0SP' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2001]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2232]
-WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2232]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2232]
-WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_0' has 59 connections declared, but only 56 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2232]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1C2Y0SP' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2001]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1296]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:630]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:630]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:630]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:630]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_150M' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:630]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:637]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:637]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:637]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:637]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:637]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'vid_vblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'vid_hblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'vid_field_id' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'locked' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'status' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7071] port 'sof_state_out' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' has 32 connections declared, but only 23 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:647]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_tc_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_tc_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'fsync_out' of module 'ZYNQ_CORE_v_tc_0_0' is unconnected for instance 'v_tc_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:671]
-WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'ZYNQ_CORE_v_tc_0_0' has 11 connections declared, but only 10 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:671]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-15812-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'fid' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_active_video' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_vblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_hblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_vsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_hsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'vtd_field_id' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
-WARNING: [Synth 8-7023] instance 'v_vid_in_axi4s_0' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' has 28 connections declared, but only 19 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:682]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:709]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1UFV9PU' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1601]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1UFV9PU' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1601]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_X4EE9A' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2296]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_X4EE9A' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2296]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_18LL33Q' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2400]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_18LL33Q' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2400]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1272]
+WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1289]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1290]
+WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1292]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1293]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1222]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1222]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'ZYNQ_CORE_xbar_0' has 78 connections declared, but only 76 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1222]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:709]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+WARNING: [Synth 8-7071] port 's2mm_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'ZYNQ_CORE_axi_vdma_0_0' has 67 connections declared, but only 62 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:368]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:437]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ila_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ila_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:453]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:453]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:453]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:453]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'ZYNQ_CORE_processing_system7_0_0' has 111 connections declared, but only 107 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:453]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1301]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1C2Y0SP' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2006]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2237]
+WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2237]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2237]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_0' has 59 connections declared, but only 56 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2237]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1C2Y0SP' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2006]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1301]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:634]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:634]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:634]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:634]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_150M' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:634]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:641]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:641]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:641]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:641]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:641]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'vid_vblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'vid_hblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'vid_field_id' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'status' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7071] port 'sof_state_out' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' has 32 connections declared, but only 24 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_tc_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_tc_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fsync_out' of module 'ZYNQ_CORE_v_tc_0_0' is unconnected for instance 'v_tc_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:676]
+WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'ZYNQ_CORE_v_tc_0_0' has 11 connections declared, but only 10 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:676]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/.Xil/Vivado-13064-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_active_video' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_vblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_hblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_vsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_hsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'vtd_field_id' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
+WARNING: [Synth 8-7023] instance 'v_vid_in_axi4s_0' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' has 28 connections declared, but only 19 given [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:687]
 INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE' (0#1) [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [D:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
 INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_wrapper' (0#1) [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'v_axi4s_vid_out_0'. This will prevent further optimization [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:651]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:437]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1C2Y0SP is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1C2Y0SP is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
@@ -165,18 +169,18 @@ WARNING: [Synth 8-7129] Port S00_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 
 WARNING: [Synth 8-7129] Port S01_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S01_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2887.680 ; gain = 512.328
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2910.508 ; gain = 512.770
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2905.559 ; gain = 530.207
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2928.441 ; gain = 530.703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2905.559 ; gain = 530.207
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2928.441 ; gain = 530.703
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2917.660 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2940.453 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -211,6 +215,8 @@ Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV56
 Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/v_vid_in_axi4s_0'
 Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/ov5640_capture_data_0'
 Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/ov5640_capture_data_0'
+Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/ila_0'
+Finished Parsing XDC File [d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/ila_0'
 Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc]
 WARNING: [Vivado 12-507] No nets matched 'cam_pclk_0_IBUF'. [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc:40]
 Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc]
@@ -221,23 +227,23 @@ Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV56
 Finished Parsing XDC File [D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2951.648 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2974.492 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2951.648 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2974.492 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -535,11 +541,12 @@ Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/util_vector_logic_0. 
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/rgb2dvi_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/v_vid_in_axi4s_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/ov5640_capture_data_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/ila_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -582,25 +589,25 @@ WARNING: [Synth 8-7129] Port S00_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 
 WARNING: [Synth 8-7129] Port S01_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S01_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -618,37 +625,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -663,15 +670,16 @@ Report BlackBoxes:
 |3     |ZYNQ_CORE_auto_pc_0               |         1|
 |4     |ZYNQ_CORE_axi_vdma_0_0            |         1|
 |5     |ZYNQ_CORE_clk_wiz_0_0             |         1|
-|6     |ZYNQ_CORE_ov5640_capture_data_0_0 |         1|
-|7     |ZYNQ_CORE_processing_system7_0_0  |         1|
-|8     |ZYNQ_CORE_rgb2dvi_0_0             |         1|
-|9     |ZYNQ_CORE_rst_ps7_0_150M_1        |         1|
-|10    |ZYNQ_CORE_rst_ps7_0_50M_1         |         1|
-|11    |ZYNQ_CORE_util_vector_logic_0_0   |         1|
-|12    |ZYNQ_CORE_v_axi4s_vid_out_0_0     |         1|
-|13    |ZYNQ_CORE_v_tc_0_0                |         1|
-|14    |ZYNQ_CORE_v_vid_in_axi4s_0_0      |         1|
+|6     |ZYNQ_CORE_ila_0_0                 |         1|
+|7     |ZYNQ_CORE_ov5640_capture_data_0_0 |         1|
+|8     |ZYNQ_CORE_processing_system7_0_0  |         1|
+|9     |ZYNQ_CORE_rgb2dvi_0_0             |         1|
+|10    |ZYNQ_CORE_rst_ps7_0_150M_1        |         1|
+|11    |ZYNQ_CORE_rst_ps7_0_50M_1         |         1|
+|12    |ZYNQ_CORE_util_vector_logic_0_0   |         1|
+|13    |ZYNQ_CORE_v_axi4s_vid_out_0_0     |         1|
+|14    |ZYNQ_CORE_v_tc_0_0                |         1|
+|15    |ZYNQ_CORE_v_vid_in_axi4s_0_0      |         1|
 +------+----------------------------------+----------+
 
 Report Cell Usage: 
@@ -681,42 +689,43 @@ Report Cell Usage:
 |1     |ZYNQ_CORE_auto_pc               |     2|
 |3     |ZYNQ_CORE_axi_vdma_0            |     1|
 |4     |ZYNQ_CORE_clk_wiz_0             |     1|
-|5     |ZYNQ_CORE_ov5640_capture_data_0 |     1|
-|6     |ZYNQ_CORE_processing_system7_0  |     1|
-|7     |ZYNQ_CORE_rgb2dvi_0             |     1|
-|8     |ZYNQ_CORE_rst_ps7_0_150M        |     1|
-|9     |ZYNQ_CORE_rst_ps7_0_50M         |     1|
-|10    |ZYNQ_CORE_util_vector_logic_0   |     1|
-|11    |ZYNQ_CORE_v_axi4s_vid_out_0     |     1|
-|12    |ZYNQ_CORE_v_tc_0                |     1|
-|13    |ZYNQ_CORE_v_vid_in_axi4s_0      |     1|
-|14    |ZYNQ_CORE_xbar                  |     1|
-|15    |IBUF                            |    12|
-|16    |IOBUF                           |     2|
-|17    |OBUF                            |     2|
+|5     |ZYNQ_CORE_ila_0                 |     1|
+|6     |ZYNQ_CORE_ov5640_capture_data_0 |     1|
+|7     |ZYNQ_CORE_processing_system7_0  |     1|
+|8     |ZYNQ_CORE_rgb2dvi_0             |     1|
+|9     |ZYNQ_CORE_rst_ps7_0_150M        |     1|
+|10    |ZYNQ_CORE_rst_ps7_0_50M         |     1|
+|11    |ZYNQ_CORE_util_vector_logic_0   |     1|
+|12    |ZYNQ_CORE_v_axi4s_vid_out_0     |     1|
+|13    |ZYNQ_CORE_v_tc_0                |     1|
+|14    |ZYNQ_CORE_v_vid_in_axi4s_0      |     1|
+|15    |ZYNQ_CORE_xbar                  |     1|
+|16    |IBUF                            |    12|
+|17    |IOBUF                           |     2|
+|18    |OBUF                            |     2|
 +------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 2951.648 ; gain = 530.207
-Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2951.648 ; gain = 576.297
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 2974.492 ; gain = 530.703
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 2974.492 ; gain = 576.754
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2951.648 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2974.492 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2951.648 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2974.492 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Synth Design complete | Checksum: 3fabaf2c
+Synth Design complete | Checksum: 2412283f
 INFO: [Common 17-83] Releasing license: Synthesis
-73 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+77 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 2951.648 ; gain = 986.703
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 2974.492 ; gain = 979.598
 INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.runs/synth_1/ZYNQ_CORE_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ZYNQ_CORE_wrapper_utilization_synth.rpt -pb ZYNQ_CORE_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 16:53:02 2025...
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  1 22:22:25 2025...

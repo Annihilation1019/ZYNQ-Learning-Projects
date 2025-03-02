@@ -1,0 +1,32 @@
++================================+================================+==========================================================================+
+| Launch Setup Clock             | Launch Hold Clock              | Pin                                                                      |
++================================+================================+==========================================================================+
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_rise_s_reg[4]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_fall_s_reg[3]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_rise_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_fall_s_reg[3]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_fall_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_fall_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_rise_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_rise_s_reg[4]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_rise_s_reg[0]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_fall_s_reg[3]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_fall_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_rise_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_rise_s_reg[4]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_fall_s_reg[0]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_rise_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_fall_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_fall_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_rise_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_rise_s_reg[3]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_fall_s_reg[2]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_rise_s_reg[0]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_rise_s_reg[3]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_fall_s_reg[0]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst1/data_rise_s_reg[1]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_rise_s_reg[0]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst0/data_rise_s_reg[3]/D |
+| clk_out2_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_fall_s_reg[4]/D |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/DVI_Transmitter_0/inst/par_to_ser_inst2/data_fall_s_reg[0]/D |
++--------------------------------+--------------------------------+--------------------------------------------------------------------------+

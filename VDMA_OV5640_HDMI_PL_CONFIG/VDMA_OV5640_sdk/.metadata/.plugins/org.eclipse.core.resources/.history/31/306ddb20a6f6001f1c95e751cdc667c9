@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "xparameters.h"
+#include "xaxivdma.h"
+#include "xaxivdma_i.h"
+
+#define VDMA_ID XPAR_AXIVDMA_0_DEVICE_ID // VDMA器件ID
+#define DISP_VTC_ID XPAR_VTC_0_DEVICE_ID // VTC器件ID
+
+#define WIDTH 1280 // 显示屏宽度
+#define HEIGHT 720 // 显示屏高度
+
+// frame buffer的起始地址
+unsigned int const frame_buffer_addr = (XPAR_PS7_DDR_0_S_AXI_BASEADDR + 0x1000000);
+int run_triple_frame_buffer(XAxiVdma *InstancePtr, int DeviceId, int hsize,
+                            int vsize, int buf_base_addr, int number_frame_count,
+                            int enable_frm_cnt_intr);
+// 全局变量
+XAxiVdma vdma;
+
+int main(void)
+{
+    // 配置VDMA
+    run_triple_frame_buffer(&vdma, VDMA_ID, WIDTH, HEIGHT, frame_buffer_addr, 0, 0);
+
+    return 0;
+}

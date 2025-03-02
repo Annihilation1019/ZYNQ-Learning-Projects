@@ -1,0 +1,7 @@
++================================+================================+============================================================================+
+| Launch Setup Clock             | Launch Hold Clock              | Pin                                                                        |
++================================+================================+============================================================================+
+| clk_out2_ZYNQ_CORE_clk_wiz_0_0 | clk_out2_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_mux_3_reg[7]/D  |
+| clk_out2_ZYNQ_CORE_clk_wiz_0_0 | clk_out2_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_mux_3_reg[11]/D |
+| clk_out2_ZYNQ_CORE_clk_wiz_0_0 | clk_out2_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/ila_0/inst/ila_core_inst/u_ila_regs/slaveRegDo_mux_reg[5]/D    |
++--------------------------------+--------------------------------+----------------------------------------------------------------------------+

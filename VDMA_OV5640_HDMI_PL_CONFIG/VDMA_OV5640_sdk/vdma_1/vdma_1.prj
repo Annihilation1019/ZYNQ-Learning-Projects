@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="vdma_1" location="D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/vdma_1" platform="D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="vdma_1_system" sysConfig="ZYNQ_CORE_wrapper" runtime="C/C++" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="749203674dee20b524f15f12a1b96097">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1161062526" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.347714188" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

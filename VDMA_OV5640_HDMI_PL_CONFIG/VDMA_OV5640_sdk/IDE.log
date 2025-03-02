@@ -1,0 +1,1125 @@
+19:43:15 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/IDE.log'.
+19:43:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\temp_xsdb_launch_script.tcl
+19:43:24 INFO  : Registering command handlers for Vitis TCF services
+19:43:25 INFO  : Platform repository initialization has completed.
+19:43:25 INFO  : XSCT server has started successfully.
+19:43:26 INFO  : plnx-install-location is set to ''
+19:43:26 INFO  : Successfully done setting XSCT server connection channel  
+19:43:26 INFO  : Successfully done query RDI_DATADIR 
+19:43:26 INFO  : Successfully done setting workspace for the tool. 
+19:44:07 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+19:44:07 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:44:08 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:44:09 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+19:44:14 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+19:45:14 INFO  : No changes in MSS file content so sources will not be generated.
+19:45:23 INFO  : Example project vdma_1 has been created successfully.
+19:48:41 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+19:48:41 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+19:48:42 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+19:50:19 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+19:51:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:51:02 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+19:51:02 INFO  : 'jtag frequency' command is executed.
+19:51:02 INFO  : Context for 'APU' is selected.
+19:51:02 INFO  : System reset is completed.
+19:51:05 INFO  : 'after 3000' command is executed.
+19:51:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+19:51:09 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+19:51:09 INFO  : Context for 'APU' is selected.
+19:51:09 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+19:51:09 INFO  : 'configparams force-mem-access 1' command is executed.
+19:51:09 INFO  : Context for 'APU' is selected.
+19:51:09 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+19:51:09 INFO  : 'ps7_init' command is executed.
+19:51:09 INFO  : 'ps7_post_config' command is executed.
+19:51:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:51:10 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:51:10 INFO  : 'configparams force-mem-access 0' command is executed.
+19:51:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:51:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:51:10 INFO  : 'con' command is executed.
+19:51:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:51:10 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+19:53:02 INFO  : Disconnected from the channel tcfchan#3.
+19:53:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:53:02 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+19:53:02 INFO  : 'jtag frequency' command is executed.
+19:53:02 INFO  : Context for 'APU' is selected.
+19:53:02 INFO  : System reset is completed.
+19:53:05 INFO  : 'after 3000' command is executed.
+19:53:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+19:53:08 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+19:53:08 INFO  : Context for 'APU' is selected.
+19:53:08 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+19:53:08 INFO  : 'configparams force-mem-access 1' command is executed.
+19:53:08 INFO  : Context for 'APU' is selected.
+19:53:08 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+19:53:08 INFO  : 'ps7_init' command is executed.
+19:53:08 INFO  : 'ps7_post_config' command is executed.
+19:53:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:08 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:53:08 INFO  : 'configparams force-mem-access 0' command is executed.
+19:53:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:53:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:08 INFO  : 'con' command is executed.
+19:53:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:53:08 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+20:43:15 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+20:43:29 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+20:43:29 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:43:41 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+20:43:43 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+20:43:43 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+20:43:43 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+20:43:43 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+20:43:46 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+20:44:03 INFO  : Disconnected from the channel tcfchan#4.
+20:44:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:03 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:44:03 INFO  : 'jtag frequency' command is executed.
+20:44:03 INFO  : Context for 'APU' is selected.
+20:44:04 INFO  : System reset is completed.
+20:44:07 INFO  : 'after 3000' command is executed.
+20:44:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:44:09 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:44:09 INFO  : Context for 'APU' is selected.
+20:44:09 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:44:09 INFO  : 'configparams force-mem-access 1' command is executed.
+20:44:09 INFO  : Context for 'APU' is selected.
+20:44:09 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+20:44:09 INFO  : 'ps7_init' command is executed.
+20:44:09 INFO  : 'ps7_post_config' command is executed.
+20:44:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:09 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:44:09 INFO  : 'configparams force-mem-access 0' command is executed.
+20:44:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:44:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:10 INFO  : 'con' command is executed.
+20:44:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:44:10 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+20:44:29 INFO  : Disconnected from the channel tcfchan#7.
+20:44:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:29 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:44:29 INFO  : 'jtag frequency' command is executed.
+20:44:29 INFO  : Context for 'APU' is selected.
+20:44:29 INFO  : System reset is completed.
+20:44:32 INFO  : 'after 3000' command is executed.
+20:44:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:44:35 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:44:35 INFO  : Context for 'APU' is selected.
+20:44:35 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:44:35 INFO  : 'configparams force-mem-access 1' command is executed.
+20:44:35 INFO  : Context for 'APU' is selected.
+20:44:35 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+20:44:35 INFO  : 'ps7_init' command is executed.
+20:44:35 INFO  : 'ps7_post_config' command is executed.
+20:44:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:35 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:44:35 INFO  : 'configparams force-mem-access 0' command is executed.
+20:44:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:44:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:35 INFO  : 'con' command is executed.
+20:44:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:44:35 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+21:31:58 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+21:32:07 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+21:32:07 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+21:32:18 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+21:32:20 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+21:32:20 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+21:32:20 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+21:32:20 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+21:32:23 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+21:32:41 INFO  : Disconnected from the channel tcfchan#8.
+21:32:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:32:41 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+21:32:41 INFO  : 'jtag frequency' command is executed.
+21:32:41 INFO  : Context for 'APU' is selected.
+21:32:41 INFO  : System reset is completed.
+21:32:44 INFO  : 'after 3000' command is executed.
+21:32:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+21:32:47 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+21:32:47 INFO  : Context for 'APU' is selected.
+21:32:47 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+21:32:47 INFO  : 'configparams force-mem-access 1' command is executed.
+21:32:47 INFO  : Context for 'APU' is selected.
+21:32:47 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+21:32:47 INFO  : 'ps7_init' command is executed.
+21:32:47 INFO  : 'ps7_post_config' command is executed.
+21:32:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:48 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:32:48 INFO  : 'configparams force-mem-access 0' command is executed.
+21:32:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:32:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:48 INFO  : 'con' command is executed.
+21:32:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:32:48 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:02:37 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+22:02:48 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:02:49 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:03:10 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+22:03:13 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+22:03:13 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+22:03:13 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+22:03:13 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+22:03:16 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+22:03:29 INFO  : Disconnected from the channel tcfchan#11.
+22:03:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:29 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:03:29 INFO  : 'jtag frequency' command is executed.
+22:03:29 INFO  : Context for 'APU' is selected.
+22:03:29 INFO  : System reset is completed.
+22:03:32 INFO  : 'after 3000' command is executed.
+22:03:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:03:35 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:03:35 INFO  : Context for 'APU' is selected.
+22:03:35 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:03:35 INFO  : 'configparams force-mem-access 1' command is executed.
+22:03:35 INFO  : Context for 'APU' is selected.
+22:03:35 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:03:35 INFO  : 'ps7_init' command is executed.
+22:03:35 INFO  : 'ps7_post_config' command is executed.
+22:03:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:35 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:03:35 INFO  : 'configparams force-mem-access 0' command is executed.
+22:03:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:03:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:35 INFO  : 'con' command is executed.
+22:03:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:03:35 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:03:57 INFO  : Disconnected from the channel tcfchan#14.
+22:03:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:57 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:03:57 INFO  : 'jtag frequency' command is executed.
+22:03:57 INFO  : Context for 'APU' is selected.
+22:03:57 INFO  : System reset is completed.
+22:04:00 INFO  : 'after 3000' command is executed.
+22:04:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:04:03 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:04:03 INFO  : Context for 'APU' is selected.
+22:04:03 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:04:03 INFO  : 'configparams force-mem-access 1' command is executed.
+22:04:03 INFO  : Context for 'APU' is selected.
+22:04:03 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:04:03 INFO  : 'ps7_init' command is executed.
+22:04:03 INFO  : 'ps7_post_config' command is executed.
+22:04:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:04:03 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:04:03 INFO  : 'configparams force-mem-access 0' command is executed.
+22:04:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:04:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:04:03 INFO  : 'con' command is executed.
+22:04:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:04:03 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:14:15 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+22:14:25 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:14:25 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:14:44 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202305040745.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+22:14:44 INFO  : Disconnected from the channel tcfchan#15.
+22:14:45 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+22:14:45 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+22:14:45 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+22:14:45 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+22:14:48 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+22:14:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:14:49 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:14:49 INFO  : 'jtag frequency' command is executed.
+22:14:49 INFO  : Context for 'APU' is selected.
+22:14:49 INFO  : System reset is completed.
+22:14:52 INFO  : 'after 3000' command is executed.
+22:14:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:14:55 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:14:55 INFO  : Context for 'APU' is selected.
+22:14:55 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:14:55 INFO  : 'configparams force-mem-access 1' command is executed.
+22:14:55 INFO  : Context for 'APU' is selected.
+22:14:55 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:14:55 INFO  : 'ps7_init' command is executed.
+22:14:55 INFO  : 'ps7_post_config' command is executed.
+22:14:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:14:55 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:14:55 INFO  : 'configparams force-mem-access 0' command is executed.
+22:14:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:14:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:14:55 INFO  : 'con' command is executed.
+22:14:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:14:55 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:15:39 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+22:16:00 INFO  : Disconnected from the channel tcfchan#17.
+22:16:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:16:00 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:16:00 INFO  : 'jtag frequency' command is executed.
+22:16:00 INFO  : Context for 'APU' is selected.
+22:16:00 INFO  : System reset is completed.
+22:16:03 INFO  : 'after 3000' command is executed.
+22:16:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:16:05 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:16:05 INFO  : Context for 'APU' is selected.
+22:16:05 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:16:05 INFO  : 'configparams force-mem-access 1' command is executed.
+22:16:05 INFO  : Context for 'APU' is selected.
+22:16:05 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:16:06 INFO  : 'ps7_init' command is executed.
+22:16:06 INFO  : 'ps7_post_config' command is executed.
+22:16:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:16:06 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:16:06 INFO  : 'configparams force-mem-access 0' command is executed.
+22:16:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:16:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:16:06 INFO  : 'con' command is executed.
+22:16:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:16:06 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:30:35 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+22:30:47 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:30:47 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:30:53 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+22:30:55 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+22:30:55 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+22:30:55 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+22:30:55 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+22:30:59 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+22:31:07 INFO  : Disconnected from the channel tcfchan#19.
+22:31:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:31:07 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:31:07 INFO  : 'jtag frequency' command is executed.
+22:31:07 INFO  : Context for 'APU' is selected.
+22:31:07 INFO  : System reset is completed.
+22:31:10 INFO  : 'after 3000' command is executed.
+22:31:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:31:12 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:31:12 INFO  : Context for 'APU' is selected.
+22:31:13 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:31:13 INFO  : 'configparams force-mem-access 1' command is executed.
+22:31:13 INFO  : Context for 'APU' is selected.
+22:31:13 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:31:13 INFO  : 'ps7_init' command is executed.
+22:31:13 INFO  : 'ps7_post_config' command is executed.
+22:31:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:31:13 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:31:13 INFO  : 'configparams force-mem-access 0' command is executed.
+22:31:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:31:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:31:13 INFO  : 'con' command is executed.
+22:31:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:31:13 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:31:56 INFO  : Disconnected from the channel tcfchan#22.
+22:31:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:31:56 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:31:56 INFO  : 'jtag frequency' command is executed.
+22:31:57 INFO  : Context for 'APU' is selected.
+22:31:57 INFO  : System reset is completed.
+22:32:00 INFO  : 'after 3000' command is executed.
+22:32:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:32:02 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:32:02 INFO  : Context for 'APU' is selected.
+22:32:02 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:32:02 INFO  : 'configparams force-mem-access 1' command is executed.
+22:32:02 INFO  : Context for 'APU' is selected.
+22:32:02 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:32:03 INFO  : 'ps7_init' command is executed.
+22:32:03 INFO  : 'ps7_post_config' command is executed.
+22:32:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:03 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:32:03 INFO  : 'configparams force-mem-access 0' command is executed.
+22:32:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:32:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:03 INFO  : 'con' command is executed.
+22:32:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:32:03 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:32:27 INFO  : Disconnected from the channel tcfchan#23.
+22:32:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:32:27 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:32:27 INFO  : 'jtag frequency' command is executed.
+22:32:27 INFO  : Context for 'APU' is selected.
+22:32:27 INFO  : System reset is completed.
+22:32:30 INFO  : 'after 3000' command is executed.
+22:32:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:32:33 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:32:33 INFO  : Context for 'APU' is selected.
+22:32:33 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:32:33 INFO  : 'configparams force-mem-access 1' command is executed.
+22:32:33 INFO  : Context for 'APU' is selected.
+22:32:33 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:32:33 INFO  : 'ps7_init' command is executed.
+22:32:33 INFO  : 'ps7_post_config' command is executed.
+22:32:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:33 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:32:33 INFO  : 'configparams force-mem-access 0' command is executed.
+22:32:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:32:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:32:33 INFO  : 'con' command is executed.
+22:32:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:32:33 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:33:40 INFO  : Disconnected from the channel tcfchan#24.
+22:33:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:33:40 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:33:40 INFO  : 'jtag frequency' command is executed.
+22:33:40 INFO  : Context for 'APU' is selected.
+22:33:40 INFO  : System reset is completed.
+22:33:43 INFO  : 'after 3000' command is executed.
+22:33:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:33:46 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:33:46 INFO  : Context for 'APU' is selected.
+22:33:46 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:33:46 INFO  : 'configparams force-mem-access 1' command is executed.
+22:33:46 INFO  : Context for 'APU' is selected.
+22:33:46 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:33:46 INFO  : 'ps7_init' command is executed.
+22:33:46 INFO  : 'ps7_post_config' command is executed.
+22:33:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:33:46 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:33:46 INFO  : 'configparams force-mem-access 0' command is executed.
+22:33:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:33:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:33:46 INFO  : 'con' command is executed.
+22:33:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:33:46 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:34:36 INFO  : Disconnected from the channel tcfchan#25.
+22:34:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:34:36 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:34:36 INFO  : 'jtag frequency' command is executed.
+22:34:36 INFO  : Context for 'APU' is selected.
+22:34:36 INFO  : System reset is completed.
+22:34:39 INFO  : 'after 3000' command is executed.
+22:34:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:34:41 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:34:41 INFO  : Context for 'APU' is selected.
+22:34:41 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:34:41 INFO  : 'configparams force-mem-access 1' command is executed.
+22:34:41 INFO  : Context for 'APU' is selected.
+22:34:41 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:34:41 INFO  : 'ps7_init' command is executed.
+22:34:41 INFO  : 'ps7_post_config' command is executed.
+22:34:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:34:42 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:34:42 INFO  : 'configparams force-mem-access 0' command is executed.
+22:34:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:34:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:34:42 INFO  : 'con' command is executed.
+22:34:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:34:42 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:35:06 INFO  : Disconnected from the channel tcfchan#26.
+22:35:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:35:06 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:35:06 INFO  : 'jtag frequency' command is executed.
+22:35:06 INFO  : Context for 'APU' is selected.
+22:35:06 INFO  : System reset is completed.
+22:35:09 INFO  : 'after 3000' command is executed.
+22:35:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:35:13 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:35:13 INFO  : Context for 'APU' is selected.
+22:35:13 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:35:13 INFO  : 'configparams force-mem-access 1' command is executed.
+22:35:13 INFO  : Context for 'APU' is selected.
+22:35:13 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:35:13 INFO  : 'ps7_init' command is executed.
+22:35:13 INFO  : 'ps7_post_config' command is executed.
+22:35:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:35:13 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:35:13 INFO  : 'configparams force-mem-access 0' command is executed.
+22:35:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:35:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:35:14 INFO  : 'con' command is executed.
+22:35:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:35:14 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:38:18 INFO  : Disconnected from the channel tcfchan#27.
+22:38:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:38:19 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:38:19 INFO  : 'jtag frequency' command is executed.
+22:38:19 INFO  : Context for 'APU' is selected.
+22:38:19 INFO  : System reset is completed.
+22:38:22 INFO  : 'after 3000' command is executed.
+22:38:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:38:24 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:38:24 INFO  : Context for 'APU' is selected.
+22:38:24 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:38:24 INFO  : 'configparams force-mem-access 1' command is executed.
+22:38:24 INFO  : Context for 'APU' is selected.
+22:38:24 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:38:24 INFO  : 'ps7_init' command is executed.
+22:38:24 INFO  : 'ps7_post_config' command is executed.
+22:38:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:38:24 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:38:25 INFO  : 'configparams force-mem-access 0' command is executed.
+22:38:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:38:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:38:25 INFO  : 'con' command is executed.
+22:38:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:38:25 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+23:06:28 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+23:06:38 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+23:06:38 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:06:46 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.dispose(HwPlatform.java:1325) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.removeHwSpec(HwSpecFactory.java:92) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.validateGetFromCache(HwSpecFactory.java:78) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:48) [com.xilinx.sdk.hw_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigUtil.createHwPlatform(SdsLaunchConfigUtil.java:57) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.iniHwPlatform(SdsLaunchConfigModel.java:187) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.getHwPlatform(BaseLaunchConfigModel.java:577) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:173) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202305040745.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202305040745.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+23:06:46 INFO  : Disconnected from the channel tcfchan#28.
+23:06:47 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+23:06:47 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+23:06:47 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+23:06:47 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+23:06:51 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+23:06:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:06:51 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+23:06:51 INFO  : 'jtag frequency' command is executed.
+23:06:51 INFO  : Context for 'APU' is selected.
+23:06:51 INFO  : System reset is completed.
+23:06:54 INFO  : 'after 3000' command is executed.
+23:06:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+23:06:57 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+23:06:57 INFO  : Context for 'APU' is selected.
+23:06:57 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+23:06:57 INFO  : 'configparams force-mem-access 1' command is executed.
+23:06:57 INFO  : Context for 'APU' is selected.
+23:06:57 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+23:06:57 INFO  : 'ps7_init' command is executed.
+23:06:57 INFO  : 'ps7_post_config' command is executed.
+23:06:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:57 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:06:57 INFO  : 'configparams force-mem-access 0' command is executed.
+23:06:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:06:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:57 INFO  : 'con' command is executed.
+23:06:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:06:57 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+23:07:39 INFO  : Disconnected from the channel tcfchan#30.
+20:26:47 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/IDE.log'.
+20:26:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\temp_xsdb_launch_script.tcl
+20:26:50 INFO  : XSCT server has started successfully.
+20:26:50 INFO  : plnx-install-location is set to ''
+20:26:50 INFO  : Successfully done setting XSCT server connection channel  
+20:26:50 INFO  : Successfully done setting workspace for the tool. 
+20:26:50 INFO  : Successfully done query RDI_DATADIR 
+20:26:52 INFO  : Registering command handlers for Vitis TCF services
+20:26:53 INFO  : Platform repository initialization has completed.
+20:27:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:03 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+20:27:03 INFO  : 'jtag frequency' command is executed.
+20:27:03 INFO  : Context for 'APU' is selected.
+20:27:03 INFO  : System reset is completed.
+20:27:06 INFO  : 'after 3000' command is executed.
+20:27:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+20:27:09 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+20:27:10 INFO  : Context for 'APU' is selected.
+20:27:10 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+20:27:10 INFO  : 'configparams force-mem-access 1' command is executed.
+20:27:10 INFO  : Context for 'APU' is selected.
+20:27:10 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+20:27:10 INFO  : 'ps7_init' command is executed.
+20:27:10 INFO  : 'ps7_post_config' command is executed.
+20:27:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:10 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:27:11 INFO  : 'configparams force-mem-access 0' command is executed.
+20:27:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:27:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:27:11 INFO  : 'con' command is executed.
+20:27:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:27:11 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+20:30:36 INFO  : Disconnected from the channel tcfchan#1.
+21:17:40 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/IDE.log'.
+21:17:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\temp_xsdb_launch_script.tcl
+21:17:43 INFO  : XSCT server has started successfully.
+21:17:43 INFO  : plnx-install-location is set to ''
+21:17:43 INFO  : Successfully done setting XSCT server connection channel  
+21:17:43 INFO  : Successfully done query RDI_DATADIR 
+21:17:43 INFO  : Successfully done setting workspace for the tool. 
+21:17:46 INFO  : Registering command handlers for Vitis TCF services
+21:17:47 INFO  : Platform repository initialization has completed.
+21:18:01 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+21:18:01 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+21:18:02 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+21:19:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:11 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+21:19:11 INFO  : 'jtag frequency' command is executed.
+21:19:12 INFO  : Context for 'APU' is selected.
+21:19:12 INFO  : System reset is completed.
+21:19:15 INFO  : 'after 3000' command is executed.
+21:19:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+21:19:18 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+21:19:18 INFO  : Context for 'APU' is selected.
+21:19:18 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+21:19:18 INFO  : 'configparams force-mem-access 1' command is executed.
+21:19:18 INFO  : Context for 'APU' is selected.
+21:19:18 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+21:19:18 INFO  : 'ps7_init' command is executed.
+21:19:18 INFO  : 'ps7_post_config' command is executed.
+21:19:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:19:19 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:19:19 INFO  : 'configparams force-mem-access 0' command is executed.
+21:19:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:19:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:19:19 INFO  : 'con' command is executed.
+21:19:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:19:19 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+21:20:08 INFO  : Disconnected from the channel tcfchan#3.
+22:02:57 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/IDE.log'.
+22:02:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\temp_xsdb_launch_script.tcl
+22:02:59 INFO  : XSCT server has started successfully.
+22:02:59 INFO  : plnx-install-location is set to ''
+22:02:59 INFO  : Successfully done setting XSCT server connection channel  
+22:03:00 INFO  : Successfully done setting workspace for the tool. 
+22:03:00 INFO  : Successfully done query RDI_DATADIR 
+22:03:02 INFO  : Registering command handlers for Vitis TCF services
+22:03:03 INFO  : Platform repository initialization has completed.
+22:03:12 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+22:03:21 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:03:21 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:03:26 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+22:03:29 INFO  : The hardware specification used by project 'VDMA_OV5640_PLCONFIG' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+22:03:29 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+22:03:29 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\bitstream' in project 'VDMA_OV5640_PLCONFIG'.
+22:03:29 INFO  : The file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit\ps7_init.tcl' stored in project is removed.
+22:03:31 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG\_ide\psinit' in project 'VDMA_OV5640_PLCONFIG'.
+22:03:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:03:49 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:03:49 INFO  : 'jtag frequency' command is executed.
+22:03:49 INFO  : Context for 'APU' is selected.
+22:03:49 INFO  : System reset is completed.
+22:03:52 INFO  : 'after 3000' command is executed.
+22:03:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:03:55 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:03:55 INFO  : Context for 'APU' is selected.
+22:03:55 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:03:55 INFO  : 'configparams force-mem-access 1' command is executed.
+22:03:55 INFO  : Context for 'APU' is selected.
+22:03:55 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:03:56 INFO  : 'ps7_init' command is executed.
+22:03:56 INFO  : 'ps7_post_config' command is executed.
+22:03:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:56 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:03:56 INFO  : 'configparams force-mem-access 0' command is executed.
+22:03:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:03:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:03:56 INFO  : 'con' command is executed.
+22:03:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:03:56 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:04:28 INFO  : Checking for BSP changes to sync application flags for project 'VDMA_OV5640_PLCONFIG'...
+22:04:51 INFO  : Disconnected from the channel tcfchan#3.
+22:04:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:51 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:04:51 INFO  : 'jtag frequency' command is executed.
+22:04:51 INFO  : Context for 'APU' is selected.
+22:04:51 INFO  : System reset is completed.
+22:04:54 INFO  : 'after 3000' command is executed.
+22:04:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:04:58 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:04:58 INFO  : Context for 'APU' is selected.
+22:04:58 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:04:58 INFO  : 'configparams force-mem-access 1' command is executed.
+22:04:58 INFO  : Context for 'APU' is selected.
+22:04:58 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl' is done.
+22:04:59 INFO  : 'ps7_init' command is executed.
+22:04:59 INFO  : 'ps7_post_config' command is executed.
+22:04:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:04:59 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:05:00 INFO  : 'configparams force-mem-access 0' command is executed.
+22:05:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI_PL_CONFIG/VDMA_OV5640_sdk/VDMA_OV5640_PLCONFIG/Debug/VDMA_OV5640_PLCONFIG.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:05:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:05:00 INFO  : 'con' command is executed.
+22:05:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:05:00 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\VDMA_OV5640_HDMI_PL_CONFIG\VDMA_OV5640_sdk\VDMA_OV5640_PLCONFIG_system\_ide\scripts\systemdebugger_vdma_ov5640_plconfig_system_standalone.tcl'
+22:05:49 INFO  : Disconnected from the channel tcfchan#5.

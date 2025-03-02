@@ -34,7 +34,8 @@
       "util_vector_logic_0": "",
       "rgb2dvi_0": "",
       "v_vid_in_axi4s_0": "",
-      "ov5640_capture_data_0": ""
+      "ov5640_capture_data_0": "",
+      "ila_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -1507,6 +1508,17 @@
         "xci_name": "ZYNQ_CORE_ov5640_capture_data_0_0",
         "xci_path": "ip\\ZYNQ_CORE_ov5640_capture_data_0_0\\ZYNQ_CORE_ov5640_capture_data_0_0.xci",
         "inst_hier_path": "ov5640_capture_data_0"
+      },
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "ZYNQ_CORE_ila_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_ila_0_0\\ZYNQ_CORE_ila_0_0.xci",
+        "inst_hier_path": "ila_0",
+        "parameters": {
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1625,7 +1637,8 @@
       "clk_wiz_0_clk_out2": {
         "ports": [
           "clk_wiz_0/clk_out2",
-          "rgb2dvi_0/SerialClk"
+          "rgb2dvi_0/SerialClk",
+          "ila_0/clk"
         ]
       },
       "clk_wiz_0_locked": {
@@ -1753,6 +1766,12 @@
         "ports": [
           "util_vector_logic_0/Res",
           "v_axi4s_vid_out_0/vid_io_out_reset"
+        ]
+      },
+      "v_axi4s_vid_out_0_locked": {
+        "ports": [
+          "v_axi4s_vid_out_0/locked",
+          "ila_0/probe0"
         ]
       },
       "v_axi4s_vid_out_0_vtg_ce": {

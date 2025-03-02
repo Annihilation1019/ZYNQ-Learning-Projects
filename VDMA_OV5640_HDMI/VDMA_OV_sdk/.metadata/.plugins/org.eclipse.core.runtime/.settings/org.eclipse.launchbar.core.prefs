@@ -4,5 +4,6 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=w
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_VDMA_OV5640-Default,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_VDMA_OV5640_system
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_VDMA_OV5640-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_VDMA_OV5640-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_VDMA_OV5640_system/activeLaunchMode=systemrun
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_VDMA_OV5640_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

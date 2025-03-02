@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Thu Feb 20 16:52:19 2025
+//Date        : Sat Mar  1 22:20:28 2025
 //Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 //Command     : generate_target ZYNQ_CORE.bd
 //Design      : ZYNQ_CORE
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=20,numReposBlks=14,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
+(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=21,numReposBlks=15,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
 module ZYNQ_CORE
    (DDR_addr,
     DDR_ba,
@@ -78,9 +78,9 @@ module ZYNQ_CORE
   output cam_pwdn_0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.CAM_RST_N_0 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.CAM_RST_N_0, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) output cam_rst_n_0;
   input cam_vsync_0;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb " *) input [1:0]emio_sccb_tri_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb " *) output [1:0]emio_sccb_tri_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb " *) output [1:0]emio_sccb_tri_t;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb TRI_I" *) input [1:0]emio_sccb_tri_i;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb TRI_O" *) output [1:0]emio_sccb_tri_o;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 emio_sccb TRI_T" *) output [1:0]emio_sccb_tri_t;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RESET_RTL_0 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RESET_RTL_0, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) input reset_rtl_0;
 
   wire [31:0]axi_mem_intercon_M00_AXI_ARADDR;
@@ -258,6 +258,7 @@ module ZYNQ_CORE
   wire [0:0]rst_ps7_0_150M_peripheral_aresetn;
   wire [0:0]rst_ps7_0_50M_peripheral_aresetn;
   wire [0:0]util_vector_logic_0_Res;
+  wire v_axi4s_vid_out_0_locked;
   wire v_axi4s_vid_out_0_vid_io_out_ACTIVE_VIDEO;
   wire [23:0]v_axi4s_vid_out_0_vid_io_out_DATA;
   wire v_axi4s_vid_out_0_vid_io_out_HSYNC;
@@ -433,6 +434,9 @@ module ZYNQ_CORE
         .clk_out2(clk_wiz_0_clk_out2),
         .locked(clk_wiz_0_locked),
         .resetn(reset_rtl_0_1));
+  ZYNQ_CORE_ila_0_0 ila_0
+       (.clk(clk_wiz_0_clk_out2),
+        .probe0(v_axi4s_vid_out_0_locked));
   ZYNQ_CORE_ov5640_capture_data_0_0 ov5640_capture_data_0
        (.cam_data(cam_data_0_1),
         .cam_href(cam_href_0_1),
@@ -649,6 +653,7 @@ module ZYNQ_CORE
         .aclken(clk_wiz_0_locked),
         .aresetn(clk_wiz_0_locked),
         .fid(1'b0),
+        .locked(v_axi4s_vid_out_0_locked),
         .s_axis_video_tdata(axi_vdma_0_M_AXIS_MM2S_TDATA),
         .s_axis_video_tlast(axi_vdma_0_M_AXIS_MM2S_TLAST),
         .s_axis_video_tready(axi_vdma_0_M_AXIS_MM2S_TREADY),

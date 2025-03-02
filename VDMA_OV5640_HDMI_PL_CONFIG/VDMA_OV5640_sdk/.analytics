@@ -1,0 +1,42 @@
+timestamp=[2025-02-24 19:43:21], mode=WORKBENCH_START, duration=0:00:08.272, duration_ms=8272, data={}
+timestamp=[2025-02-24 19:43:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.003, duration_ms=3, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-02-24 19:43:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.870, duration_ms=870, data={}
+timestamp=[2025-02-24 19:44:14], mode=APP_CREATION, duration=0:00:12.037, duration_ms=12037, data={name=VDMA_OV5640_PLCONFIG, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-02-24 19:45:23], mode=APP_CREATION, duration=0:00:03.311, duration_ms=3311, data={name=vdma_1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-02-24 19:48:42], mode=PLATFORM_GENERATION, duration=0:00:08.499, duration_ms=8499, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 19:48:42], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 19:50:20], mode=BUILD, duration=0:00:00.908, duration_ms=908, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 19:50:25], mode=BUILD, duration=0:00:04.680, duration_ms=4680, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 20:43:30], mode=PLATFORM_GENERATION, duration=0:00:04.796, duration_ms=4796, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 20:43:43], mode=BUILD, duration=0:00:00.788, duration_ms=788, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 20:43:51], mode=BUILD, duration=0:00:04.626, duration_ms=4626, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 21:32:08], mode=PLATFORM_GENERATION, duration=0:00:04.773, duration_ms=4773, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 21:32:20], mode=BUILD, duration=0:00:00.914, duration_ms=914, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 21:32:27], mode=BUILD, duration=0:00:04.488, duration_ms=4488, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:02:50], mode=PLATFORM_GENERATION, duration=0:00:05.190, duration_ms=5190, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 22:03:13], mode=BUILD, duration=0:00:00.782, duration_ms=782, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:03:21], mode=BUILD, duration=0:00:04.485, duration_ms=4485, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:14:26], mode=PLATFORM_GENERATION, duration=0:00:05.080, duration_ms=5080, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 22:15:39], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:15:44], mode=BUILD, duration=0:00:04.417, duration_ms=4417, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:30:48], mode=PLATFORM_GENERATION, duration=0:00:04.837, duration_ms=4837, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-24 22:30:55], mode=BUILD, duration=0:00:00.842, duration_ms=842, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 22:31:03], mode=BUILD, duration=0:00:04.750, duration_ms=4750, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-24 23:06:39], mode=PLATFORM_GENERATION, duration=0:00:05.008, duration_ms=5008, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-02-27 20:26:50], mode=WORKBENCH_START, duration=0:00:05.566, duration_ms=5566, data={}
+timestamp=[2025-02-27 20:26:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.114, duration_ms=114, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,VDMA_OV5640_PLCONFIG,VDMA_OV5640_PLCONFIG_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-02-27 20:26:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.776, duration_ms=776, data={}
+timestamp=[2025-03-01 21:17:43], mode=WORKBENCH_START, duration=0:00:05.456, duration_ms=5456, data={}
+timestamp=[2025-03-01 21:17:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.176, duration_ms=176, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,VDMA_OV5640_PLCONFIG,VDMA_OV5640_PLCONFIG_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-01 21:17:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.712, duration_ms=712, data={}
+timestamp=[2025-03-01 21:18:02], mode=PLATFORM_GENERATION, duration=0:00:12.838, duration_ms=12838, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-01 21:18:07], mode=BUILD, duration=0:00:00.934, duration_ms=934, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-03-01 21:18:13], mode=BUILD, duration=0:00:04.626, duration_ms=4626, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-01 22:02:59], mode=WORKBENCH_START, duration=0:00:06.448, duration_ms=6448, data={}
+timestamp=[2025-03-01 22:03:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.156, duration_ms=156, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,VDMA_OV5640_PLCONFIG,VDMA_OV5640_PLCONFIG_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-01 22:03:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.713, duration_ms=713, data={}
+timestamp=[2025-03-01 22:03:22], mode=PLATFORM_GENERATION, duration=0:00:04.363, duration_ms=4363, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-01 22:03:28], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-03-01 22:03:35], mode=BUILD, duration=0:00:04.101, duration_ms=4101, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-01 22:04:28], mode=BUILD, duration=0:00:00.301, duration_ms=301, data={name=VDMA_OV5640_PLCONFIG, configuration=Debug, clean_build=false}
+timestamp=[2025-03-01 22:04:32], mode=BUILD, duration=0:00:03.963, duration_ms=3963, data={name=VDMA_OV5640_PLCONFIG_system, configuration=Debug, clean_build=false}

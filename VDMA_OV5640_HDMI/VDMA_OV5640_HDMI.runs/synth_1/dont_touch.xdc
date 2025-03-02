@@ -48,10 +48,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_v
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_ov5640_capture_data_0_0 || ORIG_REF_NAME==ZYNQ_CORE_ov5640_capture_data_0_0} -quiet] -quiet
 
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_ila_0_0 || ORIG_REF_NAME==ZYNQ_CORE_ila_0_0} -quiet] -quiet
+
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_0 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_0} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_1 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_1} -quiet] -quiet
 
-# XDC: D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc
+# XDC: d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc

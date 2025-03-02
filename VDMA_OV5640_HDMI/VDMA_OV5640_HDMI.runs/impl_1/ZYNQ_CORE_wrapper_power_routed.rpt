@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Thu Feb 20 16:55:55 2025
+| Date             : Sun Mar  2 11:38:35 2025
 | Host             : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command          : report_power -file ZYNQ_CORE_wrapper_power_routed.rpt -pb ZYNQ_CORE_wrapper_power_summary_routed.pb -rpx ZYNQ_CORE_wrapper_power_routed.rpx
 | Design           : ZYNQ_CORE_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.747        |
+| Total On-Chip Power (W)  | 1.779        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.603        |
-| Device Static (W)        | 0.144        |
+| Dynamic (W)              | 1.635        |
+| Device Static (W)        | 0.145        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 64.9         |
-| Junction Temperature (C) | 45.1         |
+| Max Ambient (C)          | 64.5         |
+| Junction Temperature (C) | 45.5         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,22 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.035 |        9 |       --- |             --- |
-| Slice Logic              |     0.006 |    12479 |       --- |             --- |
-|   LUT as Logic           |     0.004 |     3939 |     53200 |            7.40 |
-|   CARRY4                 |    <0.001 |      225 |     13300 |            1.69 |
-|   Register               |    <0.001 |     6285 |    106400 |            5.91 |
-|   LUT as Shift Register  |    <0.001 |      233 |     17400 |            1.34 |
-|   LUT as Distributed RAM |    <0.001 |       18 |     17400 |            0.10 |
-|   F7/F8 Muxes            |    <0.001 |        6 |     53200 |            0.01 |
-|   Others                 |     0.000 |      670 |       --- |             --- |
-| Signals                  |     0.007 |     9092 |       --- |             --- |
-| Block RAM                |     0.009 |       10 |       140 |            7.14 |
+| Clocks                   |     0.060 |       10 |       --- |             --- |
+| Slice Logic              |     0.008 |    15723 |       --- |             --- |
+|   LUT as Logic           |     0.006 |     4949 |     53200 |            9.30 |
+|   CARRY4                 |    <0.001 |      250 |     13300 |            1.88 |
+|   Register               |    <0.001 |     8034 |    106400 |            7.55 |
+|   LUT as Distributed RAM |    <0.001 |       42 |     17400 |            0.24 |
+|   LUT as Shift Register  |    <0.001 |      294 |     17400 |            1.69 |
+|   F7/F8 Muxes            |    <0.001 |        9 |     53200 |            0.02 |
+|   Others                 |     0.000 |      874 |       --- |             --- |
+| Signals                  |     0.011 |    11494 |       --- |             --- |
+| Block RAM                |     0.011 |     10.5 |       140 |            7.50 |
 | MMCM                     |     0.132 |        1 |         4 |           25.00 |
 | I/O                      |     0.138 |       24 |       200 |           12.00 |
 | PS7                      |     1.275 |        1 |       --- |             --- |
-| Static Power             |     0.144 |          |           |                 |
-| Total                    |     1.747 |          |           |                 |
+| Static Power             |     0.145 |          |           |                 |
+| Total                    |     1.779 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,8 +77,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.075 |       0.059 |      0.016 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.088 |       0.073 |      0.015 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.107 |       0.091 |      0.016 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.088 |       0.073 |      0.016 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.042 |       0.041 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -137,17 +137,18 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+--------------------------------+--------------------------------------------------------------+-----------------+
-| Clock                          | Domain                                                       | Constraint (ns) |
-+--------------------------------+--------------------------------------------------------------+-----------------+
-| cam_pclk_0                     | cam_pclk_0                                                   |            13.9 |
-| clk_fpga_0                     | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0              |            20.0 |
-| clk_fpga_0                     | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0] |            20.0 |
-| clk_fpga_1                     | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1] |             6.7 |
-| clk_out1_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0    |            13.3 |
-| clk_out2_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/clk_wiz_0/inst/clk_out2_ZYNQ_CORE_clk_wiz_0_0    |             2.7 |
-| clkfbout_ZYNQ_CORE_clk_wiz_0_0 | ZYNQ_CORE_i/clk_wiz_0/inst/clkfbout_ZYNQ_CORE_clk_wiz_0_0    |            20.0 |
-+--------------------------------+--------------------------------------------------------------+-----------------+
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------+
+| Clock                                                                                      | Domain                                                            | Constraint (ns) |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------+
+| cam_pclk_0                                                                                 | cam_pclk_0                                                        |            13.9 |
+| clk_fpga_0                                                                                 | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK0                   |            20.0 |
+| clk_fpga_0                                                                                 | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]      |            20.0 |
+| clk_fpga_1                                                                                 | ZYNQ_CORE_i/processing_system7_0/inst/FCLK_CLK_unbuffered[1]      |             6.7 |
+| clk_out1_ZYNQ_CORE_clk_wiz_0_0                                                             | ZYNQ_CORE_i/clk_wiz_0/inst/clk_out1_ZYNQ_CORE_clk_wiz_0_0         |            13.3 |
+| clk_out2_ZYNQ_CORE_clk_wiz_0_0                                                             | ZYNQ_CORE_i/clk_wiz_0/inst/clk_out2_ZYNQ_CORE_clk_wiz_0_0         |             2.7 |
+| clkfbout_ZYNQ_CORE_clk_wiz_0_0                                                             | ZYNQ_CORE_i/clk_wiz_0/inst/clkfbout_ZYNQ_CORE_clk_wiz_0_0         |            20.0 |
+| dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/TCK |            33.0 |
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -159,8 +160,8 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| ZYNQ_CORE_wrapper        |     1.603 |
-|   ZYNQ_CORE_i            |     1.597 |
+| ZYNQ_CORE_wrapper        |     1.635 |
+|   ZYNQ_CORE_i            |     1.620 |
 |     axi_mem_intercon     |     0.004 |
 |       m00_couplers       |     0.002 |
 |       xbar               |     0.002 |
@@ -168,16 +169,23 @@ Table of Contents
 |       U0                 |     0.036 |
 |     clk_wiz_0            |     0.132 |
 |       inst               |     0.132 |
+|     ila_0                |     0.026 |
+|       inst               |     0.026 |
 |     processing_system7_0 |     1.276 |
 |       inst               |     1.276 |
-|     ps7_0_axi_periph     |     0.003 |
-|       s00_couplers       |     0.003 |
-|     rgb2dvi_0            |     0.136 |
-|       U0                 |     0.136 |
-|     v_axi4s_vid_out_0    |     0.005 |
-|       inst               |     0.005 |
-|     v_vid_in_axi4s_0     |     0.004 |
+|     ps7_0_axi_periph     |     0.002 |
+|       s00_couplers       |     0.002 |
+|     rgb2dvi_0            |     0.134 |
+|       U0                 |     0.134 |
+|     v_axi4s_vid_out_0    |     0.004 |
 |       inst               |     0.004 |
+|     v_tc_0               |     0.001 |
+|       U0                 |     0.001 |
+|     v_vid_in_axi4s_0     |     0.003 |
+|       inst               |     0.003 |
+|   dbg_hub                |     0.009 |
+|     inst                 |     0.009 |
+|       BSCANID.u_xsdbm_id |     0.009 |
 |   emio_sccb_tri_iobuf_0  |     0.003 |
 |   emio_sccb_tri_iobuf_1  |     0.003 |
 +--------------------------+-----------+
