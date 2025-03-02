@@ -74,7 +74,7 @@ module show_num(
         end
     end
 
-    /* 延迟行场同步 */
+    /* 时序同步 */
     always @(posedge pclk or negedge rstn) begin
         if (!rstn) begin
             video_active_d <= 1'b0;

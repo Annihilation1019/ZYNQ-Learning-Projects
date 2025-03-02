@@ -458,3 +458,306 @@ INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspa
 INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_show_num_0_0, cache-ID = 8d1d7a834ca19544; cache size = 16.935 MB.
 [Sun Mar  2 18:39:32 2025] Launched synth_1...
 Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 20
+[Sun Mar  2 18:40:49 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Mar  2 18:42:45 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:101]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:119]
+CRITICAL WARNING: [HDL 9-3116] 'rgb_data_out' is not a type [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:120]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'else' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:119]
+CRITICAL WARNING: [HDL 9-3116] 'rgb_data_out' is not a type [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:120]
+update_module_reference ZYNQ_CORE_border_adder_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_border_adder_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ';' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:42]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ';' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:42]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ';' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:42]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ';' [D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/border_adder.v:42]
+update_module_reference ZYNQ_CORE_border_adder_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_border_adder_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+update_module_reference ZYNQ_CORE_show_num_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_show_num_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+update_module_reference ZYNQ_CORE_border_adder_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_border_adder_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+update_module_reference ZYNQ_CORE_show_num_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+Upgrading 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_show_num_0_0 to use current project options
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+INFO: [BD 41-1662] The design 'ZYNQ_CORE.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+Wrote  : <D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_NUM0\OV5640_HDMI_ROM_READ_NUM0.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+INFO: [BD 41-1662] The design 'ZYNQ_CORE.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+launch_runs synth_1 -jobs 20
+INFO: [BD 41-1662] The design 'ZYNQ_CORE.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block border_adder_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block show_num_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+Exporting to file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_border_adder_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_show_num_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 20e581f62da0e442 to dir: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/2/0/20e581f62da0e442/ZYNQ_CORE_auto_pc_0.dcp to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/2/0/20e581f62da0e442/ZYNQ_CORE_auto_pc_0_sim_netlist.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/2/0/20e581f62da0e442/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/2/0/20e581f62da0e442/ZYNQ_CORE_auto_pc_0_stub.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/2/0/20e581f62da0e442/ZYNQ_CORE_auto_pc_0_stub.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_0, cache-ID = 20e581f62da0e442; cache size = 16.935 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry e6136d9902424a98 to dir: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1.dcp to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_sim_netlist.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_stub.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_stub.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_1, cache-ID = e6136d9902424a98; cache size = 16.935 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_border_adder_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_show_num_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8d1d7a834ca19544 to dir: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/8/d/8d1d7a834ca19544/ZYNQ_CORE_show_num_0_0.dcp to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/8/d/8d1d7a834ca19544/ZYNQ_CORE_show_num_0_0_sim_netlist.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/8/d/8d1d7a834ca19544/ZYNQ_CORE_show_num_0_0_sim_netlist.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/8/d/8d1d7a834ca19544/ZYNQ_CORE_show_num_0_0_stub.v to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.cache/ip/2023.1/8/d/8d1d7a834ca19544/ZYNQ_CORE_show_num_0_0_stub.vhdl to d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_0/ZYNQ_CORE_show_num_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_show_num_0_0, cache-ID = 8d1d7a834ca19544; cache size = 16.935 MB.
+[Sun Mar  2 18:58:46 2025] Launched ZYNQ_CORE_border_adder_0_0_synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/ZYNQ_CORE_border_adder_0_0_synth_1/runme.log
+[Sun Mar  2 18:58:46 2025] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 20
+[Sun Mar  2 19:00:04 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Mar  2 19:01:51 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa
+save_project_as OV5640_HDMI_ROM_READ_0to9 D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9 -exclude_run_results -force
+INFO: [IP_Flow 19-7005] Skipping external file d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/six.coe
+Wrote  : <D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.cache/ip 
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:border_adder:1.0'. The one found in IP location 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/mref/border_adder' will take precedence over the same IP in location d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.gen/sources_1/bd/mref/border_adder
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:border_adder:1.0'. The one found in IP location 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/mref/border_adder' will take precedence over the same IP in location d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.gen/sources_1/bd/mref/border_adder
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref:show_num:1.0'. The one found in IP location 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.gen/sources_1/bd/mref/show_num' will take precedence over the same IP in location d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.gen/sources_1/bd/mref/show_num
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_v_axi4s_vid_out_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_axi_vdma_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_axi_vdma_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_tc_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_v_tc_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rst_ps7_0_150M_1_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_rst_ps7_0_150M_1_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rst_ps7_0_50M_1_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_rst_ps7_0_50M_1_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_xbar_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_xbar_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_clk_wiz_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_clk_wiz_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_processing_system7_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_processing_system7_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_util_vector_logic_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_util_vector_logic_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rgb2dvi_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_rgb2dvi_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_vid_in_axi4s_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_v_vid_in_axi4s_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_ov5640_capture_data_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_ov5640_capture_data_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_axi4s_vid_out_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_axi_vdma_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_tc_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rst_ps7_0_150M_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rst_ps7_0_50M_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_clk_wiz_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_util_vector_logic_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_rgb2dvi_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_v_vid_in_axi4s_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_ov5640_capture_data_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_blk_mem_gen_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_blk_mem_gen_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_blk_mem_gen_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_border_adder_0_0_synth_1'...
+WARNING: [Coretcl 2-98] Problems encountered while resetting run:
+1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_border_adder_0_0_synth_1
+
+INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_border_adder_0_0_impl_1'...
