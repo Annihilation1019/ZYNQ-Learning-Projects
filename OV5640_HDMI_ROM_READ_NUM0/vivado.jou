@@ -146,3 +146,11 @@ launch_runs impl_1 -to_step write_bitstream -jobs 20
 wait_on_run impl_1
 write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/ZYNQ_CORE_wrapper.xsa
 save_project_as OV5640_HDMI_ROM_READ_0to9 D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9 -exclude_run_results -force
+startgroup
+set_property -dict [list \
+  CONFIG.Coe_File {d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe} \
+  CONFIG.Write_Depth_A {100000} \
+] [get_bd_cells blk_mem_gen_0]
+endgroup
+startgroup
+endgroup

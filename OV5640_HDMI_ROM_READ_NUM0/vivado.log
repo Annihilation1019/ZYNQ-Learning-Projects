@@ -761,3 +761,17 @@ WARNING: [Coretcl 2-98] Problems encountered while resetting run:
 1. Failed to delete one or more files in run directory D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_border_adder_0_0_synth_1
 
 INFO: [Coretcl 2-133] re-setting run 'ZYNQ_CORE_border_adder_0_0_impl_1'...
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe' provided. It will be converted relative to IP Instance files '../../../../../OV5640_HDMI_ROM_READ_0to9/coe/number.coe'
+startgroup
+set_property -dict [list \
+  CONFIG.Coe_File {d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe} \
+  CONFIG.Write_Depth_A {100000} \
+] [get_bd_cells blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe/number.coe'
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+endgroup

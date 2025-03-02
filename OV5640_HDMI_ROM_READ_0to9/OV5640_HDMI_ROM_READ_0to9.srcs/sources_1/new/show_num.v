@@ -30,17 +30,29 @@ module show_num(
         input  wire 									video_vsync,
         input  wire [23:0] 								rgb_data_in,
         input  wire 									rd_data,				// ROM 读数据
+        input  wire 									rom_sel,				// 选择ROM读取起始地址
 
         output reg  [23:0] 								rgb_data_out,
         output reg 										video_active_d,
         output reg 										video_hsync_d,
         output reg 										video_vsync_d,
-        output reg  [13:0]								rd_addr					// ROM 读地址
+        output reg  [16:0]								rd_addr					// ROM 读地址
     );
 
     /* 参数定义 */
     parameter  						   					HEIGHT = 720;
     parameter  						   					WIDTH = 1280;
+
+    localparam 						   					ADDR_0 = 17'd90000;
+    localparam 						   					ADDR_1 = 17'd00000;
+    localparam 						   					ADDR_2 = 17'd10000;
+    localparam 						   					ADDR_3 = 17'd20000;
+    localparam 						   					ADDR_4 = 17'd30000;
+    localparam 						   					ADDR_5 = 17'd40000;
+    localparam 						   					ADDR_6 = 17'd50000;
+    localparam 						   					ADDR_7 = 17'd60000;
+    localparam 						   					ADDR_8 = 17'd70000;
+    localparam 						   					ADDR_9 = 17'd80000;
 
     /* ===================================================== */
     /* -------------------- Main Code ---------------------- */
