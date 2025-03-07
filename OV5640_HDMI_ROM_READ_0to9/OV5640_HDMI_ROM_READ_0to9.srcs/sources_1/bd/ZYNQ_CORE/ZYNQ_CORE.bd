@@ -37,6 +37,7 @@
       "ov5640_capture_data_0": "",
       "blk_mem_gen_0": "",
       "border_adder_0": "",
+      "vio_0": "",
       "show_num_0": ""
     },
     "interface_ports": {
@@ -1518,7 +1519,7 @@
         "inst_hier_path": "blk_mem_gen_0",
         "parameters": {
           "Coe_File": {
-            "value": "../../../../../../six.coe"
+            "value": "../../../../../../coe/number.coe"
           },
           "Enable_A": {
             "value": "Always_Enabled"
@@ -1533,7 +1534,7 @@
             "value": "false"
           },
           "Write_Depth_A": {
-            "value": "10000"
+            "value": "100000"
           },
           "Write_Width_A": {
             "value": "1"
@@ -1621,10 +1622,24 @@
           }
         }
       },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "ZYNQ_CORE_vio_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_vio_0_0\\ZYNQ_CORE_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
       "show_num_0": {
         "vlnv": "xilinx.com:module_ref:show_num:1.0",
-        "xci_name": "ZYNQ_CORE_show_num_0_0",
-        "xci_path": "ip\\ZYNQ_CORE_show_num_0_0\\ZYNQ_CORE_show_num_0_0.xci",
+        "xci_name": "ZYNQ_CORE_show_num_0_1",
+        "xci_path": "ip\\ZYNQ_CORE_show_num_0_1\\ZYNQ_CORE_show_num_0_1.xci",
         "inst_hier_path": "show_num_0",
         "reference_info": {
           "ref_type": "hdl",
@@ -1686,6 +1701,11 @@
           "rd_data": {
             "direction": "I"
           },
+          "rom_addr_sel": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
           "rgb_data_out": {
             "direction": "O",
             "left": "23",
@@ -1702,7 +1722,7 @@
           },
           "rd_addr": {
             "direction": "O",
-            "left": "13",
+            "left": "16",
             "right": "0"
           }
         }
@@ -1857,6 +1877,7 @@
           "rgb2dvi_0/PixelClk",
           "blk_mem_gen_0/clka",
           "border_adder_0/pclk",
+          "vio_0/clk",
           "show_num_0/pclk"
         ]
       },
@@ -2053,6 +2074,12 @@
         "ports": [
           "v_axi4s_vid_out_0/vtg_ce",
           "v_tc_0/gen_clken"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "show_num_0/rom_addr_sel"
         ]
       }
     },

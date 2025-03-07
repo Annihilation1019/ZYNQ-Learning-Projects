@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Mar  2 22:03:27 2025
+# Process ID: 22752
+# Current directory: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21284 D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_0to9\OV5640_HDMI_ROM_READ_0to9.xpr
+# Log file: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/vivado.log
+# Journal file: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.xpr
+open_bd_design {D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference show_num show_num_1
+delete_bd_objs [get_bd_cells show_num_1]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets border_adder_0_pixel_x_out] [get_bd_nets border_adder_0_video_active_d] [get_bd_nets border_adder_0_video_vsync_d] [get_bd_nets border_adder_0_rgb_data_out] [get_bd_nets show_num_0_rgb_data_out] [get_bd_nets show_num_0_video_hsync_d] [get_bd_nets show_num_0_rd_addr] [get_bd_nets border_adder_0_pixel_y_out] [get_bd_nets border_adder_0_video_hsync_d] [get_bd_nets blk_mem_gen_0_douta] [get_bd_nets show_num_0_video_active_d] [get_bd_nets show_num_0_video_vsync_d] [get_bd_cells show_num_0]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference show_num show_num_0
+connect_bd_net [get_bd_pins show_num_0/pclk] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins show_num_0/rstn] [get_bd_pins clk_wiz_0/locked]
+connect_bd_net [get_bd_pins show_num_0/pixel_x_in] [get_bd_pins border_adder_0/pixel_x_out]
+connect_bd_net [get_bd_pins show_num_0/pixel_y_in] [get_bd_pins border_adder_0/pixel_y_out]
+connect_bd_net [get_bd_pins show_num_0/video_active] [get_bd_pins border_adder_0/video_active_d]
+connect_bd_net [get_bd_pins show_num_0/video_hsync] [get_bd_pins border_adder_0/video_hsync_d]
+connect_bd_net [get_bd_pins show_num_0/video_vsync] [get_bd_pins border_adder_0/video_vsync_d]
+connect_bd_net [get_bd_pins show_num_0/rgb_data_in] [get_bd_pins border_adder_0/rgb_data_out]
+connect_bd_net [get_bd_pins show_num_0/rd_data] [get_bd_pins blk_mem_gen_0/douta]
+connect_bd_net [get_bd_pins blk_mem_gen_0/addra] [get_bd_pins show_num_0/rd_addr]
+connect_bd_net [get_bd_pins show_num_0/rgb_data_out] [get_bd_pins rgb2dvi_0/vid_pData]
+connect_bd_net [get_bd_pins show_num_0/video_active_d] [get_bd_pins rgb2dvi_0/vid_pVDE]
+connect_bd_net [get_bd_pins show_num_0/video_hsync_d] [get_bd_pins rgb2dvi_0/vid_pHSync]
+connect_bd_net [get_bd_pins show_num_0/video_vsync_d] [get_bd_pins rgb2dvi_0/vid_pVSync]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:vio:3.0 vio_0
+endgroup
+set_property location {5 1493 520} [get_bd_cells vio_0]
+set_property CONFIG.C_EN_PROBE_IN_ACTIVITY {0} [get_bd_cells vio_0]
+set_property CONFIG.C_NUM_PROBE_IN {0} [get_bd_cells vio_0]
+connect_bd_net [get_bd_pins vio_0/clk] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins vio_0/probe_out0] [get_bd_pins show_num_0/rom_addr_sel]
+update_module_reference {ZYNQ_CORE_show_num_0_0 ZYNQ_CORE_show_num_0_1 ZYNQ_CORE_show_num_1_0}
+update_compile_order -fileset sources_1
+startgroup
+set_property CONFIG.C_PROBE_OUT0_WIDTH {4} [get_bd_cells vio_0]
+endgroup
+save_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design -force
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
+update_module_reference ZYNQ_CORE_show_num_0_1
+reset_run synth_1
+make_wrapper -files [get_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+regenerate_bd_layout
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/ZYNQ_CORE_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/impl_1/ZYNQ_CORE_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/impl_1/ZYNQ_CORE_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/impl_1/ZYNQ_CORE_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property OUTPUT_VALUE 1 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 5 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 7 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 9 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 5 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 4 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 3 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 4 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 7 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 8 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 3 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 2 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+set_property OUTPUT_VALUE 4 [get_hw_probes ZYNQ_CORE_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {ZYNQ_CORE_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"ZYNQ_CORE_i/vio_0"}]]
+close_hw_manager

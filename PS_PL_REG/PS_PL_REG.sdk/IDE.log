@@ -343,3 +343,16 @@ use 'getprojects' command to see list of available projects in current workspace
 Reason: D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa is not available in the current workspace
 use 'getprojects' command to see list of available projects in current workspace
 22:32:33 INFO  : No changes in MSS file content so sources will not be generated.
+11:41:23 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/IDE.log'.
+11:41:24 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\PS_PL_REG\PS_PL_REG.sdk\temp_xsdb_launch_script.tcl
+11:41:26 INFO  : XSCT server has started successfully.
+11:41:26 INFO  : Successfully done setting XSCT server connection channel  
+11:41:26 INFO  : plnx-install-location is set to ''
+11:41:26 INFO  : Successfully done query RDI_DATADIR 
+11:41:26 INFO  : Successfully done setting workspace for the tool. 
+11:42:01 INFO  : Registering command handlers for Vitis TCF services
+11:42:02 INFO  : Platform repository initialization has completed.
+11:42:16 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+11:42:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:42:30 INFO  : No changes in MSS file content so sources will not be generated.
+11:42:39 INFO  : No changes in MSS file content so sources will not be generated.

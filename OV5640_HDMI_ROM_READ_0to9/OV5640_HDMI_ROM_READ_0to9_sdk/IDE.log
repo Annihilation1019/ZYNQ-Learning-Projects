@@ -1,0 +1,125 @@
+22:24:29 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/IDE.log'.
+22:24:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_0to9\OV5640_HDMI_ROM_READ_0to9_sdk\temp_xsdb_launch_script.tcl
+22:24:35 INFO  : Registering command handlers for Vitis TCF services
+22:24:36 INFO  : Platform repository initialization has completed.
+22:24:36 INFO  : XSCT server has started successfully.
+22:24:36 INFO  : plnx-install-location is set to ''
+22:24:36 INFO  : Successfully done setting XSCT server connection channel  
+22:24:36 INFO  : Successfully done query RDI_DATADIR 
+22:24:36 INFO  : Successfully done setting workspace for the tool. 
+22:25:12 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:25:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:25:12 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:25:13 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+22:25:19 INFO  : Platform 'ZYNQ_CORE_wrapper' is added to custom repositories.
+22:25:43 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+22:25:43 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:25:44 INFO  : Checking for BSP changes to sync application flags for project 'OV5640_SHOW_NUM0to9'...
+22:26:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:26:01 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:26:01 INFO  : 'jtag frequency' command is executed.
+22:26:01 INFO  : Context for 'APU' is selected.
+22:26:01 INFO  : System reset is completed.
+22:26:04 INFO  : 'after 3000' command is executed.
+22:26:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:26:07 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:26:07 INFO  : Context for 'APU' is selected.
+22:26:07 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:26:07 INFO  : 'configparams force-mem-access 1' command is executed.
+22:26:07 INFO  : Context for 'APU' is selected.
+22:26:07 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/psinit/ps7_init.tcl' is done.
+22:26:07 INFO  : 'ps7_init' command is executed.
+22:26:07 INFO  : 'ps7_post_config' command is executed.
+22:26:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:26:08 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/Debug/OV5640_SHOW_NUM0to9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:26:08 INFO  : 'configparams force-mem-access 0' command is executed.
+22:26:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/Debug/OV5640_SHOW_NUM0to9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:26:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:26:08 INFO  : 'con' command is executed.
+22:26:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:26:08 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_0to9\OV5640_HDMI_ROM_READ_0to9_sdk\OV5640_SHOW_NUM0to9_system\_ide\scripts\systemdebugger_ov5640_show_num0to9_system_standalone.tcl'
+22:26:30 INFO  : Disconnected from the channel tcfchan#3.
+22:26:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:26:30 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+22:26:30 INFO  : 'jtag frequency' command is executed.
+22:26:30 INFO  : Context for 'APU' is selected.
+22:26:30 INFO  : System reset is completed.
+22:26:33 INFO  : 'after 3000' command is executed.
+22:26:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+22:26:36 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+22:26:36 INFO  : Context for 'APU' is selected.
+22:26:36 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+22:26:36 INFO  : 'configparams force-mem-access 1' command is executed.
+22:26:36 INFO  : Context for 'APU' is selected.
+22:26:36 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/psinit/ps7_init.tcl' is done.
+22:26:36 INFO  : 'ps7_init' command is executed.
+22:26:36 INFO  : 'ps7_post_config' command is executed.
+22:26:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:26:36 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/Debug/OV5640_SHOW_NUM0to9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:26:36 INFO  : 'configparams force-mem-access 0' command is executed.
+22:26:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/OV5640_SHOW_NUM0to9/Debug/OV5640_SHOW_NUM0to9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:26:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:26:36 INFO  : 'con' command is executed.
+22:26:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:26:36 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_0to9\OV5640_HDMI_ROM_READ_0to9_sdk\OV5640_SHOW_NUM0to9_system\_ide\scripts\systemdebugger_ov5640_show_num0to9_system_standalone.tcl'
+22:29:43 INFO  : Disconnected from the channel tcfchan#4.
+20:46:56 DEBUG : Logs will be stored at 'D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/IDE.log'.
+20:46:56 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Programs\Workspace\SmartZYNQ_SP2\OV5640_HDMI_ROM_READ_0to9\OV5640_HDMI_ROM_READ_0to9_sdk\temp_xsdb_launch_script.tcl
+20:46:58 INFO  : XSCT server has started successfully.
+20:46:58 INFO  : Successfully done setting XSCT server connection channel  
+20:46:58 INFO  : plnx-install-location is set to ''
+20:46:58 INFO  : Successfully done setting workspace for the tool. 
+20:46:59 INFO  : Platform repository initialization has completed.
+20:46:59 INFO  : Successfully done query RDI_DATADIR 
+20:46:59 INFO  : Registering command handlers for Vitis TCF services
+20:47:02 INFO  : Checking for BSP changes to sync application flags for project 'OV5640_SHOW_NUM0to9'...
+20:47:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9_sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa is already opened
+
+20:47:19 INFO  : Result from executing command 'removePlatformRepo': 
+20:47:33 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+20:47:33 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+20:47:34 INFO  : Checking for BSP changes to sync application flags for project 'OV5640_SHOW_NUM0to9'...

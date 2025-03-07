@@ -34,7 +34,7 @@
         "Primitive": [ { "value": "8kx2", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Assume_Synchronous_Clk": [ { "value": "false", "resolve_type": "user", "format": "bool", "enabled": false, "usage": "all" } ],
         "Write_Width_A": [ { "value": "1", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "Write_Depth_A": [ { "value": "10000", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Write_Depth_A": [ { "value": "100000", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "Read_Width_A": [ { "value": "1", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Operating_Mode_A": [ { "value": "WRITE_FIRST", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Enable_A": [ { "value": "Always_Enabled", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
@@ -52,7 +52,7 @@
         "register_portb_output_of_softecc": [ { "value": "false", "resolve_type": "user", "format": "bool", "enabled": false, "usage": "all" } ],
         "Pipeline_Stages": [ { "value": "0", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Load_Init_File": [ { "value": "true", "value_src": "user", "resolve_type": "user", "format": "bool", "usage": "all" } ],
-        "Coe_File": [ { "value": "../../../../../../../OV5640_HDMI_ROM_READ_NUM0/six.coe", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "Coe_File": [ { "value": "../../../../../../coe/number.coe", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "Fill_Remaining_Memory_Locations": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
         "Remaining_Memory_Locations": [ { "value": "0", "resolve_type": "user", "enabled": false, "usage": "all" } ],
         "Use_RSTA_Pin": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
@@ -113,9 +113,9 @@
         "C_WRITE_MODE_A": [ { "value": "WRITE_FIRST", "resolve_type": "generated", "usage": "all" } ],
         "C_WRITE_WIDTH_A": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_READ_WIDTH_A": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_WRITE_DEPTH_A": [ { "value": "10000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_READ_DEPTH_A": [ { "value": "10000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_ADDRA_WIDTH": [ { "value": "14", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_WRITE_DEPTH_A": [ { "value": "100000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_READ_DEPTH_A": [ { "value": "100000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_ADDRA_WIDTH": [ { "value": "17", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_RSTB": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_RST_PRIORITY_B": [ { "value": "CE", "resolve_type": "generated", "usage": "all" } ],
         "C_RSTRAM_B": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -127,9 +127,9 @@
         "C_WRITE_MODE_B": [ { "value": "WRITE_FIRST", "resolve_type": "generated", "usage": "all" } ],
         "C_WRITE_WIDTH_B": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_READ_WIDTH_B": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_WRITE_DEPTH_B": [ { "value": "10000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_READ_DEPTH_B": [ { "value": "10000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_ADDRB_WIDTH": [ { "value": "14", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_WRITE_DEPTH_B": [ { "value": "100000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_READ_DEPTH_B": [ { "value": "100000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_ADDRB_WIDTH": [ { "value": "17", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_MEM_OUTPUT_REGS_A": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_MEM_OUTPUT_REGS_B": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_MUX_OUTPUT_REGS_A": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -154,9 +154,9 @@
         "C_EN_SHUTDOWN_PIN": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_EN_SAFETY_CKT": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_DISABLE_WARN_BHV_RANGE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_COUNT_36K_BRAM": [ { "value": "0", "resolve_type": "generated", "usage": "all" } ],
+        "C_COUNT_36K_BRAM": [ { "value": "3", "resolve_type": "generated", "usage": "all" } ],
         "C_COUNT_18K_BRAM": [ { "value": "1", "resolve_type": "generated", "usage": "all" } ],
-        "C_EST_POWER_SUMMARY": [ { "value": "Estimated Power for IP     :     1.1566 mW", "resolve_type": "generated", "usage": "all" } ]
+        "C_EST_POWER_SUMMARY": [ { "value": "Estimated Power for IP     :     2.154139 mW", "resolve_type": "generated", "usage": "all" } ]
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
@@ -185,7 +185,7 @@
     "boundary": {
       "ports": {
         "clka": [ { "direction": "in", "driver_value": "0" } ],
-        "addra": [ { "direction": "in", "size_left": "13", "size_right": "0", "driver_value": "0" } ],
+        "addra": [ { "direction": "in", "size_left": "16", "size_right": "0", "driver_value": "0" } ],
         "douta": [ { "direction": "out", "size_left": "0", "size_right": "0" } ]
       },
       "interfaces": {

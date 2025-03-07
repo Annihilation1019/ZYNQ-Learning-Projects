@@ -1,0 +1,25 @@
+11:16:34 **** Incremental Build of configuration Debug for project CYCLE_NUM ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: CYCLE_NUM.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "CYCLE_NUM.elf"  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/main.o ./src/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: CYCLE_NUM.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size CYCLE_NUM.elf  |tee "CYCLE_NUM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  40353	   1280	  25424	  67057	  105f1	CYCLE_NUM.elf
+'Finished building: CYCLE_NUM.elf.size'
+' '
+
+11:16:35 Build Finished (took 728ms)
+

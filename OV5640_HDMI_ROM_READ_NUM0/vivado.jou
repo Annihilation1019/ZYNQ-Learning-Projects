@@ -154,3 +154,5 @@ set_property -dict [list \
 endgroup
 startgroup
 endgroup
+update_module_reference ZYNQ_CORE_show_num_0_0
+update_module_reference ZYNQ_CORE_show_num_0_0

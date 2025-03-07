@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Sun Mar  2 18:58:42 2025
+//Date        : Sun Mar  2 22:17:44 2025
 //Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 //Command     : generate_target ZYNQ_CORE.bd
 //Design      : ZYNQ_CORE
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=23,numReposBlks=17,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=2,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
+(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=24,numReposBlks=18,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=2,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
 module ZYNQ_CORE
    (DDR_addr,
     DDR_ba,
@@ -264,7 +264,7 @@ module ZYNQ_CORE
   wire [2:0]rgb2dvi_0_TMDS_Data_p;
   wire [0:0]rst_ps7_0_150M_peripheral_aresetn;
   wire [0:0]rst_ps7_0_50M_peripheral_aresetn;
-  wire [13:0]show_num_0_rd_addr;
+  wire [16:0]show_num_0_rd_addr;
   wire [23:0]show_num_0_rgb_data_out;
   wire show_num_0_video_active_d;
   wire show_num_0_video_hsync_d;
@@ -285,6 +285,7 @@ module ZYNQ_CORE
   wire v_vid_in_axi4s_0_video_out_TREADY;
   wire v_vid_in_axi4s_0_video_out_TUSER;
   wire v_vid_in_axi4s_0_video_out_TVALID;
+  wire [3:0]vio_0_probe_out0;
 
   assign TMDS_Clk_n_0 = rgb2dvi_0_TMDS_Clk_n;
   assign TMDS_Clk_p_0 = rgb2dvi_0_TMDS_Clk_p;
@@ -670,7 +671,7 @@ module ZYNQ_CORE
         .mb_debug_sys_rst(1'b0),
         .peripheral_aresetn(rst_ps7_0_50M_peripheral_aresetn),
         .slowest_sync_clk(processing_system7_0_FCLK_CLK0));
-  ZYNQ_CORE_show_num_0_0 show_num_0
+  ZYNQ_CORE_show_num_0_1 show_num_0
        (.pclk(clk_wiz_0_clk_out1),
         .pixel_x_in(border_adder_0_pixel_x_out),
         .pixel_y_in(border_adder_0_pixel_y_out),
@@ -678,6 +679,7 @@ module ZYNQ_CORE
         .rd_data(blk_mem_gen_0_douta),
         .rgb_data_in(border_adder_0_rgb_data_out),
         .rgb_data_out(show_num_0_rgb_data_out),
+        .rom_addr_sel(vio_0_probe_out0),
         .rstn(clk_wiz_0_locked),
         .video_active(border_adder_0_video_active_d),
         .video_active_d(show_num_0_video_active_d),
@@ -743,6 +745,9 @@ module ZYNQ_CORE
         .vid_io_in_reset(1'b0),
         .vid_vblank(1'b0),
         .vid_vsync(ov5640_capture_data_0_cmos_rgb_VSYNC));
+  ZYNQ_CORE_vio_0_0 vio_0
+       (.clk(clk_wiz_0_clk_out1),
+        .probe_out0(vio_0_probe_out0));
 endmodule
 
 module ZYNQ_CORE_axi_mem_intercon_1

@@ -64,3 +64,10 @@ bsp write
 bsp reload
 catch {bsp regenerate}
 bsp reload
+platform active {ZYNQ_CORE_wrapper}
+platform generate
+bsp reload
+bsp reload
+domain active {zynq_fsbl}
+bsp reload
+bsp reload

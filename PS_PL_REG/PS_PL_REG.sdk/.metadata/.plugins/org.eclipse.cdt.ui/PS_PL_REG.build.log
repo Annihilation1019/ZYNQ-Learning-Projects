@@ -1,4 +1,4 @@
-22:30:37 **** Incremental Build of configuration Debug for project PS_PL_REG ****
+22:05:23 **** Incremental Build of configuration Release for project PS_PL_REG ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -6,13 +6,20 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c:1:10: fatal error: xparameters.h: No such file or directory
-    1 | #include "xparameters.h"
-      |          ^~~~~~~~~~~~~~~
-compilation terminated.
-make[1]: *** [src/subdir.mk:23: src/main.o] Error 1
-make: *** [makefile:34: all] Error 2
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: PS_PL_REG.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/SmartZYNQ_SP2/PS_PL_REG/PS_PL_REG.sdk/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "PS_PL_REG.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PS_PL_REG.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size PS_PL_REG.elf  |tee "PS_PL_REG.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18808	   1144	  22568	  42520	   a618	PS_PL_REG.elf
+'Finished building: PS_PL_REG.elf.size'
+' '
 
-22:30:37 Build Finished (took 535ms)
+22:05:24 Build Finished (took 989ms)
 
