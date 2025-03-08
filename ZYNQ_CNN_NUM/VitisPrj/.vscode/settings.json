@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "sleep.h": "c",
+        "global_param_define.h": "c",
+        "main.h": "c",
+        "cycle_num.h": "c",
+        "xaxivdma_i.h": "c",
+        "xaxivdma.h": "c",
+        "xparameters.h": "c",
+        "stdio.h": "c",
+        "conv_layer_1.h": "c",
+        "vdma_api.h": "c",
+        "ov5640_init.h": "c",
+        "emio_sccb_cfg.h": "c",
+        "param_init.h": "c",
+        "xil_cache.h": "c",
+        "xil_types.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}

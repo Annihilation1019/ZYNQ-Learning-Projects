@@ -1,0 +1,16 @@
+#ifndef __DEFINE_CFG__
+#define __DEFINE_CFG__
+
+typedef enum Status
+{
+    SUCCESS = 0,
+    FAILURE = 1
+} Status;
+
+#define VDMA_ID XPAR_AXIVDMA_0_DEVICE_ID // VDMA器件ID
+#define DISP_VTC_ID XPAR_VTC_0_DEVICE_ID // VTC器件ID
+
+#define WIDTH 1280 // 显示屏宽度
+#define HEIGHT 720 // 显示屏高度
+
+#endif // __DEFINE_CFG__

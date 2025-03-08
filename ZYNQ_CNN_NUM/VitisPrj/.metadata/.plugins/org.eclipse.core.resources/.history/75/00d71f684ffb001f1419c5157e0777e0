@@ -1,0 +1,8 @@
+#ifndef __PARAM_INIT_H__
+#define __PARAM_INIT_H__
+
+#include "./define_cfg.h"
+
+Status conv_param_init();
+
+#endif
