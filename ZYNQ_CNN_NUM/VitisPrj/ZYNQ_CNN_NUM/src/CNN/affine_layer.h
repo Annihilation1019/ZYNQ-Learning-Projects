@@ -8,5 +8,6 @@
 #define AFFINE_NODES 100                // 全连接层节点数
 
 void affine_layer1();
+void affine_layer2();
 
 #endif

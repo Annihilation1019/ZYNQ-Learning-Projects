@@ -32,5 +32,11 @@ typedef enum Status
 #define AFFINE1_B_HIGHADDR (USER_PARAM_BASEADDR + 0x001BBD60)            // 全连接层1偏置高地址
 #define AFFINE1_OUT_BASEADDR (USER_PARAM_BASEADDR + 0x001BBD64)          // 全连接层1输出存放基地址
 #define AFFINE1_OUT_HIGHADDR (USER_PARAM_BASEADDR + 0x001BBEF4)          // 全连接层1输出存放高地址
+#define AFFINE2_W_BASEADDR (USER_PARAM_BASEADDR + 0x001BBEF8)            // 全连接层2权重基地址
+#define AFFINE2_W_HIGHADDR (USER_PARAM_BASEADDR + 0x001BCE98)            // 全连接层2权重高地址
+#define AFFINE2_B_BASEADDR (USER_PARAM_BASEADDR + 0x001BCE9C)            // 全连接层2偏置基地址
+#define AFFINE2_B_HIGHADDR (USER_PARAM_BASEADDR + 0x001BCEC4)            // 全连接层2偏置高地址
+#define AFFINE2_OUT_BASEADDR (USER_PARAM_BASEADDR + 0x001BCEC8)          // 全连接层2输出存放基地址
+#define AFFINE2_OUT_HIGHADDR (USER_PARAM_BASEADDR + 0x001BCEF0)          // 全连接层2输出存放高地址
 
 #endif // __DEFINE_CFG__

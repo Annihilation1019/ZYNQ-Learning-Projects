@@ -11920,3 +11920,1077 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:04:14.699
 !MESSAGE XSCT command with result: [disconnect tcfchan#17], Result: [null, ]. Thread: Thread-882
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.887
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.904
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.904
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.908
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:28:57.910
+!MESSAGE Generating MD5 hash for file: D:\Programs\Workspace\SmartZYNQ_SP2\ZYNQ_CNN_NUM\VitisPrj\ZYNQ_CORE_wrapper\export\ZYNQ_CORE_wrapper\sw\ZYNQ_CORE_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.911
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:28:57.913
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-111: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-03-09 16:28:59.418
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.006
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.011
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.012
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.015
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:29:48.015
+!MESSAGE Generating MD5 hash for file: D:\Programs\Workspace\SmartZYNQ_SP2\ZYNQ_CNN_NUM\VitisPrj\ZYNQ_CORE_wrapper\export\ZYNQ_CORE_wrapper\sw\ZYNQ_CORE_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.016
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:29:48.018
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-93: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:30:40.991
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '9'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:56.304
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.416
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.430
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.441
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.461
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.462
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.462
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.463
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.464
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.464
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.465
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.465
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.465
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:31:58.466
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:58.486
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#19]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:58.487
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.341
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.342
+!MESSAGE XSCT Command: [version -server], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.344
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.344
+!MESSAGE XSCT Command: [version], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.345
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.346
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.348
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.350
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.359
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.360
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.365
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.365
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.377
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.377
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.384
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.384
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.393
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.394
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.397
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.398
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.406
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.407
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.411
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.411
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.422
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.422
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.425
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.425
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.435
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.436
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.446
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.446
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.485
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.486
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.938
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:31:59.938
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:00.006
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:00.007
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.027
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.042
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.045
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.046
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.056
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.056
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.540
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:03.541
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.288
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.316
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.783
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.784
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.797
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_0]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.799
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.800
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.800
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.806
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.807
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.809
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:06.810
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.022
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.023
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.027
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.028
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.493
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:07.493
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.119
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.120
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.149
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.572
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.586
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.586
+!MESSAGE XSCT Command: [con], Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:32:46.601
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-113: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:32:46.602
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '8'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:00.265
+!MESSAGE XSCT Command: [disconnect tcfchan#19], Thread: Thread-1040
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:00.268
+!MESSAGE XSCT command with result: [disconnect tcfchan#19], Result: [null, ]. Thread: Thread-1040
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.489
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.493
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.493
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.496
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:56:05.497
+!MESSAGE Generating MD5 hash for file: D:\Programs\Workspace\SmartZYNQ_SP2\ZYNQ_CNN_NUM\VitisPrj\ZYNQ_CORE_wrapper\export\ZYNQ_CORE_wrapper\sw\ZYNQ_CORE_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.497
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:05.498
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-126: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:56:10.947
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '10'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:20.362
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.486
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.484
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.503
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.515
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.515
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.516
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.516
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.517
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.517
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.517
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.518
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.518
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.518
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 16:56:22.520
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:22.526
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#21]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:22.527
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.314
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.314
+!MESSAGE XSCT Command: [version -server], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.316
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.316
+!MESSAGE XSCT Command: [version], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.317
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.317
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.320
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.320
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.330
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.330
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.333
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.334
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.343
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.344
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.348
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.348
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.358
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.358
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.362
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.363
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.372
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.373
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.379
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.379
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.388
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.389
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.392
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.401
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.402
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.411
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.411
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.442
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.443
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.880
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.881
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.950
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:23.952
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:26.971
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:26.990
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:26.995
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:26.996
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:27.006
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:27.006
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:27.467
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:27.469
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.251
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.269
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.728
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.728
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.740
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_0]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.741
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.742
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.743
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.750
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.751
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.752
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.753
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.955
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.955
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.965
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.966
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.972
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:56:30.972
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:07.518
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:07.519
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:07.546
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:08.072
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:08.099
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:08.100
+!MESSAGE XSCT Command: [con], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:57:08.120
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:57:08.121
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '9'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:08.577
+!MESSAGE XSCT Command: [disconnect tcfchan#21], Thread: Thread-1137
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:08.593
+!MESSAGE XSCT command with result: [disconnect tcfchan#21], Result: [null, ]. Thread: Thread-1137
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:16.995
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.000
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#22]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.000
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.796
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.798
+!MESSAGE XSCT Command: [version -server], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.801
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.801
+!MESSAGE XSCT Command: [version], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.802
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.803
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.807
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.807
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.816
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.816
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.820
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.820
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.828
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.829
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.832
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.832
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.842
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.843
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.870
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.871
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.884
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.885
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.888
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.888
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.896
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.897
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.900
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.900
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.910
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.910
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.919
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "HelloFpga JTAG-SP2 03SD35A" && level == 0}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.919
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.945
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.946
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.952
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:17.952
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:18.035
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:18.036
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.048
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.068
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.073
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* HelloFpga JTAG-SP2 03SD35A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.074
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.085
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.085
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.102
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:21.103
+!MESSAGE XSCT Command: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.444
+!MESSAGE XSCT command with result: [fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.474
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.483
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.484
+!MESSAGE XSCT Command: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.508
+!MESSAGE XSCT command with result: [loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, ZYNQ_CORE_wrapper_0]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.509
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.510
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.510
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.516
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.517
+!MESSAGE XSCT Command: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.518
+!MESSAGE XSCT command with result: [source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.519
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.713
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.714
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.720
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.720
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.725
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:58:23.726
+!MESSAGE XSCT Command: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.571
+!MESSAGE XSCT command with result: [dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.572
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.598
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.672
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.804
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.804
+!MESSAGE XSCT Command: [con], Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 16:59:00.827
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-127: Launching Debugger_ZYNQ_CNN_NUM-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-09 16:59:00.829
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '10'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 17:00:27.983
+!MESSAGE XSCT Command: [disconnect tcfchan#22], Thread: Thread-1271
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 17:00:27.985
+!MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-1271

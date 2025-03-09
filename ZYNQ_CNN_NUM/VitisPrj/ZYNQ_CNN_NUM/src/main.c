@@ -19,6 +19,10 @@
 #include "CNN/maxpool_layer_2.h"
 #include "CNN/affine_layer.h"
 
+#include "cycle_num.h"
+
+void output_max_index();
+
 // 全局变量
 XAxiVdma vdma;
 // 图片数据
@@ -51,7 +55,7 @@ static u8 image[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-static float debug_affine_result[AFFINE_NODES];
+
 int main(void)
 {
 	u32 status;
@@ -89,10 +93,10 @@ int main(void)
 
 	/* 全连接层 */
 	affine_layer1();
+	affine_layer2();
 
-	// 全连接结果测试
-	// 将全连接层结果拷贝到debug_affine_result数组中，便于debug查看
-	memcpy(debug_affine_result, (void *)AFFINE1_OUT_BASEADDR, AFFINE_NODES * sizeof(float));
+	/* 结果输出 */
+	output_max_index();
 
 	while (1)
 	{
@@ -100,4 +104,22 @@ int main(void)
 	}
 
 	return 0;
+}
+
+void output_max_index()
+{
+	float *out2 = (float *)AFFINE2_OUT_BASEADDR; // 全连接层第二层输出，共10个节点
+	int max_index = 0;
+	float max_value = out2[0];
+
+	for (int i = 1; i < 10; i++) // 10个节点
+	{
+		if (out2[i] > max_value)
+		{
+			max_value = out2[i];
+			max_index = i;
+		}
+	}
+	// 利用宏函数将最大值的索引写到寄存器中
+	CYCLE_NUM_mWriteReg(XPAR_CYCLE_NUM_0_S00_AXI_BASEADDR, CYCLE_NUM_S00_AXI_SLV_REG0_OFFSET, max_index);
 }
