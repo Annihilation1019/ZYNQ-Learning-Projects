@@ -16,6 +16,7 @@
 
 #include "CNN/conv_layer_1.h"
 #include "CNN/param_init.h"
+#include "CNN/maxpool_layer_2.h"
 
 // 全局变量
 XAxiVdma vdma;
@@ -49,6 +50,7 @@ static u8 image[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
+static float debug_maxpool_result[30][12][12]; // 用于存放池化结果
 int main(void)
 {
 	u32 status;
@@ -79,23 +81,14 @@ int main(void)
 	conv_param_init();
 
 	/* 卷积层 */
-	conv_layer_1(image);
+	conv_layer_1(image); // 对卷积结果进行激活函数处理
 
-	float *output = (float *)CONV1_OUT_BASEADDR;
-	// 定义一个定长数组来存储输出数据
-	float debug_output[30][24][24];
+	/* 最大池化层 */
+	maxpool_layer_2();
 
-	// 将 output 中的数据复制到 debug_output 中
-	for (int filter = 0; filter < 30; filter++)
-	{
-		for (int row = 0; row < 24; row++)
-		{
-			for (int col = 0; col < 24; col++)
-			{
-				debug_output[filter][row][col] = output[filter * (24 * 24) + row * 24 + col];
-			}
-		}
-	}
+	/* 池化结果测试 */
+	/* 将池化结果拷贝到三维数组，便于调试查看 */
+	memcpy(debug_maxpool_result, (void *)MAXPOOL1_OUT_BASEADDR, sizeof(debug_maxpool_result));
 
 	while (1)
 	{

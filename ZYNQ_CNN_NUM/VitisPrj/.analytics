@@ -130,3 +130,16 @@ timestamp=[2025-03-08 21:39:51], mode=BUILD, duration=0:00:00.872, duration_ms=8
 timestamp=[2025-03-08 21:39:56], mode=BUILD, duration=0:00:04.603, duration_ms=4603, data={name=ZYNQ_CNN_NUM_system, configuration=Debug, clean_build=false}
 timestamp=[2025-03-08 21:43:46], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
 timestamp=[2025-03-08 21:43:51], mode=BUILD, duration=0:00:04.550, duration_ms=4550, data={name=ZYNQ_CNN_NUM_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-08 22:07:44], mode=WORKBENCH_START, duration=0:00:05.871, duration_ms=5871, data={}
+timestamp=[2025-03-08 22:07:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.152, duration_ms=152, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZYNQ_CNN_NUM,ZYNQ_CNN_NUM_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-08 22:07:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.795, duration_ms=795, data={}
+timestamp=[2025-03-08 22:19:42], mode=PLATFORM_GENERATION, duration=0:00:03.959, duration_ms=3959, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-08 22:19:45], mode=BUILD, duration=0:00:01.204, duration_ms=1204, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-08 22:19:49], mode=BUILD, duration=0:00:04.126, duration_ms=4126, data={name=ZYNQ_CNN_NUM_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:02:59], mode=BUILD, duration=0:00:00.803, duration_ms=803, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:03:26], mode=BUILD, duration=0:00:00.860, duration_ms=860, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:03:48], mode=BUILD, duration=0:00:00.905, duration_ms=905, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:03:57], mode=BUILD, duration=0:00:00.474, duration_ms=474, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:04:01], mode=BUILD, duration=0:00:04.480, duration_ms=4480, data={name=ZYNQ_CNN_NUM_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:14:07], mode=BUILD, duration=0:00:00.867, duration_ms=867, data={name=ZYNQ_CNN_NUM, configuration=Debug, clean_build=false}
+timestamp=[2025-03-09 10:14:12], mode=BUILD, duration=0:00:04.241, duration_ms=4241, data={name=ZYNQ_CNN_NUM_system, configuration=Debug, clean_build=false}

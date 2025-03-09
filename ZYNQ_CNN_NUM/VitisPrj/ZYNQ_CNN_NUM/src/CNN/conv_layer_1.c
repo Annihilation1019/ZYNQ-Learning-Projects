@@ -4,6 +4,7 @@
 #include "xil_types.h"
 #include "conv_layer_1.h"
 #include "xil_cache.h"
+#include "relu_layer.h"
 
 
 /*
@@ -37,6 +38,8 @@ void conv_layer_1(uint8_t *input_img)
                 }
                 // 加上偏置
                 sum += conv1_param_b[filter];
+                // 激活函数
+                sum = relu_layer(sum);
                 output[filter * (OUTPUT_H * OUTPUT_W) + row * OUTPUT_W + col] = sum;
             }  
         }

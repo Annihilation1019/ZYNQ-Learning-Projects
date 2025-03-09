@@ -43,3 +43,4 @@ platform generate -domains
 platform clean
 platform generate
 platform active {ZYNQ_CORE_wrapper}
+platform generate -domains 

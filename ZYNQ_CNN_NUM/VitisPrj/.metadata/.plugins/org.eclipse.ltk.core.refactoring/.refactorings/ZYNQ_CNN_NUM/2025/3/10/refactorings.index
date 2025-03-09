@@ -1,3 +1,5 @@
 1741334002413	Move 'vdma_api.c' to 'vdma'
 1741349732106	Rename resource 'global_param_define'
 1741349855679	Rename resource 'global_param_define.h'
+1741442931697	Rename resource 'relu_layer_2.c'
+1741443563507	Rename resource 'maxpool_layer_2'

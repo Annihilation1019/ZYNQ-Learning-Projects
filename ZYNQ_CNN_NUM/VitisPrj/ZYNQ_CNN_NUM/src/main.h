@@ -24,5 +24,7 @@ typedef enum Status
 #define CONV1_B_HIGHADDR (USER_PARAM_BASEADDR + 0x00000C3C)              // 卷积层1偏置高地址
 #define CONV1_OUT_BASEADDR (USER_PARAM_BASEADDR + 0x00000C40)            // 卷积层输出存放基地址
 #define CONV1_OUT_HIGHADDR (USER_PARAM_BASEADDR + 0x00011A44)            // 卷积层输出存放高地址
+#define MAXPOOL1_OUT_BASEADDR (USER_PARAM_BASEADDR + 0x00011A48)         // 最大池化层1输出存放基地址
+#define MAXPOOL1_OUT_HIGHADDR (USER_PARAM_BASEADDR + 0x00015DC8)         // 最大池化层1输出存放高地址
 
 #endif // __DEFINE_CFG__
