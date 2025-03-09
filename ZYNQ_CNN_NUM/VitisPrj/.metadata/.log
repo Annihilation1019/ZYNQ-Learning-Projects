@@ -12994,3 +12994,16 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-03-09 17:00:27.985
 !MESSAGE XSCT command with result: [disconnect tcfchan#22], Result: [null, ]. Thread: Thread-1271
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-09 17:51:21.821
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329)
