@@ -2766,3 +2766,49 @@ con
 10:04:18 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\ZYNQ_CNN_NUM\VitisPrj\ZYNQ_CNN_NUM_system\_ide\scripts\debugger_zynq_cnn_num-default.tcl'
 10:14:01 INFO  : Disconnected from the channel tcfchan#5.
 10:14:07 INFO  : Checking for BSP changes to sync application flags for project 'ZYNQ_CNN_NUM'...
+10:15:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:15:13 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+10:15:13 INFO  : 'jtag frequency' command is executed.
+10:15:14 INFO  : Context for 'APU' is selected.
+10:15:14 INFO  : System reset is completed.
+10:15:17 INFO  : 'after 3000' command is executed.
+10:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+10:15:20 INFO  : Device configured successfully with "D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+10:15:20 INFO  : Context for 'APU' is selected.
+10:15:20 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+10:15:20 INFO  : 'configparams force-mem-access 1' command is executed.
+10:15:20 INFO  : Context for 'APU' is selected.
+10:15:20 INFO  : Sourcing of 'D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl' is done.
+10:15:20 INFO  : 'ps7_init' command is executed.
+10:15:20 INFO  : 'ps7_post_config' command is executed.
+10:15:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:15:21 INFO  : The application 'D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:15:21 INFO  : 'configparams force-mem-access 0' command is executed.
+10:15:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:15:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:15:21 INFO  : 'con' command is executed.
+10:15:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:15:21 INFO  : Launch script is exported to file 'D:\Programs\Workspace\SmartZYNQ_SP2\ZYNQ_CNN_NUM\VitisPrj\ZYNQ_CNN_NUM_system\_ide\scripts\debugger_zynq_cnn_num-default.tcl'
+10:19:32 INFO  : Disconnected from the channel tcfchan#7.

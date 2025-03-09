@@ -16,6 +16,15 @@
         "xil_cache.h": "c",
         "xil_types.h": "c",
         "stdlib.h": "c",
-        "string.h": "c"
-    }
+        "string.h": "c",
+        "affine_layer.h": "c",
+        "relu_layer.h": "c"
+    },
+    "C_Cpp.files.exclude": {
+        "ZYNQ_CNN_NUMsrcCNNparam_init.c": true
+    },
+    "[cpp]": {
+        "editor.formatOnSave": false
+    },
+    "clang-format.ignore": ["ZYNQ_CNN_NUMsrcCNNparam_init.c"]
 }

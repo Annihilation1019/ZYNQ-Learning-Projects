@@ -17,6 +17,7 @@
 #include "CNN/conv_layer_1.h"
 #include "CNN/param_init.h"
 #include "CNN/maxpool_layer_2.h"
+#include "CNN/affine_layer.h"
 
 // 全局变量
 XAxiVdma vdma;
@@ -50,7 +51,7 @@ static u8 image[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 					 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-static float debug_maxpool_result[30][12][12]; // 用于存放池化结果
+static float debug_affine_result[AFFINE_NODES];
 int main(void)
 {
 	u32 status;
@@ -78,7 +79,7 @@ int main(void)
 	run_triple_frame_buffer(&vdma, VDMA_ID, WIDTH, HEIGHT, (int)FRAME_BUFFER_ADDR, 0, 0);
 
 	// 载入参数
-	conv_param_init();
+	param_init();
 
 	/* 卷积层 */
 	conv_layer_1(image); // 对卷积结果进行激活函数处理
@@ -86,9 +87,12 @@ int main(void)
 	/* 最大池化层 */
 	maxpool_layer_2();
 
-	/* 池化结果测试 */
-	/* 将池化结果拷贝到三维数组，便于调试查看 */
-	memcpy(debug_maxpool_result, (void *)MAXPOOL1_OUT_BASEADDR, sizeof(debug_maxpool_result));
+	/* 全连接层 */
+	affine_layer1();
+
+	// 全连接结果测试
+	// 将全连接层结果拷贝到debug_affine_result数组中，便于debug查看
+	memcpy(debug_affine_result, (void *)AFFINE1_OUT_BASEADDR, AFFINE_NODES * sizeof(float));
 
 	while (1)
 	{
