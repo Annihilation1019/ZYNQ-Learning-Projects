@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Fri Mar  7 10:48:21 2025
+// Date        : Mon Mar 10 14:52:59 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top ZYNQ_CORE_auto_pc_0 -prefix
+//               ZYNQ_CORE_auto_pc_0_ ZYNQ_CORE_auto_pc_0_sim_netlist.v
 // Design      : ZYNQ_CORE_auto_pc_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -336,10 +336,10 @@ endmodule
 (* C_AXI_RUSER_WIDTH = "1" *) (* C_AXI_SUPPORTS_READ = "1" *) (* C_AXI_SUPPORTS_USER_SIGNALS = "0" *) 
 (* C_AXI_SUPPORTS_WRITE = "1" *) (* C_AXI_WUSER_WIDTH = "1" *) (* C_FAMILY = "zynq" *) 
 (* C_IGNORE_ID = "0" *) (* C_M_AXI_PROTOCOL = "2" *) (* C_S_AXI_PROTOCOL = "1" *) 
-(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_axi_protocol_converter" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) 
-(* P_INCR = "2'b01" *) (* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
+(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) (* P_INCR = "2'b01" *) 
+(* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_axi_protocol_converter
    (aclk,
     aresetn,
@@ -716,7 +716,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_axi_protocol_converter
         .s_axi_rvalid(s_axi_rvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s
    (s_axi_rvalid,
     s_axi_awready,
@@ -1184,7 +1183,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_ar_channel" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_ar_channel
    (sel_first,
     sel_first_reg,
@@ -1517,7 +1515,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_ar_channel
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_aw_channel" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_aw_channel
    (sel_first_0,
     sel_first,
@@ -1829,7 +1826,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_aw_channel
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_b_channel" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_b_channel
    (si_rs_bvalid,
     cnt_read,
@@ -2095,7 +2091,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_b_channel
         .R(areset_d1));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_cmd_translator" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_cmd_translator
    (next_pending_r,
     next_pending_r_0,
@@ -2515,7 +2510,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_cmd_translator_1
         .\wrap_second_len_r_reg[3]_1 (\wrap_second_len_r_reg[3]_0 ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_incr_cmd" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_incr_cmd
    (next_pending_r,
     sel_first_reg_0,
@@ -3552,7 +3546,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_incr_cmd_2
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_r_channel" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_r_channel
    (\cnt_read_reg[2] ,
     \cnt_read_reg[4] ,
@@ -3714,7 +3707,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_r_channel
         .r_push_r_reg(r_push_r_reg_0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_rd_cmd_fsm" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_rd_cmd_fsm
    (D,
     axaddr_offset,
@@ -4288,7 +4280,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_rd_cmd_fsm
         .O(\wrap_second_len_r_reg[3] [3]));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_simple_fifo" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_simple_fifo
    (sel,
     addr,
@@ -5731,7 +5722,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_simple_fifo__param
         .Q31(\NLW_memory_reg[31][9]_srl32_Q31_UNCONNECTED ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_wr_cmd_fsm" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_wr_cmd_fsm
    (D,
     axaddr_offset,
@@ -6353,7 +6343,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_wr_cmd_fsm
         .O(\wrap_second_len_r_reg[3] [3]));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_28_b2s_wrap_cmd" *) 
 module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_wrap_cmd
    (next_pending_r_0,
     sel_first,
@@ -7339,7 +7328,6 @@ module ZYNQ_CORE_auto_pc_0_axi_protocol_converter_v2_1_28_b2s_wrap_cmd_3
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_28_axi_register_slice" *) 
 module ZYNQ_CORE_auto_pc_0_axi_register_slice_v2_1_28_axi_register_slice
    (s_ready_i_reg,
     s_ready_i_reg_0,
@@ -7705,7 +7693,6 @@ module ZYNQ_CORE_auto_pc_0_axi_register_slice_v2_1_28_axi_register_slice
         .\skid_buffer_reg[46]_0 (\skid_buffer_reg[46] ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_28_axic_register_slice" *) 
 module ZYNQ_CORE_auto_pc_0_axi_register_slice_v2_1_28_axic_register_slice
    (s_ready_i_reg_0,
     si_rs_arvalid,

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.runs/synth_1/ZYNQ_CORE_wrapper.tcl"
+  variable script "D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.runs/synth_1/ZYNQ_CORE_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 5
 set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
@@ -78,8 +79,8 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.cache/wt [current_project]
-set_property parent.project_path D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.xpr [current_project]
+set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.cache/wt [current_project]
+set_property parent.project_path D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
@@ -89,42 +90,44 @@ set_property ip_repo_paths {
   d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data
 } [current_project]
 update_ip_catalog
-set_property ip_output_repo d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.cache/ip [current_project]
+set_property ip_output_repo d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 add_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/six.coe
 add_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe
-read_verilog -library xil_defaultlib D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
-add_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_0/ZYNQ_CORE_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_0_0/ZYNQ_CORE_blk_mem_gen_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_1/ZYNQ_CORE_xbar_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc]
+read_verilog -library xil_defaultlib D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+add_files D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_1/ZYNQ_CORE_xbar_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_0/ZYNQ_CORE_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_0_0/ZYNQ_CORE_blk_mem_gen_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -135,14 +138,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.srcs/constrs_1/new/OV.xdc
-set_property used_in_implementation false [get_files D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.srcs/constrs_1/new/OV.xdc]
+read_xdc D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.srcs/constrs_1/new/OV.xdc
+set_property used_in_implementation false [get_files D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.srcs/constrs_1/new/OV.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp
+read_checkpoint -auto_incremental -incremental D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

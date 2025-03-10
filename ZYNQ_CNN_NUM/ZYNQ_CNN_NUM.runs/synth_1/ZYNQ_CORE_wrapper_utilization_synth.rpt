@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Fri Mar  7 10:49:04 2025
+| Date         : Mon Mar 10 18:46:33 2025
 | Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command      : report_utilization -file ZYNQ_CORE_wrapper_utilization_synth.rpt -pb ZYNQ_CORE_wrapper_utilization_synth.pb
 | Design       : ZYNQ_CORE_wrapper
@@ -162,6 +162,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-----------------------------------+------+
 | ZYNQ_CORE_xbar_1                  |    1 |
 | ZYNQ_CORE_xbar_0                  |    1 |
+| ZYNQ_CORE_vio_0_0                 |    1 |
 | ZYNQ_CORE_v_vid_in_axi4s_0_0      |    1 |
 | ZYNQ_CORE_v_tc_0_0                |    1 |
 | ZYNQ_CORE_v_axi4s_vid_out_0_0     |    1 |
@@ -176,6 +177,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | ZYNQ_CORE_clk_wiz_0_0             |    1 |
 | ZYNQ_CORE_border_adder_0_0        |    1 |
 | ZYNQ_CORE_blk_mem_gen_0_0         |    1 |
+| ZYNQ_CORE_binarizer_0_0           |    1 |
 | ZYNQ_CORE_axi_vdma_0_0            |    1 |
 | ZYNQ_CORE_auto_pc_1               |    1 |
 | ZYNQ_CORE_auto_pc_0               |    1 |

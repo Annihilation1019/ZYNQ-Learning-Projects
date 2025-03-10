@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Fri Mar  7 10:48:22 2025
+// Date        : Mon Mar 10 14:53:00 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top ZYNQ_CORE_auto_pc_1 -prefix
+//               ZYNQ_CORE_auto_pc_1_ ZYNQ_CORE_auto_pc_1_stub.v
 // Design      : ZYNQ_CORE_auto_pc_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

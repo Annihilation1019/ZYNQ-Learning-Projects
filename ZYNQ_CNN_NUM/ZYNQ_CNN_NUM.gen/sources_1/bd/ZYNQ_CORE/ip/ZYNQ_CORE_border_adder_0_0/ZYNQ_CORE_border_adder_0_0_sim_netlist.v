@@ -2,10 +2,10 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Sun Mar  2 22:15:57 2025
+// Date        : Mon Mar 10 14:52:49 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0_sim_netlist.v
+//               d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0_sim_netlist.v
 // Design      : ZYNQ_CORE_border_adder_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -72,24 +72,24 @@ endmodule
 
 (* ORIG_REF_NAME = "border_adder" *) 
 module ZYNQ_CORE_border_adder_0_0_border_adder
-   (pixel_x_out,
-    pixel_y_out,
-    rgb_data_out,
+   (rgb_data_out,
     video_active_d,
     video_hsync_d,
     video_vsync_d,
+    pixel_x_out,
+    pixel_y_out,
     video_hsync,
     video_vsync,
     pclk,
     video_active,
     rgb_data_in,
     rstn);
-  output [11:0]pixel_x_out;
-  output [11:0]pixel_y_out;
   output [23:0]rgb_data_out;
   output video_active_d;
   output video_hsync_d;
   output video_vsync_d;
+  output [11:0]pixel_x_out;
+  output [11:0]pixel_y_out;
   input video_hsync;
   input video_vsync;
   input pclk;
@@ -99,84 +99,86 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
 
   wire [23:0]p_0_in;
   wire pclk;
-  wire \pixel_x[11]_i_1_n_0 ;
-  wire \pixel_x[11]_i_3_n_0 ;
-  wire \pixel_x[11]_i_4_n_0 ;
-  wire \pixel_x[11]_i_5_n_0 ;
-  wire \pixel_x[11]_i_6_n_0 ;
-  wire \pixel_x[3]_i_2_n_0 ;
-  wire \pixel_x[3]_i_3_n_0 ;
-  wire \pixel_x[3]_i_4_n_0 ;
-  wire \pixel_x[3]_i_5_n_0 ;
-  wire \pixel_x[3]_i_6_n_0 ;
-  wire \pixel_x[7]_i_2_n_0 ;
-  wire \pixel_x[7]_i_3_n_0 ;
-  wire \pixel_x[7]_i_4_n_0 ;
-  wire \pixel_x[7]_i_5_n_0 ;
+  wire \pixel_x[0]_i_1_n_0 ;
+  wire \pixel_x[0]_i_3_n_0 ;
+  wire \pixel_x[0]_i_4_n_0 ;
+  wire \pixel_x[0]_i_5_n_0 ;
+  wire \pixel_x[0]_i_6_n_0 ;
+  wire \pixel_x[0]_i_7_n_0 ;
+  wire \pixel_x[4]_i_2_n_0 ;
+  wire \pixel_x[4]_i_3_n_0 ;
+  wire \pixel_x[4]_i_4_n_0 ;
+  wire \pixel_x[4]_i_5_n_0 ;
+  wire \pixel_x[8]_i_2_n_0 ;
+  wire \pixel_x[8]_i_3_n_0 ;
+  wire \pixel_x[8]_i_4_n_0 ;
+  wire \pixel_x[8]_i_5_n_0 ;
   wire [11:0]pixel_x_out;
-  wire \pixel_x_reg[11]_i_2_n_1 ;
-  wire \pixel_x_reg[11]_i_2_n_2 ;
-  wire \pixel_x_reg[11]_i_2_n_3 ;
-  wire \pixel_x_reg[11]_i_2_n_4 ;
-  wire \pixel_x_reg[11]_i_2_n_5 ;
-  wire \pixel_x_reg[11]_i_2_n_6 ;
-  wire \pixel_x_reg[11]_i_2_n_7 ;
-  wire \pixel_x_reg[3]_i_1_n_0 ;
-  wire \pixel_x_reg[3]_i_1_n_1 ;
-  wire \pixel_x_reg[3]_i_1_n_2 ;
-  wire \pixel_x_reg[3]_i_1_n_3 ;
-  wire \pixel_x_reg[3]_i_1_n_4 ;
-  wire \pixel_x_reg[3]_i_1_n_5 ;
-  wire \pixel_x_reg[3]_i_1_n_6 ;
-  wire \pixel_x_reg[3]_i_1_n_7 ;
-  wire \pixel_x_reg[7]_i_1_n_0 ;
-  wire \pixel_x_reg[7]_i_1_n_1 ;
-  wire \pixel_x_reg[7]_i_1_n_2 ;
-  wire \pixel_x_reg[7]_i_1_n_3 ;
-  wire \pixel_x_reg[7]_i_1_n_4 ;
-  wire \pixel_x_reg[7]_i_1_n_5 ;
-  wire \pixel_x_reg[7]_i_1_n_6 ;
-  wire \pixel_x_reg[7]_i_1_n_7 ;
-  wire \pixel_y[11]_i_1_n_0 ;
-  wire \pixel_y[11]_i_3_n_0 ;
-  wire \pixel_y[11]_i_4_n_0 ;
-  wire \pixel_y[11]_i_5_n_0 ;
-  wire \pixel_y[11]_i_6_n_0 ;
-  wire \pixel_y[11]_i_7_n_0 ;
-  wire \pixel_y[11]_i_8_n_0 ;
-  wire \pixel_y[3]_i_2_n_0 ;
-  wire \pixel_y[3]_i_3_n_0 ;
-  wire \pixel_y[3]_i_4_n_0 ;
-  wire \pixel_y[3]_i_5_n_0 ;
-  wire \pixel_y[3]_i_6_n_0 ;
-  wire \pixel_y[7]_i_2_n_0 ;
-  wire \pixel_y[7]_i_3_n_0 ;
-  wire \pixel_y[7]_i_4_n_0 ;
-  wire \pixel_y[7]_i_5_n_0 ;
+  wire [11:0]pixel_x_reg;
+  wire \pixel_x_reg[0]_i_2_n_0 ;
+  wire \pixel_x_reg[0]_i_2_n_1 ;
+  wire \pixel_x_reg[0]_i_2_n_2 ;
+  wire \pixel_x_reg[0]_i_2_n_3 ;
+  wire \pixel_x_reg[0]_i_2_n_4 ;
+  wire \pixel_x_reg[0]_i_2_n_5 ;
+  wire \pixel_x_reg[0]_i_2_n_6 ;
+  wire \pixel_x_reg[0]_i_2_n_7 ;
+  wire \pixel_x_reg[4]_i_1_n_0 ;
+  wire \pixel_x_reg[4]_i_1_n_1 ;
+  wire \pixel_x_reg[4]_i_1_n_2 ;
+  wire \pixel_x_reg[4]_i_1_n_3 ;
+  wire \pixel_x_reg[4]_i_1_n_4 ;
+  wire \pixel_x_reg[4]_i_1_n_5 ;
+  wire \pixel_x_reg[4]_i_1_n_6 ;
+  wire \pixel_x_reg[4]_i_1_n_7 ;
+  wire \pixel_x_reg[8]_i_1_n_1 ;
+  wire \pixel_x_reg[8]_i_1_n_2 ;
+  wire \pixel_x_reg[8]_i_1_n_3 ;
+  wire \pixel_x_reg[8]_i_1_n_4 ;
+  wire \pixel_x_reg[8]_i_1_n_5 ;
+  wire \pixel_x_reg[8]_i_1_n_6 ;
+  wire \pixel_x_reg[8]_i_1_n_7 ;
+  wire \pixel_y[0]_i_1_n_0 ;
+  wire \pixel_y[0]_i_3_n_0 ;
+  wire \pixel_y[0]_i_4_n_0 ;
+  wire \pixel_y[0]_i_5_n_0 ;
+  wire \pixel_y[0]_i_6_n_0 ;
+  wire \pixel_y[0]_i_7_n_0 ;
+  wire \pixel_y[0]_i_8_n_0 ;
+  wire \pixel_y[0]_i_9_n_0 ;
+  wire \pixel_y[4]_i_2_n_0 ;
+  wire \pixel_y[4]_i_3_n_0 ;
+  wire \pixel_y[4]_i_4_n_0 ;
+  wire \pixel_y[4]_i_5_n_0 ;
+  wire \pixel_y[8]_i_2_n_0 ;
+  wire \pixel_y[8]_i_3_n_0 ;
+  wire \pixel_y[8]_i_4_n_0 ;
+  wire \pixel_y[8]_i_5_n_0 ;
   wire [11:0]pixel_y_out;
-  wire \pixel_y_reg[11]_i_2_n_1 ;
-  wire \pixel_y_reg[11]_i_2_n_2 ;
-  wire \pixel_y_reg[11]_i_2_n_3 ;
-  wire \pixel_y_reg[11]_i_2_n_4 ;
-  wire \pixel_y_reg[11]_i_2_n_5 ;
-  wire \pixel_y_reg[11]_i_2_n_6 ;
-  wire \pixel_y_reg[11]_i_2_n_7 ;
-  wire \pixel_y_reg[3]_i_1_n_0 ;
-  wire \pixel_y_reg[3]_i_1_n_1 ;
-  wire \pixel_y_reg[3]_i_1_n_2 ;
-  wire \pixel_y_reg[3]_i_1_n_3 ;
-  wire \pixel_y_reg[3]_i_1_n_4 ;
-  wire \pixel_y_reg[3]_i_1_n_5 ;
-  wire \pixel_y_reg[3]_i_1_n_6 ;
-  wire \pixel_y_reg[3]_i_1_n_7 ;
-  wire \pixel_y_reg[7]_i_1_n_0 ;
-  wire \pixel_y_reg[7]_i_1_n_1 ;
-  wire \pixel_y_reg[7]_i_1_n_2 ;
-  wire \pixel_y_reg[7]_i_1_n_3 ;
-  wire \pixel_y_reg[7]_i_1_n_4 ;
-  wire \pixel_y_reg[7]_i_1_n_5 ;
-  wire \pixel_y_reg[7]_i_1_n_6 ;
-  wire \pixel_y_reg[7]_i_1_n_7 ;
+  wire [11:0]pixel_y_reg;
+  wire \pixel_y_reg[0]_i_2_n_0 ;
+  wire \pixel_y_reg[0]_i_2_n_1 ;
+  wire \pixel_y_reg[0]_i_2_n_2 ;
+  wire \pixel_y_reg[0]_i_2_n_3 ;
+  wire \pixel_y_reg[0]_i_2_n_4 ;
+  wire \pixel_y_reg[0]_i_2_n_5 ;
+  wire \pixel_y_reg[0]_i_2_n_6 ;
+  wire \pixel_y_reg[0]_i_2_n_7 ;
+  wire \pixel_y_reg[4]_i_1_n_0 ;
+  wire \pixel_y_reg[4]_i_1_n_1 ;
+  wire \pixel_y_reg[4]_i_1_n_2 ;
+  wire \pixel_y_reg[4]_i_1_n_3 ;
+  wire \pixel_y_reg[4]_i_1_n_4 ;
+  wire \pixel_y_reg[4]_i_1_n_5 ;
+  wire \pixel_y_reg[4]_i_1_n_6 ;
+  wire \pixel_y_reg[4]_i_1_n_7 ;
+  wire \pixel_y_reg[8]_i_1_n_1 ;
+  wire \pixel_y_reg[8]_i_1_n_2 ;
+  wire \pixel_y_reg[8]_i_1_n_3 ;
+  wire \pixel_y_reg[8]_i_1_n_4 ;
+  wire \pixel_y_reg[8]_i_1_n_5 ;
+  wire \pixel_y_reg[8]_i_1_n_6 ;
+  wire \pixel_y_reg[8]_i_1_n_7 ;
   wire [23:0]rgb_data_in;
   wire [23:0]rgb_data_out;
   wire \rgb_data_out[23]_i_10_n_0 ;
@@ -206,391 +208,535 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
   wire video_hsync_d;
   wire video_vsync;
   wire video_vsync_d;
-  wire [3:3]\NLW_pixel_x_reg[11]_i_2_CO_UNCONNECTED ;
-  wire [3:3]\NLW_pixel_y_reg[11]_i_2_CO_UNCONNECTED ;
+  wire [3:3]\NLW_pixel_x_reg[8]_i_1_CO_UNCONNECTED ;
+  wire [3:3]\NLW_pixel_y_reg[8]_i_1_CO_UNCONNECTED ;
 
   LUT2 #(
     .INIT(4'hE)) 
-    \pixel_x[11]_i_1 
+    \pixel_x[0]_i_1 
        (.I0(video_active),
         .I1(video_hsync),
-        .O(\pixel_x[11]_i_1_n_0 ));
+        .O(\pixel_x[0]_i_1_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[11]_i_3 
-       (.I0(pixel_x_out[11]),
+    \pixel_x[0]_i_3 
+       (.I0(pixel_x_reg[0]),
         .I1(video_hsync),
-        .O(\pixel_x[11]_i_3_n_0 ));
+        .O(\pixel_x[0]_i_3_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[11]_i_4 
-       (.I0(pixel_x_out[10]),
+    \pixel_x[0]_i_4 
+       (.I0(pixel_x_reg[3]),
         .I1(video_hsync),
-        .O(\pixel_x[11]_i_4_n_0 ));
+        .O(\pixel_x[0]_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[11]_i_5 
-       (.I0(pixel_x_out[9]),
+    \pixel_x[0]_i_5 
+       (.I0(pixel_x_reg[2]),
         .I1(video_hsync),
-        .O(\pixel_x[11]_i_5_n_0 ));
+        .O(\pixel_x[0]_i_5_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[11]_i_6 
-       (.I0(pixel_x_out[8]),
+    \pixel_x[0]_i_6 
+       (.I0(pixel_x_reg[1]),
         .I1(video_hsync),
-        .O(\pixel_x[11]_i_6_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_x[3]_i_2 
-       (.I0(pixel_x_out[0]),
-        .I1(video_hsync),
-        .O(\pixel_x[3]_i_2_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_x[3]_i_3 
-       (.I0(pixel_x_out[3]),
-        .I1(video_hsync),
-        .O(\pixel_x[3]_i_3_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_x[3]_i_4 
-       (.I0(pixel_x_out[2]),
-        .I1(video_hsync),
-        .O(\pixel_x[3]_i_4_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_x[3]_i_5 
-       (.I0(pixel_x_out[1]),
-        .I1(video_hsync),
-        .O(\pixel_x[3]_i_5_n_0 ));
+        .O(\pixel_x[0]_i_6_n_0 ));
   LUT2 #(
     .INIT(4'h1)) 
-    \pixel_x[3]_i_6 
-       (.I0(pixel_x_out[0]),
+    \pixel_x[0]_i_7 
+       (.I0(pixel_x_reg[0]),
         .I1(video_hsync),
-        .O(\pixel_x[3]_i_6_n_0 ));
+        .O(\pixel_x[0]_i_7_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[7]_i_2 
-       (.I0(pixel_x_out[7]),
+    \pixel_x[4]_i_2 
+       (.I0(pixel_x_reg[7]),
         .I1(video_hsync),
-        .O(\pixel_x[7]_i_2_n_0 ));
+        .O(\pixel_x[4]_i_2_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[7]_i_3 
-       (.I0(pixel_x_out[6]),
+    \pixel_x[4]_i_3 
+       (.I0(pixel_x_reg[6]),
         .I1(video_hsync),
-        .O(\pixel_x[7]_i_3_n_0 ));
+        .O(\pixel_x[4]_i_3_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[7]_i_4 
-       (.I0(pixel_x_out[5]),
+    \pixel_x[4]_i_4 
+       (.I0(pixel_x_reg[5]),
         .I1(video_hsync),
-        .O(\pixel_x[7]_i_4_n_0 ));
+        .O(\pixel_x[4]_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_x[7]_i_5 
-       (.I0(pixel_x_out[4]),
+    \pixel_x[4]_i_5 
+       (.I0(pixel_x_reg[4]),
         .I1(video_hsync),
-        .O(\pixel_x[7]_i_5_n_0 ));
+        .O(\pixel_x[4]_i_5_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_x[8]_i_2 
+       (.I0(pixel_x_reg[11]),
+        .I1(video_hsync),
+        .O(\pixel_x[8]_i_2_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_x[8]_i_3 
+       (.I0(pixel_x_reg[10]),
+        .I1(video_hsync),
+        .O(\pixel_x[8]_i_3_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_x[8]_i_4 
+       (.I0(pixel_x_reg[9]),
+        .I1(video_hsync),
+        .O(\pixel_x[8]_i_4_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_x[8]_i_5 
+       (.I0(pixel_x_reg[8]),
+        .I1(video_hsync),
+        .O(\pixel_x[8]_i_5_n_0 ));
+  FDCE \pixel_x_out_reg[0] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[0]),
+        .Q(pixel_x_out[0]));
+  FDCE \pixel_x_out_reg[10] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[10]),
+        .Q(pixel_x_out[10]));
+  FDCE \pixel_x_out_reg[11] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[11]),
+        .Q(pixel_x_out[11]));
+  FDCE \pixel_x_out_reg[1] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[1]),
+        .Q(pixel_x_out[1]));
+  FDCE \pixel_x_out_reg[2] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[2]),
+        .Q(pixel_x_out[2]));
+  FDCE \pixel_x_out_reg[3] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[3]),
+        .Q(pixel_x_out[3]));
+  FDCE \pixel_x_out_reg[4] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[4]),
+        .Q(pixel_x_out[4]));
+  FDCE \pixel_x_out_reg[5] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[5]),
+        .Q(pixel_x_out[5]));
+  FDCE \pixel_x_out_reg[6] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[6]),
+        .Q(pixel_x_out[6]));
+  FDCE \pixel_x_out_reg[7] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[7]),
+        .Q(pixel_x_out[7]));
+  FDCE \pixel_x_out_reg[8] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[8]),
+        .Q(pixel_x_out[8]));
+  FDCE \pixel_x_out_reg[9] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_x_reg[9]),
+        .Q(pixel_x_out[9]));
   FDCE \pixel_x_reg[0] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[3]_i_1_n_7 ),
-        .Q(pixel_x_out[0]));
+        .D(\pixel_x_reg[0]_i_2_n_7 ),
+        .Q(pixel_x_reg[0]));
+  (* ADDER_THRESHOLD = "11" *) 
+  CARRY4 \pixel_x_reg[0]_i_2 
+       (.CI(1'b0),
+        .CO({\pixel_x_reg[0]_i_2_n_0 ,\pixel_x_reg[0]_i_2_n_1 ,\pixel_x_reg[0]_i_2_n_2 ,\pixel_x_reg[0]_i_2_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,\pixel_x[0]_i_3_n_0 }),
+        .O({\pixel_x_reg[0]_i_2_n_4 ,\pixel_x_reg[0]_i_2_n_5 ,\pixel_x_reg[0]_i_2_n_6 ,\pixel_x_reg[0]_i_2_n_7 }),
+        .S({\pixel_x[0]_i_4_n_0 ,\pixel_x[0]_i_5_n_0 ,\pixel_x[0]_i_6_n_0 ,\pixel_x[0]_i_7_n_0 }));
   FDCE \pixel_x_reg[10] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[11]_i_2_n_5 ),
-        .Q(pixel_x_out[10]));
+        .D(\pixel_x_reg[8]_i_1_n_5 ),
+        .Q(pixel_x_reg[10]));
   FDCE \pixel_x_reg[11] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[11]_i_2_n_4 ),
-        .Q(pixel_x_out[11]));
-  (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_x_reg[11]_i_2 
-       (.CI(\pixel_x_reg[7]_i_1_n_0 ),
-        .CO({\NLW_pixel_x_reg[11]_i_2_CO_UNCONNECTED [3],\pixel_x_reg[11]_i_2_n_1 ,\pixel_x_reg[11]_i_2_n_2 ,\pixel_x_reg[11]_i_2_n_3 }),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({\pixel_x_reg[11]_i_2_n_4 ,\pixel_x_reg[11]_i_2_n_5 ,\pixel_x_reg[11]_i_2_n_6 ,\pixel_x_reg[11]_i_2_n_7 }),
-        .S({\pixel_x[11]_i_3_n_0 ,\pixel_x[11]_i_4_n_0 ,\pixel_x[11]_i_5_n_0 ,\pixel_x[11]_i_6_n_0 }));
+        .D(\pixel_x_reg[8]_i_1_n_4 ),
+        .Q(pixel_x_reg[11]));
   FDCE \pixel_x_reg[1] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[3]_i_1_n_6 ),
-        .Q(pixel_x_out[1]));
+        .D(\pixel_x_reg[0]_i_2_n_6 ),
+        .Q(pixel_x_reg[1]));
   FDCE \pixel_x_reg[2] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[3]_i_1_n_5 ),
-        .Q(pixel_x_out[2]));
+        .D(\pixel_x_reg[0]_i_2_n_5 ),
+        .Q(pixel_x_reg[2]));
   FDCE \pixel_x_reg[3] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[3]_i_1_n_4 ),
-        .Q(pixel_x_out[3]));
-  (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_x_reg[3]_i_1 
-       (.CI(1'b0),
-        .CO({\pixel_x_reg[3]_i_1_n_0 ,\pixel_x_reg[3]_i_1_n_1 ,\pixel_x_reg[3]_i_1_n_2 ,\pixel_x_reg[3]_i_1_n_3 }),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,\pixel_x[3]_i_2_n_0 }),
-        .O({\pixel_x_reg[3]_i_1_n_4 ,\pixel_x_reg[3]_i_1_n_5 ,\pixel_x_reg[3]_i_1_n_6 ,\pixel_x_reg[3]_i_1_n_7 }),
-        .S({\pixel_x[3]_i_3_n_0 ,\pixel_x[3]_i_4_n_0 ,\pixel_x[3]_i_5_n_0 ,\pixel_x[3]_i_6_n_0 }));
+        .D(\pixel_x_reg[0]_i_2_n_4 ),
+        .Q(pixel_x_reg[3]));
   FDCE \pixel_x_reg[4] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[7]_i_1_n_7 ),
-        .Q(pixel_x_out[4]));
-  FDCE \pixel_x_reg[5] 
-       (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[7]_i_1_n_6 ),
-        .Q(pixel_x_out[5]));
-  FDCE \pixel_x_reg[6] 
-       (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[7]_i_1_n_5 ),
-        .Q(pixel_x_out[6]));
-  FDCE \pixel_x_reg[7] 
-       (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[7]_i_1_n_4 ),
-        .Q(pixel_x_out[7]));
+        .D(\pixel_x_reg[4]_i_1_n_7 ),
+        .Q(pixel_x_reg[4]));
   (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_x_reg[7]_i_1 
-       (.CI(\pixel_x_reg[3]_i_1_n_0 ),
-        .CO({\pixel_x_reg[7]_i_1_n_0 ,\pixel_x_reg[7]_i_1_n_1 ,\pixel_x_reg[7]_i_1_n_2 ,\pixel_x_reg[7]_i_1_n_3 }),
+  CARRY4 \pixel_x_reg[4]_i_1 
+       (.CI(\pixel_x_reg[0]_i_2_n_0 ),
+        .CO({\pixel_x_reg[4]_i_1_n_0 ,\pixel_x_reg[4]_i_1_n_1 ,\pixel_x_reg[4]_i_1_n_2 ,\pixel_x_reg[4]_i_1_n_3 }),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({\pixel_x_reg[7]_i_1_n_4 ,\pixel_x_reg[7]_i_1_n_5 ,\pixel_x_reg[7]_i_1_n_6 ,\pixel_x_reg[7]_i_1_n_7 }),
-        .S({\pixel_x[7]_i_2_n_0 ,\pixel_x[7]_i_3_n_0 ,\pixel_x[7]_i_4_n_0 ,\pixel_x[7]_i_5_n_0 }));
+        .O({\pixel_x_reg[4]_i_1_n_4 ,\pixel_x_reg[4]_i_1_n_5 ,\pixel_x_reg[4]_i_1_n_6 ,\pixel_x_reg[4]_i_1_n_7 }),
+        .S({\pixel_x[4]_i_2_n_0 ,\pixel_x[4]_i_3_n_0 ,\pixel_x[4]_i_4_n_0 ,\pixel_x[4]_i_5_n_0 }));
+  FDCE \pixel_x_reg[5] 
+       (.C(pclk),
+        .CE(\pixel_x[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_x_reg[4]_i_1_n_6 ),
+        .Q(pixel_x_reg[5]));
+  FDCE \pixel_x_reg[6] 
+       (.C(pclk),
+        .CE(\pixel_x[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_x_reg[4]_i_1_n_5 ),
+        .Q(pixel_x_reg[6]));
+  FDCE \pixel_x_reg[7] 
+       (.C(pclk),
+        .CE(\pixel_x[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_x_reg[4]_i_1_n_4 ),
+        .Q(pixel_x_reg[7]));
   FDCE \pixel_x_reg[8] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[11]_i_2_n_7 ),
-        .Q(pixel_x_out[8]));
+        .D(\pixel_x_reg[8]_i_1_n_7 ),
+        .Q(pixel_x_reg[8]));
+  (* ADDER_THRESHOLD = "11" *) 
+  CARRY4 \pixel_x_reg[8]_i_1 
+       (.CI(\pixel_x_reg[4]_i_1_n_0 ),
+        .CO({\NLW_pixel_x_reg[8]_i_1_CO_UNCONNECTED [3],\pixel_x_reg[8]_i_1_n_1 ,\pixel_x_reg[8]_i_1_n_2 ,\pixel_x_reg[8]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\pixel_x_reg[8]_i_1_n_4 ,\pixel_x_reg[8]_i_1_n_5 ,\pixel_x_reg[8]_i_1_n_6 ,\pixel_x_reg[8]_i_1_n_7 }),
+        .S({\pixel_x[8]_i_2_n_0 ,\pixel_x[8]_i_3_n_0 ,\pixel_x[8]_i_4_n_0 ,\pixel_x[8]_i_5_n_0 }));
   FDCE \pixel_x_reg[9] 
        (.C(pclk),
-        .CE(\pixel_x[11]_i_1_n_0 ),
+        .CE(\pixel_x[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_x_reg[11]_i_2_n_6 ),
-        .Q(pixel_x_out[9]));
+        .D(\pixel_x_reg[8]_i_1_n_6 ),
+        .Q(pixel_x_reg[9]));
   LUT6 #(
     .INIT(64'hEAAAAAAAAAAAAAAA)) 
-    \pixel_y[11]_i_1 
+    \pixel_y[0]_i_1 
        (.I0(video_vsync),
-        .I1(pixel_x_out[4]),
-        .I2(pixel_x_out[5]),
-        .I3(pixel_x_out[3]),
-        .I4(\pixel_y[11]_i_3_n_0 ),
-        .I5(\pixel_y[11]_i_4_n_0 ),
-        .O(\pixel_y[11]_i_1_n_0 ));
+        .I1(pixel_x_reg[4]),
+        .I2(pixel_x_reg[5]),
+        .I3(pixel_x_reg[3]),
+        .I4(\pixel_y[0]_i_3_n_0 ),
+        .I5(\pixel_y[0]_i_4_n_0 ),
+        .O(\pixel_y[0]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT3 #(
     .INIT(8'h80)) 
-    \pixel_y[11]_i_3 
-       (.I0(pixel_x_out[9]),
-        .I1(pixel_x_out[7]),
-        .I2(pixel_x_out[6]),
-        .O(\pixel_y[11]_i_3_n_0 ));
+    \pixel_y[0]_i_3 
+       (.I0(pixel_x_reg[9]),
+        .I1(pixel_x_reg[7]),
+        .I2(pixel_x_reg[6]),
+        .O(\pixel_y[0]_i_3_n_0 ));
   LUT6 #(
     .INIT(64'h0000000080000000)) 
-    \pixel_y[11]_i_4 
-       (.I0(pixel_x_out[0]),
-        .I1(pixel_x_out[1]),
-        .I2(pixel_x_out[8]),
+    \pixel_y[0]_i_4 
+       (.I0(pixel_x_reg[0]),
+        .I1(pixel_x_reg[1]),
+        .I2(pixel_x_reg[8]),
         .I3(video_active),
-        .I4(pixel_x_out[2]),
+        .I4(pixel_x_reg[2]),
         .I5(\rgb_data_out[23]_i_12_n_0 ),
-        .O(\pixel_y[11]_i_4_n_0 ));
+        .O(\pixel_y[0]_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[11]_i_5 
-       (.I0(pixel_y_out[11]),
+    \pixel_y[0]_i_5 
+       (.I0(pixel_y_reg[0]),
         .I1(video_vsync),
-        .O(\pixel_y[11]_i_5_n_0 ));
+        .O(\pixel_y[0]_i_5_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[11]_i_6 
-       (.I0(pixel_y_out[10]),
+    \pixel_y[0]_i_6 
+       (.I0(pixel_y_reg[3]),
         .I1(video_vsync),
-        .O(\pixel_y[11]_i_6_n_0 ));
+        .O(\pixel_y[0]_i_6_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[11]_i_7 
-       (.I0(pixel_y_out[9]),
+    \pixel_y[0]_i_7 
+       (.I0(pixel_y_reg[2]),
         .I1(video_vsync),
-        .O(\pixel_y[11]_i_7_n_0 ));
+        .O(\pixel_y[0]_i_7_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[11]_i_8 
-       (.I0(pixel_y_out[8]),
+    \pixel_y[0]_i_8 
+       (.I0(pixel_y_reg[1]),
         .I1(video_vsync),
-        .O(\pixel_y[11]_i_8_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_y[3]_i_2 
-       (.I0(pixel_y_out[0]),
-        .I1(video_vsync),
-        .O(\pixel_y[3]_i_2_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_y[3]_i_3 
-       (.I0(pixel_y_out[3]),
-        .I1(video_vsync),
-        .O(\pixel_y[3]_i_3_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_y[3]_i_4 
-       (.I0(pixel_y_out[2]),
-        .I1(video_vsync),
-        .O(\pixel_y[3]_i_4_n_0 ));
-  LUT2 #(
-    .INIT(4'h2)) 
-    \pixel_y[3]_i_5 
-       (.I0(pixel_y_out[1]),
-        .I1(video_vsync),
-        .O(\pixel_y[3]_i_5_n_0 ));
+        .O(\pixel_y[0]_i_8_n_0 ));
   LUT2 #(
     .INIT(4'h1)) 
-    \pixel_y[3]_i_6 
-       (.I0(pixel_y_out[0]),
+    \pixel_y[0]_i_9 
+       (.I0(pixel_y_reg[0]),
         .I1(video_vsync),
-        .O(\pixel_y[3]_i_6_n_0 ));
+        .O(\pixel_y[0]_i_9_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[7]_i_2 
-       (.I0(pixel_y_out[7]),
+    \pixel_y[4]_i_2 
+       (.I0(pixel_y_reg[7]),
         .I1(video_vsync),
-        .O(\pixel_y[7]_i_2_n_0 ));
+        .O(\pixel_y[4]_i_2_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[7]_i_3 
-       (.I0(pixel_y_out[6]),
+    \pixel_y[4]_i_3 
+       (.I0(pixel_y_reg[6]),
         .I1(video_vsync),
-        .O(\pixel_y[7]_i_3_n_0 ));
+        .O(\pixel_y[4]_i_3_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[7]_i_4 
-       (.I0(pixel_y_out[5]),
+    \pixel_y[4]_i_4 
+       (.I0(pixel_y_reg[5]),
         .I1(video_vsync),
-        .O(\pixel_y[7]_i_4_n_0 ));
+        .O(\pixel_y[4]_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h2)) 
-    \pixel_y[7]_i_5 
-       (.I0(pixel_y_out[4]),
+    \pixel_y[4]_i_5 
+       (.I0(pixel_y_reg[4]),
         .I1(video_vsync),
-        .O(\pixel_y[7]_i_5_n_0 ));
+        .O(\pixel_y[4]_i_5_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_y[8]_i_2 
+       (.I0(pixel_y_reg[11]),
+        .I1(video_vsync),
+        .O(\pixel_y[8]_i_2_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_y[8]_i_3 
+       (.I0(pixel_y_reg[10]),
+        .I1(video_vsync),
+        .O(\pixel_y[8]_i_3_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_y[8]_i_4 
+       (.I0(pixel_y_reg[9]),
+        .I1(video_vsync),
+        .O(\pixel_y[8]_i_4_n_0 ));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \pixel_y[8]_i_5 
+       (.I0(pixel_y_reg[8]),
+        .I1(video_vsync),
+        .O(\pixel_y[8]_i_5_n_0 ));
+  FDCE \pixel_y_out_reg[0] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[0]),
+        .Q(pixel_y_out[0]));
+  FDCE \pixel_y_out_reg[10] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[10]),
+        .Q(pixel_y_out[10]));
+  FDCE \pixel_y_out_reg[11] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[11]),
+        .Q(pixel_y_out[11]));
+  FDCE \pixel_y_out_reg[1] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[1]),
+        .Q(pixel_y_out[1]));
+  FDCE \pixel_y_out_reg[2] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[2]),
+        .Q(pixel_y_out[2]));
+  FDCE \pixel_y_out_reg[3] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[3]),
+        .Q(pixel_y_out[3]));
+  FDCE \pixel_y_out_reg[4] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[4]),
+        .Q(pixel_y_out[4]));
+  FDCE \pixel_y_out_reg[5] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[5]),
+        .Q(pixel_y_out[5]));
+  FDCE \pixel_y_out_reg[6] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[6]),
+        .Q(pixel_y_out[6]));
+  FDCE \pixel_y_out_reg[7] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[7]),
+        .Q(pixel_y_out[7]));
+  FDCE \pixel_y_out_reg[8] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[8]),
+        .Q(pixel_y_out[8]));
+  FDCE \pixel_y_out_reg[9] 
+       (.C(pclk),
+        .CE(1'b1),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(pixel_y_reg[9]),
+        .Q(pixel_y_out[9]));
   FDCE \pixel_y_reg[0] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[3]_i_1_n_7 ),
-        .Q(pixel_y_out[0]));
+        .D(\pixel_y_reg[0]_i_2_n_7 ),
+        .Q(pixel_y_reg[0]));
+  (* ADDER_THRESHOLD = "11" *) 
+  CARRY4 \pixel_y_reg[0]_i_2 
+       (.CI(1'b0),
+        .CO({\pixel_y_reg[0]_i_2_n_0 ,\pixel_y_reg[0]_i_2_n_1 ,\pixel_y_reg[0]_i_2_n_2 ,\pixel_y_reg[0]_i_2_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,\pixel_y[0]_i_5_n_0 }),
+        .O({\pixel_y_reg[0]_i_2_n_4 ,\pixel_y_reg[0]_i_2_n_5 ,\pixel_y_reg[0]_i_2_n_6 ,\pixel_y_reg[0]_i_2_n_7 }),
+        .S({\pixel_y[0]_i_6_n_0 ,\pixel_y[0]_i_7_n_0 ,\pixel_y[0]_i_8_n_0 ,\pixel_y[0]_i_9_n_0 }));
   FDCE \pixel_y_reg[10] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[11]_i_2_n_5 ),
-        .Q(pixel_y_out[10]));
+        .D(\pixel_y_reg[8]_i_1_n_5 ),
+        .Q(pixel_y_reg[10]));
   FDCE \pixel_y_reg[11] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[11]_i_2_n_4 ),
-        .Q(pixel_y_out[11]));
-  (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_y_reg[11]_i_2 
-       (.CI(\pixel_y_reg[7]_i_1_n_0 ),
-        .CO({\NLW_pixel_y_reg[11]_i_2_CO_UNCONNECTED [3],\pixel_y_reg[11]_i_2_n_1 ,\pixel_y_reg[11]_i_2_n_2 ,\pixel_y_reg[11]_i_2_n_3 }),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({\pixel_y_reg[11]_i_2_n_4 ,\pixel_y_reg[11]_i_2_n_5 ,\pixel_y_reg[11]_i_2_n_6 ,\pixel_y_reg[11]_i_2_n_7 }),
-        .S({\pixel_y[11]_i_5_n_0 ,\pixel_y[11]_i_6_n_0 ,\pixel_y[11]_i_7_n_0 ,\pixel_y[11]_i_8_n_0 }));
+        .D(\pixel_y_reg[8]_i_1_n_4 ),
+        .Q(pixel_y_reg[11]));
   FDCE \pixel_y_reg[1] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[3]_i_1_n_6 ),
-        .Q(pixel_y_out[1]));
+        .D(\pixel_y_reg[0]_i_2_n_6 ),
+        .Q(pixel_y_reg[1]));
   FDCE \pixel_y_reg[2] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[3]_i_1_n_5 ),
-        .Q(pixel_y_out[2]));
+        .D(\pixel_y_reg[0]_i_2_n_5 ),
+        .Q(pixel_y_reg[2]));
   FDCE \pixel_y_reg[3] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[3]_i_1_n_4 ),
-        .Q(pixel_y_out[3]));
-  (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_y_reg[3]_i_1 
-       (.CI(1'b0),
-        .CO({\pixel_y_reg[3]_i_1_n_0 ,\pixel_y_reg[3]_i_1_n_1 ,\pixel_y_reg[3]_i_1_n_2 ,\pixel_y_reg[3]_i_1_n_3 }),
-        .CYINIT(1'b0),
-        .DI({1'b0,1'b0,1'b0,\pixel_y[3]_i_2_n_0 }),
-        .O({\pixel_y_reg[3]_i_1_n_4 ,\pixel_y_reg[3]_i_1_n_5 ,\pixel_y_reg[3]_i_1_n_6 ,\pixel_y_reg[3]_i_1_n_7 }),
-        .S({\pixel_y[3]_i_3_n_0 ,\pixel_y[3]_i_4_n_0 ,\pixel_y[3]_i_5_n_0 ,\pixel_y[3]_i_6_n_0 }));
+        .D(\pixel_y_reg[0]_i_2_n_4 ),
+        .Q(pixel_y_reg[3]));
   FDCE \pixel_y_reg[4] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[7]_i_1_n_7 ),
-        .Q(pixel_y_out[4]));
-  FDCE \pixel_y_reg[5] 
-       (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[7]_i_1_n_6 ),
-        .Q(pixel_y_out[5]));
-  FDCE \pixel_y_reg[6] 
-       (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[7]_i_1_n_5 ),
-        .Q(pixel_y_out[6]));
-  FDCE \pixel_y_reg[7] 
-       (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
-        .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[7]_i_1_n_4 ),
-        .Q(pixel_y_out[7]));
+        .D(\pixel_y_reg[4]_i_1_n_7 ),
+        .Q(pixel_y_reg[4]));
   (* ADDER_THRESHOLD = "11" *) 
-  CARRY4 \pixel_y_reg[7]_i_1 
-       (.CI(\pixel_y_reg[3]_i_1_n_0 ),
-        .CO({\pixel_y_reg[7]_i_1_n_0 ,\pixel_y_reg[7]_i_1_n_1 ,\pixel_y_reg[7]_i_1_n_2 ,\pixel_y_reg[7]_i_1_n_3 }),
+  CARRY4 \pixel_y_reg[4]_i_1 
+       (.CI(\pixel_y_reg[0]_i_2_n_0 ),
+        .CO({\pixel_y_reg[4]_i_1_n_0 ,\pixel_y_reg[4]_i_1_n_1 ,\pixel_y_reg[4]_i_1_n_2 ,\pixel_y_reg[4]_i_1_n_3 }),
         .CYINIT(1'b0),
         .DI({1'b0,1'b0,1'b0,1'b0}),
-        .O({\pixel_y_reg[7]_i_1_n_4 ,\pixel_y_reg[7]_i_1_n_5 ,\pixel_y_reg[7]_i_1_n_6 ,\pixel_y_reg[7]_i_1_n_7 }),
-        .S({\pixel_y[7]_i_2_n_0 ,\pixel_y[7]_i_3_n_0 ,\pixel_y[7]_i_4_n_0 ,\pixel_y[7]_i_5_n_0 }));
+        .O({\pixel_y_reg[4]_i_1_n_4 ,\pixel_y_reg[4]_i_1_n_5 ,\pixel_y_reg[4]_i_1_n_6 ,\pixel_y_reg[4]_i_1_n_7 }),
+        .S({\pixel_y[4]_i_2_n_0 ,\pixel_y[4]_i_3_n_0 ,\pixel_y[4]_i_4_n_0 ,\pixel_y[4]_i_5_n_0 }));
+  FDCE \pixel_y_reg[5] 
+       (.C(pclk),
+        .CE(\pixel_y[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_y_reg[4]_i_1_n_6 ),
+        .Q(pixel_y_reg[5]));
+  FDCE \pixel_y_reg[6] 
+       (.C(pclk),
+        .CE(\pixel_y[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_y_reg[4]_i_1_n_5 ),
+        .Q(pixel_y_reg[6]));
+  FDCE \pixel_y_reg[7] 
+       (.C(pclk),
+        .CE(\pixel_y[0]_i_1_n_0 ),
+        .CLR(\rgb_data_out[23]_i_2_n_0 ),
+        .D(\pixel_y_reg[4]_i_1_n_4 ),
+        .Q(pixel_y_reg[7]));
   FDCE \pixel_y_reg[8] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[11]_i_2_n_7 ),
-        .Q(pixel_y_out[8]));
+        .D(\pixel_y_reg[8]_i_1_n_7 ),
+        .Q(pixel_y_reg[8]));
+  (* ADDER_THRESHOLD = "11" *) 
+  CARRY4 \pixel_y_reg[8]_i_1 
+       (.CI(\pixel_y_reg[4]_i_1_n_0 ),
+        .CO({\NLW_pixel_y_reg[8]_i_1_CO_UNCONNECTED [3],\pixel_y_reg[8]_i_1_n_1 ,\pixel_y_reg[8]_i_1_n_2 ,\pixel_y_reg[8]_i_1_n_3 }),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O({\pixel_y_reg[8]_i_1_n_4 ,\pixel_y_reg[8]_i_1_n_5 ,\pixel_y_reg[8]_i_1_n_6 ,\pixel_y_reg[8]_i_1_n_7 }),
+        .S({\pixel_y[8]_i_2_n_0 ,\pixel_y[8]_i_3_n_0 ,\pixel_y[8]_i_4_n_0 ,\pixel_y[8]_i_5_n_0 }));
   FDCE \pixel_y_reg[9] 
        (.C(pclk),
-        .CE(\pixel_y[11]_i_1_n_0 ),
+        .CE(\pixel_y[0]_i_1_n_0 ),
         .CLR(\rgb_data_out[23]_i_2_n_0 ),
-        .D(\pixel_y_reg[11]_i_2_n_6 ),
-        .Q(pixel_y_out[9]));
+        .D(\pixel_y_reg[8]_i_1_n_6 ),
+        .Q(pixel_y_reg[9]));
   LUT6 #(
     .INIT(64'h88808888AAAAAAAA)) 
     \rgb_data_out[0]_i_1 
@@ -754,89 +900,89 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
   LUT5 #(
     .INIT(32'h55555557)) 
     \rgb_data_out[23]_i_10 
-       (.I0(\pixel_y[11]_i_3_n_0 ),
-        .I1(pixel_x_out[2]),
-        .I2(pixel_x_out[3]),
-        .I3(pixel_x_out[4]),
-        .I4(pixel_x_out[5]),
+       (.I0(\pixel_y[0]_i_3_n_0 ),
+        .I1(pixel_x_reg[2]),
+        .I2(pixel_x_reg[3]),
+        .I3(pixel_x_reg[4]),
+        .I4(pixel_x_reg[5]),
         .O(\rgb_data_out[23]_i_10_n_0 ));
   LUT6 #(
     .INIT(64'h0000000111111111)) 
     \rgb_data_out[23]_i_11 
-       (.I0(pixel_x_out[5]),
-        .I1(pixel_x_out[4]),
-        .I2(pixel_x_out[2]),
-        .I3(pixel_x_out[1]),
-        .I4(pixel_x_out[0]),
-        .I5(pixel_x_out[3]),
+       (.I0(pixel_x_reg[5]),
+        .I1(pixel_x_reg[4]),
+        .I2(pixel_x_reg[2]),
+        .I3(pixel_x_reg[1]),
+        .I4(pixel_x_reg[0]),
+        .I5(pixel_x_reg[3]),
         .O(\rgb_data_out[23]_i_11_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \rgb_data_out[23]_i_12 
-       (.I0(pixel_x_out[10]),
-        .I1(pixel_x_out[11]),
+       (.I0(pixel_x_reg[10]),
+        .I1(pixel_x_reg[11]),
         .O(\rgb_data_out[23]_i_12_n_0 ));
   LUT6 #(
     .INIT(64'h001FFFFFFFFFFFFF)) 
     \rgb_data_out[23]_i_13 
-       (.I0(pixel_x_out[0]),
-        .I1(pixel_x_out[1]),
-        .I2(pixel_x_out[2]),
-        .I3(pixel_x_out[3]),
-        .I4(pixel_x_out[4]),
-        .I5(pixel_x_out[5]),
+       (.I0(pixel_x_reg[0]),
+        .I1(pixel_x_reg[1]),
+        .I2(pixel_x_reg[2]),
+        .I3(pixel_x_reg[3]),
+        .I4(pixel_x_reg[4]),
+        .I5(pixel_x_reg[5]),
         .O(\rgb_data_out[23]_i_13_n_0 ));
   LUT4 #(
     .INIT(16'hFEFF)) 
     \rgb_data_out[23]_i_14 
-       (.I0(pixel_y_out[9]),
-        .I1(pixel_y_out[10]),
-        .I2(pixel_y_out[11]),
-        .I3(pixel_y_out[8]),
+       (.I0(pixel_y_reg[9]),
+        .I1(pixel_y_reg[10]),
+        .I2(pixel_y_reg[11]),
+        .I3(pixel_y_reg[8]),
         .O(\rgb_data_out[23]_i_14_n_0 ));
   LUT6 #(
     .INIT(64'hFFF4FFFFFFFFFFFF)) 
     \rgb_data_out[23]_i_15 
        (.I0(\rgb_data_out[23]_i_21_n_0 ),
-        .I1(pixel_y_out[1]),
-        .I2(pixel_y_out[5]),
-        .I3(pixel_y_out[7]),
-        .I4(pixel_y_out[4]),
-        .I5(pixel_y_out[6]),
+        .I1(pixel_y_reg[1]),
+        .I2(pixel_y_reg[5]),
+        .I3(pixel_y_reg[7]),
+        .I4(pixel_y_reg[4]),
+        .I5(pixel_y_reg[6]),
         .O(\rgb_data_out[23]_i_15_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFFFFFFFFFFFEF)) 
     \rgb_data_out[23]_i_16 
        (.I0(\rgb_data_out[23]_i_19_n_0 ),
-        .I1(pixel_y_out[4]),
-        .I2(pixel_y_out[3]),
-        .I3(pixel_y_out[11]),
-        .I4(pixel_y_out[10]),
-        .I5(pixel_y_out[9]),
+        .I1(pixel_y_reg[4]),
+        .I2(pixel_y_reg[3]),
+        .I3(pixel_y_reg[11]),
+        .I4(pixel_y_reg[10]),
+        .I5(pixel_y_reg[9]),
         .O(\rgb_data_out[23]_i_16_n_0 ));
   LUT2 #(
     .INIT(4'h1)) 
     \rgb_data_out[23]_i_17 
-       (.I0(pixel_y_out[0]),
-        .I1(pixel_y_out[1]),
+       (.I0(pixel_y_reg[0]),
+        .I1(pixel_y_reg[1]),
         .O(\rgb_data_out[23]_i_17_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT4 #(
     .INIT(16'h777F)) 
     \rgb_data_out[23]_i_18 
-       (.I0(pixel_y_out[3]),
-        .I1(pixel_y_out[2]),
-        .I2(pixel_y_out[1]),
-        .I3(pixel_y_out[0]),
+       (.I0(pixel_y_reg[3]),
+        .I1(pixel_y_reg[2]),
+        .I2(pixel_y_reg[1]),
+        .I3(pixel_y_reg[0]),
         .O(\rgb_data_out[23]_i_18_n_0 ));
   LUT4 #(
     .INIT(16'h7FFF)) 
     \rgb_data_out[23]_i_19 
-       (.I0(pixel_y_out[8]),
-        .I1(pixel_y_out[7]),
-        .I2(pixel_y_out[6]),
-        .I3(pixel_y_out[5]),
+       (.I0(pixel_y_reg[8]),
+        .I1(pixel_y_reg[7]),
+        .I2(pixel_y_reg[6]),
+        .I3(pixel_y_reg[5]),
         .O(\rgb_data_out[23]_i_19_n_0 ));
   LUT1 #(
     .INIT(2'h1)) 
@@ -847,18 +993,18 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
   LUT5 #(
     .INIT(32'hFFFFFFFE)) 
     \rgb_data_out[23]_i_20 
-       (.I0(pixel_x_out[11]),
-        .I1(pixel_x_out[10]),
-        .I2(pixel_x_out[6]),
-        .I3(pixel_x_out[7]),
-        .I4(pixel_x_out[8]),
+       (.I0(pixel_x_reg[11]),
+        .I1(pixel_x_reg[10]),
+        .I2(pixel_x_reg[6]),
+        .I3(pixel_x_reg[7]),
+        .I4(pixel_x_reg[8]),
         .O(\rgb_data_out[23]_i_20_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \rgb_data_out[23]_i_21 
-       (.I0(pixel_y_out[2]),
-        .I1(pixel_y_out[3]),
+       (.I0(pixel_y_reg[2]),
+        .I1(pixel_y_reg[3]),
         .O(\rgb_data_out[23]_i_21_n_0 ));
   LUT6 #(
     .INIT(64'hFFEFFFEFFFEFEEEE)) 
@@ -874,21 +1020,21 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
     .INIT(64'hFFFFFFFFFF400000)) 
     \rgb_data_out[23]_i_4 
        (.I0(\rgb_data_out[23]_i_11_n_0 ),
-        .I1(pixel_x_out[7]),
-        .I2(pixel_x_out[6]),
-        .I3(pixel_x_out[8]),
-        .I4(pixel_x_out[9]),
+        .I1(pixel_x_reg[7]),
+        .I2(pixel_x_reg[6]),
+        .I3(pixel_x_reg[8]),
+        .I4(pixel_x_reg[9]),
         .I5(\rgb_data_out[23]_i_12_n_0 ),
         .O(\rgb_data_out[23]_i_4_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
     .INIT(32'h0100FFFF)) 
     \rgb_data_out[23]_i_5 
-       (.I0(pixel_x_out[8]),
-        .I1(pixel_x_out[7]),
-        .I2(pixel_x_out[6]),
+       (.I0(pixel_x_reg[8]),
+        .I1(pixel_x_reg[7]),
+        .I2(pixel_x_reg[6]),
         .I3(\rgb_data_out[23]_i_13_n_0 ),
-        .I4(pixel_x_out[9]),
+        .I4(pixel_x_reg[9]),
         .O(\rgb_data_out[23]_i_5_n_0 ));
   LUT6 #(
     .INIT(64'h1F0F0F0F110F1F0F)) 
@@ -896,38 +1042,38 @@ module ZYNQ_CORE_border_adder_0_0_border_adder
        (.I0(\rgb_data_out[23]_i_14_n_0 ),
         .I1(\rgb_data_out[23]_i_15_n_0 ),
         .I2(\rgb_data_out[23]_i_16_n_0 ),
-        .I3(pixel_y_out[3]),
-        .I4(pixel_y_out[2]),
+        .I3(pixel_y_reg[3]),
+        .I4(pixel_y_reg[2]),
         .I5(\rgb_data_out[23]_i_17_n_0 ),
         .O(\rgb_data_out[23]_i_6_n_0 ));
   LUT6 #(
     .INIT(64'hABBBABABABBBABBB)) 
     \rgb_data_out[23]_i_7 
        (.I0(\rgb_data_out[23]_i_14_n_0 ),
-        .I1(pixel_y_out[7]),
-        .I2(pixel_y_out[6]),
-        .I3(pixel_y_out[5]),
+        .I1(pixel_y_reg[7]),
+        .I2(pixel_y_reg[6]),
+        .I3(pixel_y_reg[5]),
         .I4(\rgb_data_out[23]_i_18_n_0 ),
-        .I5(pixel_y_out[4]),
+        .I5(pixel_y_reg[4]),
         .O(\rgb_data_out[23]_i_7_n_0 ));
   LUT6 #(
     .INIT(64'h00000000FFFFCCC8)) 
     \rgb_data_out[23]_i_8 
-       (.I0(pixel_y_out[2]),
-        .I1(pixel_y_out[3]),
-        .I2(pixel_y_out[0]),
-        .I3(pixel_y_out[1]),
-        .I4(pixel_y_out[4]),
+       (.I0(pixel_y_reg[2]),
+        .I1(pixel_y_reg[3]),
+        .I2(pixel_y_reg[0]),
+        .I3(pixel_y_reg[1]),
+        .I4(pixel_y_reg[4]),
         .I5(\rgb_data_out[23]_i_19_n_0 ),
         .O(\rgb_data_out[23]_i_8_n_0 ));
   LUT6 #(
     .INIT(64'h000000001FFFFFFF)) 
     \rgb_data_out[23]_i_9 
-       (.I0(pixel_x_out[1]),
-        .I1(pixel_x_out[2]),
-        .I2(pixel_x_out[3]),
-        .I3(pixel_x_out[5]),
-        .I4(pixel_x_out[4]),
+       (.I0(pixel_x_reg[1]),
+        .I1(pixel_x_reg[2]),
+        .I2(pixel_x_reg[3]),
+        .I3(pixel_x_reg[5]),
+        .I4(pixel_x_reg[4]),
         .I5(\rgb_data_out[23]_i_20_n_0 ),
         .O(\rgb_data_out[23]_i_9_n_0 ));
   LUT6 #(

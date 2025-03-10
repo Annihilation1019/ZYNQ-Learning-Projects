@@ -33,8 +33,8 @@ module border_adder(
         output reg                          video_hsync_d,
         output reg                          video_vsync_d,
 
-        output wire [11:0]      			pixel_x_out,
-        output wire [11:0]      			pixel_y_out
+        output reg  [11:0]      			pixel_x_out,
+        output reg  [11:0]      			pixel_y_out
     );
 
     /* 参数定义 */
@@ -56,9 +56,6 @@ module border_adder(
     /* 变量定义 */
     reg	[11:0]								pixel_x;
     reg [11:0]								pixel_y;
-
-    assign                                  pixel_x_out = pixel_x;
-    assign                                  pixel_y_out = pixel_y;
 
     /* ===================================================== */
     /* -------------------- Main Code ---------------------- */
@@ -131,6 +128,17 @@ module border_adder(
             video_active_d <= video_active;
             video_hsync_d  <= video_hsync;
             video_vsync_d  <= video_vsync;
+        end
+    end
+
+    always @(posedge pclk or negedge rstn) begin
+        if (!rstn) begin
+            pixel_x_out <= 12'd0;
+            pixel_y_out <= 12'd0;
+        end
+        else begin
+            pixel_x_out <= pixel_x;
+            pixel_y_out <= pixel_y;
         end
     end
 

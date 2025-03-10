@@ -25,4 +25,5 @@ ps7_post_config
 targets -set -nocase -filter {name =~ "*A9*#0"}
 dow D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/VitisPrj/ZYNQ_CNN_NUM/Debug/ZYNQ_CNN_NUM.elf
 configparams force-mem-access 0
-bpadd -addr &main
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con

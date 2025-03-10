@@ -21,6 +21,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_v
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_clk_wiz_0_0 || ORIG_REF_NAME==ZYNQ_CORE_clk_wiz_0_0} -quiet] -quiet
 
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_1/ZYNQ_CORE_xbar_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xbar_1 || ORIG_REF_NAME==ZYNQ_CORE_xbar_1} -quiet] -quiet
+
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_ps7_0_axi_periph_1/ZYNQ_CORE_ps7_0_axi_periph_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_ps7_0_axi_periph_1 || ORIG_REF_NAME==ZYNQ_CORE_ps7_0_axi_periph_1} -quiet] -quiet
 
@@ -51,17 +54,20 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_o
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_0_0/ZYNQ_CORE_blk_mem_gen_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_blk_mem_gen_0_0 || ORIG_REF_NAME==ZYNQ_CORE_blk_mem_gen_0_0} -quiet] -quiet
 
-# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_border_adder_0_0 || ORIG_REF_NAME==ZYNQ_CORE_border_adder_0_0} -quiet] -quiet
-
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_1/ZYNQ_CORE_show_num_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_show_num_0_1 || ORIG_REF_NAME==ZYNQ_CORE_show_num_0_1} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_cycle_num_0_0/ZYNQ_CORE_cycle_num_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_cycle_num_0_0 || ORIG_REF_NAME==ZYNQ_CORE_cycle_num_0_0} -quiet] -quiet
 
-# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_1/ZYNQ_CORE_xbar_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xbar_1 || ORIG_REF_NAME==ZYNQ_CORE_xbar_1} -quiet] -quiet
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_border_adder_0_0 || ORIG_REF_NAME==ZYNQ_CORE_border_adder_0_0} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_binarizer_0_0 || ORIG_REF_NAME==ZYNQ_CORE_binarizer_0_0} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_vio_0_0 || ORIG_REF_NAME==ZYNQ_CORE_vio_0_0} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_0 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_0} -quiet] -quiet
@@ -69,4 +75,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_a
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_1 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_1} -quiet] -quiet
 
-# XDC: D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc
+# XDC: d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc

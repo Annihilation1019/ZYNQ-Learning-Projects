@@ -39,9 +39,11 @@
       "v_vid_in_axi4s_0": "",
       "ov5640_capture_data_0": "",
       "blk_mem_gen_0": "",
-      "border_adder_0": "",
       "show_num_0": "",
-      "cycle_num_0": ""
+      "cycle_num_0": "",
+      "border_adder_0": "",
+      "binarizer_0": "",
+      "vio_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -1706,7 +1708,7 @@
         "inst_hier_path": "blk_mem_gen_0",
         "parameters": {
           "Coe_File": {
-            "value": "../../../../../../coe/number.coe"
+            "value": "../../../../../../../OV5640_HDMI_ROM_READ_0to9/coe/number.coe"
           },
           "Enable_A": {
             "value": "Always_Enabled"
@@ -1728,84 +1730,6 @@
           },
           "use_bram_block": {
             "value": "Stand_Alone"
-          }
-        }
-      },
-      "border_adder_0": {
-        "vlnv": "xilinx.com:module_ref:border_adder:1.0",
-        "xci_name": "ZYNQ_CORE_border_adder_0_0",
-        "xci_path": "ip\\ZYNQ_CORE_border_adder_0_0\\ZYNQ_CORE_border_adder_0_0.xci",
-        "inst_hier_path": "border_adder_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "border_adder",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "pclk": {
-            "direction": "I",
-            "parameters": {
-              "FREQ_HZ": {
-                "value": "75000000",
-                "value_src": "ip_prop"
-              },
-              "PHASE": {
-                "value": "0.0",
-                "value_src": "ip_prop"
-              },
-              "CLK_DOMAIN": {
-                "value": "/clk_wiz_0_clk_out1",
-                "value_src": "ip_prop"
-              }
-            }
-          },
-          "rstn": {
-            "type": "rst",
-            "direction": "I",
-            "parameters": {
-              "POLARITY": {
-                "value": "ACTIVE_LOW",
-                "value_src": "constant"
-              }
-            }
-          },
-          "video_active": {
-            "direction": "I"
-          },
-          "video_hsync": {
-            "direction": "I"
-          },
-          "video_vsync": {
-            "direction": "I"
-          },
-          "rgb_data_in": {
-            "direction": "I",
-            "left": "23",
-            "right": "0"
-          },
-          "rgb_data_out": {
-            "direction": "O",
-            "left": "23",
-            "right": "0"
-          },
-          "video_active_d": {
-            "direction": "O"
-          },
-          "video_hsync_d": {
-            "direction": "O"
-          },
-          "video_vsync_d": {
-            "direction": "O"
-          },
-          "pixel_x_out": {
-            "direction": "O",
-            "left": "11",
-            "right": "0"
-          },
-          "pixel_y_out": {
-            "direction": "O",
-            "left": "11",
-            "right": "0"
           }
         }
       },
@@ -1905,6 +1829,194 @@
         "xci_name": "ZYNQ_CORE_cycle_num_0_0",
         "xci_path": "ip\\ZYNQ_CORE_cycle_num_0_0\\ZYNQ_CORE_cycle_num_0_0.xci",
         "inst_hier_path": "cycle_num_0"
+      },
+      "border_adder_0": {
+        "vlnv": "xilinx.com:module_ref:border_adder:1.0",
+        "xci_name": "ZYNQ_CORE_border_adder_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_border_adder_0_0\\ZYNQ_CORE_border_adder_0_0.xci",
+        "inst_hier_path": "border_adder_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "border_adder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "pclk": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "75000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "rstn": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "video_active": {
+            "direction": "I"
+          },
+          "video_hsync": {
+            "direction": "I"
+          },
+          "video_vsync": {
+            "direction": "I"
+          },
+          "rgb_data_in": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "rgb_data_out": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          },
+          "video_active_d": {
+            "direction": "O"
+          },
+          "video_hsync_d": {
+            "direction": "O"
+          },
+          "video_vsync_d": {
+            "direction": "O"
+          },
+          "pixel_x_out": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          },
+          "pixel_y_out": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          }
+        }
+      },
+      "binarizer_0": {
+        "vlnv": "xilinx.com:module_ref:binarizer:1.0",
+        "xci_name": "ZYNQ_CORE_binarizer_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_binarizer_0_0\\ZYNQ_CORE_binarizer_0_0.xci",
+        "inst_hier_path": "binarizer_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "binarizer",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "pclk": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "75000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "rstn": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rgb_data_in": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "pixel_x_in": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "pixel_y_in": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "video_active": {
+            "direction": "I"
+          },
+          "video_hsync": {
+            "direction": "I"
+          },
+          "video_vsync": {
+            "direction": "I"
+          },
+          "threshold": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "rgb_data_out": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          },
+          "video_active_d": {
+            "direction": "O"
+          },
+          "video_hsync_d": {
+            "direction": "O"
+          },
+          "video_vsync_d": {
+            "direction": "O"
+          },
+          "pixel_x_out": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          },
+          "pixel_y_out": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "ZYNQ_CORE_vio_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_vio_0_0\\ZYNQ_CORE_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_PROBE_OUT0_INIT_VAL": {
+            "value": "0x7f"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "8"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1988,6 +2100,42 @@
       }
     },
     "nets": {
+      "binarizer_0_pixel_x_out": {
+        "ports": [
+          "binarizer_0/pixel_x_out",
+          "show_num_0/pixel_x_in"
+        ]
+      },
+      "binarizer_0_pixel_y_out": {
+        "ports": [
+          "binarizer_0/pixel_y_out",
+          "show_num_0/pixel_y_in"
+        ]
+      },
+      "binarizer_0_rgb_data_out": {
+        "ports": [
+          "binarizer_0/rgb_data_out",
+          "show_num_0/rgb_data_in"
+        ]
+      },
+      "binarizer_0_video_active_d": {
+        "ports": [
+          "binarizer_0/video_active_d",
+          "show_num_0/video_active"
+        ]
+      },
+      "binarizer_0_video_hsync_d": {
+        "ports": [
+          "binarizer_0/video_hsync_d",
+          "show_num_0/video_hsync"
+        ]
+      },
+      "binarizer_0_video_vsync_d": {
+        "ports": [
+          "binarizer_0/video_vsync_d",
+          "show_num_0/video_vsync"
+        ]
+      },
       "blk_mem_gen_0_douta": {
         "ports": [
           "blk_mem_gen_0/douta",
@@ -1997,37 +2145,37 @@
       "border_adder_0_pixel_x_out": {
         "ports": [
           "border_adder_0/pixel_x_out",
-          "show_num_0/pixel_x_in"
+          "binarizer_0/pixel_x_in"
         ]
       },
       "border_adder_0_pixel_y_out": {
         "ports": [
           "border_adder_0/pixel_y_out",
-          "show_num_0/pixel_y_in"
+          "binarizer_0/pixel_y_in"
         ]
       },
       "border_adder_0_rgb_data_out": {
         "ports": [
           "border_adder_0/rgb_data_out",
-          "show_num_0/rgb_data_in"
+          "binarizer_0/rgb_data_in"
         ]
       },
       "border_adder_0_video_active_d": {
         "ports": [
           "border_adder_0/video_active_d",
-          "show_num_0/video_active"
+          "binarizer_0/video_active"
         ]
       },
       "border_adder_0_video_hsync_d": {
         "ports": [
           "border_adder_0/video_hsync_d",
-          "show_num_0/video_hsync"
+          "binarizer_0/video_hsync"
         ]
       },
       "border_adder_0_video_vsync_d": {
         "ports": [
           "border_adder_0/video_vsync_d",
-          "show_num_0/video_vsync"
+          "binarizer_0/video_vsync"
         ]
       },
       "cam_data_0_1": {
@@ -2061,8 +2209,10 @@
           "v_axi4s_vid_out_0/vid_io_out_clk",
           "rgb2dvi_0/PixelClk",
           "blk_mem_gen_0/clka",
+          "show_num_0/pclk",
           "border_adder_0/pclk",
-          "show_num_0/pclk"
+          "binarizer_0/pclk",
+          "vio_0/clk"
         ]
       },
       "clk_wiz_0_clk_out2": {
@@ -2082,8 +2232,9 @@
           "util_vector_logic_0/Op1",
           "rgb2dvi_0/aRst_n",
           "ov5640_capture_data_0/rst_n",
+          "show_num_0/rstn",
           "border_adder_0/rstn",
-          "show_num_0/rstn"
+          "binarizer_0/rstn"
         ]
       },
       "cycle_num_0_result": {
@@ -2268,6 +2419,12 @@
         "ports": [
           "v_axi4s_vid_out_0/vtg_ce",
           "v_tc_0/gen_clken"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "binarizer_0/threshold"
         ]
       }
     },

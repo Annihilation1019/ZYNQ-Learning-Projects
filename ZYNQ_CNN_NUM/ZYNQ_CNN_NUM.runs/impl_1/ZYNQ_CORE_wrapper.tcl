@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.runs/impl_1/ZYNQ_CORE_wrapper.tcl"
+  variable script "D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.runs/impl_1/ZYNQ_CORE_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -127,7 +127,7 @@ set rc [catch {
   set_param chipscope.maxJobs 5
   set_param runs.launchOptions { -jobs 20  }
   open_checkpoint ZYNQ_CORE_wrapper_routed.dcp
-  set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.cache/wt [current_project]
 set_property TOP ZYNQ_CORE_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

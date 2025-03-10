@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.runs/ZYNQ_CORE_border_adder_0_0_synth_1'
+HD_PWD='D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.runs/ZYNQ_CORE_border_adder_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

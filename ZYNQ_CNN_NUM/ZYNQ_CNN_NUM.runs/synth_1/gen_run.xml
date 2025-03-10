@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1741315648" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1741603551" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp">
   <File Type="PA-TCL" Name="ZYNQ_CORE_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ZYNQ_CORE_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ZYNQ_CORE_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="ZYNQ_CORE_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="ZYNQ_CORE_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ZYNQ_CORE_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ZYNQ_CORE_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ZYNQ_CORE_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ZYNQ_CORE_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/show_num.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/show_num.v"/>
+        <Attr Name="ImportTime" Val="1740913057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/border_adder.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../OV5640_HDMI_with_IdentiBox/OV5640_HDMI_with_IdentiBox.srcs/sources_1/new/border_adder.v"/>
@@ -17,10 +29,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/show_num.v">
+    <File Path="$PSRCDIR/sources_1/new/binarizer.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/show_num.v"/>
-        <Attr Name="ImportTime" Val="1740913057"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -98,9 +108,10 @@
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_axi4s_vid_out_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_vdma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_150M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_vdma_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_tc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_vio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_50M_1"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_show_num_0_1"/>
@@ -111,9 +122,8 @@
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_vid_in_axi4s_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_ov5640_capture_data_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_blk_mem_gen_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_border_adder_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_auto_pc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_auto_pc_1"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_cycle_num_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_binarizer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_border_adder_0_0"/>
 </GenRun>

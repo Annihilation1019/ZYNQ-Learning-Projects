@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Fri Mar  7 10:47:24 2025
+//Date        : Mon Mar 10 18:45:47 2025
 //Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 //Command     : generate_target ZYNQ_CORE.bd
 //Design      : ZYNQ_CORE
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=27,numReposBlks=19,numNonXlnxBlks=2,numHierBlks=8,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=2,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=7,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
+(* CORE_GENERATION_INFO = "ZYNQ_CORE,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=ZYNQ_CORE,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=29,numReposBlks=21,numNonXlnxBlks=2,numHierBlks=8,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=7,da_board_cnt=2,da_clkrst_cnt=1,da_ps7_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "ZYNQ_CORE.hwdef" *) 
 module ZYNQ_CORE
    (DDR_addr,
     DDR_ba,
@@ -155,6 +155,12 @@ module ZYNQ_CORE
   wire [0:0]axi_vdma_0_M_AXI_S2MM_WREADY;
   wire [7:0]axi_vdma_0_M_AXI_S2MM_WSTRB;
   wire axi_vdma_0_M_AXI_S2MM_WVALID;
+  wire [11:0]binarizer_0_pixel_x_out;
+  wire [11:0]binarizer_0_pixel_y_out;
+  wire [23:0]binarizer_0_rgb_data_out;
+  wire binarizer_0_video_active_d;
+  wire binarizer_0_video_hsync_d;
+  wire binarizer_0_video_vsync_d;
   wire [0:0]blk_mem_gen_0_douta;
   wire [11:0]border_adder_0_pixel_x_out;
   wire [11:0]border_adder_0_pixel_y_out;
@@ -305,6 +311,7 @@ module ZYNQ_CORE
   wire v_vid_in_axi4s_0_video_out_TREADY;
   wire v_vid_in_axi4s_0_video_out_TUSER;
   wire v_vid_in_axi4s_0_video_out_TVALID;
+  wire [7:0]vio_0_probe_out0;
 
   assign TMDS_Clk_n_0 = rgb2dvi_0_TMDS_Clk_n;
   assign TMDS_Clk_p_0 = rgb2dvi_0_TMDS_Clk_p;
@@ -459,6 +466,22 @@ module ZYNQ_CORE
         .s_axis_s2mm_tready(v_vid_in_axi4s_0_video_out_TREADY),
         .s_axis_s2mm_tuser(v_vid_in_axi4s_0_video_out_TUSER),
         .s_axis_s2mm_tvalid(v_vid_in_axi4s_0_video_out_TVALID));
+  ZYNQ_CORE_binarizer_0_0 binarizer_0
+       (.pclk(clk_wiz_0_clk_out1),
+        .pixel_x_in(border_adder_0_pixel_x_out),
+        .pixel_x_out(binarizer_0_pixel_x_out),
+        .pixel_y_in(border_adder_0_pixel_y_out),
+        .pixel_y_out(binarizer_0_pixel_y_out),
+        .rgb_data_in(border_adder_0_rgb_data_out),
+        .rgb_data_out(binarizer_0_rgb_data_out),
+        .rstn(clk_wiz_0_locked),
+        .threshold(vio_0_probe_out0),
+        .video_active(border_adder_0_video_active_d),
+        .video_active_d(binarizer_0_video_active_d),
+        .video_hsync(border_adder_0_video_hsync_d),
+        .video_hsync_d(binarizer_0_video_hsync_d),
+        .video_vsync(border_adder_0_video_vsync_d),
+        .video_vsync_d(binarizer_0_video_vsync_d));
   ZYNQ_CORE_blk_mem_gen_0_0 blk_mem_gen_0
        (.addra(show_num_0_rd_addr),
         .clka(clk_wiz_0_clk_out1),
@@ -736,19 +759,19 @@ module ZYNQ_CORE
         .slowest_sync_clk(processing_system7_0_FCLK_CLK0));
   ZYNQ_CORE_show_num_0_1 show_num_0
        (.pclk(clk_wiz_0_clk_out1),
-        .pixel_x_in(border_adder_0_pixel_x_out),
-        .pixel_y_in(border_adder_0_pixel_y_out),
+        .pixel_x_in(binarizer_0_pixel_x_out),
+        .pixel_y_in(binarizer_0_pixel_y_out),
         .rd_addr(show_num_0_rd_addr),
         .rd_data(blk_mem_gen_0_douta),
-        .rgb_data_in(border_adder_0_rgb_data_out),
+        .rgb_data_in(binarizer_0_rgb_data_out),
         .rgb_data_out(show_num_0_rgb_data_out),
         .rom_addr_sel(cycle_num_0_result),
         .rstn(clk_wiz_0_locked),
-        .video_active(border_adder_0_video_active_d),
+        .video_active(binarizer_0_video_active_d),
         .video_active_d(show_num_0_video_active_d),
-        .video_hsync(border_adder_0_video_hsync_d),
+        .video_hsync(binarizer_0_video_hsync_d),
         .video_hsync_d(show_num_0_video_hsync_d),
-        .video_vsync(border_adder_0_video_vsync_d),
+        .video_vsync(binarizer_0_video_vsync_d),
         .video_vsync_d(show_num_0_video_vsync_d));
   ZYNQ_CORE_util_vector_logic_0_0 util_vector_logic_0
        (.Op1(clk_wiz_0_locked),
@@ -808,6 +831,9 @@ module ZYNQ_CORE
         .vid_io_in_reset(1'b0),
         .vid_vblank(1'b0),
         .vid_vsync(ov5640_capture_data_0_cmos_rgb_VSYNC));
+  ZYNQ_CORE_vio_0_0 vio_0
+       (.clk(clk_wiz_0_clk_out1),
+        .probe_out0(vio_0_probe_out0));
 endmodule
 
 module ZYNQ_CORE_axi_mem_intercon_1

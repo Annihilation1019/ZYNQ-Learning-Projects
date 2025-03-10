@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Sun Mar  2 22:15:57 2025
+-- Date        : Mon Mar 10 14:52:49 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               d:/Programs/Workspace/SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/OV5640_HDMI_ROM_READ_0to9.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0_sim_netlist.vhdl
+--               d:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0_sim_netlist.vhdl
 -- Design      : ZYNQ_CORE_border_adder_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,12 +17,12 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity ZYNQ_CORE_border_adder_0_0_border_adder is
   port (
-    pixel_x_out : out STD_LOGIC_VECTOR ( 11 downto 0 );
-    pixel_y_out : out STD_LOGIC_VECTOR ( 11 downto 0 );
     rgb_data_out : out STD_LOGIC_VECTOR ( 23 downto 0 );
     video_active_d : out STD_LOGIC;
     video_hsync_d : out STD_LOGIC;
     video_vsync_d : out STD_LOGIC;
+    pixel_x_out : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    pixel_y_out : out STD_LOGIC_VECTOR ( 11 downto 0 );
     video_hsync : in STD_LOGIC;
     video_vsync : in STD_LOGIC;
     pclk : in STD_LOGIC;
@@ -36,84 +36,84 @@ end ZYNQ_CORE_border_adder_0_0_border_adder;
 
 architecture STRUCTURE of ZYNQ_CORE_border_adder_0_0_border_adder is
   signal p_0_in : STD_LOGIC_VECTOR ( 23 downto 0 );
-  signal \pixel_x[11]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_x[11]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_x[11]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_x[11]_i_5_n_0\ : STD_LOGIC;
-  signal \pixel_x[11]_i_6_n_0\ : STD_LOGIC;
-  signal \pixel_x[3]_i_2_n_0\ : STD_LOGIC;
-  signal \pixel_x[3]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_x[3]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_x[3]_i_5_n_0\ : STD_LOGIC;
-  signal \pixel_x[3]_i_6_n_0\ : STD_LOGIC;
-  signal \pixel_x[7]_i_2_n_0\ : STD_LOGIC;
-  signal \pixel_x[7]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_x[7]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_x[7]_i_5_n_0\ : STD_LOGIC;
-  signal \^pixel_x_out\ : STD_LOGIC_VECTOR ( 11 downto 0 );
-  signal \pixel_x_reg[11]_i_2_n_1\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_2\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_3\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_4\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_5\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_6\ : STD_LOGIC;
-  signal \pixel_x_reg[11]_i_2_n_7\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_1\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_2\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_3\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_4\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_5\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_6\ : STD_LOGIC;
-  signal \pixel_x_reg[3]_i_1_n_7\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_1\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_2\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_3\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_4\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_5\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_6\ : STD_LOGIC;
-  signal \pixel_x_reg[7]_i_1_n_7\ : STD_LOGIC;
-  signal \pixel_y[11]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_5_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_6_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_7_n_0\ : STD_LOGIC;
-  signal \pixel_y[11]_i_8_n_0\ : STD_LOGIC;
-  signal \pixel_y[3]_i_2_n_0\ : STD_LOGIC;
-  signal \pixel_y[3]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_y[3]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_y[3]_i_5_n_0\ : STD_LOGIC;
-  signal \pixel_y[3]_i_6_n_0\ : STD_LOGIC;
-  signal \pixel_y[7]_i_2_n_0\ : STD_LOGIC;
-  signal \pixel_y[7]_i_3_n_0\ : STD_LOGIC;
-  signal \pixel_y[7]_i_4_n_0\ : STD_LOGIC;
-  signal \pixel_y[7]_i_5_n_0\ : STD_LOGIC;
-  signal \^pixel_y_out\ : STD_LOGIC_VECTOR ( 11 downto 0 );
-  signal \pixel_y_reg[11]_i_2_n_1\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_2\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_3\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_4\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_5\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_6\ : STD_LOGIC;
-  signal \pixel_y_reg[11]_i_2_n_7\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_1\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_2\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_3\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_4\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_5\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_6\ : STD_LOGIC;
-  signal \pixel_y_reg[3]_i_1_n_7\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_0\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_1\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_2\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_3\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_4\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_5\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_6\ : STD_LOGIC;
-  signal \pixel_y_reg[7]_i_1_n_7\ : STD_LOGIC;
+  signal \pixel_x[0]_i_1_n_0\ : STD_LOGIC;
+  signal \pixel_x[0]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_x[0]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_x[0]_i_5_n_0\ : STD_LOGIC;
+  signal \pixel_x[0]_i_6_n_0\ : STD_LOGIC;
+  signal \pixel_x[0]_i_7_n_0\ : STD_LOGIC;
+  signal \pixel_x[4]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_x[4]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_x[4]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_x[4]_i_5_n_0\ : STD_LOGIC;
+  signal \pixel_x[8]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_x[8]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_x[8]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_x[8]_i_5_n_0\ : STD_LOGIC;
+  signal pixel_x_reg : STD_LOGIC_VECTOR ( 11 downto 0 );
+  signal \pixel_x_reg[0]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_1\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_2\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_3\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_4\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_5\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_6\ : STD_LOGIC;
+  signal \pixel_x_reg[0]_i_2_n_7\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_0\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_1\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_2\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_3\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_4\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_5\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_6\ : STD_LOGIC;
+  signal \pixel_x_reg[4]_i_1_n_7\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_1\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_2\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_3\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_4\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_5\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_6\ : STD_LOGIC;
+  signal \pixel_x_reg[8]_i_1_n_7\ : STD_LOGIC;
+  signal \pixel_y[0]_i_1_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_5_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_6_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_7_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_8_n_0\ : STD_LOGIC;
+  signal \pixel_y[0]_i_9_n_0\ : STD_LOGIC;
+  signal \pixel_y[4]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_y[4]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_y[4]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_y[4]_i_5_n_0\ : STD_LOGIC;
+  signal \pixel_y[8]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_y[8]_i_3_n_0\ : STD_LOGIC;
+  signal \pixel_y[8]_i_4_n_0\ : STD_LOGIC;
+  signal \pixel_y[8]_i_5_n_0\ : STD_LOGIC;
+  signal pixel_y_reg : STD_LOGIC_VECTOR ( 11 downto 0 );
+  signal \pixel_y_reg[0]_i_2_n_0\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_1\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_2\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_3\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_4\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_5\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_6\ : STD_LOGIC;
+  signal \pixel_y_reg[0]_i_2_n_7\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_0\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_1\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_2\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_3\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_4\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_5\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_6\ : STD_LOGIC;
+  signal \pixel_y_reg[4]_i_1_n_7\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_1\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_2\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_3\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_4\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_5\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_6\ : STD_LOGIC;
+  signal \pixel_y_reg[8]_i_1_n_7\ : STD_LOGIC;
   signal \rgb_data_out[23]_i_10_n_0\ : STD_LOGIC;
   signal \rgb_data_out[23]_i_11_n_0\ : STD_LOGIC;
   signal \rgb_data_out[23]_i_12_n_0\ : STD_LOGIC;
@@ -134,605 +134,795 @@ architecture STRUCTURE of ZYNQ_CORE_border_adder_0_0_border_adder is
   signal \rgb_data_out[23]_i_7_n_0\ : STD_LOGIC;
   signal \rgb_data_out[23]_i_8_n_0\ : STD_LOGIC;
   signal \rgb_data_out[23]_i_9_n_0\ : STD_LOGIC;
-  signal \NLW_pixel_x_reg[11]_i_2_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
-  signal \NLW_pixel_y_reg[11]_i_2_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal \NLW_pixel_x_reg[8]_i_1_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal \NLW_pixel_y_reg[8]_i_1_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
   attribute ADDER_THRESHOLD : integer;
-  attribute ADDER_THRESHOLD of \pixel_x_reg[11]_i_2\ : label is 11;
-  attribute ADDER_THRESHOLD of \pixel_x_reg[3]_i_1\ : label is 11;
-  attribute ADDER_THRESHOLD of \pixel_x_reg[7]_i_1\ : label is 11;
+  attribute ADDER_THRESHOLD of \pixel_x_reg[0]_i_2\ : label is 11;
+  attribute ADDER_THRESHOLD of \pixel_x_reg[4]_i_1\ : label is 11;
+  attribute ADDER_THRESHOLD of \pixel_x_reg[8]_i_1\ : label is 11;
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \pixel_y[11]_i_3\ : label is "soft_lutpair0";
-  attribute ADDER_THRESHOLD of \pixel_y_reg[11]_i_2\ : label is 11;
-  attribute ADDER_THRESHOLD of \pixel_y_reg[3]_i_1\ : label is 11;
-  attribute ADDER_THRESHOLD of \pixel_y_reg[7]_i_1\ : label is 11;
+  attribute SOFT_HLUTNM of \pixel_y[0]_i_3\ : label is "soft_lutpair0";
+  attribute ADDER_THRESHOLD of \pixel_y_reg[0]_i_2\ : label is 11;
+  attribute ADDER_THRESHOLD of \pixel_y_reg[4]_i_1\ : label is 11;
+  attribute ADDER_THRESHOLD of \pixel_y_reg[8]_i_1\ : label is 11;
   attribute SOFT_HLUTNM of \rgb_data_out[23]_i_12\ : label is "soft_lutpair1";
   attribute SOFT_HLUTNM of \rgb_data_out[23]_i_18\ : label is "soft_lutpair2";
   attribute SOFT_HLUTNM of \rgb_data_out[23]_i_20\ : label is "soft_lutpair1";
   attribute SOFT_HLUTNM of \rgb_data_out[23]_i_21\ : label is "soft_lutpair2";
   attribute SOFT_HLUTNM of \rgb_data_out[23]_i_5\ : label is "soft_lutpair0";
 begin
-  pixel_x_out(11 downto 0) <= \^pixel_x_out\(11 downto 0);
-  pixel_y_out(11 downto 0) <= \^pixel_y_out\(11 downto 0);
-\pixel_x[11]_i_1\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_1\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"E"
     )
         port map (
       I0 => video_active,
       I1 => video_hsync,
-      O => \pixel_x[11]_i_1_n_0\
+      O => \pixel_x[0]_i_1_n_0\
     );
-\pixel_x[11]_i_3\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_3\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(11),
+      I0 => pixel_x_reg(0),
       I1 => video_hsync,
-      O => \pixel_x[11]_i_3_n_0\
+      O => \pixel_x[0]_i_3_n_0\
     );
-\pixel_x[11]_i_4\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_4\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(10),
+      I0 => pixel_x_reg(3),
       I1 => video_hsync,
-      O => \pixel_x[11]_i_4_n_0\
+      O => \pixel_x[0]_i_4_n_0\
     );
-\pixel_x[11]_i_5\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_5\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(9),
+      I0 => pixel_x_reg(2),
       I1 => video_hsync,
-      O => \pixel_x[11]_i_5_n_0\
+      O => \pixel_x[0]_i_5_n_0\
     );
-\pixel_x[11]_i_6\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_6\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(8),
+      I0 => pixel_x_reg(1),
       I1 => video_hsync,
-      O => \pixel_x[11]_i_6_n_0\
+      O => \pixel_x[0]_i_6_n_0\
     );
-\pixel_x[3]_i_2\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_x_out\(0),
-      I1 => video_hsync,
-      O => \pixel_x[3]_i_2_n_0\
-    );
-\pixel_x[3]_i_3\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_x_out\(3),
-      I1 => video_hsync,
-      O => \pixel_x[3]_i_3_n_0\
-    );
-\pixel_x[3]_i_4\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_x_out\(2),
-      I1 => video_hsync,
-      O => \pixel_x[3]_i_4_n_0\
-    );
-\pixel_x[3]_i_5\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_x_out\(1),
-      I1 => video_hsync,
-      O => \pixel_x[3]_i_5_n_0\
-    );
-\pixel_x[3]_i_6\: unisim.vcomponents.LUT2
+\pixel_x[0]_i_7\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"1"
     )
         port map (
-      I0 => \^pixel_x_out\(0),
+      I0 => pixel_x_reg(0),
       I1 => video_hsync,
-      O => \pixel_x[3]_i_6_n_0\
+      O => \pixel_x[0]_i_7_n_0\
     );
-\pixel_x[7]_i_2\: unisim.vcomponents.LUT2
+\pixel_x[4]_i_2\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(7),
+      I0 => pixel_x_reg(7),
       I1 => video_hsync,
-      O => \pixel_x[7]_i_2_n_0\
+      O => \pixel_x[4]_i_2_n_0\
     );
-\pixel_x[7]_i_3\: unisim.vcomponents.LUT2
+\pixel_x[4]_i_3\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(6),
+      I0 => pixel_x_reg(6),
       I1 => video_hsync,
-      O => \pixel_x[7]_i_3_n_0\
+      O => \pixel_x[4]_i_3_n_0\
     );
-\pixel_x[7]_i_4\: unisim.vcomponents.LUT2
+\pixel_x[4]_i_4\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(5),
+      I0 => pixel_x_reg(5),
       I1 => video_hsync,
-      O => \pixel_x[7]_i_4_n_0\
+      O => \pixel_x[4]_i_4_n_0\
     );
-\pixel_x[7]_i_5\: unisim.vcomponents.LUT2
+\pixel_x[4]_i_5\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_x_out\(4),
+      I0 => pixel_x_reg(4),
       I1 => video_hsync,
-      O => \pixel_x[7]_i_5_n_0\
+      O => \pixel_x[4]_i_5_n_0\
+    );
+\pixel_x[8]_i_2\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_x_reg(11),
+      I1 => video_hsync,
+      O => \pixel_x[8]_i_2_n_0\
+    );
+\pixel_x[8]_i_3\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_x_reg(10),
+      I1 => video_hsync,
+      O => \pixel_x[8]_i_3_n_0\
+    );
+\pixel_x[8]_i_4\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_x_reg(9),
+      I1 => video_hsync,
+      O => \pixel_x[8]_i_4_n_0\
+    );
+\pixel_x[8]_i_5\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_x_reg(8),
+      I1 => video_hsync,
+      O => \pixel_x[8]_i_5_n_0\
+    );
+\pixel_x_out_reg[0]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(0),
+      Q => pixel_x_out(0)
+    );
+\pixel_x_out_reg[10]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(10),
+      Q => pixel_x_out(10)
+    );
+\pixel_x_out_reg[11]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(11),
+      Q => pixel_x_out(11)
+    );
+\pixel_x_out_reg[1]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(1),
+      Q => pixel_x_out(1)
+    );
+\pixel_x_out_reg[2]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(2),
+      Q => pixel_x_out(2)
+    );
+\pixel_x_out_reg[3]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(3),
+      Q => pixel_x_out(3)
+    );
+\pixel_x_out_reg[4]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(4),
+      Q => pixel_x_out(4)
+    );
+\pixel_x_out_reg[5]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(5),
+      Q => pixel_x_out(5)
+    );
+\pixel_x_out_reg[6]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(6),
+      Q => pixel_x_out(6)
+    );
+\pixel_x_out_reg[7]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(7),
+      Q => pixel_x_out(7)
+    );
+\pixel_x_out_reg[8]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(8),
+      Q => pixel_x_out(8)
+    );
+\pixel_x_out_reg[9]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_x_reg(9),
+      Q => pixel_x_out(9)
     );
 \pixel_x_reg[0]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[3]_i_1_n_7\,
-      Q => \^pixel_x_out\(0)
+      D => \pixel_x_reg[0]_i_2_n_7\,
+      Q => pixel_x_reg(0)
+    );
+\pixel_x_reg[0]_i_2\: unisim.vcomponents.CARRY4
+     port map (
+      CI => '0',
+      CO(3) => \pixel_x_reg[0]_i_2_n_0\,
+      CO(2) => \pixel_x_reg[0]_i_2_n_1\,
+      CO(1) => \pixel_x_reg[0]_i_2_n_2\,
+      CO(0) => \pixel_x_reg[0]_i_2_n_3\,
+      CYINIT => '0',
+      DI(3 downto 1) => B"000",
+      DI(0) => \pixel_x[0]_i_3_n_0\,
+      O(3) => \pixel_x_reg[0]_i_2_n_4\,
+      O(2) => \pixel_x_reg[0]_i_2_n_5\,
+      O(1) => \pixel_x_reg[0]_i_2_n_6\,
+      O(0) => \pixel_x_reg[0]_i_2_n_7\,
+      S(3) => \pixel_x[0]_i_4_n_0\,
+      S(2) => \pixel_x[0]_i_5_n_0\,
+      S(1) => \pixel_x[0]_i_6_n_0\,
+      S(0) => \pixel_x[0]_i_7_n_0\
     );
 \pixel_x_reg[10]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[11]_i_2_n_5\,
-      Q => \^pixel_x_out\(10)
+      D => \pixel_x_reg[8]_i_1_n_5\,
+      Q => pixel_x_reg(10)
     );
 \pixel_x_reg[11]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[11]_i_2_n_4\,
-      Q => \^pixel_x_out\(11)
-    );
-\pixel_x_reg[11]_i_2\: unisim.vcomponents.CARRY4
-     port map (
-      CI => \pixel_x_reg[7]_i_1_n_0\,
-      CO(3) => \NLW_pixel_x_reg[11]_i_2_CO_UNCONNECTED\(3),
-      CO(2) => \pixel_x_reg[11]_i_2_n_1\,
-      CO(1) => \pixel_x_reg[11]_i_2_n_2\,
-      CO(0) => \pixel_x_reg[11]_i_2_n_3\,
-      CYINIT => '0',
-      DI(3 downto 0) => B"0000",
-      O(3) => \pixel_x_reg[11]_i_2_n_4\,
-      O(2) => \pixel_x_reg[11]_i_2_n_5\,
-      O(1) => \pixel_x_reg[11]_i_2_n_6\,
-      O(0) => \pixel_x_reg[11]_i_2_n_7\,
-      S(3) => \pixel_x[11]_i_3_n_0\,
-      S(2) => \pixel_x[11]_i_4_n_0\,
-      S(1) => \pixel_x[11]_i_5_n_0\,
-      S(0) => \pixel_x[11]_i_6_n_0\
+      D => \pixel_x_reg[8]_i_1_n_4\,
+      Q => pixel_x_reg(11)
     );
 \pixel_x_reg[1]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[3]_i_1_n_6\,
-      Q => \^pixel_x_out\(1)
+      D => \pixel_x_reg[0]_i_2_n_6\,
+      Q => pixel_x_reg(1)
     );
 \pixel_x_reg[2]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[3]_i_1_n_5\,
-      Q => \^pixel_x_out\(2)
+      D => \pixel_x_reg[0]_i_2_n_5\,
+      Q => pixel_x_reg(2)
     );
 \pixel_x_reg[3]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[3]_i_1_n_4\,
-      Q => \^pixel_x_out\(3)
-    );
-\pixel_x_reg[3]_i_1\: unisim.vcomponents.CARRY4
-     port map (
-      CI => '0',
-      CO(3) => \pixel_x_reg[3]_i_1_n_0\,
-      CO(2) => \pixel_x_reg[3]_i_1_n_1\,
-      CO(1) => \pixel_x_reg[3]_i_1_n_2\,
-      CO(0) => \pixel_x_reg[3]_i_1_n_3\,
-      CYINIT => '0',
-      DI(3 downto 1) => B"000",
-      DI(0) => \pixel_x[3]_i_2_n_0\,
-      O(3) => \pixel_x_reg[3]_i_1_n_4\,
-      O(2) => \pixel_x_reg[3]_i_1_n_5\,
-      O(1) => \pixel_x_reg[3]_i_1_n_6\,
-      O(0) => \pixel_x_reg[3]_i_1_n_7\,
-      S(3) => \pixel_x[3]_i_3_n_0\,
-      S(2) => \pixel_x[3]_i_4_n_0\,
-      S(1) => \pixel_x[3]_i_5_n_0\,
-      S(0) => \pixel_x[3]_i_6_n_0\
+      D => \pixel_x_reg[0]_i_2_n_4\,
+      Q => pixel_x_reg(3)
     );
 \pixel_x_reg[4]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[7]_i_1_n_7\,
-      Q => \^pixel_x_out\(4)
+      D => \pixel_x_reg[4]_i_1_n_7\,
+      Q => pixel_x_reg(4)
+    );
+\pixel_x_reg[4]_i_1\: unisim.vcomponents.CARRY4
+     port map (
+      CI => \pixel_x_reg[0]_i_2_n_0\,
+      CO(3) => \pixel_x_reg[4]_i_1_n_0\,
+      CO(2) => \pixel_x_reg[4]_i_1_n_1\,
+      CO(1) => \pixel_x_reg[4]_i_1_n_2\,
+      CO(0) => \pixel_x_reg[4]_i_1_n_3\,
+      CYINIT => '0',
+      DI(3 downto 0) => B"0000",
+      O(3) => \pixel_x_reg[4]_i_1_n_4\,
+      O(2) => \pixel_x_reg[4]_i_1_n_5\,
+      O(1) => \pixel_x_reg[4]_i_1_n_6\,
+      O(0) => \pixel_x_reg[4]_i_1_n_7\,
+      S(3) => \pixel_x[4]_i_2_n_0\,
+      S(2) => \pixel_x[4]_i_3_n_0\,
+      S(1) => \pixel_x[4]_i_4_n_0\,
+      S(0) => \pixel_x[4]_i_5_n_0\
     );
 \pixel_x_reg[5]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[7]_i_1_n_6\,
-      Q => \^pixel_x_out\(5)
+      D => \pixel_x_reg[4]_i_1_n_6\,
+      Q => pixel_x_reg(5)
     );
 \pixel_x_reg[6]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[7]_i_1_n_5\,
-      Q => \^pixel_x_out\(6)
+      D => \pixel_x_reg[4]_i_1_n_5\,
+      Q => pixel_x_reg(6)
     );
 \pixel_x_reg[7]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[7]_i_1_n_4\,
-      Q => \^pixel_x_out\(7)
-    );
-\pixel_x_reg[7]_i_1\: unisim.vcomponents.CARRY4
-     port map (
-      CI => \pixel_x_reg[3]_i_1_n_0\,
-      CO(3) => \pixel_x_reg[7]_i_1_n_0\,
-      CO(2) => \pixel_x_reg[7]_i_1_n_1\,
-      CO(1) => \pixel_x_reg[7]_i_1_n_2\,
-      CO(0) => \pixel_x_reg[7]_i_1_n_3\,
-      CYINIT => '0',
-      DI(3 downto 0) => B"0000",
-      O(3) => \pixel_x_reg[7]_i_1_n_4\,
-      O(2) => \pixel_x_reg[7]_i_1_n_5\,
-      O(1) => \pixel_x_reg[7]_i_1_n_6\,
-      O(0) => \pixel_x_reg[7]_i_1_n_7\,
-      S(3) => \pixel_x[7]_i_2_n_0\,
-      S(2) => \pixel_x[7]_i_3_n_0\,
-      S(1) => \pixel_x[7]_i_4_n_0\,
-      S(0) => \pixel_x[7]_i_5_n_0\
+      D => \pixel_x_reg[4]_i_1_n_4\,
+      Q => pixel_x_reg(7)
     );
 \pixel_x_reg[8]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[11]_i_2_n_7\,
-      Q => \^pixel_x_out\(8)
+      D => \pixel_x_reg[8]_i_1_n_7\,
+      Q => pixel_x_reg(8)
+    );
+\pixel_x_reg[8]_i_1\: unisim.vcomponents.CARRY4
+     port map (
+      CI => \pixel_x_reg[4]_i_1_n_0\,
+      CO(3) => \NLW_pixel_x_reg[8]_i_1_CO_UNCONNECTED\(3),
+      CO(2) => \pixel_x_reg[8]_i_1_n_1\,
+      CO(1) => \pixel_x_reg[8]_i_1_n_2\,
+      CO(0) => \pixel_x_reg[8]_i_1_n_3\,
+      CYINIT => '0',
+      DI(3 downto 0) => B"0000",
+      O(3) => \pixel_x_reg[8]_i_1_n_4\,
+      O(2) => \pixel_x_reg[8]_i_1_n_5\,
+      O(1) => \pixel_x_reg[8]_i_1_n_6\,
+      O(0) => \pixel_x_reg[8]_i_1_n_7\,
+      S(3) => \pixel_x[8]_i_2_n_0\,
+      S(2) => \pixel_x[8]_i_3_n_0\,
+      S(1) => \pixel_x[8]_i_4_n_0\,
+      S(0) => \pixel_x[8]_i_5_n_0\
     );
 \pixel_x_reg[9]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_x[11]_i_1_n_0\,
+      CE => \pixel_x[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_x_reg[11]_i_2_n_6\,
-      Q => \^pixel_x_out\(9)
+      D => \pixel_x_reg[8]_i_1_n_6\,
+      Q => pixel_x_reg(9)
     );
-\pixel_y[11]_i_1\: unisim.vcomponents.LUT6
+\pixel_y[0]_i_1\: unisim.vcomponents.LUT6
     generic map(
       INIT => X"EAAAAAAAAAAAAAAA"
     )
         port map (
       I0 => video_vsync,
-      I1 => \^pixel_x_out\(4),
-      I2 => \^pixel_x_out\(5),
-      I3 => \^pixel_x_out\(3),
-      I4 => \pixel_y[11]_i_3_n_0\,
-      I5 => \pixel_y[11]_i_4_n_0\,
-      O => \pixel_y[11]_i_1_n_0\
+      I1 => pixel_x_reg(4),
+      I2 => pixel_x_reg(5),
+      I3 => pixel_x_reg(3),
+      I4 => \pixel_y[0]_i_3_n_0\,
+      I5 => \pixel_y[0]_i_4_n_0\,
+      O => \pixel_y[0]_i_1_n_0\
     );
-\pixel_y[11]_i_3\: unisim.vcomponents.LUT3
+\pixel_y[0]_i_3\: unisim.vcomponents.LUT3
     generic map(
       INIT => X"80"
     )
         port map (
-      I0 => \^pixel_x_out\(9),
-      I1 => \^pixel_x_out\(7),
-      I2 => \^pixel_x_out\(6),
-      O => \pixel_y[11]_i_3_n_0\
+      I0 => pixel_x_reg(9),
+      I1 => pixel_x_reg(7),
+      I2 => pixel_x_reg(6),
+      O => \pixel_y[0]_i_3_n_0\
     );
-\pixel_y[11]_i_4\: unisim.vcomponents.LUT6
+\pixel_y[0]_i_4\: unisim.vcomponents.LUT6
     generic map(
       INIT => X"0000000080000000"
     )
         port map (
-      I0 => \^pixel_x_out\(0),
-      I1 => \^pixel_x_out\(1),
-      I2 => \^pixel_x_out\(8),
+      I0 => pixel_x_reg(0),
+      I1 => pixel_x_reg(1),
+      I2 => pixel_x_reg(8),
       I3 => video_active,
-      I4 => \^pixel_x_out\(2),
+      I4 => pixel_x_reg(2),
       I5 => \rgb_data_out[23]_i_12_n_0\,
-      O => \pixel_y[11]_i_4_n_0\
+      O => \pixel_y[0]_i_4_n_0\
     );
-\pixel_y[11]_i_5\: unisim.vcomponents.LUT2
+\pixel_y[0]_i_5\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(11),
+      I0 => pixel_y_reg(0),
       I1 => video_vsync,
-      O => \pixel_y[11]_i_5_n_0\
+      O => \pixel_y[0]_i_5_n_0\
     );
-\pixel_y[11]_i_6\: unisim.vcomponents.LUT2
+\pixel_y[0]_i_6\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(10),
+      I0 => pixel_y_reg(3),
       I1 => video_vsync,
-      O => \pixel_y[11]_i_6_n_0\
+      O => \pixel_y[0]_i_6_n_0\
     );
-\pixel_y[11]_i_7\: unisim.vcomponents.LUT2
+\pixel_y[0]_i_7\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(9),
+      I0 => pixel_y_reg(2),
       I1 => video_vsync,
-      O => \pixel_y[11]_i_7_n_0\
+      O => \pixel_y[0]_i_7_n_0\
     );
-\pixel_y[11]_i_8\: unisim.vcomponents.LUT2
+\pixel_y[0]_i_8\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(8),
+      I0 => pixel_y_reg(1),
       I1 => video_vsync,
-      O => \pixel_y[11]_i_8_n_0\
+      O => \pixel_y[0]_i_8_n_0\
     );
-\pixel_y[3]_i_2\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_y_out\(0),
-      I1 => video_vsync,
-      O => \pixel_y[3]_i_2_n_0\
-    );
-\pixel_y[3]_i_3\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_y_out\(3),
-      I1 => video_vsync,
-      O => \pixel_y[3]_i_3_n_0\
-    );
-\pixel_y[3]_i_4\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_y_out\(2),
-      I1 => video_vsync,
-      O => \pixel_y[3]_i_4_n_0\
-    );
-\pixel_y[3]_i_5\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => \^pixel_y_out\(1),
-      I1 => video_vsync,
-      O => \pixel_y[3]_i_5_n_0\
-    );
-\pixel_y[3]_i_6\: unisim.vcomponents.LUT2
+\pixel_y[0]_i_9\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"1"
     )
         port map (
-      I0 => \^pixel_y_out\(0),
+      I0 => pixel_y_reg(0),
       I1 => video_vsync,
-      O => \pixel_y[3]_i_6_n_0\
+      O => \pixel_y[0]_i_9_n_0\
     );
-\pixel_y[7]_i_2\: unisim.vcomponents.LUT2
+\pixel_y[4]_i_2\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(7),
+      I0 => pixel_y_reg(7),
       I1 => video_vsync,
-      O => \pixel_y[7]_i_2_n_0\
+      O => \pixel_y[4]_i_2_n_0\
     );
-\pixel_y[7]_i_3\: unisim.vcomponents.LUT2
+\pixel_y[4]_i_3\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(6),
+      I0 => pixel_y_reg(6),
       I1 => video_vsync,
-      O => \pixel_y[7]_i_3_n_0\
+      O => \pixel_y[4]_i_3_n_0\
     );
-\pixel_y[7]_i_4\: unisim.vcomponents.LUT2
+\pixel_y[4]_i_4\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(5),
+      I0 => pixel_y_reg(5),
       I1 => video_vsync,
-      O => \pixel_y[7]_i_4_n_0\
+      O => \pixel_y[4]_i_4_n_0\
     );
-\pixel_y[7]_i_5\: unisim.vcomponents.LUT2
+\pixel_y[4]_i_5\: unisim.vcomponents.LUT2
     generic map(
       INIT => X"2"
     )
         port map (
-      I0 => \^pixel_y_out\(4),
+      I0 => pixel_y_reg(4),
       I1 => video_vsync,
-      O => \pixel_y[7]_i_5_n_0\
+      O => \pixel_y[4]_i_5_n_0\
+    );
+\pixel_y[8]_i_2\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_y_reg(11),
+      I1 => video_vsync,
+      O => \pixel_y[8]_i_2_n_0\
+    );
+\pixel_y[8]_i_3\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_y_reg(10),
+      I1 => video_vsync,
+      O => \pixel_y[8]_i_3_n_0\
+    );
+\pixel_y[8]_i_4\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_y_reg(9),
+      I1 => video_vsync,
+      O => \pixel_y[8]_i_4_n_0\
+    );
+\pixel_y[8]_i_5\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"2"
+    )
+        port map (
+      I0 => pixel_y_reg(8),
+      I1 => video_vsync,
+      O => \pixel_y[8]_i_5_n_0\
+    );
+\pixel_y_out_reg[0]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(0),
+      Q => pixel_y_out(0)
+    );
+\pixel_y_out_reg[10]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(10),
+      Q => pixel_y_out(10)
+    );
+\pixel_y_out_reg[11]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(11),
+      Q => pixel_y_out(11)
+    );
+\pixel_y_out_reg[1]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(1),
+      Q => pixel_y_out(1)
+    );
+\pixel_y_out_reg[2]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(2),
+      Q => pixel_y_out(2)
+    );
+\pixel_y_out_reg[3]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(3),
+      Q => pixel_y_out(3)
+    );
+\pixel_y_out_reg[4]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(4),
+      Q => pixel_y_out(4)
+    );
+\pixel_y_out_reg[5]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(5),
+      Q => pixel_y_out(5)
+    );
+\pixel_y_out_reg[6]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(6),
+      Q => pixel_y_out(6)
+    );
+\pixel_y_out_reg[7]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(7),
+      Q => pixel_y_out(7)
+    );
+\pixel_y_out_reg[8]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(8),
+      Q => pixel_y_out(8)
+    );
+\pixel_y_out_reg[9]\: unisim.vcomponents.FDCE
+     port map (
+      C => pclk,
+      CE => '1',
+      CLR => \rgb_data_out[23]_i_2_n_0\,
+      D => pixel_y_reg(9),
+      Q => pixel_y_out(9)
     );
 \pixel_y_reg[0]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[3]_i_1_n_7\,
-      Q => \^pixel_y_out\(0)
+      D => \pixel_y_reg[0]_i_2_n_7\,
+      Q => pixel_y_reg(0)
+    );
+\pixel_y_reg[0]_i_2\: unisim.vcomponents.CARRY4
+     port map (
+      CI => '0',
+      CO(3) => \pixel_y_reg[0]_i_2_n_0\,
+      CO(2) => \pixel_y_reg[0]_i_2_n_1\,
+      CO(1) => \pixel_y_reg[0]_i_2_n_2\,
+      CO(0) => \pixel_y_reg[0]_i_2_n_3\,
+      CYINIT => '0',
+      DI(3 downto 1) => B"000",
+      DI(0) => \pixel_y[0]_i_5_n_0\,
+      O(3) => \pixel_y_reg[0]_i_2_n_4\,
+      O(2) => \pixel_y_reg[0]_i_2_n_5\,
+      O(1) => \pixel_y_reg[0]_i_2_n_6\,
+      O(0) => \pixel_y_reg[0]_i_2_n_7\,
+      S(3) => \pixel_y[0]_i_6_n_0\,
+      S(2) => \pixel_y[0]_i_7_n_0\,
+      S(1) => \pixel_y[0]_i_8_n_0\,
+      S(0) => \pixel_y[0]_i_9_n_0\
     );
 \pixel_y_reg[10]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[11]_i_2_n_5\,
-      Q => \^pixel_y_out\(10)
+      D => \pixel_y_reg[8]_i_1_n_5\,
+      Q => pixel_y_reg(10)
     );
 \pixel_y_reg[11]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[11]_i_2_n_4\,
-      Q => \^pixel_y_out\(11)
-    );
-\pixel_y_reg[11]_i_2\: unisim.vcomponents.CARRY4
-     port map (
-      CI => \pixel_y_reg[7]_i_1_n_0\,
-      CO(3) => \NLW_pixel_y_reg[11]_i_2_CO_UNCONNECTED\(3),
-      CO(2) => \pixel_y_reg[11]_i_2_n_1\,
-      CO(1) => \pixel_y_reg[11]_i_2_n_2\,
-      CO(0) => \pixel_y_reg[11]_i_2_n_3\,
-      CYINIT => '0',
-      DI(3 downto 0) => B"0000",
-      O(3) => \pixel_y_reg[11]_i_2_n_4\,
-      O(2) => \pixel_y_reg[11]_i_2_n_5\,
-      O(1) => \pixel_y_reg[11]_i_2_n_6\,
-      O(0) => \pixel_y_reg[11]_i_2_n_7\,
-      S(3) => \pixel_y[11]_i_5_n_0\,
-      S(2) => \pixel_y[11]_i_6_n_0\,
-      S(1) => \pixel_y[11]_i_7_n_0\,
-      S(0) => \pixel_y[11]_i_8_n_0\
+      D => \pixel_y_reg[8]_i_1_n_4\,
+      Q => pixel_y_reg(11)
     );
 \pixel_y_reg[1]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[3]_i_1_n_6\,
-      Q => \^pixel_y_out\(1)
+      D => \pixel_y_reg[0]_i_2_n_6\,
+      Q => pixel_y_reg(1)
     );
 \pixel_y_reg[2]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[3]_i_1_n_5\,
-      Q => \^pixel_y_out\(2)
+      D => \pixel_y_reg[0]_i_2_n_5\,
+      Q => pixel_y_reg(2)
     );
 \pixel_y_reg[3]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[3]_i_1_n_4\,
-      Q => \^pixel_y_out\(3)
-    );
-\pixel_y_reg[3]_i_1\: unisim.vcomponents.CARRY4
-     port map (
-      CI => '0',
-      CO(3) => \pixel_y_reg[3]_i_1_n_0\,
-      CO(2) => \pixel_y_reg[3]_i_1_n_1\,
-      CO(1) => \pixel_y_reg[3]_i_1_n_2\,
-      CO(0) => \pixel_y_reg[3]_i_1_n_3\,
-      CYINIT => '0',
-      DI(3 downto 1) => B"000",
-      DI(0) => \pixel_y[3]_i_2_n_0\,
-      O(3) => \pixel_y_reg[3]_i_1_n_4\,
-      O(2) => \pixel_y_reg[3]_i_1_n_5\,
-      O(1) => \pixel_y_reg[3]_i_1_n_6\,
-      O(0) => \pixel_y_reg[3]_i_1_n_7\,
-      S(3) => \pixel_y[3]_i_3_n_0\,
-      S(2) => \pixel_y[3]_i_4_n_0\,
-      S(1) => \pixel_y[3]_i_5_n_0\,
-      S(0) => \pixel_y[3]_i_6_n_0\
+      D => \pixel_y_reg[0]_i_2_n_4\,
+      Q => pixel_y_reg(3)
     );
 \pixel_y_reg[4]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[7]_i_1_n_7\,
-      Q => \^pixel_y_out\(4)
+      D => \pixel_y_reg[4]_i_1_n_7\,
+      Q => pixel_y_reg(4)
+    );
+\pixel_y_reg[4]_i_1\: unisim.vcomponents.CARRY4
+     port map (
+      CI => \pixel_y_reg[0]_i_2_n_0\,
+      CO(3) => \pixel_y_reg[4]_i_1_n_0\,
+      CO(2) => \pixel_y_reg[4]_i_1_n_1\,
+      CO(1) => \pixel_y_reg[4]_i_1_n_2\,
+      CO(0) => \pixel_y_reg[4]_i_1_n_3\,
+      CYINIT => '0',
+      DI(3 downto 0) => B"0000",
+      O(3) => \pixel_y_reg[4]_i_1_n_4\,
+      O(2) => \pixel_y_reg[4]_i_1_n_5\,
+      O(1) => \pixel_y_reg[4]_i_1_n_6\,
+      O(0) => \pixel_y_reg[4]_i_1_n_7\,
+      S(3) => \pixel_y[4]_i_2_n_0\,
+      S(2) => \pixel_y[4]_i_3_n_0\,
+      S(1) => \pixel_y[4]_i_4_n_0\,
+      S(0) => \pixel_y[4]_i_5_n_0\
     );
 \pixel_y_reg[5]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[7]_i_1_n_6\,
-      Q => \^pixel_y_out\(5)
+      D => \pixel_y_reg[4]_i_1_n_6\,
+      Q => pixel_y_reg(5)
     );
 \pixel_y_reg[6]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[7]_i_1_n_5\,
-      Q => \^pixel_y_out\(6)
+      D => \pixel_y_reg[4]_i_1_n_5\,
+      Q => pixel_y_reg(6)
     );
 \pixel_y_reg[7]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[7]_i_1_n_4\,
-      Q => \^pixel_y_out\(7)
-    );
-\pixel_y_reg[7]_i_1\: unisim.vcomponents.CARRY4
-     port map (
-      CI => \pixel_y_reg[3]_i_1_n_0\,
-      CO(3) => \pixel_y_reg[7]_i_1_n_0\,
-      CO(2) => \pixel_y_reg[7]_i_1_n_1\,
-      CO(1) => \pixel_y_reg[7]_i_1_n_2\,
-      CO(0) => \pixel_y_reg[7]_i_1_n_3\,
-      CYINIT => '0',
-      DI(3 downto 0) => B"0000",
-      O(3) => \pixel_y_reg[7]_i_1_n_4\,
-      O(2) => \pixel_y_reg[7]_i_1_n_5\,
-      O(1) => \pixel_y_reg[7]_i_1_n_6\,
-      O(0) => \pixel_y_reg[7]_i_1_n_7\,
-      S(3) => \pixel_y[7]_i_2_n_0\,
-      S(2) => \pixel_y[7]_i_3_n_0\,
-      S(1) => \pixel_y[7]_i_4_n_0\,
-      S(0) => \pixel_y[7]_i_5_n_0\
+      D => \pixel_y_reg[4]_i_1_n_4\,
+      Q => pixel_y_reg(7)
     );
 \pixel_y_reg[8]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[11]_i_2_n_7\,
-      Q => \^pixel_y_out\(8)
+      D => \pixel_y_reg[8]_i_1_n_7\,
+      Q => pixel_y_reg(8)
+    );
+\pixel_y_reg[8]_i_1\: unisim.vcomponents.CARRY4
+     port map (
+      CI => \pixel_y_reg[4]_i_1_n_0\,
+      CO(3) => \NLW_pixel_y_reg[8]_i_1_CO_UNCONNECTED\(3),
+      CO(2) => \pixel_y_reg[8]_i_1_n_1\,
+      CO(1) => \pixel_y_reg[8]_i_1_n_2\,
+      CO(0) => \pixel_y_reg[8]_i_1_n_3\,
+      CYINIT => '0',
+      DI(3 downto 0) => B"0000",
+      O(3) => \pixel_y_reg[8]_i_1_n_4\,
+      O(2) => \pixel_y_reg[8]_i_1_n_5\,
+      O(1) => \pixel_y_reg[8]_i_1_n_6\,
+      O(0) => \pixel_y_reg[8]_i_1_n_7\,
+      S(3) => \pixel_y[8]_i_2_n_0\,
+      S(2) => \pixel_y[8]_i_3_n_0\,
+      S(1) => \pixel_y[8]_i_4_n_0\,
+      S(0) => \pixel_y[8]_i_5_n_0\
     );
 \pixel_y_reg[9]\: unisim.vcomponents.FDCE
      port map (
       C => pclk,
-      CE => \pixel_y[11]_i_1_n_0\,
+      CE => \pixel_y[0]_i_1_n_0\,
       CLR => \rgb_data_out[23]_i_2_n_0\,
-      D => \pixel_y_reg[11]_i_2_n_6\,
-      Q => \^pixel_y_out\(9)
+      D => \pixel_y_reg[8]_i_1_n_6\,
+      Q => pixel_y_reg(9)
     );
 \rgb_data_out[0]_i_1\: unisim.vcomponents.LUT6
     generic map(
@@ -947,11 +1137,11 @@ begin
       INIT => X"55555557"
     )
         port map (
-      I0 => \pixel_y[11]_i_3_n_0\,
-      I1 => \^pixel_x_out\(2),
-      I2 => \^pixel_x_out\(3),
-      I3 => \^pixel_x_out\(4),
-      I4 => \^pixel_x_out\(5),
+      I0 => \pixel_y[0]_i_3_n_0\,
+      I1 => pixel_x_reg(2),
+      I2 => pixel_x_reg(3),
+      I3 => pixel_x_reg(4),
+      I4 => pixel_x_reg(5),
       O => \rgb_data_out[23]_i_10_n_0\
     );
 \rgb_data_out[23]_i_11\: unisim.vcomponents.LUT6
@@ -959,12 +1149,12 @@ begin
       INIT => X"0000000111111111"
     )
         port map (
-      I0 => \^pixel_x_out\(5),
-      I1 => \^pixel_x_out\(4),
-      I2 => \^pixel_x_out\(2),
-      I3 => \^pixel_x_out\(1),
-      I4 => \^pixel_x_out\(0),
-      I5 => \^pixel_x_out\(3),
+      I0 => pixel_x_reg(5),
+      I1 => pixel_x_reg(4),
+      I2 => pixel_x_reg(2),
+      I3 => pixel_x_reg(1),
+      I4 => pixel_x_reg(0),
+      I5 => pixel_x_reg(3),
       O => \rgb_data_out[23]_i_11_n_0\
     );
 \rgb_data_out[23]_i_12\: unisim.vcomponents.LUT2
@@ -972,8 +1162,8 @@ begin
       INIT => X"E"
     )
         port map (
-      I0 => \^pixel_x_out\(10),
-      I1 => \^pixel_x_out\(11),
+      I0 => pixel_x_reg(10),
+      I1 => pixel_x_reg(11),
       O => \rgb_data_out[23]_i_12_n_0\
     );
 \rgb_data_out[23]_i_13\: unisim.vcomponents.LUT6
@@ -981,12 +1171,12 @@ begin
       INIT => X"001FFFFFFFFFFFFF"
     )
         port map (
-      I0 => \^pixel_x_out\(0),
-      I1 => \^pixel_x_out\(1),
-      I2 => \^pixel_x_out\(2),
-      I3 => \^pixel_x_out\(3),
-      I4 => \^pixel_x_out\(4),
-      I5 => \^pixel_x_out\(5),
+      I0 => pixel_x_reg(0),
+      I1 => pixel_x_reg(1),
+      I2 => pixel_x_reg(2),
+      I3 => pixel_x_reg(3),
+      I4 => pixel_x_reg(4),
+      I5 => pixel_x_reg(5),
       O => \rgb_data_out[23]_i_13_n_0\
     );
 \rgb_data_out[23]_i_14\: unisim.vcomponents.LUT4
@@ -994,10 +1184,10 @@ begin
       INIT => X"FEFF"
     )
         port map (
-      I0 => \^pixel_y_out\(9),
-      I1 => \^pixel_y_out\(10),
-      I2 => \^pixel_y_out\(11),
-      I3 => \^pixel_y_out\(8),
+      I0 => pixel_y_reg(9),
+      I1 => pixel_y_reg(10),
+      I2 => pixel_y_reg(11),
+      I3 => pixel_y_reg(8),
       O => \rgb_data_out[23]_i_14_n_0\
     );
 \rgb_data_out[23]_i_15\: unisim.vcomponents.LUT6
@@ -1006,11 +1196,11 @@ begin
     )
         port map (
       I0 => \rgb_data_out[23]_i_21_n_0\,
-      I1 => \^pixel_y_out\(1),
-      I2 => \^pixel_y_out\(5),
-      I3 => \^pixel_y_out\(7),
-      I4 => \^pixel_y_out\(4),
-      I5 => \^pixel_y_out\(6),
+      I1 => pixel_y_reg(1),
+      I2 => pixel_y_reg(5),
+      I3 => pixel_y_reg(7),
+      I4 => pixel_y_reg(4),
+      I5 => pixel_y_reg(6),
       O => \rgb_data_out[23]_i_15_n_0\
     );
 \rgb_data_out[23]_i_16\: unisim.vcomponents.LUT6
@@ -1019,11 +1209,11 @@ begin
     )
         port map (
       I0 => \rgb_data_out[23]_i_19_n_0\,
-      I1 => \^pixel_y_out\(4),
-      I2 => \^pixel_y_out\(3),
-      I3 => \^pixel_y_out\(11),
-      I4 => \^pixel_y_out\(10),
-      I5 => \^pixel_y_out\(9),
+      I1 => pixel_y_reg(4),
+      I2 => pixel_y_reg(3),
+      I3 => pixel_y_reg(11),
+      I4 => pixel_y_reg(10),
+      I5 => pixel_y_reg(9),
       O => \rgb_data_out[23]_i_16_n_0\
     );
 \rgb_data_out[23]_i_17\: unisim.vcomponents.LUT2
@@ -1031,8 +1221,8 @@ begin
       INIT => X"1"
     )
         port map (
-      I0 => \^pixel_y_out\(0),
-      I1 => \^pixel_y_out\(1),
+      I0 => pixel_y_reg(0),
+      I1 => pixel_y_reg(1),
       O => \rgb_data_out[23]_i_17_n_0\
     );
 \rgb_data_out[23]_i_18\: unisim.vcomponents.LUT4
@@ -1040,10 +1230,10 @@ begin
       INIT => X"777F"
     )
         port map (
-      I0 => \^pixel_y_out\(3),
-      I1 => \^pixel_y_out\(2),
-      I2 => \^pixel_y_out\(1),
-      I3 => \^pixel_y_out\(0),
+      I0 => pixel_y_reg(3),
+      I1 => pixel_y_reg(2),
+      I2 => pixel_y_reg(1),
+      I3 => pixel_y_reg(0),
       O => \rgb_data_out[23]_i_18_n_0\
     );
 \rgb_data_out[23]_i_19\: unisim.vcomponents.LUT4
@@ -1051,10 +1241,10 @@ begin
       INIT => X"7FFF"
     )
         port map (
-      I0 => \^pixel_y_out\(8),
-      I1 => \^pixel_y_out\(7),
-      I2 => \^pixel_y_out\(6),
-      I3 => \^pixel_y_out\(5),
+      I0 => pixel_y_reg(8),
+      I1 => pixel_y_reg(7),
+      I2 => pixel_y_reg(6),
+      I3 => pixel_y_reg(5),
       O => \rgb_data_out[23]_i_19_n_0\
     );
 \rgb_data_out[23]_i_2\: unisim.vcomponents.LUT1
@@ -1070,11 +1260,11 @@ begin
       INIT => X"FFFFFFFE"
     )
         port map (
-      I0 => \^pixel_x_out\(11),
-      I1 => \^pixel_x_out\(10),
-      I2 => \^pixel_x_out\(6),
-      I3 => \^pixel_x_out\(7),
-      I4 => \^pixel_x_out\(8),
+      I0 => pixel_x_reg(11),
+      I1 => pixel_x_reg(10),
+      I2 => pixel_x_reg(6),
+      I3 => pixel_x_reg(7),
+      I4 => pixel_x_reg(8),
       O => \rgb_data_out[23]_i_20_n_0\
     );
 \rgb_data_out[23]_i_21\: unisim.vcomponents.LUT2
@@ -1082,8 +1272,8 @@ begin
       INIT => X"7"
     )
         port map (
-      I0 => \^pixel_y_out\(2),
-      I1 => \^pixel_y_out\(3),
+      I0 => pixel_y_reg(2),
+      I1 => pixel_y_reg(3),
       O => \rgb_data_out[23]_i_21_n_0\
     );
 \rgb_data_out[23]_i_3\: unisim.vcomponents.LUT6
@@ -1105,10 +1295,10 @@ begin
     )
         port map (
       I0 => \rgb_data_out[23]_i_11_n_0\,
-      I1 => \^pixel_x_out\(7),
-      I2 => \^pixel_x_out\(6),
-      I3 => \^pixel_x_out\(8),
-      I4 => \^pixel_x_out\(9),
+      I1 => pixel_x_reg(7),
+      I2 => pixel_x_reg(6),
+      I3 => pixel_x_reg(8),
+      I4 => pixel_x_reg(9),
       I5 => \rgb_data_out[23]_i_12_n_0\,
       O => \rgb_data_out[23]_i_4_n_0\
     );
@@ -1117,11 +1307,11 @@ begin
       INIT => X"0100FFFF"
     )
         port map (
-      I0 => \^pixel_x_out\(8),
-      I1 => \^pixel_x_out\(7),
-      I2 => \^pixel_x_out\(6),
+      I0 => pixel_x_reg(8),
+      I1 => pixel_x_reg(7),
+      I2 => pixel_x_reg(6),
       I3 => \rgb_data_out[23]_i_13_n_0\,
-      I4 => \^pixel_x_out\(9),
+      I4 => pixel_x_reg(9),
       O => \rgb_data_out[23]_i_5_n_0\
     );
 \rgb_data_out[23]_i_6\: unisim.vcomponents.LUT6
@@ -1132,8 +1322,8 @@ begin
       I0 => \rgb_data_out[23]_i_14_n_0\,
       I1 => \rgb_data_out[23]_i_15_n_0\,
       I2 => \rgb_data_out[23]_i_16_n_0\,
-      I3 => \^pixel_y_out\(3),
-      I4 => \^pixel_y_out\(2),
+      I3 => pixel_y_reg(3),
+      I4 => pixel_y_reg(2),
       I5 => \rgb_data_out[23]_i_17_n_0\,
       O => \rgb_data_out[23]_i_6_n_0\
     );
@@ -1143,11 +1333,11 @@ begin
     )
         port map (
       I0 => \rgb_data_out[23]_i_14_n_0\,
-      I1 => \^pixel_y_out\(7),
-      I2 => \^pixel_y_out\(6),
-      I3 => \^pixel_y_out\(5),
+      I1 => pixel_y_reg(7),
+      I2 => pixel_y_reg(6),
+      I3 => pixel_y_reg(5),
       I4 => \rgb_data_out[23]_i_18_n_0\,
-      I5 => \^pixel_y_out\(4),
+      I5 => pixel_y_reg(4),
       O => \rgb_data_out[23]_i_7_n_0\
     );
 \rgb_data_out[23]_i_8\: unisim.vcomponents.LUT6
@@ -1155,11 +1345,11 @@ begin
       INIT => X"00000000FFFFCCC8"
     )
         port map (
-      I0 => \^pixel_y_out\(2),
-      I1 => \^pixel_y_out\(3),
-      I2 => \^pixel_y_out\(0),
-      I3 => \^pixel_y_out\(1),
-      I4 => \^pixel_y_out\(4),
+      I0 => pixel_y_reg(2),
+      I1 => pixel_y_reg(3),
+      I2 => pixel_y_reg(0),
+      I3 => pixel_y_reg(1),
+      I4 => pixel_y_reg(4),
       I5 => \rgb_data_out[23]_i_19_n_0\,
       O => \rgb_data_out[23]_i_8_n_0\
     );
@@ -1168,11 +1358,11 @@ begin
       INIT => X"000000001FFFFFFF"
     )
         port map (
-      I0 => \^pixel_x_out\(1),
-      I1 => \^pixel_x_out\(2),
-      I2 => \^pixel_x_out\(3),
-      I3 => \^pixel_x_out\(5),
-      I4 => \^pixel_x_out\(4),
+      I0 => pixel_x_reg(1),
+      I1 => pixel_x_reg(2),
+      I2 => pixel_x_reg(3),
+      I3 => pixel_x_reg(5),
+      I4 => pixel_x_reg(4),
       I5 => \rgb_data_out[23]_i_20_n_0\,
       O => \rgb_data_out[23]_i_9_n_0\
     );

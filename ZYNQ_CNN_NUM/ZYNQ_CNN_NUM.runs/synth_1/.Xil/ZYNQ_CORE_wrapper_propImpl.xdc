@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/OV5640_num_AXILite/OV5640_num_AXILite.srcs/constrs_1/new/OV.xdc rfile:../../../OV5640_num_AXILite.srcs/constrs_1/new/OV.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CNN_NUM.srcs/constrs_1/new/OV.xdc rfile:../../../ZYNQ_CNN_NUM.srcs/constrs_1/new/OV.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB16 [get_ports {emio_sccb_tri_io[0]}]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]

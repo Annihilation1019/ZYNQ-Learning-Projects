@@ -16,12 +16,13 @@
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">
     <Object name="ZYNQ_CORE_i/vio_0_probe_out0[3:0]" gui_info="hw_vios/hw_vio_1=0"/>
+    <Object name="ZYNQ_CORE_i/vio_0_probe_out0[7:0]" gui_info="hw_vios/hw_vio_1=0"/>
   </ObjectList>
   <ObjectList object_type="hw_vio" gui_info="">
     <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	743	Name	0	2147483647	15	384	384	Value	1	2147483647	15	106	106	Activity	2	2147483647	15	69	69	Direction	3	2147483647	15	84	84	VIO	4	2147483647	15	100	100			1	6	1	Name	Value	Activity	Direction	VIO"/>
   </ObjectList>
   <probeset name="hw project" active="false">
-    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
@@ -33,6 +34,28 @@
         <Option Id="SOURCE" value="netlist"/>
       </probeOptions>
       <nets>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[3]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[2]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[1]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="90"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[7]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[6]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[5]"/>
+        <net name="ZYNQ_CORE_i/vio_0_probe_out0[4]"/>
         <net name="ZYNQ_CORE_i/vio_0_probe_out0[3]"/>
         <net name="ZYNQ_CORE_i/vio_0_probe_out0[2]"/>
         <net name="ZYNQ_CORE_i/vio_0_probe_out0[1]"/>

@@ -46,3 +46,6 @@ platform active {ZYNQ_CORE_wrapper}
 platform generate -domains 
 platform active {ZYNQ_CORE_wrapper}
 platform generate -domains 
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/SmartZYNQ_SP2/ZYNQ_CNN_NUM/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
