@@ -65,9 +65,9 @@ module binarizer(
             if ((pixel_x_in >= BOX_START_X) && (pixel_x_in < BOX_END_X) &&
                     (pixel_y_in >= BOX_START_Y) && (pixel_y_in < BOX_END_Y)) begin
                 if (gray >= threshold)
-                    rgb_data_out <= 24'hFFFFFF; // 白色输出
-                else
                     rgb_data_out <= 24'h000000; // 黑色输出
+                else
+                    rgb_data_out <= 24'hFFFFFF; // 白色输出
             end
             else
                 rgb_data_out <= rgb_data_in;
